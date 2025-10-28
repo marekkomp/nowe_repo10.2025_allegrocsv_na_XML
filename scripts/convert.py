@@ -1,10 +1,10 @@
 import re, os, csv, xml.etree.ElementTree as ET
+import openpyxl
 
 INPUT_DIR = "input"
 OUTPUT_DIR = "output"
 
 META_EXCLUDE = {
-    # kolumny „nie-parametryczne” – nie trafią do <attrs>
     "ID oferty","Link do oferty","Akcja","Status oferty","ID produktu (EAN/UPC/ISBN/ISSN/ID produktu Allegro)",
     "Kategoria główna","Podkategoria","Sygnatura/SKU Sprzedającego","Liczba sztuk",
     "Reguła Cenowa (PL)","Cena PL","Reguła Cenowa (CZ)","Cena CZ","Reguła Cenowa (SK)","Cena SK",
@@ -43,12 +43,12 @@ def is_attr_header(h):
     low = h.lower()
     return (low.endswith("_dict") or low.endswith("_text")
             or any(k in low for k in ATTR_KEYWORDS)
-            or "[" in h and "]" in h)  # nagłówki z jednostkami
+            or "[" in h and "]" in h)
 
 def build_attrs(parent, row):
     attrs = ET.SubElement(parent, "attrs")
     for h, v in row.items():
-        if v is None: 
+        if v is None:
             continue
         val = str(v).strip()
         if not val:
@@ -95,35 +95,52 @@ def build_o(row):
     build_attrs(o, row)
     return o
 
-def convert_file(csv_path, out_path):
-    delim = sniff_delimiter(csv_path)
-    with open(csv_path, "r", encoding="utf-8", errors="ignore") as f:
-        # pomiń 3 wiersze techniczne
-        for _ in range(3):
+def read_excel_rows(path):
+    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+    ws = wb.active
+    data = []
+    rows = list(ws.iter_rows(values_only=True))
+    if len(rows) < 4:
+        return []
+    headers = [str(h).strip() if h else "" for h in rows[3]]  # po 3 wierszach technicznych
+    for r in rows[4:]:
+        row_dict = {headers[i]: (str(r[i]).strip() if r[i] is not None else "") for i in range(len(headers))}
+        if any(row_dict.values()):
+            data.append(row_dict)
+    return data
+
+def read_csv_rows(path):
+    delim = sniff_delimiter(path)
+    with open(path, "r", encoding="utf-8", errors="ignore") as f:
+        for _ in range(3):  # pomiń 3 wiersze
             next(f, None)
         reader = csv.DictReader(f, delimiter=delim)
-        root = ET.Element("offers")
-        for row in reader:
-            if not any((str(v).strip() if v is not None else "") for v in row.values()):
-                continue
-            root.append(build_o(row))
+        return [r for r in reader if any((str(v).strip() for v in r.values()))]
+
+def convert_file(in_path, out_path):
+    ext = os.path.splitext(in_path)[1].lower()
+    if ext in (".xls", ".xlsx", ".xlsm"):
+        rows = read_excel_rows(in_path)
+    else:
+        rows = read_csv_rows(in_path)
+
+    root = ET.Element("offers")
+    for row in rows:
+        root.append(build_o(row))
     tree = ET.ElementTree(root)
     ET.indent(tree, space="  ", level=0)
     tree.write(out_path, encoding="utf-8", xml_declaration=True)
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    done = False
     for name in os.listdir(INPUT_DIR):
-        if name.lower().endswith(".csv"):
-            done = True
-            src = os.path.join(INPUT_DIR, name)
-            dst = os.path.join(OUTPUT_DIR, os.path.splitext(name)[0] + ".xml")
-            convert_file(src, dst)
-            print(f"OK: {src} -> {dst}")
-    if not done:
-        print("Brak plików CSV w /input")
+        ext = name.lower().split(".")[-1]
+        if ext not in ("csv","xls","xlsx","xlsm"):
+            continue
+        src = os.path.join(INPUT_DIR, name)
+        dst = os.path.join(OUTPUT_DIR, os.path.splitext(name)[0] + ".xml")
+        print(f"Konwersja: {src} -> {dst}")
+        convert_file(src, dst)
 
 if __name__ == "__main__":
     main()
-
