@@ -7,23 +7,28 @@ OUTPUT_DIR = "output"
 
 def convert_file(in_path, out_path):
     wb = openpyxl.load_workbook(in_path, read_only=True, data_only=True)
-    ws = wb.worksheets[0]  # pierwszy arkusz
+
+    # otwieramy tylko arkusz "Szablon"
+    if "Szablon" not in wb.sheetnames:
+        raise ValueError("Brak arkusza 'Szablon' w pliku")
+
+    ws = wb["Szablon"]
     print(f"[INFO] Przetwarzanie arkusza: {ws.title}")
 
-    # Nagłówki w 4. wierszu
+    # wiersz 4 to nagłówki
     headers = [str(c.value).strip() if c.value else "" for c in ws[4]]
     print("[DEBUG] Nagłówki:", headers[:10])
 
     root = ET.Element("offers")
 
-    # Dane od 5. wiersza
+    # dane od wiersza 5
     for row in ws.iter_rows(min_row=5, values_only=True):
         data = {headers[i]: (row[i] if i < len(headers) and row[i] else "") for i in range(len(headers))}
         title = str(data.get("Tytuł oferty", "")).strip()
         price = str(data.get("Cena PL", "")).strip()
 
         if not title:
-            continue  # pomijamy puste wiersze
+            continue
 
         offer = ET.SubElement(root, "offer")
         ET.SubElement(offer, "title").text = title
