@@ -20,8 +20,7 @@ jobs:
 
       - name: List input files (debug)
         run: |
-          echo "== INPUT DIR =="
-          ls -la input || true
+          echo "== INPUT DIR ==" && ls -la input || true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -39,8 +38,14 @@ jobs:
 
       - name: Show output (debug)
         run: |
-          echo "== OUTPUT DIR =="
-          ls -la output || true
+          echo "== OUTPUT DIR ==" && ls -la output || true
+          echo "== HEAD of XML =="
+          for f in output/*.xml; do
+            [ -f "$f" ] || continue
+            echo "--- $f ---"
+            head -n 40 "$f" || true
+            echo
+          done
 
       - name: Commit XML to repo (if any)
         run: |
