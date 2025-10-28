@@ -3,7 +3,7 @@ name: CSV → XML
 on:
   push:
     paths:
-      - "input/**/*.csv"
+      - "input/**/*.{csv,xls,xlsx,xlsm}"
       - "scripts/convert.py"
       - ".github/workflows/convert.yml"
   workflow_dispatch: {}
@@ -12,31 +12,44 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # wymagane do commitu
+      contents: write
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: List input files (debug)
+        run: |
+          echo "== INPUT DIR =="
+          ls -la input || true
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Run converter
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
+          pip install openpyxl
+
+      - name: Run converter
+        run: |
           python scripts/convert.py
 
-      - name: Commit XML to repo
+      - name: Show output (debug)
         run: |
-          if [ -n "$(git status --porcelain output)" ]; then
+          echo "== OUTPUT DIR =="
+          ls -la output || true
+
+      - name: Commit XML to repo (if any)
+        run: |
+          if compgen -G "output/*.xml" > /dev/null; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add output/*.xml
             git commit -m "auto: update XML ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))" || true
             git push
           else
-            echo "Brak zmian w output/"
+            echo "No XML generated — skipping commit."
           fi
-
