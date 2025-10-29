@@ -1,4 +1,7 @@
 # scripts/convert.py
+import json
+import html
+import re as _re
 import os
 import re
 import xml.etree.ElementTree as ET
@@ -6,6 +9,8 @@ import openpyxl
 
 INPUT_DIR = "input"
 OUTPUT_DIR = "output"
+DESC_STRICT = True  # bez „upiększania”; składamy JSON->HTML + lekka sanizacja
+
 
 # Pola wymagane do znalezienia danych
 REQ_HEADERS = ["Tytuł oferty", "Cena PL", "Link do oferty", "Status oferty", "Liczba sztuk", "ID oferty"]
@@ -101,6 +106,65 @@ def _parse_images(raw):
     parts = [u.strip() for u in str(raw).split("|") if u.strip()]
     urls = [u for u in parts if re.match(r"^https?://", u)]
     return urls
+def _sanitize_html_basic(s: str) -> str:
+    """Lekka sanizacja – usuń <script> i <iframe>; resztę zostaw."""
+    if not s:
+        return s
+    s = _re.sub(r"(?is)<script.*?</script>", "", s)
+    s = _re.sub(r"(?is)<iframe.*?</iframe>", "", s)
+    return s
+
+def _looks_like_json(s: str) -> bool:
+    if not s:
+        return False
+    s = s.lstrip()
+    return s.startswith("{") or s.startswith("[")
+
+def _desc_to_html(desc_raw: str, strict: bool = True) -> str:
+    """
+    Zamienia JSON `{"sections":[{"items":[...]}]}` na HTML.
+    Jeżeli to nie JSON – zwraca lekko zsanitowany oryginał.
+    """
+    if not desc_raw:
+        return ""
+    s = desc_raw.strip()
+    if not _looks_like_json(s):
+        return _sanitize_html_basic(s)
+
+    try:
+        data = json.loads(s)
+    except Exception:
+        # Niepoprawny JSON – zwróć oryginał (po sanizacji)
+        return _sanitize_html_basic(desc_raw)
+
+    try:
+        raw_sections = data.get("sections", [])
+    except AttributeError:
+        raw_sections = data if isinstance(data, list) else []
+
+    sections_html = []
+    for sec in raw_sections:
+        items = sec.get("items", []) if isinstance(sec, dict) else []
+        parts = []
+        for it in items:
+            t = (it.get("type") or "").upper()
+            if t == "TEXT":
+                parts.append(it.get("content", ""))  # content to już HTML
+            elif t == "IMAGE":
+                url = (it.get("url") or "").strip()
+                if url:
+                    parts.append(f'<p><img src="{html.escape(url, quote=True)}" loading="lazy" alt=""></p>')
+        if parts:
+            sections_html.append("\n".join(parts))
+
+    html_out = "\n\n".join(sections_html)
+
+    if not strict:
+        html_out = _re.sub(r"<h1>[_\-–—\s]{3,}</h1>", "<hr>", html_out, flags=_re.IGNORECASE)
+        html_out = _re.sub(r"(?i)<h1>", "<h2>", html_out)
+        html_out = _re.sub(r"(?i)</h1>", "</h2>", html_out)
+
+    return _sanitize_html_basic(html_out)
 
 def _is_available(status, qty):
     try:
@@ -209,10 +273,15 @@ def convert_file(in_path, out_path):
         # <name>
         ET.SubElement(o, "name").text = title
 
-        # <desc> opis oferty (HTML)  [NOWE]
-        if desc_raw:
-            desc_el = ET.SubElement(o, "desc")
-            desc_el.text = desc_raw
+        # <desc_json> (jeśli surowy JSON) + <desc> (HTML)
+if desc_raw:
+    if _looks_like_json(desc_raw):
+        desc_json_el = ET.SubElement(o, "desc_json")
+        desc_json_el.text = desc_raw  # surowy JSON bez zmian
+
+    desc_el = ET.SubElement(o, "desc")
+    desc_el.text = _desc_to_html(desc_raw, strict=DESC_STRICT)
+
 
         # <imgs>
         imgs = _parse_images(imgs_raw)
