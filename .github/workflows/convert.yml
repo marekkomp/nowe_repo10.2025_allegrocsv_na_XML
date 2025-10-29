@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - "input/**/*.{csv,xls,xlsx,xlsm}"
-      - "scripts/convert.py"
+      - "scripts/**/*.py"
       - ".github/workflows/convert.yml"
   workflow_dispatch: {}
 
@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: List input files (debug)
         run: |
@@ -32,14 +34,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install openpyxl
 
-      - name: Run converter
+      - name: Generate XML (all variants)
         run: |
-          python scripts/convert.py
+          python scripts/convert_1.py
+          python scripts/convert_Morele.py
+          # tu dopisuj kolejne skrypty
 
       - name: Show output (debug)
         run: |
           echo "== OUTPUT DIR ==" && ls -la output || true
-          echo "== HEAD of XML =="
           for f in output/*.xml; do
             [ -f "$f" ] || continue
             echo "--- $f ---"
