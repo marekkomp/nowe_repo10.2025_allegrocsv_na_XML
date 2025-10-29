@@ -21,7 +21,7 @@ ATTR_MAP = {
     "Producent": "Producent",
     "Kod producenta": "Kod producenta",
     "Model": "Model",
-    "ID produktu (EAN/UPC/ISBN/ISSN/ID produktu Allegro)": "ID produktu (EAN/UPC/ISBN/ISSN/ID produktu Allegro)",
+    "ID produktu (EAN/UPC/ISBN/ISSN/ID produktu Allegro)": "ID produktu",
     "Sygnatura/SKU Sprzedającego": "Sygnatura/SKU Sprzedającego",
 
     # CPU / RAM
@@ -75,7 +75,7 @@ ATTR_MAP = {
     "Stan": "Stan",
     "Stan opakowania": "Stan opakowania",
     "Dołączone oprogramowanie": "Dołączone oprogramowanie",
-    "Informacje o gwarancjach (opcjonalne)": "Informacje o gwarancjach (opcjonalne)",
+    "Informacje o gwarancjach (opcjonalne)": "Informacje o gwarancjach",
 }
 
 
