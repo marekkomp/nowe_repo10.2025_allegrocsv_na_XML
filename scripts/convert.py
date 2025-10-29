@@ -9,9 +9,7 @@ OUTPUT_DIR = "output"
 REQUIRED = ["Tytuł oferty", "Cena PL"]
 
 def _clean_headers(cells):
-    # zamień None na "", przytnij spacje
     hdr = [("" if v is None else str(v).strip()) for v in cells]
-    # utnij ogon pustych kolumn
     while hdr and hdr[-1] == "":
         hdr.pop()
     return hdr
@@ -21,14 +19,12 @@ def _read_headers_stream(ws, max_col=500):
     return _clean_headers(row)
 
 def _read_headers_full(ws):
-    # pełny tryb (bez read_only): odczyt całego wiersza 4 po max_col
     max_col = ws.max_column if ws.max_column and ws.max_column > 0 else 500
     cells = [ws.cell(row=4, column=c).value for c in range(1, max_col + 1)]
     return _clean_headers(cells)
 
 def _ensure_required(headers):
-    missing = [h for h in REQUIRED if h not in headers]
-    return missing
+    return [h for h in REQUIRED if h not in headers]
 
 def convert_file(in_path, out_path):
     # 1) podejście STREAM (szybkie)
@@ -39,10 +35,9 @@ def convert_file(in_path, out_path):
     print(f"[INFO] Arkusz: {ws.title}")
     print(f"[DEBUG] Nagłówków (stream): {len(headers)}")
     print(f"[DEBUG] Podgląd (stream): {headers[:30]}")
-
     missing = _ensure_required(headers)
 
-    # 2) jeśli brakuje kolumn — przełącz na tryb PEŁNY i czytaj wiersz 4 jeszcze raz
+    # 2) jeśli brakuje kolumn — tryb PEŁNY
     if missing:
         print(f"[WARN] Brak w stream: {missing} → przełączam na tryb pełny")
         wb.close()
@@ -53,7 +48,7 @@ def convert_file(in_path, out_path):
         print(f"[DEBUG] Podgląd (full): {headers[:30]}")
         missing = _ensure_required(headers)
 
-    # 3) jeśli nadal brakuje — zapisz pusty XML i jasno zgłoś błąd w logu
+    # 3) nadal brakuje → kończymy pustym XML
     if missing:
         print(f"[ERROR] Brak wymaganych nagłówków nawet w trybie pełnym: {missing}")
         ET.ElementTree(ET.Element("offers")).write(out_path, encoding="utf-8", xml_declaration=True)
@@ -62,20 +57,21 @@ def convert_file(in_path, out_path):
     idx_title = headers.index("Tytuł oferty")
     idx_price = headers.index("Cena PL")
 
-    root = ET.Element("offers")
-
-    # dane od wiersza 5 (oba tryby działają tak samo)
-rows = list(ws.iter_rows(min_row=5, values_only=True))
-
-# Jeśli wszystko puste, ponów z data_only=False (formuły)
-if not any(any(c for c in r if c) for r in rows):
-    print("[WARN] Arkusz zawiera tylko formuły – odczytuję z data_only=False")
-    wb.close()
-    wb = openpyxl.load_workbook(in_path, data_only=False)
-    ws = wb["Szablon"] if "Szablon" in wb.sheetnames else wb.worksheets[0]
+    # 4) wiersze danych (min_row=5)
     rows = list(ws.iter_rows(min_row=5, values_only=True))
 
-for row in rows:        # row może być krótszy — zabezpieczenie
+    # jeśli wszystkie wiersze są puste (często gdy są FORMUŁY i data_only=True zwraca None)
+    if not any(any(c for c in r if c is not None and str(c).strip() != "") for r in rows):
+        print("[WARN] Arkusz wygląda na formułowy (data_only puste). Odczyt z data_only=False.")
+        wb.close()
+        wb = openpyxl.load_workbook(in_path, data_only=False)  # pokaże tekst formuł/ciągi
+        ws = wb["Szablon"] if "Szablon" in wb.sheetnames else wb.worksheets[0]
+        rows = list(ws.iter_rows(min_row=5, values_only=True))
+
+    root = ET.Element("offers")
+
+    for row in rows:
+        # zabezpieczenie przed krótszym wierszem
         title = ""
         price = ""
         if idx_title < len(row) and row[idx_title] is not None:
