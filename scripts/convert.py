@@ -1,205 +1,262 @@
-# scripts/convert.py
-import os
-import re
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+from pathlib import Path
+from typing import List, Tuple, Dict, Any
+
 import xml.etree.ElementTree as ET
-import openpyxl
+from openpyxl import load_workbook
 
-INPUT_DIR = "input"
-OUTPUT_DIR = "output"
 
-# Pola wymagane do znalezienia danych
-REQ_HEADERS = ["Tytuł oferty", "Cena PL", "Link do oferty", "Status oferty", "Liczba sztuk", "ID oferty"]
+INPUT_DIR = Path("input")
+OUTPUT_DIR = Path("output")
+OUTPUT_FILE = OUTPUT_DIR / "1.xml"
 
-# Mapowanie kolumn -> atrybutów <a name="..."> (dodawaj tu kolejne wg potrzeby)
-ATTR_MAP = {
+HEADER_ROW = 4       # wiersz z nagłówkami
+FIRST_DATA_ROW = 5   # dane od tego wiersza w dół
+
+REQUIRED_COLS = [
+    "ID oferty",
+    "Tytuł oferty",
+    "Cena PL",
+    "Kategoria główna",
+]
+
+# Mapa kolumn Excela -> nazwy atrybutów <a name="..."> w XML
+# (puste wartości są pomijane automatycznie)
+ATTR_MAP: Dict[str, str] = {
+    # Identyfikacja
     "Producent": "Producent",
-    "Sygnatura/SKU Sprzedającego": "SKU",
-    "ID produktu (EAN/UPC/ISBN/ISSN/ID produktu Allegro)": "EAN",
-    "Gwarancja 3 miesiące  (id: da77d00b-ba1c-466d-8fe1-a46e8bc90c08)": "gwarancja_sprzedawcy",
-    "Wielkość pamięci RAM": "ilosc_pamieci_ram",
-    "Pojemność dysku [GB]": "dysk",
-    "Rodzaj karty graficznej": "rodzaj_karty_graficznej",
+    "Kod producenta": "kod_producenta",
     "Model": "model_1",
-    "Seria procesora": "seria_procesora",
-    "System operacyjny": "zainstalowany_system",
-    "Pamięć RAM": "pamięć_ram",
-    "Rozdzielczość (px)": "rozdzielczosc_ekranu",
-    "Przekątna ekranu [\"]": "przekatna_ekranu",
-    "Klawiatura": "klawiatura_iso_lub_ansi",
+    "ID produktu (EAN/UPC/ISBN/ISSN/ID produktu Allegro)": "ean",
+    "Sygnatura/SKU Sprzedającego": "sku",
+
+    # CPU / RAM
+    "Model procesora": "model_procesora",
+    "Generacja procesora": "generacja_procesora",
+    "Taktowanie bazowe procesora [GHz]": "taktowanie_bazowe_procesora",
+    "Taktowanie maksymalne procesora [GHz]": "taktowanie_maksymalne_procesora",
+    "Liczba rdzeni procesora": "liczba_rdzeni_procesora",
+    "Liczba wątków procesora": "liczba_watkow_procesora",
+    "Pamięć podręczna procesora [MB]": "pamiec_podreczna_procesora_mb",
+    "Typ pamięci RAM": "typ_pamieci_ram",
+    "Wielkość pamięci RAM": "wielkosc_pamieci_ram",
+    "Taktowanie szyny pamięci RAM [MHz]": "taktowanie_pamieci_ram_mhz",
+    "Maksymalna pojemność pamięci RAM [GB]": "max_pamiec_ram_gb",
+
+    # Dysk / magazyn
+    "Typ dysku twardego": "typ_dysku",
+    "Pojemność dysku [GB]": "pojemnosc_dysku_gb",
+    "Format dysku": "format_dysku",
+    "Interfejs dysku": "interfejs_dysku",
+    "Prędkość obrotowa dysku HDD": "predkosc_hdd_rpm",
+
+    # Grafika
+    "Producent karty graficznej": "producent_karty_graficznej",
+    "Chipset karty graficznej": "chipset_karty_graficznej",
+    "Pamięć karty graficznej": "pamiec_karty_graficznej",
+    "Złącza karty graficznej": "zlacza_karty_graficznej",
+    "Rodzaj karty graficznej": "rodzaj_karty_graficznej",
+
+    # Ekran
+    "Przekątna ekranu (cale) [\"]": "przekatna_ekranu",
+    "Rozdzielczość natywna [px]": "rozdzielczosc_ekranu",
+    "Typ matrycy": "typ_matrycy",
+    "Powłoka matrycy": "powloka_matrycy",
+    "Proporcje obrazu": "proporcje_obrazu",
+    "Częstotliwość odświeżania [Hz]": "odswiezanie_hz",
+
+    # Wejścia/wyjścia i łączność
+    "Złącza": "zlacza_zewnetrzne",
+    "Komunikacja": "komunikacja",
+    "Standard HDMI": "standard_hdmi",
+
+    # System / klawiatura / zasilanie
+    "System operacyjny": "system_operacyjny",
+    "Wersja systemu operacyjnego": "wersja_systemu_operacyjnego",
+    "Typ klawiatury": "typ_klawiatury",
+    "Układ klawiatury": "uklad_klawiatury",
+    "Ładowarka w komplecie": "ladowarka_w_komplecie",
+
+    # Stan / gwarancja
+    "Stan": "stan_urządzenia",
+    "Stan opakowania": "stan_opakowania",
+    "Dołączone oprogramowanie": "dolaczone_oprogramowanie",
+    "Informacje o gwarancjach (opcjonalne)": "gwarancja_info",
 }
 
-def _clean_headers(cells):
-    hdr = [("" if v is None else str(v).strip()) for v in cells]
-    while hdr and hdr[-1] == "":
-        hdr.pop()
-    return hdr
 
-def _read_headers_stream(ws, max_col=500):
-    row = next(ws.iter_rows(min_row=4, max_row=4, max_col=max_col, values_only=True))
-    return _clean_headers(row)
+def _first_input_file() -> Path:
+    # bierzemy pierwszy .xlsm/.xlsx z input/
+    for ext in ("*.xlsm", "*.xlsx"):
+        files = sorted(INPUT_DIR.glob(ext))
+        if files:
+            return files[0]
+    print("[ERR] Brak pliku XLSX/XLSM w katalogu input/", file=sys.stderr)
+    sys.exit(1)
 
-def _read_headers_full(ws):
-    max_col = ws.max_column if ws.max_column and ws.max_column > 0 else 500
-    cells = [ws.cell(row=4, column=c).value for c in range(1, max_col + 1)]
-    return _clean_headers(cells)
 
-def _idx(headers, name, default=-1):
-    return headers.index(name) if name in headers else default
+def _as_str(v: Any) -> str:
+    if v is None:
+        return ""
+    s = str(v).strip()
+    return s
 
-def _as_str(val):
-    return "" if val is None else str(val).strip()
 
-def _parse_images(raw):
-    if not raw:
-        return []
-    # kolumna "Zdjęcia" zwykle: url1|url2|url3
-    parts = [u.strip() for u in str(raw).split("|") if u.strip()]
-    # odfiltruj ew. śmieci
-    urls = [u for u in parts if re.match(r"^https?://", u)]
-    return urls
-
-def _is_available(status, qty):
+def _as_float(v: Any) -> float:
     try:
-        q = int(float(str(qty).replace(",", ".").strip())) if str(qty).strip() != "" else 0
-    except:
-        q = 0
-    return (str(status).strip().lower() == "aktywna") and (q > 0)
+        return float(str(v).replace(",", "."))
+    except Exception:
+        return 0.0
 
-def _ensure_required(headers):
-    return [h for h in REQ_HEADERS if h not in headers]
 
-def convert_file(in_path, out_path):
-    # 1) próba streaming (read_only)
-    wb = openpyxl.load_workbook(in_path, read_only=True, data_only=True)
+def _as_int(v: Any) -> int:
+    try:
+        return int(float(str(v).replace(",", ".")))
+    except Exception:
+        return 0
+
+
+def _read_headers(ws) -> List[str]:
+    headers: List[str] = []
+    max_col = ws.max_column
+    for c in range(1, max_col + 1):
+        headers.append(_as_str(ws.cell(row=HEADER_ROW, column=c).value))
+    return headers
+
+
+def _idx(headers: List[str], name: str) -> int:
+    """Zwraca indeks kolumny po dokładnym nagłówku, -1 jeśli brak."""
+    try:
+        return headers.index(name)
+    except ValueError:
+        return -1
+
+
+def main() -> None:
+    INPUT_DIR.mkdir(exist_ok=True, parents=True)
+    OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
+
+    src = _first_input_file()
+    print(f"[RUN] {src.name} -> {OUTPUT_FILE}")
+
+    # Wczytanie arkusza – bierzemy 'Szablon' jeśli jest, inaczej pierwszy
+    wb = load_workbook(src, data_only=False, read_only=True)
     ws = wb["Szablon"] if "Szablon" in wb.sheetnames else wb.worksheets[0]
 
-    headers = _read_headers_stream(ws, max_col=500)
+    headers = _read_headers(ws)
     print(f"[INFO] Arkusz: {ws.title}")
-    print(f"[DEBUG] Nagłówków (stream): {len(headers)}")
-    print(f"[DEBUG] Podgląd (stream): {headers[:30]}")
-    missing = _ensure_required(headers)
+    print(f"[DEBUG] Liczba kolumn: {len(headers)}")
+    print(f"[DEBUG] Pierwsze 20 nagłówków: {headers[:20]}")
 
-    # 2) jeśli brakuje kolumn — tryb pełny
+    # Walidacja wymaganych kolumn
+    missing = [h for h in REQUIRED_COLS if h not in headers]
     if missing:
-        print(f"[WARN] Brak w stream: {missing} → pełny tryb")
-        wb.close()
-        wb = openpyxl.load_workbook(in_path, data_only=True)  # bez read_only
-        ws = wb["Szablon"] if "Szablon" in wb.sheetnames else wb.worksheets[0]
-        headers = _read_headers_full(ws)
-        print(f"[DEBUG] Nagłówków (full): {len(headers)}")
-        print(f"[DEBUG] Podgląd (full): {headers[:30]}")
-        missing = _ensure_required(headers)
+        print(f"[ERROR] Brak wymaganych nagłówków: {missing}", file=sys.stderr)
+        sys.exit(1)
 
-    if missing:
-        print(f"[ERROR] Brak wymaganych kolumn nawet w trybie pełnym: {missing}")
-        ET.ElementTree(ET.Element("offers")).write(out_path, encoding="utf-8", xml_declaration=True)
-        return
-
-    # Indeksy
-    i_id     = _idx(headers, "ID oferty")
-    i_title  = _idx(headers, "Tytuł oferty")
-    i_price  = _idx(headers, "Cena PL")
-    i_url    = _idx(headers, "Link do oferty")
-    i_stat   = _idx(headers, "Status oferty")
-    i_qty    = _idx(headers, "Liczba sztuk")
-    i_cat    = _idx(headers, "Kategoria główna")
-    i_sub    = _idx(headers, "Podkategoria")
-    i_imgs   = _idx(headers, "Zdjęcia")
-
-    # Zrzut wierszy (data_only=True)
-    rows = list(ws.iter_rows(min_row=5, values_only=True))
-    # Jeśli wygląda na formuły (pusto), wczytaj ponownie z data_only=False
-    if not any(any(_as_str(c) for c in r) for r in rows):
-        print("[WARN] Arkusz wygląda na formułowy (data_only puste). Odczyt z data_only=False.")
-        wb.close()
-        wb = openpyxl.load_workbook(in_path, data_only=False)
-        ws = wb["Szablon"] if "Szablon" in wb.sheetnames else wb.worksheets[0]
-        rows = list(ws.iter_rows(min_row=5, values_only=True))
+    # Indeksy często używanych kolumn
+    idx_id = _idx(headers, "ID oferty")
+    idx_title = _idx(headers, "Tytuł oferty")
+    idx_price = _idx(headers, "Cena PL")
+    idx_cat = _idx(headers, "Kategoria główna")
+    idx_link = _idx(headers, "Link do oferty")
+    idx_imgs = _idx(headers, "Zdjęcia")
+    idx_desc = _idx(headers, "Opis oferty")
+    idx_stock_qty = _idx(headers, "Liczba sztuk")
+    idx_status = _idx(headers, "Status oferty")
 
     root = ET.Element("offers")
 
-    # Główna pętla po ofertach
-    offers_count = 0
-    for row in rows:
-        # bezpieczeństwo
-        if max(i_id, i_title, i_price, i_url, i_stat, i_qty) >= len(row):
+    created = 0
+    for r in range(FIRST_DATA_ROW, ws.max_row + 1):
+        row_vals = [ws.cell(row=r, column=c).value for c in range(1, len(headers) + 1)]
+        # Pusta linia? – pomijamy
+        if not any(row_vals):
             continue
 
-        id_offer = _as_str(row[i_id])
-        title    = _as_str(row[i_title])
-        price    = _as_str(row[i_price])
-        url      = _as_str(row[i_url])
-        status   = _as_str(row[i_stat])
-        qty      = row[i_qty] if i_qty < len(row) else ""
-        cat      = _as_str(row[i_cat]) if i_cat < len(row) else ""
-        subcat   = _as_str(row[i_sub]) if i_sub < len(row) else ""
-        imgs_raw = row[i_imgs] if i_imgs < len(row) else ""
+        # ID oferty – obowiązkowe
+        offer_id = _as_str(row_vals[idx_id]) if idx_id != -1 else ""
+        if not offer_id:
+            continue  # bez ID nie generujemy
 
-        if not title:
-            continue
+        # Pola bazowe
+        title = _as_str(row_vals[idx_title]) if idx_title != -1 else ""
+        price = _as_float(row_vals[idx_price]) if idx_price != -1 else 0.0
+        url = _as_str(row_vals[idx_link]) if idx_link != -1 else ""
+        cat = _as_str(row_vals[idx_cat]) if idx_cat != -1 else ""
+        desc_html = _as_str(row_vals[idx_desc]) if idx_desc != -1 else ""
 
-        available = _is_available(status, qty)
-        avail_val = "1" if available else "99"
-        basket    = "1" if available else "0"
-        stock     = "1" if available else "0"
+        # Dostępność: Status oferty + liczba sztuk
+        status_txt = _as_str(row_vals[idx_status]) if idx_status != -1 else ""
+        qty = _as_int(row_vals[idx_stock_qty]) if idx_stock_qty != -1 else 0
+
+        if status_txt.lower() == "aktywna" and qty > 0:
+            avail = "1"
+            basket = "1"
+        else:
+            avail = "99"
+            basket = "0"
 
         # element <o ...>
-        o = ET.SubElement(
-            root,
-            "o",
-            {
-                "id": id_offer,
-                "url": url,
-                "price": price,
-                "avail": avail_val,
-                "stock": stock,
-                "basket": basket,
-            },
-        )
+        o = ET.SubElement(root, "o", {
+            "id": offer_id,
+            "url": url,
+            "price": f"{price:.2f}",
+            "avail": avail,
+            "stock": "1",
+            "basket": basket,
+        })
 
-        # <cat>
-        cat_text = f"{cat} > {subcat}" if cat and subcat else (cat or subcat)
-        ET.SubElement(o, "cat").text = cat_text or ""
+        if cat:
+            cat_el = ET.SubElement(o, "cat")
+            cat_el.text = cat  # tylko Kategoria główna
 
-        # <name>
-        ET.SubElement(o, "name").text = title
+        if title:
+            name_el = ET.SubElement(o, "name")
+            name_el.text = title
 
-        # <imgs>
-        imgs = _parse_images(imgs_raw)
-        imgs_el = ET.SubElement(o, "imgs")
-        if imgs:
-            ET.SubElement(imgs_el, "main", {"url": imgs[0]})
-            for u in imgs[1:]:
-                ET.SubElement(imgs_el, "i", {"url": u})
+        # <desc> – HTML z "Opis oferty"
+        if desc_html:
+            desc_el = ET.SubElement(o, "desc")
+            desc_el.text = desc_html  # jeżeli chcesz CDATA – daj znać
 
-        # <attrs> – tylko wypełnione pola z mapy
+        # <imgs> – rozdzielenie po '|'
+        if idx_imgs != -1:
+            imgs_raw = _as_str(row_vals[idx_imgs])
+            if imgs_raw:
+                parts = [p.strip() for p in imgs_raw.split("|") if p.strip()]
+                if parts:
+                    imgs_el = ET.SubElement(o, "imgs")
+                    # pierwszy jako <main>, reszta jako <i>
+                    ET.SubElement(imgs_el, "main", {"url": parts[0]})
+                    for p in parts[1:]:
+                        ET.SubElement(imgs_el, "i", {"url": p})
+
+        # <attrs> – tylko wypełnione parametry z mapy
+        attrs_written = 0
         attrs_el = ET.SubElement(o, "attrs")
-        for col, attr_name in ATTR_MAP.items():
-            if col in headers:
-                idx = headers.index(col)
-                if idx < len(row):
-                    val = _as_str(row[idx])
-                    if val:
-                        ET.SubElement(attrs_el, "a", {"name": attr_name}).text = val
+        for xl_col, attr_name in ATTR_MAP.items():
+            i = _idx(headers, xl_col)
+            if i == -1:
+                continue
+            val = _as_str(row_vals[i])
+            if not val:
+                continue
+            ET.SubElement(attrs_el, "a", {"name": attr_name}).text = val
+            attrs_written += 1
 
-        offers_count += 1
+        created += 1
 
-    ET.indent(root, space="  ")
-    ET.ElementTree(root).write(out_path, encoding="utf-8", xml_declaration=True)
-    print(f"[OK] Zapisano: {out_path} | ofert: {offers_count}")
+    # zapis XML
+    tree = ET.ElementTree(root)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
 
-def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    any_processed = False
-    for name in os.listdir(INPUT_DIR):
-        if name.lower().endswith((".xlsm", ".xlsx", ".xls")):
-            src = os.path.join(INPUT_DIR, name)
-            dst = os.path.join(OUTPUT_DIR, os.path.splitext(name)[0] + ".xml")
-            print(f"[RUN] {src} -> {dst}")
-            convert_file(src, dst)
-            any_processed = True
-    if not any_processed:
-        print("[INFO] Brak plików wejściowych w /input")
+    print(f"[OK] Zapisano: {OUTPUT_FILE} | ofert: {created}")
+
 
 if __name__ == "__main__":
     main()
