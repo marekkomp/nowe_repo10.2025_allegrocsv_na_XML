@@ -274,14 +274,13 @@ def convert_file(in_path, out_path):
         ET.SubElement(o, "name").text = title
 
         # <desc_json> (jeśli surowy JSON) + <desc> (HTML)
-if desc_raw:
-    if _looks_like_json(desc_raw):
-        desc_json_el = ET.SubElement(o, "desc_json")
-        desc_json_el.text = desc_raw  # surowy JSON bez zmian
+        if desc_raw:
+            if _looks_like_json(desc_raw):
+                desc_json_el = ET.SubElement(o, "desc_json")
+                desc_json_el.text = desc_raw  # surowy JSON bez zmian (XML sam zescapuje)
 
-    desc_el = ET.SubElement(o, "desc")
-    desc_el.text = _desc_to_html(desc_raw, strict=DESC_STRICT)
-
+            desc_el = ET.SubElement(o, "desc")
+            desc_el.text = _desc_to_html(desc_raw, strict=DESC_STRICT)
 
         # <imgs>
         imgs = _parse_images(imgs_raw)
