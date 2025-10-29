@@ -21,7 +21,7 @@ ATTR_MAP = {
     "Producent": "Producent",
     "Kod producenta": "Kod producenta",
     "Model": "Model",
-    "ID produktu (EAN/UPC/ISBN/ISSN/ID produktu Allegro)": "ID produktu",
+    "ID oferty)": "ID oferty",
     "Sygnatura/SKU Sprzedającego": "Sygnatura/SKU Sprzedającego",
 
     # CPU / RAM
@@ -175,6 +175,12 @@ def _is_available(status, qty):
 
 def _ensure_required(headers):
     return [h for h in REQ_HEADERS if h not in headers]
+    
+def _clean_option_ids(val: str) -> str:
+    """Usuwa fragment '(id: ...)' tylko z Producenta i Gwarancji."""
+    if not val:
+        return val
+    return _re.sub(r"\s*\(id:[^)]+\)", "", val).strip()
 
 def convert_file(in_path, out_path):
     # 1) próba streaming (read_only)
@@ -298,7 +304,10 @@ def convert_file(in_path, out_path):
                 if idx < len(row):
                     val = _as_str(row[idx])
                     if val:
-                        ET.SubElement(attrs_el, "a", {"name": attr_name}).text = val
+        # czyścimy tylko wybrane kolumny
+        if col in ("Producent", "Informacje o gwarancjach (opcjonalne)"):
+            val = _clean_option_ids(val)
+        ET.SubElement(attrs_el, "a", {"name": attr_name}).text = val
 
         offers_count += 1
 
