@@ -1,2 +1,4975 @@
 <?xml version='1.0' encoding='utf-8'?>
-<offers />
+<offers>
+  <offer>
+    <title>CZUJNIK HALLA DELL D420</title>
+    <price>20.00</price>
+  </offer>
+  <offer>
+    <title>ADAPTER DYSKU 1,8" DO 2,5" SATA LENOVO</title>
+    <price>10.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz Ktec 12V 1,5A 18W 5.5/2.5</title>
+    <price>15.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T440 i5 8GB 240SSD FullHD Windows 10</title>
+    <price>855.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T440 i5 8GB 480SSD FullHD Windows 10</title>
+    <price>650.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T540p i5 8GB 480GB SSD WIN 7/10</title>
+    <price>929.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 640 G2 | i5 6-GEN | 8GB 240SSD | FHD</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Philips 241P4 24" FHD KAM AMVA</title>
+    <price>149.00</price>
+  </offer>
+  <offer>
+    <title>Monitor 24' HP LA2405x 1920x1200 LED DISPLAYPORT</title>
+    <price>250.00</price>
+  </offer>
+  <offer>
+    <title>UltraSzybka Karta pamięci microSD 128GB</title>
+    <price>75.00</price>
+  </offer>
+  <offer>
+    <title>Laptop DELL 7480 i5 8GB 256 SSD M.2 FHD Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P50 i7 16GB Nowy 512GB SSD Windows 11 PRO FHD Quadro</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Laptop DELL 7480 i5 16GB 256SSD M.2 FHD Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop DELL 7480 i5 16GB 480 SSD M.2 FHD Windows11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>HP ZBook 14u i5 32GB 256 M.2 Radeon IPS Windows 11</title>
+    <price>1519.00</price>
+  </offer>
+  <offer>
+    <title>Laptop DELL 7480 i5 16GB 256 M.2 FHD Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo Intel i5 8GB 240GB SSD Windows 10</title>
+    <price>475.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell FHD i5 8GB 256GB M.2 Windows</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell FHD i5 16GB 256GB M.2 Windows</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7480 FHD i5 16GB 480GB M.2 Windows</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7480 FHD i5 32GB 960GB M.2 Windows</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Nowy Zasilacz Lenovo TABLET Thinkpad 10</title>
+    <price>59.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 850 G3 KAM i5 8GB 440SSD+HDD Win10</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 640 G2 |i5 8GB 480SSD| FHD Windows 10/11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 640 G2 |i5 16GB 960SSD|FHD Windows 10/11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>HP ZBook 14u i5 16GB 256 M.2 Radeon IPS Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 820 G3 i5 16GB 256GB M.2 Windows 10/11</title>
+    <price>884.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo W540 i7 4rdz. 32GB 240GB FHD QUADRO</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo W540 i7 4rdz. 32GB 480GB FHD QUADRO</title>
+    <price>1579.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo W541 i7 4rdz. 16GB 240GB FHD QUADRO</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>HP ZBook 14u i5 16GB 480 M.2 Radeon IPS Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>HP ZBook 14u i5 16GB 960 M.2 Radeon IPS Windows 11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>HP ZBook 14u i5 32GB 480 M.2 Radeon IPS Windows 11</title>
+    <price>1619.00</price>
+  </offer>
+  <offer>
+    <title>HP ZBook 14u i5 32GB 960 M.2 Radeon IPS Windows 11</title>
+    <price>1819.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T540p i5 16GB 480GBSSD Windows 7/10</title>
+    <price>1070.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T540p i5 8GB 480GBSSD Windows 7/10</title>
+    <price>930.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5580 i5 16GB 480SSD Win 10/11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5580 i5 8GB 480SSD Win 10/11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Domowy Komputer Lenovo M93P i5 4x3.60GHz 8GB 120GB SSD Windows 10 pro</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>Pamięć RAM Hynix 8GB PC3L-12800S 1600MHz SODIMM</title>
+    <price>55.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 430 G5 HD i3-7100U 8GB DDR4 120GB SSD</title>
+    <price>444.00</price>
+  </offer>
+  <offer>
+    <title>Monitor 22' Samsung 2243WM 1680x1050 LCD</title>
+    <price>89.00</price>
+  </offer>
+  <offer>
+    <title>Monitor 23' HP E231 1920x1080 LED TN</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell 7480 i7-7600U 8/256 QHD Win10</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5480 i5 16GB 240GB Windows 10/11</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5480 i5 16GB 480GB Windows 10/11</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 840 G3 8GB 128GB M.2 + 500GB HDD Windows 10/11</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 840 G3 16GB 256GB M.2 Windows 10/11</title>
+    <price>859.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T440 i5 8GB 240GB SSD Windows 10</title>
+    <price>655.00</price>
+  </offer>
+  <offer>
+    <title>Kamerka Internetowa USB - Skype | Nauka Zdalna</title>
+    <price>19.00</price>
+  </offer>
+  <offer>
+    <title>Mysz przewodowa USB - DELL MS-116 / MS116 - NOWA</title>
+    <price>28.89</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T440s i5 8GB 240GB SSD Windows 10</title>
+    <price>485.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T440s i5 12GB 240GB SSD Windows 10</title>
+    <price>764.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude i5 8GB 256GB M.2 Windows 11</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E7450 KAM i5 8GB 120GB SSD Win 10/11</title>
+    <price>505.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E7450 KAM i5 16GB 240GB SSD Win 10/11</title>
+    <price>635.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu E736 i5 6-Gen 8GB 240SSD FHD WIN 11</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>LAPTOP DELL E5570 i5 8GB 256 SSD M.2 Windows 10/11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T540p i5 8GB 240GB SSD WIN 7/10</title>
+    <price>575.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad 13 i5-7gen 8GB 256SSD Win10</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Komputer HP 800 G4 Tower 8GB DDR4 256GB SSD i5-840</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu E736 i5 16GB NOWY 480SSD FHD WIN 11</title>
+    <price>789.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T480 FHD 16GB 480SSD i7-8650U W10</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Upgrade Zmiana Pamięci RAM 4GB - 8GB DDR4 Laptop</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Apple MacBook Pro A1707 i7 7820HQ 16GB 500GB SSD</title>
+    <price>2599.00</price>
+  </offer>
+  <offer>
+    <title>Apple MacBook Pro A1707 i7 4Rdz.16GB 500SSD Retina</title>
+    <price>2999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 840 G3 8GB 128GB M.2 FHD Windows 10/11</title>
+    <price>669.00</price>
+  </offer>
+  <offer>
+    <title>Zestaw bezprz. TITANUM TK108 Klawiatura + Mysz</title>
+    <price>49.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Fujitsu P24W-8 NEO LED IPS 24" FHD</title>
+    <price>249.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E7450 KAM i5 8GB 120GB SSD Win 10/11</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 FHD | i5 16GB 240GB SSD | Windows 10</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7490 FHD i5 8GB 256SSD M.2 Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>MONITOR 23' AOC I2360PQ 23' 1920x1080 IPS</title>
+    <price>149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo x390 FHD i5-8250U 8GB 256SSD Win11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T540p i5 8GB 180GB SSD GeForce FHD</title>
+    <price>888.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T540p i5 8GB 180GB SSD GeForce FHD</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Apple MacBook Pro A1707 | i7-7820HQ 16GB 500GB SSD | MacOS Ventura</title>
+    <price>2299.00</price>
+  </offer>
+  <offer>
+    <title>Ultrabook Lenovo i5 8GB Nowy 480GB SSD Windows 10</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Apple MacBook Pro A1707 | i7-7700HQ 16GB 256GB SSD | Radeon Pro 555 | MacOS</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz DELL USB Adapter 19.5V-1.2A 5V-2A 24W</title>
+    <price>99.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz Lenovo 20V 2.25A 45W</title>
+    <price>30.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz Lenovo 20V 4.5A 90W</title>
+    <price>45.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz Lenovo 20V 2A 40W</title>
+    <price>19.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz Dell Precision 19.5V -12.3A 240W DELTA</title>
+    <price>110.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz DELL USB 19.5V-1.2A 5V-2A 24W</title>
+    <price>89.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz Dell Precision 19.5V 12.3A 240W</title>
+    <price>139.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Dell PRO3X K07A USB 3.0</title>
+    <price>35.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Dell PRO2X USB 3.0</title>
+    <price>20.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz HP 19.5V 3.33A 65W</title>
+    <price>35.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Dell PR03X K07A</title>
+    <price>25.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Dell K10A tablet Dell Venue 11</title>
+    <price>29.00</price>
+  </offer>
+  <offer>
+    <title>Ultrabook Dell Latitude | i5 16GB 256GB SSD |Win10</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Lenovo 40A2 USB 3.0 HDMI</title>
+    <price>35.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Lenovo 40A2 USB 3.0 Kluczyk</title>
+    <price>45.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Samsung NC241 24" 1920x1080 LED</title>
+    <price>89.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Dell P2312Ht FHD 23' 1920x1080</title>
+    <price>175.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Lenovo 40A5 USB 3.0 / HDMI Kluczyk</title>
+    <price>119.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Dell WD15 K17A USB-C | HDMI, DP, VGA, LAN</title>
+    <price>179.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Lenovo 4337 USB 3.0</title>
+    <price>35.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz HP 19.5V 3.33A 65W + Przejściówka</title>
+    <price>40.00</price>
+  </offer>
+  <offer>
+    <title>Laptop FUJITSU 15,6 16GB Nowy 480GB SSD Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Apple Macbook Pro A1707 i7-7820HQ 16GB 512GB SSD</title>
+    <price>2199.00</price>
+  </offer>
+  <offer>
+    <title>Monitor HP E241i 24" IPS 1920X1200 IPS 24'</title>
+    <price>249.00</price>
+  </offer>
+  <offer>
+    <title>Obudowa do dysku SATA 2.5 Gembird nowa USB 2.0</title>
+    <price>27.00</price>
+  </offer>
+  <offer>
+    <title>Apple MacBook Pro A1707 i7 16/500SSD Nowa bateria</title>
+    <price>2699.00</price>
+  </offer>
+  <offer>
+    <title>Bateria Apple A1820 - do Apple Macbook Pro A1707</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>Zmiana baterii na nową - Apple Macbook A1707</title>
+    <price>249.00</price>
+  </offer>
+  <offer>
+    <title>Przewód USB AM lightning 1m Tracer nowy</title>
+    <price>19.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T540p FHD i7 8GB 240GB SSD WIN 7/10</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Kabel zasilający radiowy 1m przewód biały</title>
+    <price>8.80</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Fujitsu FPCPR231 USB 3.0</title>
+    <price>25.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz Fujitsu 19V 4.22A 80W</title>
+    <price>38.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz Fujitsu 19V 4.74A 90W</title>
+    <price>45.00</price>
+  </offer>
+  <offer>
+    <title>Terminal HP T640 8GB DDR4 128SSD M.2 Windows 10 LTSC</title>
+    <price>349.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5400 i5 16GB 480GB SSD Win11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5400 i5 32GB 480SSD NOWA BAT</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Monitor HP LA2306X FHD 23 1920 x 1080 LED</title>
+    <price>149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP Folio 1040 G3 | i5-6200U 8GB 256GB SSD | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Kabel HDMI - HDMI Minimum 1m</title>
+    <price>14.99</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo x390 HD i5-8365U 8GB 256GB SSD Win11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Kabel VGA - VGA min. 1.5m przewód</title>
+    <price>8.00</price>
+  </offer>
+  <offer>
+    <title>Kabel VGA - VGA min. 1.5m przewód nowy</title>
+    <price>9.99</price>
+  </offer>
+  <offer>
+    <title>Kabel DVI - DVI min. 1.5m przewód</title>
+    <price>8.00</price>
+  </offer>
+  <offer>
+    <title>Kabel HDMI - DVI min. 1.5m przewód</title>
+    <price>25.00</price>
+  </offer>
+  <offer>
+    <title>Kabel USB 3.0 AB drukarka drukarkowy typ A-B nowy</title>
+    <price>2.99</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad 16GB Nowy 960GB SSD Windows</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Torba 12.5"/ 15,6" z paskiem</title>
+    <price>25.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E6440 HD i5-4gen 16GB 240GB SSD Windows 10</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 840 G3 i5 8GB 240GB SSD Windows 10/11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 840 G3 i5 16GB 628GB |SSD| Windows 10/11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5400 i5-8gen 8GB 256SSD Win10</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5290 HD i5-7gen 8GB 256GB SSD Win11</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5290 HD i5-7gen 8GB 256SSD M.2 Win11</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5290 HD i5-7gen 16GB 480GB SSD Win11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5590 FHD i7 16GB 480SSD Win11</title>
+    <price>2399.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5480 FHD i5-7gen 8GB 256GB SSD Win11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5480 i5 8GB 256SSD M.2 Win11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Dell 5490 FHD i5-7gen 8GB 256GB SSD M.2 Win11</title>
+    <price>700.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5490 HD i5-7gen 8GB 256SSD M.2 Win11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5490 HD i5-7gen 8GB 256SSD M.2 Win11</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo ThinkPad T14s | i7-10gen. 16GB 256GB SSD | Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5480 i5 16GB 512SSD M.2 Win11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5480 FHD i5 7-GEN 16GB 512GB SSD Win11</title>
+    <price>1059.00</price>
+  </offer>
+  <offer>
+    <title>Monitor HP e242 24' IPS 1920X1200 FHD HDMI</title>
+    <price>199.00</price>
+  </offer>
+  <offer>
+    <title>Monitor HP S231d 23' IPS LED 1920X1080 FHD KAMERA</title>
+    <price>129.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo X280 HD i5-7gen 8GB 256SSD NVMe W11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>AIO Komputer i Monitor Lenovo M92z 8GB 120GB SSD KAMERA WIFI</title>
+    <price>350.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Samsung S24A450B 1920 x 1200 LED 24"</title>
+    <price>149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52 FHD i7 16GB Nowy 512SSD M.2 Windows 11 Pro Nvidia Quadro</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52 FHD i7 32GB 1TB SSD M.2 Win11</title>
+    <price>2299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E5470 HD i5 8GB 240GB SSD Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD | i5-6300U 8GB 240GB SSD | Windows 10/11</title>
+    <price>460.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7480 i7-6600U FHD 16GB Nowy 512SSD Windows 10</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 8GB Nowy 512GB SSD Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Stacja Robocza HP ZBook 15 G2 16GB 480SSD Quadro</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Stacja Robocza HP ZBook 15 G2 16GB 240GB SSD Windows 10 | Quadro</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 15u G3 IPS | i7 |480GB| SSD |Win11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Dell P2411h 1920x1080 24'</title>
+    <price>199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 450 G4 FHD i5-7200U 8GB 240GB SSD Win10</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz Ładowarka samochodowa Lenovo ThinkPad 10</title>
+    <price>69.00</price>
+  </offer>
+  <offer>
+    <title>Oryginalny Zasilacz Lenovo USB-C 95W</title>
+    <price>139.00</price>
+  </offer>
+  <offer>
+    <title>Bateria Lenovo T460 X260 T450 T450s X250 T440 X270</title>
+    <price>45.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo Intel i5 8GB 180GB SSD Windows 10</title>
+    <price>495.00</price>
+  </offer>
+  <offer>
+    <title>AIO Komputer Lenovo M93z i3 8GB 240GB SSD KAMERA</title>
+    <price>375.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude i7 16GB Nowy 480GB SSD FHD</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude i7 16GB Nowy 480SSD FHD IPS</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Tablet Samsung Galaxy Tab Active Pro 4GB 192GB WIFI LTE Etui Rysik BAT 10H</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad i5 16GB Nowy SSD 480GB FHD</title>
+    <price>888.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo L580 FHD i5 8GB DDR4 256SSD</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo L580 FHD i5 16GB DDR4 480SSD</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5490 HD i5-8350U 8GB 256SSD M.2 Win11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5490 FHD i5-8350U 8GB 256SSD M.2 Win11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5490 FHD i5-8350U 16GB 480GB M.2 Win11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5290 HD i5-8gen 8GB 256GB M.2 Win11</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5290 i5-8350U 8GB 256GB M.2 SSD Win11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5290 i5-8350U 16GB 480GB M.2 SSD Win11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 15,6" | i3 16GB 480GB SSD | Windows 10 | KAMERA</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 14" | i5 16GB 480GB SSD Win10 | KAMERA</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 14" | HD | 16GB 740GB SSD + HDD | Win10</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7530 FHD i5 32GB 512GB NVMe Win11</title>
+    <price>2199.00</price>
+  </offer>
+  <offer>
+    <title>Monitor LG 23CAV42K LED 23' 1920X1080</title>
+    <price>139.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook U729 i5-8250U 16GB 256SSD M.2 W11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U728 FHD i5-7gen 16GB 480GB M.2 Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7490 FHD i7-8650U 16GB Nowy 480GB NVMe Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7490 FHD i7-8gen 32GB 1TB SSD NVMe W11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop DELL Latitude E5440 i5 16GB 240GB SSD Windows 10</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E5530 HD i5-3210M 16GB DDR3 240GB SSD Windows 10</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 820 G3 Kamera i5 8GB 240GB M.2 W10</title>
+    <price>400.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 820 G3 Kam i5 8GB 240GB M2 W 10/11</title>
+    <price>474.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5480 HD 6-GEN i5 8GB 256GB SSD M.2 Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5480 FHD i5 6-GEN 16GB 512GB SSD Win11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo X390 i5 8GB 256GB SSD M.2 Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell | 15,6" | FHD | i5 | 32GB | NOWY 480GB SSD | Windows 11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad A485 Ryzen 5 Pro 2500U 8GB DDR4 256GB NVMe Win11</title>
+    <price>775.00</price>
+  </offer>
+  <offer>
+    <title>Moblina Stacja Robocza | HP Zbook 15 G3 | FHD | 16GB | SSD + HDD | AUTOCAD</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Moblina Stacja Robocza HP 15,6" | FHD | 32GB | SSD + HDD | AUTOCAD | COREL</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Precision 7520 FHD i7 64GB 960SSD M.2 Win11</title>
+    <price>2049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 640 G2 HD i5 8GB 240GB SSD Windows 10</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T480 IPS i7-8650U 16GB 480GB SSD Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad | FHD IPS | 16GB 480SSD NVMe | Bateria 4H | Win11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu E736 i5 6-Gen 8GB 180SSD FHD WIN 11</title>
+    <price>419.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo L570 HD I5-7GEN. 16GB 180GB SSD Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7390 FHD i5 8GB 256GB M.2 SSD Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7390 FHD i5-8350U 8GB 256GB M.2 SSD Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7390 FHD i7-8650U 16GB Nowy 480GB SSD Win 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Tani Monitor Dell 5040 1920x1080 22' vesa 100x100 kl A</title>
+    <price>99.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5580 FHD i5-6200U 8GB 256GB SSD Win10</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5580 FHD i5-6GEN. 8GB 256GB SSD Windows 10</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5590 FHD i3-7130U 8GB 256GB SSD M.2 Win10</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5590 i5-8GEN. 8GB 256SSD M.2 Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5590 i5-7GEN. 8GB 256GB SSD Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Monitor NEC EA234WMi 23' IPS HDMI GŁOŚNIKI 1920x1080 VESA 100x100</title>
+    <price>79.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T480 FHD i5-8350U 8GB 256GB M.2 Windows 11</title>
+    <price>900.00</price>
+  </offer>
+  <offer>
+    <title>Laptop DELL E5570 HD i5-6200U 8GB DDR4 256GB SSD Windows 10</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop DELL E5570 HD i5 8GB 256GB SSD Win10</title>
+    <price>825.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5300 HD i5-8365U 8GB 256GB SSD Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP | 14" | FHD | 8GB | 500GB | SSD + HDD | Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Komputer HP 600 G5 SFF i5-9500 8GB 256GB SSD w11/w10</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Precision 7720 17" i7 7820HQ 32GB 512GB SSD QUADRO P3000 W11</title>
+    <price>2299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Precision 7520 15,6" i7 6820HQ 64GB 960GB SSD QUADRO Windows 11</title>
+    <price>2149.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7540 i7 9750H 32GB 512GB M.2 QUADRO WIndows 11</title>
+    <price>3499.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7540 i7 9750H 64GB 512GB M.2 QUADRO WIndows 11</title>
+    <price>3999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E7470 FHD i5 8GB 256GB SSD M.2 Windows 10</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T490 | 8GEN. | 8GB 256GB SSD | Windows 11</title>
+    <price>1100.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T490 FHD i5-8GEN 8GB 256GB M.2 Windows 11</title>
+    <price>1000.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Fujitsu B24W-7 LED IPS 24" FHD</title>
+    <price>129.00</price>
+  </offer>
+  <offer>
+    <title>Monitor 24' Fujitsu P24W-7 LED IPS 1920x1200 HDMI | DISPLAY-PORT 2xGŁOŚNIKI</title>
+    <price>129.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7510 FHD | i7 | 32GB | 1TB | SSD + HDD | Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5520 FHD i7 32GB 480GB SSD M.2 Windows 11</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5520 FHD i7-6820HQ 32GB DDR4 480GB SSD M.2 Win11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7730 FHD i7-8750H 32GB 512GB SSD Windows 11</title>
+    <price>2899.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7730 FHD | i7-8750H | 64GB DDR4 | Nowy 1TB SSD | Windows 11</title>
+    <price>3299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop DELL Latitude E5440 i5 16GB 480GB SSD Windows 10</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5590 i5-8250U 32GB 1TB SSD Windows 11</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP | 16GB | 256GB SSD| Windows 11 PRO | Kamera 14" FHD 1920 x 1080</title>
+    <price>598.00</price>
+  </offer>
+  <offer>
+    <title>Komputer Gamingowy 3.60GHz 32GB 512SSD NVIDIA 4GB DDR5 Monitor IPS GIER</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G3 i5-6200U 8GB 128SSD + 500GB HDD Windows 11</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5520 HD | i5 16GB 480GB SSD | Windows 10</title>
+    <price>579.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Precision 5510 i7-6820HQ 16GB 128GB M.2 + 500GB HDD Windows11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Precision 5510 i7-6820HQ 32GB 1TB SSD + HDD Windows 11</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8265U 8GB 480GB SSD Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8GEN 8GB 480GB SSD Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 850 G3 FHD i7-6500u 8GB 440GB SSD+HDD Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP EliteBook 850 G3 FHD i7 8GB 440GB SSD+HDD Win11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Kabel / przewód DisplayPort - HDMI min. 1,5m</title>
+    <price>25.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 5480 HD i5 8GB 256GB SSD M.2 Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7540 T2000 i5-9400H 32GB 512GB SSD M.2 Windows 11</title>
+    <price>2799.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7540 T2000 i5-9400H 64GB 512GB SSD M.2 Windows 11</title>
+    <price>3099.00</price>
+  </offer>
+  <offer>
+    <title>Zmiana klawiatury QWERTY PL podświetlana - HP EliteBook 730 735 830 G5 G6</title>
+    <price>169.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L390 HD i5-8265U 8GB 256GB NVMe Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L390 | HD | i5 8GB 256GB NVMe | Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5440 Intel Core i5 16GB 480SSD Windows 10</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 14" | i5 16GB 480GB SSD Win10 | KAMERA</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Komputer Lenovo M910T I5-6500 4-Rdzenie 16GB 240GB SSD WINDOWS 10 PRO</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U747 FHD i5-6200U 8GB 256GB M.2 Windows 10</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 430 G5 HD i5-8250U 8GB 240SSD + 500HDD Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 430 G4 HD i5-7200U 8GB DDR4 256SSD Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7710 FHD i7 | 32GB 512GB SSD | NVIDIA | Windows 11</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T480 FHD i5-8350U 8GB 256GB M.2 Windows 11</title>
+    <price>1000.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 14u G5 | FHD IPS | i5 16GB 256GB M.2 | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5510 Dotyk i7 6700HQ 32GB 480GB SSD + 500GB M1000M</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7710 FHD | i7-6820HQ 32GB 512GB M.2 | QUADRO | Windows 11</title>
+    <price>2099.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7510 FHD | i7 | 32GB | 1TB | SSD + HDD | Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7530 FHD i7 32GB 512GB NVMe Win11</title>
+    <price>2499.00</price>
+  </offer>
+  <offer>
+    <title>Mini PC Lenovo M920Q TINY i5-8500T 16GB 256 SSD NVMe WIFI W11 CLIENT SERVER</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3490 FHD i3-6006U 8GB 256GB SSD Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3490 FHD i3-7130U 8GB 256GB SSD Windows 11</title>
+    <price>625.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5410 HD i5-10310U 16GB Nowy 480GB SSD Windows 10</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3400 i5-8365U 16GB 1TB SSD + HDD Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3400 i5-8365U 32GB 960GB SSD Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3400 i5-8365U 32GB 1TB SSD + HDD Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5410 HD i5-10310U 32GB 480GB SSD Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5410 HD i5-10310U 32GB 960GB SSD Windows 11</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7520 FHD i7-6820HQ 32GB 480GB SSD Windows 11</title>
+    <price>1749.00</price>
+  </offer>
+  <offer>
+    <title>Komputer HP Z440 TOWER XEON e5-1620 4x3.50GHz 32GB NVIDIA QUADRO K620</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Komputer HP Z640TW xeon e5-2630 v4 10-core 256SSD+2TB QUADRO 5GB Gaming</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Stacja Robocza HP ZBook 15 G2 32GB 480SSD Windows 10 | Quadro</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G5 FHD i5-8350U 8GB DDR4 256GB SSD M.2</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G5 FHD i5-8350U 8GB DDR4 256GB SSD M.2 Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Mini PC HP 800 G4 i5-8500T 16GB 512GB SSD NVME WIN11 W10 Wydajny</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP | HD | 8GB | 500GB | SSD + HDD | Windows 11</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell 5500 i5-8365U 8GB DDR4 Nowy 480GB SSD Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell Latitude 5500 i5-8365U 8GB 480GB SSD Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Dell P2214 21,5" 1920 x 1080 LED IPS/PLS KL A</title>
+    <price>119.00</price>
+  </offer>
+  <offer>
+    <title>Tablet HP Pro X2 612 G2 i7-7Y75 8GB LPDDR3 256GB NVMe Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5590 i5-7GEN. 16GB 480GB SSD Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5590 i5-7GEN. 32GB 960GB SSD Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5590 i5-7GEN. 8GB 480GB SSD Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5590 i5-8GEN. 8GB 480SSD M.2 Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5590 i5-8GEN. 16GB 480SSD M.2 Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5590 i5-8GEN. 16GB 960SSD M.2 Windows 11</title>
+    <price>1649.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude E6440 HD i5-4gen 16GB 480GB SSD Windows 10</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5520 HD i5-2410M 16GB 120GB SSD Windows 10</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5520 HD i5-2410M 16GB 240GB SSD Windows 10</title>
+    <price>529.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5520 HD i5-2410M 16GB 480GB SSD Windows 10</title>
+    <price>579.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5520 HD i5-2410M 16GB 960GB SSD Windows 10</title>
+    <price>679.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5591 FHD i5-8400H 8GB 256GB SSD M.2 Windows 11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5591 FHD i5-8400H 8GB 480GB SSD M.2 Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5591 FHD i5-8400H 16GB 480GB SSD M.2 Windows 11</title>
+    <price>1649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5591 FHD i5-8400H 32GB 960GB SSD M.2 Windows 11</title>
+    <price>1949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7275 | 2w1| FHD | m5-6y57 8GB 256GB SSD | Windows 11</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5491 HD i5-8400H 16GB 512GB SSD 2,5" Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Monitor 23' NEC EA232WMI IPS 1920x1200 DVI DP VESA Głośniki do domu, biura</title>
+    <price>69.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP Elite x2 1012 m7-6Y75 8GB 256GB SSD Windows 11</title>
+    <price>629.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 17 G5 FHD i7-8850H 32GB 1TB SSD + HDD Windows 11</title>
+    <price>2600.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 17 G5 FHD i7-8850H 64GB 1TB SSD + HDD Windows 11</title>
+    <price>2900.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell Latitude 5590 i5-8250U 8GB 256GB SSD M.2 Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop DELL Latitude | 15,6" | 4x 3.40GHz | 16GB 256GB SSD | Win11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell Latitude 5590 i5-8250U 16GB 480GB SSD M.2 Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell Latitude 5590 i5-8250U 32GB 960GB SSD M.2 Windows 11</title>
+    <price>1849.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell Latitude 5590 i5-8250U 16GB 480GB SSD M.2 Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell Latitude 5590 i5-8250U 32GB 480GB SSD M.2 Windows 11</title>
+    <price>1649.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo MIIX 510-12IKB FHD i5-7200U 8GB 256GB SSD Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T14s FHD i7-10gen 16GB Nowy 480GB SSD Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Wydajny Komputer Lenovo P500 INTEL 6x3.70GHz 32GB DDR4 QUADRO K4200 DDR5</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Chromebook HP 11A G8 | 32GB | USB C | KAM</title>
+    <price>239.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD i5 16GB 240GB SSD Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD i5 16GB 480GB SSD Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD i5 32GB 480GB SSD Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD i5 32GB 960GB SSD Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 FHD i5-6300U 16GB 480GB SSD Windows 10/11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 FHD i5-6300U 32GB 960GB SSD Windows 10/11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 FHD i5-6300U 24GB 480GB SSD Windows 10/11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 17 G5 FHD i7-8850H 64GB 1,5TB SSD + HDD Windows 11</title>
+    <price>3000.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7550 FHD i5-10400H 16GB 512GB SSD Windows 11</title>
+    <price>2199.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7550 FHD i5-10400H 32GB 512GB SSD Windows 11</title>
+    <price>3499.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude E6440 HD i5-4gen | 16GB DDR3 | Nowy dysk SSD - 480GB | Win10</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP EliteBook 840 G6 FHD i5-8350U 16GB 480GB SSD M.2 Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP EliteBook 840 G6 FHD i5-8350U 32GB 960GB SSD M.2 Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7470 FHD i5-6300U 8GB 256GB M.2 Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7720 | i7-7820HQ 32GB 512GB SSD Windows 11 | QUADRO</title>
+    <price>2099.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7710 FHD i7 | 32GB 512GB SSD | NVIDIA | Win11 | NOWA BATERIA</title>
+    <price>1929.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U747 FHD i5-6200U 8GB 256GB M.2 Windows 10</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G5 FHD i7-8650U 16GB 512GB SSD NVMe Windows 11</title>
+    <price>1649.00</price>
+  </offer>
+  <offer>
+    <title>Komputer Lenovo M910T TOWER i5-6500 16GB 256GB SSD WINDOWS 10</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5501 i5-9400H 16GB DDR4 500GB SSD Windows 11</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook E449 FHD i3-7gen 8GB 256GB M.2 Windows 11</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Nowy Oryginalny Zasilacz Lenovo TABLET Thinkpad 10</title>
+    <price>79.00</price>
+  </offer>
+  <offer>
+    <title>KOMPUTER GAMINGOWY i5-10400F 32GB 480GB NVME+1TB DDR4 SSD RTX 3050 8GB W 11</title>
+    <price>2599.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Acer AS10D31 AS10D41 AS10D51 7560 7741 7741G 7750 7750G</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria HP 635 650 655 2000 Compaq Presario CQ56 CQ58 CQ62 Pavilion</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria ASUS C21N1347 AS06 A555 A555L F555 F555L K555 K555L R555 X555</title>
+    <price>107.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Samsung AA-PB9NC5 SG05 B44 R519 R522 R530 R540 R580 R730 R780</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria HP HS03 240 G4 HP73 B22 240 245 246 250 255 256 340 346 348</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Asus A32-K53 A43 AS18 B44 K53S X53S X53U X54C X54H</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria HP 8460p 6560b HP60 B44 8470p 8560p 8570p 8460w 6570b 6460b</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria HP HP39 6930p 8440p 8440w 6730b 6530b 6735b 6450b 6540b 6555b</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Dell DL49 E5430 E5530 E6420 E6430 E6440 E6520 E6530 E6540</title>
+    <price>120.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Dell N3010 N4010 N5010 N7110 Q15R M5110 N5110 3450 3550 3750</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Dell DL56 13 5368 15 5570 17 3785 11 3780 13 3390 14 3490 5471</title>
+    <price>147.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Dell Inspiron 14 3421 14R 5421 15 3531 15R 5521 3737 5749 5721</title>
+    <price>108.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo T440s i5 8GB 240GB SSD Windows 10 | Stacja Dokująca 40A2 + MYSZ</title>
+    <price>444.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo T440s i5 12GB 480GB SSD Windows 10 | Stacja Dokująca 40A2 + MYSZ</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L380 HD i3-8130U 16GB DDR4 512GB NVMe Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria HP 240 G6 245 246 250 255 G6, 14-BS, 15-BS, 15-BW, 17-BS</title>
+    <price>91.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria HP 240 G2, 250 G2, 240 G3, 250 G3, 14-R, 15-G, 15-R</title>
+    <price>79.00</price>
+  </offer>
+  <offer>
+    <title>Bateria Dell E6400 E6510 Nowa Zamiennik DL43 B44</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Dell Inspiron 15-3565, 14-3443, 14-7447, 15-3567, 15-3552, 545</title>
+    <price>127.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T450s FHD i5 8GB 240GB SSD Windows 10</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP | HD | 16GB | 500GB | SSD + HDD | Win11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Lenovo B570 G560 G565 G570 G575 G770 G780</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Komputer do Gier Lenovo M910T i5 4x3.60GHz 16GB 256 SSD NVIDA 4GB DDR5</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Precision 5510 i7-6820HQ 16GB 128GB M.2 + 500GB HDD Windows11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Precision 5510 i7-6820HQ 32GB 128GB M.2 + 500GB HDD Windows11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Precision 5520 4K i7-7820HQ 32GB 480GB SSD M.2 Windows 11</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7480 i7-6600U FHD 32GB Nowy 1TB Windows 10</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7720 | i7-6820HQ 32GB 512GB SSD Windows 11 | QUADRO</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo L580 FHD i5 8GB DDR4 256SSD Windows 10/11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P50 i7 32GB Nowy 1TB SSD Windows 11 PRO FHD Quadro</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 16GB Nowy 512GB SSD Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 32GB Nowy 1TB SSD Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7480 i7-7600U FHD 16GB Nowy 512SSD Windows 10</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7480 i7-7600U FHD 32GB Nowy 1TB SSD Windows 10</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 17 G6 i7 9850H 32GB 2TB RTX 4000 8GB FHD Windows 11</title>
+    <price>3499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 17 G6 i7 9850H 64GB 2TB RTX 4000 8GB FHD Windows 11</title>
+    <price>3799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 14" | i5 16GB 480GB SSD | Windows 10 | KAMERA</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T480 FHD i5-7200U 8GB 240GB SSD Windows 11</title>
+    <price>625.00</price>
+  </offer>
+  <offer>
+    <title>APPLE IMAC A1418 2017 I5-7360U 1TB 28SSD macOS FHD IPS 1920X1080</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>MONITOR LENOVO LT2323P FHD LED 23' 1920x1080</title>
+    <price>149.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8265U 16GB 480GB SSD Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8265U 16GB 960GB SSD Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Uchwyt Ścienny do Monitora Telewizora Suptek MA2720 | 15" - 32"</title>
+    <price>74.00</price>
+  </offer>
+  <offer>
+    <title>Komputer AiO iMac 21,5" i5-7360u 8GB 1TB 1920x1080</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop | HP Chromebook x360 G1 EE | Celeron 4GB 32GB eMMC</title>
+    <price>349.00</price>
+  </offer>
+  <offer>
+    <title>HP Chromebook 11 G8 Celeron N4120 4GB 32G eMMC Chrome OS</title>
+    <price>279.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 15u G3 | i7-6500U | 16GB | 1TB SSD + HDD | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Stacja Robocza HP ZBook 15u G3 | i7-6500U | 32GB | 1TB SSD+HDD | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Stacja Robocza HP ZBook 15u G3 | i7-6500U | 32GB | 1,5TB SSD+HDD | Win11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 15u G3 i7-6500U 16GB 1TB SSD+HDD Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 15u G3 i7-6500U 32GB 1TB SSD+HDD Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Chromebook HP 11A G8 | 32GB | USB C | KAM</title>
+    <price>239.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 14u G5 | FHD IPS | i5 32GB 256GB M.2 | Grafika AMD | Win11</title>
+    <price>1669.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 14u G5 | FHD IPS | i5 16GB 256GB M.2 | Grafika AMD | Win11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP | 14" | 16GB 480GB SSD | Windows | CAD | Idealny dla grafika!</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 14u G5 | FHD IPS | i5 16GB 960GB M.2 | Grafika AMD | Win11</title>
+    <price>1649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 14u G5 | FHD IPS | i5 32GB 480GB M.2 | Grafika AMD | Win11</title>
+    <price>1769.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 14u G5 | FHD IPS | i5 32GB 960GB M.2 | Grafika AMD | Win11</title>
+    <price>1969.00</price>
+  </offer>
+  <offer>
+    <title>Terminal HP T610 AMD AMD G-T56N 4GB DDR3 120gb ssd client</title>
+    <price>125.00</price>
+  </offer>
+  <offer>
+    <title>Laptop FUJITSU 15,6 8GB 256GB SSD Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop FUJITSU 15,6 16GB 240GB SSD Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP EliteBook Folio 1040 G1 i5-4300U 4GB 180GB SSD Windows 10</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5420 HD i5-2410M 16GB 240GB SSD Windows 10</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook x360 1030 G3 i7-8650U 16GB 512GB SSD M.2 Windows 10/11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E5540 HD i5-4210U 8GB DDR3 240GB SSD Windows 10</title>
+    <price>575.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E5540 HD i5-4210U 8GB 240GB SSD Windows 10</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E5540 HD i5-4210U 16GB DDR3 240GB SSD Windows 10</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E5540 HD i5-4310U 16GB 240GB SSD Windows 10</title>
+    <price>624.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E5540 FHD i5-4310U 8GB 240GB SSD Windows 10</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E5540 FHD i5-4210U 16GB 240GB SSD Windows 10</title>
+    <price>674.00</price>
+  </offer>
+  <offer>
+    <title>Nowy Komputer Do Gier Gamingowy RGB i5-8500 6X4.0GHz 16GB RTX 3050 WIFI</title>
+    <price>2199.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Dell Inspiron 14 3421 14R 542115 3531 15R 5521 17 3737 17 17R</title>
+    <price>96.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria HP HP76 740 750 840 745 755 845 850 G1 G2 14u 15u G2</title>
+    <price>120.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Asus AS57 A46 A56 K46 K56 R505 R550 S56</title>
+    <price>74.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria HP Omen HP68 B70 Omen 15-CE 15-DC</title>
+    <price>161.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Dell E7440 E7450 DL51</title>
+    <price>161.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 650 G3 FHD i5-7200U 8GB 256GB SSD Windows 10/11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 650 G3 FHD i5-7200U 16GB 256GB SSD Windows 10/11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 650 G3 FHD i5-7200U 16GB 480GB SSD Windows 10/11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 650 G3 FHD i5-7200U 16GB 960GB SSD Windows 10/11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Dell e2417H 1920x1080 IPS 24'</title>
+    <price>250.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad A485 Ryzen 5 Pro 8GB 480GB NVMe Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad A485 Ryzen 5 Pro 8GB 960GB NVMe Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad A485 Ryzen 5 Pro 2500U 8GB DDR4 480GB NVMe Win11</title>
+    <price>725.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad A485 Ryzen 5 Pro 2500U 16GB DDR4 480GB NVMe Win11</title>
+    <price>925.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad A485 Ryzen 5 Pro 2500U 16GB DDR4 960GB NVMe Win11</title>
+    <price>1025.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad A485 Ryzen 5 Pro 16GB 480GB NVMe Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad A485 Ryzen 5 Pro 32GB 960GB NVMe Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Toshiba TA10 B44 A200 A300 A500 M200 L300 L500</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria HP HP75 B44 640 G1 645 G1 650 G1</title>
+    <price>98.00</price>
+  </offer>
+  <offer>
+    <title>Nowa Bateria Asus A72 A73 K72 K73 N71 N73 X7 X77 Pro7</title>
+    <price>80.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T14 Gen 1 | i5-10310U 16GB Nowy dysk 512GB SSD | Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad i5| 8GB 240GB | Windows 10 + Mysz + Stacja dokująca</title>
+    <price>444.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3510 FHD | i5-10210U 16GB 480GB SSD | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Microsoft Surface GO 1824 Intel 8GB 128GB M.2 IPS 2w1 Win11 YT 4K + RYSIK</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3510 FHD | i5-10210U 16GB 960GB SSD | Windows 11</title>
+    <price>1899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3510 FHD | i5-10210U 32GB 960GB SSD | Windows 11</title>
+    <price>2099.00</price>
+  </offer>
+  <offer>
+    <title>Tablet Microsoft Surface GO 1824 Intel Gold 8GB 128GB 2w1 Windows 11 YT 4K</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Oryginalny Rysik Microsoft Surface GO 1 1824 / Surface 5 Pro</title>
+    <price>99.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 745 G5 FHD AMD Ryzen 7 2700U 16GB 256GB SSD Windows 11</title>
+    <price>777.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7740 FHD | i7-9850H 32GB 512GB M.2 | Windows 11 | RTX 3000</title>
+    <price>3799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP EliteBook 830 G5 FHD i5-8350U 8GB 256GB SSD Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 830 G5 FHD IPS i5-8350U 8GB 256GB SSD Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G6 FHD i5-8365U 8GB 480GB SSD Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 440 G5 FHD | i5-7200U 8GB 128GB SSD + 500GB HDD | Windows 11</title>
+    <price>777.00</price>
+  </offer>
+  <offer>
+    <title>Acer TravelMate B117-M Celeron 4GB 32GB eMMC + 320GB HDD Windows 10</title>
+    <price>275.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U729 FHD i7-8665U 16GB 480GB M.2 Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook U728 FHD i7-8650U 16GB 480GB M.2 Windows 10/11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>TOSHIBA Tecra Z50-C FHD i5-6200u 8GB 256GB M.2 SSD Windows 11</title>
+    <price>575.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7530 FHD i5 32GB 960GB NVMe Win11</title>
+    <price>2299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Celsius H760 i7 32GB 480SSD Windows 10/11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad P72 FHD | Xeon E-2716M 64GB 1TB SSD | QUADRO | Windows 11</title>
+    <price>4299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5510 | i5-10310U 16GB 480GB SSD M.2 | Windows 11</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5510 | i5-10310U 32GB 480GB SSD M.2 | Windows 11</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5510 | i5-10310U 32GB 960GB SSD M.2 | Windows 11</title>
+    <price>1899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5510 | i5-10310U 16GB 960GB SSD M.2 | Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo ThinkPad T14s | i7-10gen. 16GB 512GB SSD | Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo ThinkPad T14s | i7-10gen. 16GB 1TB SSD | Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo ThinkPad T14s | i7-10gen. 16GB 2TB SSD | Windows 11</title>
+    <price>1899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3400 | i5-8365U 16GB 756GB SSD + HDD | Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3400 | i5-8365U 16GB 756GB SSD + HDD | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook T936 Dotyk | i5-6300U 8GB 240GB SSD | Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Zasilacz do Microsoft Surface 15V 1.6A 24W | NOWY</title>
+    <price>69.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo T490s FHD i5 8GB 256GB NVMe Windows 10/11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad W541 FHD | i7-4800MQ 16GB 480GB | QUADRO | Windows 10</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad W541 FHD | i7-4800MQ 32GB 480GB | QUADRO | Windows 10</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Acer TravelMate P645 HD | i3-4010U 8GB 120GB mSATA + 320GB HDD | Windows 10</title>
+    <price>349.00</price>
+  </offer>
+  <offer>
+    <title>Apple MacBook Pro A2141 | i9-9880H 32GB 1TB SSD | Retina | MacOS Ventura</title>
+    <price>3999.00</price>
+  </offer>
+  <offer>
+    <title>Apple MacBook Pro 16 A2141 | i9-9880H 8 Rdzeni | 32GB 1TB SSD |Retina|MacOS</title>
+    <price>3499.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Portege R30-A HD | i3-4000M 8GB 240GB SSD | Windows 10</title>
+    <price>500.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Portege R30-A HD | i3-4000M 8GB 500GB | Windows 10</title>
+    <price>425.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 840 G3 i5 8GB 440GB Full HD SSD Dotykowy</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook mt43 FHD | AMD A8-9600B 8GB 628GB SSD + HDD | Windows 10</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 HD | i5 16GB 120GB SSD | Windows 10/11</title>
+    <price>575.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 HD | i5 16GB 240GB SSD | Windows 10/11</title>
+    <price>605.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 HD | i5 16GB 480GB SSD | Windows 10/11</title>
+    <price>655.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 HD | i5 16GB 960GB SSD | Windows 10/11</title>
+    <price>755.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E7450 KAM i5 8GB 240GB SSD Win 10/11</title>
+    <price>535.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell E7450 KAM i5 8GB 240GB SSD Win 10/11</title>
+    <price>479.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 | i5 16GB 120GB SSD | Windows 10</title>
+    <price>525.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 | i5 16GB 240GB SSD | Windows 10</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 | i5 16GB 480GB SSD | Windows 10</title>
+    <price>605.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 | i5 16GB 960GB SSD | Windows 10</title>
+    <price>705.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 FHD | i5 16GB 480GB SSD | Windows 10</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7450 FHD | i5 16GB 960GB SSD | Windows 10</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T490 FHD i5-8GEN 16GB 480GB M.2 Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T490 FHD i5-8GEN 16GB 960GB M.2 Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T490 FHD i5-8GEN 32GB 960GB M.2 Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T490 | 8GEN. | 16GB 480GB SSD | Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T490 | 8GEN. | 16GB 960GB SSD | Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T490 | 8GEN. | 32GB 960GB SSD | Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5320 FHD | i5-1135G7 8GB 480GB SSD | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>HP ZBook Fury 17 G7 FHD | i5-10400H 16GB 240GB M.2 + 500GB HDD | Windows 11</title>
+    <price>2299.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca HP Thunderbolt Dock 230W G2 | USB-C | HSN-IX01 + ZASILACZ</title>
+    <price>269.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad 13 i5-7200U 8GB DDR4 256GB SSD Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Apple MacBook Pro A2141 | i9-9880H 32GB 1TB SSD | Retina | MacOS Ventura</title>
+    <price>4099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP EliteBook 840 G3 i5 16GB 512GB SSD Windows 11 Odnowiony</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Acer P455 i3 240GB SSD Win10 Nagrywarka / Duży Ekran do Internetu</title>
+    <price>375.00</price>
+  </offer>
+  <offer>
+    <title>Komputer Lenovo M93 TOWER I7-4770 8GB 240GB SSD Windows</title>
+    <price>399.00</price>
+  </offer>
+  <offer>
+    <title>Komputer Lenovo ThinkCentre M910T i7-6700 16GB 240GB SSD WINDOWS 11 PRO</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T495 Ryzen 5 8GB DDR4 480GB M.2 Windows 11 FHD</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Gamingowy Zestaw i5 32GB NOWY 480GB SSD nVidia 4GB Monitor 24' FHD LED- GRY</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Usługa malowania klapy laptopa UV *Własny Wzór / Zdjęcie - Personalizacja</title>
+    <price>69.00</price>
+  </offer>
+  <offer>
+    <title>Apple MacBook Pro A1990 i9 9880H 32GB 512SSD TouchBar Klasa A</title>
+    <price>3090.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP EliteBook 850 G6 FHD | i5-8365U 16GB 256GB SSD | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Komputer HP Z420 TOWER XEON E5 -1603 8GB 240GB SSD Windows 10</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 430 G2 Celeron 3205U 8GB 500GB SATA Windows 10</title>
+    <price>275.00</price>
+  </offer>
+  <offer>
+    <title>AIO Komputer HP 800 G1 i5-4570s 8GB 240GB SSD windows 10</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>AIO Komputer HP 800 G1 i5-4570s 16GB 240GB SSD windows 10</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G6 FHD i5-8365U 16GB 480GB SSD Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G6 FHD i5-8365U 16GB 960GB SSD Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 FHD AMD Ryzen 5 4GHz 16GB 480GB M.2 Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 AMD Ryzen 5 4GHz 16GB 256GB M.2 Windows 11 1920x1080</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7730 FHD i7-8750H 32GB 512GB SSD Windows 11</title>
+    <price>2749.00</price>
+  </offer>
+  <offer>
+    <title>Komputer do domu Biura Gry HP Z440 TOWER XEON 4x3.60GHz 16GB 240 SSD WIN 10</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T440 HD | i5-4200U 8GB 240GB SSD | Windows 10</title>
+    <price>439.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy HP EliteBook 830 G5 FHD | i5-8350U 8GB 256GB SSD | Windows 10/11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Mini PC Terminal HP T610 AMD AMD G-T56N 4GB DDR3 16GB WINDOWS</title>
+    <price>95.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 430 G5 HD i5-8250U 8GB 240SSD + 500HDD Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>MONITOR LG 27' 27MB67PY-8 IPS 1920X1080 GŁOŚNIKI DP DVI VGA KL-A</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad | FHD | i7-8gen 8GB 512GB NVMe | NVIDIA Quadro | Win11</title>
+    <price>1899.00</price>
+  </offer>
+  <offer>
+    <title>Monitor HP E231 1920X1080 DISPLAY PORT 23' KL A</title>
+    <price>175.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 15u G6 | i7-8665U 16GB 512GB SSD | Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 15u G6 i7-8665U 16GB 512GB SSD Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 15u G6 | i7-8665U 32GB 960GB SSD | Windows 11</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 15u G6 i7-8665U 32GB 960GB SSD Windows 11</title>
+    <price>1749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5520 HD i5-2410M 8GB 120GB SSD Windows 10</title>
+    <price>399.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook mt41 A4-5150M 16GB 120GB SSD Windows 10</title>
+    <price>425.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP mt43 FHD | AMD A8 8GB DDR3 620GB SSD + HDD | Windows 10/11</title>
+    <price>500.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G6 FHD | i7-8650U 8GB 256GB NVMe | Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 640 G5 FHD i5-8365U 16GB 256SSD M.2 Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5420 | i5-11 GEN. 16GB 480GB SSD | Windows 11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5420 i5-11 GEN.16GB DDR4 480GB SSD Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Torba na laptopa Case Logic 14" | AUA314</title>
+    <price>55.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Toshiba Z30-C | i5-6gen 8GB 256GB M.2 SSD | Windows 10</title>
+    <price>399.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad | FHD | i7-8gen 16GB 512GB SSD | NVIDIA Quadro | Win11</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad | FHD | i7-8gen 32GB 512GB SSD | NVIDIA Quadro | Win11</title>
+    <price>2199.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad | FHD | i7-8gen 32GB 1TB NVMe | NVIDIA Quadro | Win11</title>
+    <price>2299.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T450 | i5-5300U 8GB 240GB SSD | Windows 10</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad X13 Yoga Gen1 | i5-10310U 8GB 256GB NVMe | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Torba na laptopa 12.5"/ 15,6" z paskiem</title>
+    <price>29.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U747 FHD | i5-6200U 8GB 256GB M.2 | Windows 10/11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U747 FHD | i5-6200U 16GB 480GB SSD M.2 | Windows 10/11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U747 FHD | i5-6200U 32GB 960GB SSD M.2 | Windows 10/11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell 7490 FHD i5-8250U 8GB DDR4 250GB SSD M.2 WINDOWS 11 PRO KL A</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo A475 | AMD A12 8GB 256GB SSD | Modem 4G | Win10 + GRATIS</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad P51 | Xeon E3-1505M 16GB 256GB M.2 | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo ThinkPad A475 | AMD A12 16GB 256GB SSD | 4G | Windows 10</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo A475 | AMD A12 16GB 480GB SSD | Modem 4G | Win10</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo A475 | AMD A12 32GB 480GB SSD | Modem 4G | Win10</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo A475 | AMD A12 32GB 960GB SSD | Modem 4G | Win10</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G7 FHD | Dotyk | i5-10310U 16GB DDR4 480GB SSD M.2 | Win11</title>
+    <price>1749.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 470 G5 FHD | i5-8250U 16GB 1TB SSD+HDD | NVIDIA | Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G5 FHD | i7-8650U 8GB 256GB SSD M.2 | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L390 | i5-8265U 8GB 256GB NVMe | Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Lekki Dotykowy Laptop | Asus Chromebook C214M | 4GB 32GB | IPS | Ekran 360°</title>
+    <price>275.00</price>
+  </offer>
+  <offer>
+    <title>Dell Chromebook 3100 2in1 | Dotykowy 360° | Celeron N4020 4GB 32GB eMMC</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>Acer Chromebook R752 HD IPS | Dotykowy 360° | 4GB 32GB eMMC</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3550 HD | i3-4005U 16GB 240GB SSD | Windows 10</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Komputer HP 800 G4 Mini i5-8500T 6X3.50GHz 8GB 240GB SSD NVME Win 10 / 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Chromebook HP 11A G8 | 32GB | USB-C | KAMERA</title>
+    <price>269.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U728 FHD i5-7gen 8GB 256GB M.2 Windows 11</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Komputer Lenovo M920Q TIN i5-8500T 6x3.50GHZ 8GB 256SSD NVME Win 11 WIFI</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Microsoft Surface Laptop | i5-7300U 8GB 256GB NVMe | Windows 11</title>
+    <price>759.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G6 FHD i5-8350U 8GB DDR4 256GB SSD M.2 Windows 11 pro</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop DELL E5570 FHD i5-6200U 8GB DDR4 256GB SSD Windows 10</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Tablet Samsung Galaxy Tab Active Pro T545 64GB Wzmocniony WIFI+LTE Android</title>
+    <price>395.00</price>
+  </offer>
+  <offer>
+    <title>Tablet Samsung Galaxy Tab Active Pro 4GB 192GB WIFI + LTE Etui + Rysik</title>
+    <price>650.00</price>
+  </offer>
+  <offer>
+    <title>Oryginalny Rysik Samsung Galaxy TAB ACTIVE PRO T545</title>
+    <price>69.00</price>
+  </offer>
+  <offer>
+    <title>Oryginalne wzmocnione Etui do Tabletu Samsung Active Pro T545</title>
+    <price>69.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 745 G5 FHD AMD Ryzen 7 2700U 8GB 256GB SSD Windows 11</title>
+    <price>725.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 745 G5 FHD AMD Ryzen 7 2700U 8GB 256GB SSD Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 745 G5 FHD AMD Ryzen 7 2700U 16GB 480GB SSD Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 745 G5 FHD AMD Ryzen 7 2700U 32GB 1TB M.2 SSD Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 745 G5 FHD AMD Ryzen 7 2700U 32GB 480GB SSD Windows 11</title>
+    <price>1075.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 745 G5 FHD AMD Ryzen 7 2700U 32GB 960GB SSD Windows 11</title>
+    <price>1175.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G7 FHD i5-10310U 16GB 256GB M.2 Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G7 FHD i5-10310U 16GB 256GB M.2 Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G7 FHD i5-10310U 16GB 1TB M.2 SSD Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Fujitsu B24W-8 Te PRO LED IPS 1920x1080 FHD Głośniki KL A</title>
+    <price>149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E734 | i5 16GB 240GB SSD | Windows 10</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>HP Chromebook 11 G7 EE | Celeron N4100 4GB 32GB eMMC | KAMERA</title>
+    <price>222.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L13 Yoga | i5-10210U 8GB 256GB SSD NVMe | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Czerwony Dell Latitude 5590 | i5 4x 3.60GHz | 16GB 512GB M.2 | Windows 11</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Niebieski Dell Latitude 5590 | i5 4x 3.60GHz | 16GB 512GB SSD | Windows 11</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Różowy Dell Latitude 5590 | i5 4x 3.60GHz | 16GB 512GB SSD | Windows 11</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Terminal HP T730 Thin Client 8GB DDR3 32GB SSD M.2 Windows 10 WIFI</title>
+    <price>222.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U747 FHD i5-6200U 8GB 256GB M.2 Windows 10</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Terminal HP T730 Thin Client 8GB DDR3 256GB SSD M.2 Windows 10 WIFI</title>
+    <price>289.00</price>
+  </offer>
+  <offer>
+    <title>REBELTEC Klawiatura game USB Warrior /</title>
+    <price>47.12</price>
+  </offer>
+  <offer>
+    <title>TITANUM ZESTAW BEZPRZEWODOWY 2,4GHz KLAWIATURA Z /</title>
+    <price>62.71</price>
+  </offer>
+  <offer>
+    <title>Klawiatura+mysz przewodowa dla graczy OPPRESSOR /</title>
+    <price>59.06</price>
+  </offer>
+  <offer>
+    <title>REBELTEC Bezprzewodowa klawiatura + mysz Millenium /</title>
+    <price>71.62</price>
+  </offer>
+  <offer>
+    <title>Zestaw bezprzewodowy klawiatura + mysz KM3322W /</title>
+    <price>111.90</price>
+  </offer>
+  <offer>
+    <title>REBELTEC Klawiatura dla graczy Neon podświetlana /</title>
+    <price>49.44</price>
+  </offer>
+  <offer>
+    <title>REBELTEC Mysz dla graczy przewodowa Ghost /</title>
+    <price>43.80</price>
+  </offer>
+  <offer>
+    <title>ESPERANZA SIRIUS Mysz Optyczna EM102R USB /</title>
+    <price>28.65</price>
+  </offer>
+  <offer>
+    <title>NATEC Mysz Vireo 2 1000 DPI optyczna USB Czarna /</title>
+    <price>18.76</price>
+  </offer>
+  <offer>
+    <title>DEFENDER Mysz przewodowa, optyczna, CYBER MB-560L /</title>
+    <price>24.98</price>
+  </offer>
+  <offer>
+    <title>ESPERANZA Mysz bluetooth 3D Cyngus czerwona /</title>
+    <price>25.95</price>
+  </offer>
+  <offer>
+    <title>NATEC Mysz Ruff 2 1000 DPI Biała /</title>
+    <price>21.81</price>
+  </offer>
+  <offer>
+    <title>Listwa zasilająca 1.5m, czarna, 3 gniazda, z, /</title>
+    <price>33.71</price>
+  </offer>
+  <offer>
+    <title>Listwa zasilająca 1,5m, biała, 4 gniazda, z, /</title>
+    <price>37.01</price>
+  </offer>
+  <offer>
+    <title>REBELTEC Gamingowa mysz optyczna USB DIABLO /</title>
+    <price>35.99</price>
+  </offer>
+  <offer>
+    <title>Listwa zasilająca 1,5m 250VAC/10A MCE509 B,,,, /</title>
+    <price>43.43</price>
+  </offer>
+  <offer>
+    <title>IBOX Słuchawki biurowe z mikrofonem HPI W1MV /</title>
+    <price>21.97</price>
+  </offer>
+  <offer>
+    <title>Słuchawki EH120 AUDIO STEREO/REG GLO/3.5/6.3mm /</title>
+    <price>29.94</price>
+  </offer>
+  <offer>
+    <title>Stereofoniczne słuchawki z mikrofonem CITY BLACK /</title>
+    <price>35.80</price>
+  </offer>
+  <offer>
+    <title>Stereofoniczne słuchawki z mikrofonem CITY BLUE /</title>
+    <price>36.08</price>
+  </offer>
+  <offer>
+    <title>Stereofoniczne słuchawki z mikrofonem CITY RED /</title>
+    <price>35.80</price>
+  </offer>
+  <offer>
+    <title>Przedłużacz 6 gniazd 1.5m MCE509 W 250VAC/10A,, /</title>
+    <price>43.43</price>
+  </offer>
+  <offer>
+    <title>REBELTEC Mysz dla graczy NEON kabel 1,8m /</title>
+    <price>45.27</price>
+  </offer>
+  <offer>
+    <title>Adapter mini DisplayPort (M) -&gt; HDMI (F) na /</title>
+    <price>23.03</price>
+  </offer>
+  <offer>
+    <title>Adapter USB Typ-C(M) 2.0 -&gt; USB Typ-micro (F) /</title>
+    <price>9.60</price>
+  </offer>
+  <offer>
+    <title>Adapter USB Typ-C(M) -&gt; USB Typ-A(F) Gembird /</title>
+    <price>10.85</price>
+  </offer>
+  <offer>
+    <title>Adapter HDMI (F) -&gt; DVI -D (M)(24+1) Dual Link /</title>
+    <price>12.75</price>
+  </offer>
+  <offer>
+    <title>Hub 4 porty USB-A - 3 x USB-A 2.0, 1 x USB-A 3,,, /</title>
+    <price>31.73</price>
+  </offer>
+  <offer>
+    <title>ESPERANZA Mysz Bluetooth 3D Cyngus Czarna /</title>
+    <price>25.95</price>
+  </offer>
+  <offer>
+    <title>QOLTEC Adapter USB-C na RJ45 Ethernet | 1000Mbps | /</title>
+    <price>57.39</price>
+  </offer>
+  <offer>
+    <title>NATEC Mysz bezprzewodowa Stork 1600 DPI niebieska /</title>
+    <price>36.31</price>
+  </offer>
+  <offer>
+    <title>MEDIA-TECH Mysz optyczna 800dpi srebrna MT1091S /</title>
+    <price>29.93</price>
+  </offer>
+  <offer>
+    <title>MODECOM M10 BIAŁA PRZEWODOWA MYSZ OPTYCZNA /</title>
+    <price>37.34</price>
+  </offer>
+  <offer>
+    <title>YENKEE Mysz przewodowa USB, 3 przyciski, gumowana /</title>
+    <price>25.17</price>
+  </offer>
+  <offer>
+    <title>IBOX Mysz i011 Seagull /</title>
+    <price>19.78</price>
+  </offer>
+  <offer>
+    <title>MYSZKA PRZEWODOWA DLA GRACZY 7D OPTYCZNA USB MX201 /</title>
+    <price>34.97</price>
+  </offer>
+  <offer>
+    <title>MYSZ BEZPRZEWODOWA OPTYCZNA XM104K MAVERICK/// /</title>
+    <price>27.30</price>
+  </offer>
+  <offer>
+    <title>Mysz przewodowa optyczna Delta MM-523 Czarna /</title>
+    <price>24.84</price>
+  </offer>
+  <offer>
+    <title>GEMBIRD Obudowa HDD 2.5'' SATA Aluminium Black /</title>
+    <price>40.04</price>
+  </offer>
+  <offer>
+    <title>Obudowa na dysk HDD/SSD 2.5 cala SATA3 | USB 2.0 | /</title>
+    <price>28.49</price>
+  </offer>
+  <offer>
+    <title>ADATA DashDrive HV300 1TB 2.5 USB3.1 Czarny /</title>
+    <price>290.99</price>
+  </offer>
+  <offer>
+    <title>NATEC TORBA NOTEBOOK MUSTELA 15,6'' /</title>
+    <price>76.97</price>
+  </offer>
+  <offer>
+    <title>Karta pamięci microSDHC 32GB CL10 + adapter /</title>
+    <price>27.06</price>
+  </offer>
+  <offer>
+    <title>Karta pamięci microSD 64GB CL10 UHS I + adapter /</title>
+    <price>29.52</price>
+  </offer>
+  <offer>
+    <title>PNY Karta pamięci MicroSDHC 32GB P-SDU32G10PPL-GE /</title>
+    <price>22.70</price>
+  </offer>
+  <offer>
+    <title>Karta pamięci MicroSDHC PATRIOT 128GB LX Series /</title>
+    <price>65.29</price>
+  </offer>
+  <offer>
+    <title>PATRIOT Karta MicroSDHC 64GB VX V30 C10 UHS-I U3 /</title>
+    <price>45.61</price>
+  </offer>
+  <offer>
+    <title>GEMBIRD Kabel mikro USB 2.0 AM-MBM5P 0.5M /</title>
+    <price>8.96</price>
+  </offer>
+  <offer>
+    <title>LANBERG Kabel USB 2.0 micro AM-MBM5P 1M czarny /</title>
+    <price>9.35</price>
+  </offer>
+  <offer>
+    <title>Adapter audio stereo 2x3.5mm minijack, 4PIN, 0.2m /</title>
+    <price>17.38</price>
+  </offer>
+  <offer>
+    <title>Adapter Displayport (M) - DVI (F) 29pin czarny /</title>
+    <price>30.29</price>
+  </offer>
+  <offer>
+    <title>Przedłużacz kabla USB 2.0 AM-AF czarny 1.8M /</title>
+    <price>11.91</price>
+  </offer>
+  <offer>
+    <title>Adapter mini Displayport (M) -&gt; DisplayPort (F) /</title>
+    <price>34.83</price>
+  </offer>
+  <offer>
+    <title>GEMBIRD Kabel Displayport(M)-&gt;DVI-D(24+1) 1.8m /</title>
+    <price>45.58</price>
+  </offer>
+  <offer>
+    <title>Kabel połączeniowy USB 2.0 HighSpeed Typ USB A /</title>
+    <price>9.29</price>
+  </offer>
+  <offer>
+    <title>KABEL USB MICRO BM-&gt;AF USB 2.0 OTG 15CM długi /</title>
+    <price>8.73</price>
+  </offer>
+  <offer>
+    <title>Adapter komputerowy USB Bluetooth 5.3 + EDR,,, /</title>
+    <price>47.36</price>
+  </offer>
+  <offer>
+    <title>LANBERG Adapter USB TYPE-C(F) AM 3.1 15 cm /</title>
+    <price>21.05</price>
+  </offer>
+  <offer>
+    <title>Adapter USB C(M)-USB-A (F)2.0 0.15M OTG Czarny /</title>
+    <price>11.03</price>
+  </offer>
+  <offer>
+    <title>Adapter audio - USB typ C - Mini Jack 3,5mm, AK-35 /</title>
+    <price>27.31</price>
+  </offer>
+  <offer>
+    <title>GEMBIRD Przedłużacz Minijack M/F 5M Gold Stereo /</title>
+    <price>17.53</price>
+  </offer>
+  <offer>
+    <title>ASUS USB Adapter Bluetooth 5.0 USB-BT500 /</title>
+    <price>63.57</price>
+  </offer>
+  <offer>
+    <title>TP-LINK Karta sieciowa Archer T2U USB Nano AC600 /</title>
+    <price>57.57</price>
+  </offer>
+  <offer>
+    <title>GEMBIRD Kabel stereo mini Jack 3.5mm M/M 0.75m /</title>
+    <price>18.23</price>
+  </offer>
+  <offer>
+    <title>GEMBIRD Kabel stereo mini Jack 3.5mm 1.8m /</title>
+    <price>20.15</price>
+  </offer>
+  <offer>
+    <title>Urządzenie wielofunkcyjne Drukarka DeskJet 2810E All-in /</title>
+    <price>259.15</price>
+  </offer>
+  <offer>
+    <title>Podstawka chłodząca pod laptop/ tablet COS-02 /</title>
+    <price>56.76</price>
+  </offer>
+  <offer>
+    <title>Zewnętrzny napęd - nagrywarka typu SLIM CD/DVD- /</title>
+    <price>84.75</price>
+  </offer>
+  <offer>
+    <title>NATEC Podkładka pod mysz printable biała 220x180 /</title>
+    <price>13.46</price>
+  </offer>
+  <offer>
+    <title>NATEC Mysz bezprzewodowa Toucan różowo-biała /</title>
+    <price>39.95</price>
+  </offer>
+  <offer>
+    <title>Mysz ergonomiczna optyczna Bezprzewodowa Rebeltec /</title>
+    <price>55.87</price>
+  </offer>
+  <offer>
+    <title>Zestaw bezprzewodowy Whiterun klawiatura+mysz,, /</title>
+    <price>74.88</price>
+  </offer>
+  <offer>
+    <title>ESPERANZA GŁOŚNIKI 2.0 CUBE USB EP111 2x3W /</title>
+    <price>33.74</price>
+  </offer>
+  <offer>
+    <title>ESPERANZA Głośnik 2.0 USB Ballad /</title>
+    <price>46.92</price>
+  </offer>
+  <offer>
+    <title>Słuchawki z mikrofonem dla graczy Avanger /</title>
+    <price>51.85</price>
+  </offer>
+  <offer>
+    <title>SŁUCHAWKI Z MIKROFONEM DLA GRACZY CROW NIEBIESKIE /</title>
+    <price>47.36</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca HDD Kangaroo SATA 2.5''+3.5''+ /</title>
+    <price>96.08</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 840 G3 i5 8GB 240GB SSD Windows 10/11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad E15 Gen 2 | i3-1115G4 16GB Nowy dysk 512GB SSD | Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca HP HSN-IX01 + ZASILACZ | HP Zbook Fury 15 17 G7 G8 | USB-C</title>
+    <price>269.00</price>
+  </offer>
+  <offer>
+    <title>PODKŁADKA POD MYSZ GAMING EA146K CLASSIC /</title>
+    <price>32.99</price>
+  </offer>
+  <offer>
+    <title>PODKŁADKA POD MYSZ GAMING EA146R FLAME CZARNO /</title>
+    <price>32.99</price>
+  </offer>
+  <offer>
+    <title>GEMBIRD Podkładka pod mysz GMB GAMING Size L /</title>
+    <price>37.16</price>
+  </offer>
+  <offer>
+    <title>GEMBIRD Podkładka pod mysz MP-GAMEPRO-S Gaming /</title>
+    <price>20.22</price>
+  </offer>
+  <offer>
+    <title>GEMBIRD Podkładka pod mysz gamingowa PRO XL /</title>
+    <price>45.24</price>
+  </offer>
+  <offer>
+    <title>GEMBIRD Podkładka pod mysz gamingowa XL /</title>
+    <price>42.44</price>
+  </offer>
+  <offer>
+    <title>Podkładka pod mysz Discoveries Maxi 800x400mm /</title>
+    <price>56.55</price>
+  </offer>
+  <offer>
+    <title>Podkładka gaming pod mysz RGB LED zodiac /</title>
+    <price>43.39</price>
+  </offer>
+  <offer>
+    <title>Podkładka pod mysz Colors Series Viva Magenta /</title>
+    <price>34.55</price>
+  </offer>
+  <offer>
+    <title>TITANUM Klawiatura standardowa TK101 USB /</title>
+    <price>24.41</price>
+  </offer>
+  <offer>
+    <title>REBELTEC Klawiatura przewodowa USB UNO 1,8m /</title>
+    <price>31.44</price>
+  </offer>
+  <offer>
+    <title>Komputer Dell Precision 5820 xeon w-2145 32GB 512GB SSD RTX 40000 W 11 PRO</title>
+    <price>3599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5401 | i5-9400H 16GB 256GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5401 | i5-9400H 16GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7550 FHD i7-10750H 16GB 512GB SSD Windows 11</title>
+    <price>2699.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7550 FHD i9-10885H 16GB 512GB SSD Windows 11</title>
+    <price>3299.00</price>
+  </offer>
+  <offer>
+    <title>Acer Chromebook R752 HD IPS | Dotykowy 360° | 4GB 32GB eMMC</title>
+    <price>233.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7410 FHD | i7-10610U 16GB 256GB SSD | Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 7410 FHD | i7-10610U 16GB 256GB SSD | Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 7400 2-in-1 | i5-8265U 8GB 256GB SSD | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook S782 | i5-3320M 16GB 240GB SSD | Windows 10</title>
+    <price>475.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook S782 | i5-3320M 16GB 240GB SSD | Windows 10</title>
+    <price>399.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook S792 | i7-3632QM 16GB 240GB SSD | Windows 10</title>
+    <price>505.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook S792 | i7-3632QM 16GB 240GB SSD | Windows 10</title>
+    <price>605.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad E495 FHD | AMD Ryzen 3 3200U 16GB 480GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Precision 3530 FHD | i7-8850H 32GB 512GB SSD | Windows 11</title>
+    <price>2199.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 640 G8 | i5-1145G7 16GB Nowy dysk - 512GB SSD | Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7750 FHD | i7 10850H 32GB 512GB SSD | RTX 3000 | Windows 11</title>
+    <price>4499.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo ThinkPad T490s FHD i5 8GB 256GB NVMe Windows 10/11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude E5550 HD | i5-5300U 16GB 240GB SSD | Windows 10/11</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Mini komputer Fujitsu Q958 I5-8500 6x4.10GHz 8GB 256GB SSD DVD Win 11 PRO</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 640 G5 FHD i5-8365U 16GB 256SSD M.2 Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3580 | i5-6200U 8GB 240GB SSD | Windows 10/11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3580 | i5-6200U 8GB 240GB SSD | Windows 10/11</title>
+    <price>675.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5570 FHD | i5 16GB Nowy dysk 512SSD | Windows 10/11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5480 FHD | i5 6-GEN 16GB 512SSD | Windows 11 | Nowa bateria</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad P52 FHD | i7 32GB 512SSD M.2 | QUADRO | Windows 11</title>
+    <price>2199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Precision 3510 FHD | i7-6820HQ 16GB 240GB SSD | Windows 10/11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L490 FHD i5-8265U 8GB 256GB SSD Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L490 FHD i5-8265U 8GB 256GB SSD Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo Ideapad 320-15IAP | Celeron N3350 8GB 240GB SSD | Windows 11</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo Ideapad 330-17 | i5-8250U 8GB 240GB SSD | Windows 10/11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad 13 HD | Celeron 3855U 8GB 256GB SSD | Windows 10</title>
+    <price>399.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G5 FHD i7-8650U 16GB 512GB SSD NVMe Windows 11 Dotyk</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook E449 FHD i5-8gen 8GB 256GB M.2 Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook E449 FHD i5-8gen 8GB 256GB M.2 Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Panasonic ToughBook CF-31 | i5-3340M 16GB 240GB SSD | Windows 10</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Oryginalny rysik Panasonic Toughbook CF-31</title>
+    <price>99.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook P728 | 360° | i5-8250U 8GB 256GB M.2 | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U747 FHD | i5-7200U 8GB 256GB SSD | Windows 10/11</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U748 FHD | i7-8650U 16GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U727 FHD | i7-7600U 8GB 256GB SSD | Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U727 FHD | i7-7600U 8GB 256GB SSD | Windows 11</title>
+    <price>505.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U727 FHD | i7-7600U 16GB 480GB SSD | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U727 FHD | i7-7600U 16GB 1TB M.2 SSD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U727 FHD | i7-7600U 32GB 1TB M.2 SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U727 FHD | i7-7600U 16GB 480GB SSD | Windows 11</title>
+    <price>655.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U727 FHD | i7-7600U 32GB 960GB SSD | Windows 11</title>
+    <price>955.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U748 FHD | i7-8650U 16GB 480GB SSD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U748 FHD | i7-8650U 32GB 480GB SSD | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U748 FHD | i7-8650U 32GB 960GB SSD | Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook E449 FHD i5-8gen 16GB 480GB M.2 Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook E449 FHD i5-8gen 32GB 960GB M.2 Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook P728 | 360° | i5-8250U 8GB 480GB M.2 | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook P728 | 360° | i5-8250U 8GB 960GB M.2 | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook P728| i5-8250U 16GB 960GB M.2 | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook P728 | 360° | i5-8250U 16GB 480GB M.2 Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U749 FHD | i7-8665U 16GB 256GB SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U749 FHD | i7-8665U 32GB 960GB SSD | Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U749 FHD | i7-8665U 16GB 480GB SSD | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Panasonic Toughbook CF-D1 | i5-3340M 16GB 240GB SSD | Windows 10</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Panasonic Toughbook CF-D1 | i5-3340M 16GB 480GB SSD | Windows 10</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Panasonic Toughbook CF-D1 | i5-3340M 16GB 960GB SSD | Windows 10</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook E459 FHD | i5-8250U 16GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Panasonic ToughBook CF-31-5 | i5-5300U 16GB 240GB SSD | Windows 10</title>
+    <price>1129.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Panasonic ToughBook CF-31-5 | i5-5300U 16GB 480GB SSD | Windows 10</title>
+    <price>1179.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Panasonic ToughBook CF-31-5 | i5-5300U 16GB 960GB SSD | Windows 10</title>
+    <price>1279.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T480s FHD | i5-8350U 16GB 480GB M.2 | Windows 1</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Panasonic ToughBook CF-31-5 | i5-5300U 16GB 120GB SSD | Windows 10</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>HP ZBook Fury 17 G7 FHD | i7-10850H 64GB 1TB M.2 + 500GB HDD | Windows 11</title>
+    <price>3999.00</price>
+  </offer>
+  <offer>
+    <title>NOWY KOMPUTER GAMINGOWY i5-14400F 32GB 1TB NVME RTX 4060 8GB WIN 11/10</title>
+    <price>3449.00</price>
+  </offer>
+  <offer>
+    <title>NOWY KOMPUTER GAMINGOWY i5-12400F 32GB 1TB NVME RTX 3050 8GB WIN 11/10</title>
+    <price>2949.00</price>
+  </offer>
+  <offer>
+    <title>Nowy Zasilacz Dell 19.5V 6.67A 130W | XPS Precision Inspiron</title>
+    <price>149.00</price>
+  </offer>
+  <offer>
+    <title>Acer Aspire ES1-533 | Celeron N3350 8GB 120GB SSD | Windows 10</title>
+    <price>399.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo Ideapad 330-17 | i5-8250U 12GB 480GB SSD | Windows 10/11</title>
+    <price>1479.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo Ideapad 330-17 | i5-8250U 20GB 960GB SSD | Windows 10/11</title>
+    <price>1679.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo Ideapad 330-17 | i5-8250U 8GB 240GB SSD | Windows 10/11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo Ideapad 330-17 | i5-8250U 12GB 480GB SSD | Windows 10/11</title>
+    <price>1429.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo Ideapad 330-17 | i5-8250U 20GB 960GB SSD | Windows 10/11</title>
+    <price>1629.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad X1 Carbon 4th gen. | i7-6600U 8GB 256GB SSD | Win11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad X1 Carbon 3rd gen. | i5-5300U 8GB 256GB SSD | Win11</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E751 | i5-2410M 16GB 240GB SSD | Windows 10</title>
+    <price>475.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E751 | i5-2410M 8GB 120GB SSD | Windows 10</title>
+    <price>375.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E744 FHD | i5 16GB 240GB SSD | Windows 10</title>
+    <price>525.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E744 FHD | i7-4600M 16GB 240GB SSD | Windows 10</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E744 HD+ | i7-4600M 16GB 240GB SSD | Windows 10</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E744 HD+ | i7-4702QM 16GB 240GB SSD | Windows 10</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E744 FHD | i7-4702QM 16GB 240GB SSD | Windows 10</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E744 FHD | i7-4600M 16GB 480GB SSD | Windows 10</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E744 FHD | i7-4600M 16GB 960GB SSD | Windows 10</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E744 HD+ | i7-4600M 16GB 480GB SSD | Windows 10</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E744 HD+ | i7-4600M 16GB 960GB SSD | Windows 10</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Komputer DELL 3080 SFF I5-10500 16GB 512GB NVME WINDOWS 11 PRO</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP | 14" | FHD | 8GB 500GB SSD + HDD | Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5520 FHD i5-1135G7 16GB 480GB SSD M.2 Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T495s FHD | Ryzen 5 8GB 256GB SSD | Windows 11</title>
+    <price>825.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5289 i5-7300U 8GB 480GB SSD Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5289 i5-7300U 8GB 960GB SSD Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G6 FHD | i7-8650U 16GB 480GB NVMe | Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G6 FHD | i7-8650U 16GB 960GB NVMe | Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G6 FHD | i7-8650U 32GB 960GB NVMe | Windows 11</title>
+    <price>1899.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G6 FHD | i7-8650U 32GB 480GB NVMe | Windows 11</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G6 FHD | i7-8650U 8GB 480GB NVMe | Windows 11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G6 FHD | i7-8650U 8GB 960GB NVMe | Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G6 | i7-8650U 32GB 1TB NVMe | NOWA BATERIA | Windows 11</title>
+    <price>2029.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 430 G6 HD | i5 16GB 256GB SSD + 500GB SATA | Windows 10/11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 430 G6 HD | i5 16GB 256GB SSD + 500GB SATA | Windows 10/11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad P50 FHD | i7-6500U 16GB 256SSD | QUADRO | Windows 10</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad P50 FHD | i7-6500U 16GB 256SSD | QUADRO | Windows 10</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 8GB 256GB NVMe | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 8GB 256GB NVMe | Windows 11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 16GB 256GB NVMe | Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 16GB 480GB NVMe | Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 16GB 960GB NVMe | Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 32GB 256GB NVMe | Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 32GB 480GB NVMe | Windows 11</title>
+    <price>1649.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 32GB 960GB NVMe | Windows 11</title>
+    <price>1749.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 16GB 256GB NVMe | Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 16GB 480GB NVMe | Windows 11</title>
+    <price>1649.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 16GB 960GB NVMe | Windows 11</title>
+    <price>1749.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 32GB 256GB NVMe | Windows 11</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 32GB 480GB NVMe | Windows 11</title>
+    <price>1849.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-J | i5-1135G7 32GB 960GB NVMe | Windows 11</title>
+    <price>1949.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G3 HD | i5-6200U 16GB 500GB | Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Toshiba Portege Z30t-B | i5-5300U 8GB 256GB SSD mSATA | Windows 10</title>
+    <price>444.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Toshiba Portege Z30t-B | i5-5300U 16GB 256SSD mSATA | Windows 10</title>
+    <price>544.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Toshiba Z30-E | i5-8250U 8GB 256GB SSD | Windows 10</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Toshiba Z30-E | i5-8250U 8GB 256GB SSD | Windows 10</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5300 FHD i5-8365U 16GB 256GB SSD Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-EC | i5-8250U 8GB 256GB M.2 | Windows 11 FHD</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 3380 HD | i5-7200U 8GB DDR4 240GB SSD | Windows 11</title>
+    <price>525.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-EC | i5-8250U 8GB 256GB M.2 | Windows 11 FHD</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-EC | i5-8250U 16GB 256GB M.2 | Windows 11 FHD</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-EC | i5-8250U 32GB 480GB NVMe | Windows 11 FHD</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-EC | i5-8250U 16GB 480GB NVMe | Windows 11 FHD</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5480 FHD | i7-7820HQ 16GB 256GB SSD M.2 | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8265U 8GB 256GB SSD Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8GEN 8GB 256GB SSD Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell Latitude 5500 i5-8365U 8GB 256GB SSD Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8GEN 16GB 480GB SSD Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8GEN 16GB 960GB SSD Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8GEN 32GB 960GB SSD Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell Latitude 5500 i5-8365U 16GB 480GB SSD Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell Latitude 5500 i5-8365U 16GB 960GB SSD Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell Latitude 5500 i5-8365U 32GB 960GB SSD Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8265U 16GB 480GB SSD Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8265U 16GB 960GB SSD Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 FHD i5-8265U 32GB 960GB SSD Windows 11</title>
+    <price>1649.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell 5500 i5-8365U 16GB 512GB SSD Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell 5500 i5-8365U 16GB 960GB SSD Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop Dell 5500 i5-8365U 32GB 960GB SSD Windows 11</title>
+    <price>1649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook T936 Dotyk | i5-6300U 8GB 240GB SSD | Windows 11</title>
+    <price>525.00</price>
+  </offer>
+  <offer>
+    <title>HP Chromebook 11 G6 | Celeron N3450 | 4GB 32GB eMMC | KAMERA</title>
+    <price>222.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook E557 FHD | i5-7gen. 16GB 256GB SSD | Windows 10/11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>HP Chromebook 11 G6 | Celeron N3450 | 4GB 32GB eMMC | KAMERA</title>
+    <price>199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3410 FHD | i5-10210U 8GB 256GB SSD | Windows 10/11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Microsoft Surface Laptop | i5-8350U 8GB 256GB NVMe | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Torba na lapotpa Fujitsu 14" | Czarno-czerwona | Top Case 14</title>
+    <price>69.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T450 | i5-5300U 8GB 120GB SSD | Windows 10</title>
+    <price>425.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Microsoft Surface Laptop | i5-7300U 8GB 256GB NVMe | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Microsoft Surface Laptop | i7-8650U 8GB 256GB NVMe | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca dysków SSD M.2 SATA | NGFF | USB /</title>
+    <price>58.27</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U728 FHD i5-7gen 8GB 256GB M.2 Windows 11</title>
+    <price>475.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook U938 FHD | i5-8250U 8GB 256GB M.2 | Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 7410 FHD | i5-10310U 16GB 256GB SSD | Windows 10/11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad E590 FHD | i7-8565U 16GB 256GB M.2 + 500GB HDD | Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad E580 FHD | I5-8250U 8GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 7400 2-in-1 | i5-8265U 8GB 256GB SSD | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>MONITOR INTERAKTYWNY VIEWSONIC IFP6552-1A 65' 4k Statyw Tablica Interaktwyn</title>
+    <price>4000.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Laptop | HP Chromebook x360 G1 EE | Celeron 4GB 32GB eMMC</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook P727 | 360° | i5-7200U 8GB 240GB SSD| Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook P727 | 360° | i5-7200U 8GB 240GB SSD| Windows 11</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U939 FHD | i7-8650U 16GB 512GB M.2 | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>DELL Klawiatura multimedialna KB216 /</title>
+    <price>78.39</price>
+  </offer>
+  <offer>
+    <title>ART Zestaw USB: Klawiatura podświetlana + mysz /</title>
+    <price>60.81</price>
+  </offer>
+  <offer>
+    <title>NATEC Zestaw 2 w 1 klawiatura + mysz Stingray US /</title>
+    <price>78.00</price>
+  </offer>
+  <offer>
+    <title>Klawiatura Nautilus US Slim 1.8m czarno-szara /</title>
+    <price>39.56</price>
+  </offer>
+  <offer>
+    <title>NATEC Klawiatura Nautilus US slim 1.8m Biała /</title>
+    <price>44.23</price>
+  </offer>
+  <offer>
+    <title>DELL Klawiatura multimedialna KB216 US) -) /</title>
+    <price>77.92</price>
+  </offer>
+  <offer>
+    <title>YENKEE Klawiatura Podświetlana cicha USB z /</title>
+    <price>60.30</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U729x | i5-8265U 8GB 256SSD M.2 | 360° | Win11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Głośnik FADO bluetooth z podświetleniem LED /</title>
+    <price>62.41</price>
+  </offer>
+  <offer>
+    <title>TRUST Soundbar Arys /</title>
+    <price>126.44</price>
+  </offer>
+  <offer>
+    <title>Zestaw głośników IGLSP1B (2.0; ciemne drewno) /</title>
+    <price>48.69</price>
+  </offer>
+  <offer>
+    <title>ESPERANZA Głośniki 2.0 USB LED Rainbow Nortec /</title>
+    <price>50.97</price>
+  </offer>
+  <offer>
+    <title>Głośnik bluetooth SIRIUS 2 MICRO czarny, moc,, /</title>
+    <price>111.91</price>
+  </offer>
+  <offer>
+    <title>BLOW Głośnik Bluetooth soundbar CINEMA 4.0 /</title>
+    <price>198.03</price>
+  </offer>
+  <offer>
+    <title>GENESIS Głośniki 2.0 Helium 300BT ARGB Bluetooth /</title>
+    <price>286.93</price>
+  </offer>
+  <offer>
+    <title>Laptop HP Elite x2 1012 | m5-6Y57 4GB 128GB SSD M.2 | Dotyk | Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7750 FHD | i7 10850H 32GB 512GB SSD | RTX 5000 | Windows 11</title>
+    <price>4999.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 7420 FHD | i5-1145G7 16GB 256GB SSD | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7275 | 2w1| FHD | m5-6y57 8GB 256GB SSD | Windows 11</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7275 | 2w1| FHD | m5-6y57 8GB 256GB SSD | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U759 FHD | i5-8265U 16GB 256GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U759 FHD | i7-8565U 16GB 256GB SSD | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7540 | i5-9400H 16GB 512GB SSD M.2 | Quadro T1000 | Win11</title>
+    <price>2199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad | FHD IPS | 16GB 256SSD | Bateria 4h | Win11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-EC | i7-8550U 16GB 256GB M.2 | Windows 11 FHD</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Toshiba Dynabook Tecra A50-EC | i7-8550U 16GB 480GB M.2 | Windows 11 FHD</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Microsoft Surface Laptop 3 | i5-1035G7 8GB 256GB NVMe | Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Inspiron 5370 | i5-8250U 16GB 240GB SSD | Windows 10/11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy HP Chromebook x360 11 G2 | Celeron N4100 4GB 32GB eMMC | 360°</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy HP Chromebook x360 11 G2 | Celeron N4100 4GB 32GB eMMC | 360°</title>
+    <price>279.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy HP EliteBook 830 G5 FHD | i7-7500U 16GB 480GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Terminal HP T640 8GB DDR4 128GB SSD M.2 Windows 10 LTSC</title>
+    <price>349.00</price>
+  </offer>
+  <offer>
+    <title>Dell Latitude 5500 | i5-8GEN 8GB 256GB SSD | Dotyk | QWERTY PL LED | Win11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 850 G6 FHD | i7-8650U 8GB 256GB NVMe | Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 650 G2 FHD | i5 16GB 960GB SSD | Windows 10/11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 745 G6 FHD | AMD Ryzen 7 3700U 8GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 745 G6 FHD AMD Ryzen 7 3700U 8GB 256GB SSD Windows 11</title>
+    <price>775.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i5-8250U 8GB 256GB M.2 SSD | Windows 10/11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5540 | i7-9750H 32GB 512GB SSD M.2 | Quadro T1000 | Win11</title>
+    <price>2199.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5540 | i7-9750H 64GB 512GB SSD M.2 | Quadro T1000 | Win11</title>
+    <price>2599.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5540 | i7-9750H 64GB 1TB SSD M.2 | Quadro T1000 | Win11</title>
+    <price>2699.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5540 | i7-9750H 32GB 1TB SSD M.2 | Quadro T1000 | Win11</title>
+    <price>2299.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5530 | i7-8850H 32GB 480GB SSD M.2 | Windows 11</title>
+    <price>2499.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5530 | i7-8850H 32GB 480GB SSD M.2 | Windows 11</title>
+    <price>2099.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5550 FHD+ | i7-10875H 32GB 480GB M.2 | QUADRO T2000 | Win11</title>
+    <price>2399.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5550 FHD+ | i7-10875H 64GB 512GB M.2 | QUADRO T2000 | Win11</title>
+    <price>2799.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5550 FHD+ | i7-10875H 64GB 1TB M.2 | QUADRO T2000 | Win11</title>
+    <price>2899.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5550 FHD+ | i7-10850H 32GB 480GB M.2 | QUADRO T1000 | Win11</title>
+    <price>2899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo IdeaPad 320-14IKB | i5-7200U 8GB 240GB SSD | Windows 11</title>
+    <price>600.00</price>
+  </offer>
+  <offer>
+    <title>Microsoft Surface Pro 4 | i7-6650U 8GB 256GB M.2 NVMe | Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Komputer Dell AIO 5490 i5-10gen i5-10500 16GB 512GB 24" 1920x1080 Win 11</title>
+    <price>2399.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo Chromebook 300e 2 gen. | Mediatek MT8173 4GB 32GB eMMC</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo Chromebook 300e 2 gen. | Mediatek MT8173 4GB 32GB eMMC</title>
+    <price>279.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 FHD | AMD Ryzen 5 4650U 16GB 256GB M.2 | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 8GB 256GB M.2 | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 8GB 256GB M.2 | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 FHD AMD Ryzen 5 4GHz 16GB 960GB M.2 Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 FHD AMD Ryzen 5 4GHz 32GB 960GB M.2 Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 FHD AMD Ryzen 5 4GHz 32GB 480GB M.2 Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 FHD AMD Ryzen 5 4GHz 32GB 256GB M.2 Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 AMD Ryzen 5 4GHz 16GB 480GB M.2 Windows 11 1920x1080</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 AMD Ryzen 5 4GHz 16GB 960GB M.2 Windows 11 1920x1080</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 AMD Ryzen 5 4GHz 32GB 960GB M.2 Windows 11 1920x1080</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 AMD Ryzen 5 4GHz 32GB 480GB M.2 Windows 11 1920x1080</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G7 AMD Ryzen 5 4GHz 32GB 256GB M.2 Windows 11 1920x1080</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 8GB 480GB M.2 | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 8GB 960GB M.2 | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 16GB 960GB M.2 | Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 16GB 480GB M.2 | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 16GB 256GB M.2 | Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 32GB 256GB M.2 | Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 32GB 480GB M.2 | Windows 11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 32GB 960GB M.2 | Windows 11</title>
+    <price>1599.00</price>
+  </offer>
+  <offer>
+    <title>Stacja Lenovo Thinstation P720 XEON GOLD 5118 32GB 512GB SSD QUADRO M4000</title>
+    <price>2500.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo Thinstation P720 2x XEON Bronze 3104 32GB 1TB SSD M2 QUADRO M4000</title>
+    <price>2500.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5310 2w1 FHD | i5-10310U 8GB 256GB NVMe | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Mysz bezprzewodowa silent click AURIS MB-027 800 /</title>
+    <price>45.19</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G9 FHD | i5-1245U 16GB 256GB M.2 | Windows 11</title>
+    <price>1899.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G9 FHD | i5-1245U 16GB 480GB M.2 | Windows 11</title>
+    <price>1949.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G9 FHD | i5-1245U 16GB 960GB M.2 | Windows 11</title>
+    <price>2049.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G8 FHD | i5-1145G7 16GB 256GB M.2 | Windows 11</title>
+    <price>1499.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G8 FHD | i5-1145G7 16GB 256GB M.2 | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP 820 G4 | Kamera | i5-7300U 8GB 256GB M.2 | Windows 10/11</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G8 FHD | i7-1185G7 16GB 256GB M.2 | Windows 11</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5300 2w1 FHD | i5-8365U 8GB 256GB SSD | Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5300 2w1 FHD | i5-8365U 8GB 512GB SSD | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5300 2w1 FHD | i5-8365U 8GB 1TB M.2 SSD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5300 2w1 FHD | i5-8365U 16GB 256GB SSD | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5300 2w1 FHD | i5-8365U 16GB 512GB SSD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5300 2w1 FHD | i5-8365U 16GB 1TB SSD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5300 2w1 FHD | i5-8365U 32GB 256GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5300 2w1 FHD | i5-8365U 32GB 512GB SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5300 2w1 FHD | i5-8365U 32GB 1TB SSD | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Komputer Lenovo M920T TOWER i5-8500 16GB 256GB SSD WINDOWS 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Oryginalny Zasilacz Dell 19.5V 6.7A 130W (7.4mm - 5mm)</title>
+    <price>59.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 16GB 256GB SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 16GB 256GB SSD | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 16GB 480GB SSD | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 16GB 960GB SSD | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 32GB 960GB SSD | Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 32GB 480GB SSD | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 32GB 256GB SSD | Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 16GB 480GB SSD | Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 16GB 960GB SSD | Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 32GB 960GB SSD | Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 32GB 480GB SSD | Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G7 FHD | i5-10310U 32GB 256GB SSD | Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G11 FHD | Intel Core 5 135U 16GB 480GB M.2 | Windows 11</title>
+    <price>3399.00</price>
+  </offer>
+  <offer>
+    <title>Adapter Jack Mini 4-Pin(M)-&gt;2x Jack Mini(F) /</title>
+    <price>11.03</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 830 G8 FHD | i5-1135G7 16GB 256GB M.2 | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 860 G9 FHD | I7-1265U 32GB 1TB M.2 | Windows 11</title>
+    <price>3799.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 470 G7 FHD | i5-10210U 16GB 480GB SSD | Windows 11</title>
+    <price>1899.00</price>
+  </offer>
+  <offer>
+    <title>Monitor LED Curved Philips 349X7FJEW/00 34" 3440 x 1440 px VA zakrzywiony</title>
+    <price>800.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell XPS 15 9570 4K i9-8950HK 32GB 1TB SSD M.2 W11 | NOWA BATERIA</title>
+    <price>3999.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad P15s FHD | i7-1185G7 16GB 480GB SSD | QUADRO T500 | Win11</title>
+    <price>2499.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook x360 830 G6 | i7-8665U 16GB 480GB SSD M.2 | Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 2 | Ryzen 3 5450U 8GB 256GB SSD M.2 | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 2 | Ryzen 3 5450U 8GB 256GB SSD M.2 | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 2 | Ryzen 3 5450U 16GB 480GB SSD M.2 | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 2 | Ryzen 3 5450U 16GB 960GB SSD M.2 | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 2 | Ryzen 3 5450U 32GB 960GB SSD M.2 | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 1 | Ryzen 3 4450U 8GB 256GB SSD M.2 | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 1 | Ryzen 3 4450U 8GB 256GB SSD M.2 | Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 2 | Ryzen 3 5450U 16GB 480GB SSD M.2 | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 2 | Ryzen 3 5450U 32GB 960GB SSD M.2 | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 3 | Ryzen 3 5475U 16GB 256GB SSD M.2 | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 3 | Ryzen 3 5475U 16GB 256GB SSD M.2 | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L14 Gen 4 | Ryzen 3 7330U 16GB 256GB SSD M.2 | Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 8GB 120GB SSD M.2 | Windows 11</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 8GB 120GB SSD M.2 | Windows 11</title>
+    <price>525.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 FHD | i3-8130U 8GB 120GB SSD M.2 | Windows 11</title>
+    <price>675.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 8GB 240GB SSD M.2 | Windows 11</title>
+    <price>479.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 16GB 240GB SSD M.2 | Windows 11</title>
+    <price>579.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 16GB 480GB SSD M.2 | Windows 11</title>
+    <price>629.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 16GB 960GB SSD M.2 | Windows 11</title>
+    <price>729.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 32GB 960GB SSD M.2 | Windows 11</title>
+    <price>929.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 8GB 240GB SSD M.2 | Windows 11</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 16GB 240GB SSD M.2 | Windows 11</title>
+    <price>655.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 16GB 480GB SSD M.2 | Windows 11</title>
+    <price>705.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 16GB 960GB SSD M.2 | Windows 11</title>
+    <price>805.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 HD | i3-8130U 32GB 960GB SSD M.2 | Windows 11</title>
+    <price>1005.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 FHD | i3-8130U 8GB 240GB SSD M.2 | Windows 11</title>
+    <price>705.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 FHD | i3-8130U 16GB 240GB SSD M.2 | Windows 11</title>
+    <price>805.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 FHD | i3-8130U 16GB 480GB SSD M.2 | Windows 11</title>
+    <price>855.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad L480 FHD | i3-8130U 32GB 960GB SSD M.2 | Windows 11</title>
+    <price>1155.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Vostro 5468 HD | i5-7200U 8GB 120GB M.2 SSD + 500GB HDD | Win11</title>
+    <price>500.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 7400 | FHD | i5-8265U 8GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 7400 | FHD | i5-8265U 8GB 256GB SSD | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 7400 | FHD | i5-8265U 16GB 480GB SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 7400 | FHD | i5-8265U 16GB 960GB SSD | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Chromebook 3110 2w1 HD | Celeron N4500 4GB 32GB eMMC</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 445r G6 HD | Ryzen 3 3200U 8GB 128GB SSD + 500GB HDD | Win11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 445r G6 HD | Ryzen 3 3200U 8GB 128GB SSD + 500GB HDD | Win11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 445r G6 HD | Ryzen 3 3200U 16GB 256GB SSD + 500GB HDD | Win11</title>
+    <price>1129.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 445r G6 HD | Ryzen 3 3200U 16GB 480GB SSD + 500GB HDD | Win11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 445r G6 HD | Ryzen 3 3200U 16GB 960GB SSD + 500GB HDD | Win11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T495 | Ryzen 5 8GB 256GB SSD M.2 | Windows 11 | FHD</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T495 | Ryzen 5 8GB 1TB SSD NVMe | Windows 11 | FHD</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T495 | Ryzen 5 16GB 256GB SSD M.2 | Windows 11 | FHD</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T495 | Ryzen 5 16GB 1TB SSD NVMe | Windows 11 | FHD</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad A485| Ryzen 5 Pro 2500U 8GB 256GB SSD NVMe | Windows 11</title>
+    <price>675.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad A485| Ryzen 5 Pro 2500U 8GB 256GB SSD NVMe | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 8GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 16GB 256GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 16GB 480GB SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 16GB 960GB SSD | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 32GB 256GB SSD | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 32GB 480GB SSD | Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 32GB 960GB SSD | Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 8GB 256GB SSD | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 16GB 256GB SSD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 16GB 480GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 16GB 960GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 32GB 256GB SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 32GB 480GB SSD | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7400 | FHD | i5-8365U 32GB 960GB SSD | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 445 G6 HD | Ryzen 3 2200U 8GB 500GB SSD + HDD | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 445 G6 HD | Ryzen 3 2200U 8GB 500GB SSD + HDD | Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 640 G4 HD | i3-8130U 8GB 500GB SSD + HDD | Windows 11</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 640 G4 HD | i3-8130U 8GB 500GB SSD + HDD | Windows 11</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E756 FHD | i7-6500U 16GB 240GB SSD | Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E754 HD | i5-4200M 16GB 120GB SSD | Windows 10/11</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E754 HD | i5-4200M 16GB 120GB SSD | Windows 10/11</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E754 HD | i5-4200M 16GB 240GB SSD | Windows 10/11</title>
+    <price>479.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E754 HD | i5-4200M 16GB 480GB SSD | Windows 10/11</title>
+    <price>529.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E754 HD | i5-4200M 16GB 960GB SSD | Windows 10/11</title>
+    <price>629.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E754 HD | i5-4200M 16GB 240GB SSD | Windows 10/11</title>
+    <price>585.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E754 HD | i5-4200M 16GB 480GB SSD | Windows 10/11</title>
+    <price>635.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E754 HD | i5-4200M 16GB 960GB SSD | Windows 10/11</title>
+    <price>735.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E734 | i5 16GB 240GB SSD | Windows 10</title>
+    <price>375.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Lenovo ThinkPad T14 Gen 2 | i7-1185G7 32GB 480GB SSD | Windows 11</title>
+    <price>1899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 3510 FHD | i5-10210U 16GB 256GB SSD | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T14 Gen 1 | Ryzen 5 4650U 16GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad T14 Gen 1 | Ryzen 5 4650U 16GB 256GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook | 15,6" FHD | i5-8-GEN | 8GB 500GB SSD + HDD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Mysz Cyngus Bluetooth 3D optyczna niebieska /</title>
+    <price>25.95</price>
+  </offer>
+  <offer>
+    <title>HP Chromebook 11 G9 EE | HD | Celeron N5100 8GB 64GB eMMC | KAMERA</title>
+    <price>425.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP Chromebook 11 G9 EE | HD | Celeron N5100 8GB 64GB eMMC</title>
+    <price>375.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T470 HD i5 8GB 256GB M.2 NVME Windows 11 Torba</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E6420 HD | i5 - 2410M 16GB 240GB SSD | Windows 10</title>
+    <price>425.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 650 G2 HD | i3 8GB 256GB SSD | Windows 10/11</title>
+    <price>475.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 650 G2 HD | i3 16GB 256GB SSD | Windows 10/11</title>
+    <price>575.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 650 G2 HD | i3 16GB 480GB SSD | Windows 10/11</title>
+    <price>625.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 650 G2 HD | i3 16GB 960GB SSD | Windows 10/11</title>
+    <price>725.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 440 G6 FHD | i5-8265U 16GB 500GB SSD + HDD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 440 G6 FHD | i5-8265U 8GB 500GB SSD + HDD | Windows 11</title>
+    <price>699.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 440 G6 FHD | i5-8265U 16GB 480GB SSD + 320GB HDD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 440 G6 FHD | i5-8265U 16GB 960GB SSD + 320GB HDD | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 440 G6 FHD | i5-8265U 32GB 1TB SSD+ HDD | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 440 G6 FHD | i5-8265U 32GB 480GB M.2 SSD + 320GB HDD | Win11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 440 G6 FHD | i5-8265U 8GB 500GB SSD + HDD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 440 G6 FHD | i5-8265U 16GB 500GB SSD + HDD | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 440 G6 FHD | i5-8265U 16GB 480GB SSD + 320GB HDD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 440 G6 FHD | i5-8265U 16GB 1TB SSD+HDD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>HP ProBook 440 G6 FHD | i5-8265U 32GB 1TB SSD+HDD | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Etui Pokrowiec Port Milano Sleeve 11" - 12" | Niebieski</title>
+    <price>30.00</price>
+  </offer>
+  <offer>
+    <title>Komputer Lenovo M920T TOWER i7-8700 16GB 256GB SSD WINDOWS 11PRO</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>HP EliteBook 840 G8 FHD | i7-1185G7 16GB 256GB M.2 | Windows 11</title>
+    <price>1749.00</price>
+  </offer>
+  <offer>
+    <title>Komputer Dell Optiplex 7070 TOWER i5-9500 16GB 256GB WINDOWS 11 PRO</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Komputer AIO Lenovo FHD 24' IPS I5-8500 16GB 256 NVME KAMERA WIN 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Zakrzywiony Bezramkowy Monitor 34' Dell U3415W 3440x1440 UWQHD 21:9 głośnik</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7410 FHD | i5-10310U 8GB 256GB SSD | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7410 FHD | i5-10310U 8GB 480GB SSD | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7410 FHD | i5-10310U 8GB 960GB SSD | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7410 FHD | i5-10310U 8GB 960GB SSD | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7410 FHD | i5-10310U 8GB 480GB SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7410 FHD | i5-10310U 8GB 256GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7420 FHD | i5-1145G7 8GB 256GB SSD | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7430 FHD | i7-1255U 16GB 480GB SSD | Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad E470 HD | i3-6006U 8GB 180GB SSD | Windows 11</title>
+    <price>425.00</price>
+  </offer>
+  <offer>
+    <title>DEFENDER Mysz przewodowa, optyczna, HIT MB-601 /</title>
+    <price>24.18</price>
+  </offer>
+  <offer>
+    <title>Monitor Bezramkowy Lenovo ThinkVision T23i-10 23' 1920x1080 IPS HDMI DP</title>
+    <price>233.00</price>
+  </offer>
+  <offer>
+    <title>Bezramkowy Monitor Lenovo ThinkVision T23i-20 23' 1920x1080 IPS GAMING HDMI</title>
+    <price>239.00</price>
+  </offer>
+  <offer>
+    <title>Komputer DELL AiO OptiPlex 7460 i5-8500 8GB 256GB 24" 1920x1080 Windows 11</title>
+    <price>1650.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP Elitebook 840 G1 | i5-4200U 16GB 240GB SSD | Windows 10</title>
+    <price>425.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5320 FHD | i5-1145G7 8GB 256GB SSD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5320 FHD | i5-1145G7 8GB 960GB SSD | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5320 FHD | i5-1145G7 8GB 480GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5320 FHD | i5-1145G7 8GB 256GB SSD | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5320 FHD | i5-1145G7 8GB 480GB SSD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 5320 FHD | i5-1145G7 8GB 960GB SSD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7270 HD | i5-6200U 16GB 128GB SSD M.2 | Windows 10/11</title>
+    <price>465.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T14s | i5-10gen. 16GB 256GB SSD | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD | i5-6300U 8GB 120GB SSD | Windows 10/11</title>
+    <price>425.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD | i5-6300U 8GB 480GB SSD | Windows 10/11</title>
+    <price>510.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD | i5-6300U 8GB 960GB SSD | Windows 10/11</title>
+    <price>610.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD | i5-6300U 16GB 120GB SSD | Windows 10/11</title>
+    <price>525.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD | i5-6300U 16GB 240GB SSD | Windows 10/11</title>
+    <price>560.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD | i5-6300U 16GB 480GB SSD | Windows 10/11</title>
+    <price>610.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD | i5-6300U 16GB 960GB SSD | Windows 10/11</title>
+    <price>710.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5470 HD | i5-6300U 32GB 960GB SSD | Windows 10/11</title>
+    <price>910.00</price>
+  </offer>
+  <offer>
+    <title>Monitor do biura domu HP z23i 23' IPS / PLS 1920 x 1080 kl A</title>
+    <price>199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E5570 HD | i3-6100U 16GB 240GB SSD M.2 | Windows 10/11</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P51 i7-7700HQ 16GB 256GB M.2 Windows 11 Pro | QUADRO</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 17 G6 | i5-9400H 16GB 256SSD + 500HDD | QUADRO | Windows 11</title>
+    <price>2099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ZBook 17 G6 | i5-9400H 16GB 256SSD + 500HDD | QUADRO | Windows 11</title>
+    <price>1799.00</price>
+  </offer>
+  <offer>
+    <title>Monitor LED Philips 328P6VUBREB00 32' 3840x2160 VA Stacja dokująca USB-C</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7740 FHD | i7-9850H 16GB 512GB M.2 | Windows 11 | RTX 3000</title>
+    <price>3599.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7740 FHD | i7-9850H 16GB 512GB M.2 | Windows 11 | RTX 3000</title>
+    <price>3099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T470 FHD i5 8GB 256GB M.2 NVME Windows 11 Torba</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP ProBook 430 G7 FHD | i5-10210U 16GB 480GB SSD | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo Ideapad 5 14ITL05 FHD | i5-1135G7 8GB 512GB SSD | Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo Ideapad 3 15ITL05 FHD | i3-1115G4 20GB 480GB SSD | Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>HP ZBook 15u G3 FHD | i7-6500U 16GB 240GB SSD + 500GB SATA | Radeon | Win11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy HP Chromebook x360 11 G4 | Celeron N5100 8GB 64GB eMMC | 360°</title>
+    <price>425.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy HP Chromebook x360 11 G4 | Celeron N5100 8GB 64GB eMMC | 360°</title>
+    <price>399.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP Pavilion g7-1330eb | i3-2330M 16GB 240GB SSSD | Windows 10</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad E585 FHD | Ryzen 5 2500U 8GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 8GB 256GB SSD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 8GB 256GB SSD | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 8GB 480GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 8GB 960GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 16GB 256GB SSD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 16GB 480GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 16GB 960GB SSD | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 8GB 480GB SSD | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 8GB 960GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 16GB 256GB SSD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 16GB 480GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7390 FHD | i7-8650U 16GB 960GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>HP Chromebook 11 G8 | Celeron N4020 4GB 16GB eMMC | Chrome OS</title>
+    <price>189.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Dell E2425HS 23,8'' LED 1920 x 1080 VA | HDMI, DP, VGA |</title>
+    <price>399.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Acer Chromebook CB715-1W FHD | i5-8250U 8GB 128GB SSD | ChromeOS</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Microsoft Surface Laptop 3 | i5 10gen. 8GB 256GB NVMe | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo V15 G IAP FHD | i5-1235U 16GB 480GB SSD M.2 | Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkBook 13s-IML FHD | i5-10210U 16GB 480GB SSD | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo Ideapad S145-15IWL FHD | i3-8145U 8GB 256GB SSD | Windows 11</title>
+    <price>749.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 8GB 256GB SSD Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 8GB 256GB SSD Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 8GB 960GB SSD Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 16GB 256GB SSD Windows 11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 16GB 960GB SSD Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 32GB 256GB SSD Windows 11</title>
+    <price>1399.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 32GB 480GB SSD Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 32GB 960GB SSD Windows 11</title>
+    <price>1549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 8GB 480GB SSD Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 8GB 960GB SSD Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 16GB 256GB SSD Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 16GB 480GB SSD Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 16GB 960GB SSD Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 32GB 256GB SSD Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 32GB 480GB SSD Windows 11</title>
+    <price>1349.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo P52s FHD i5-8gen 32GB 960GB SSD Windows 11</title>
+    <price>1449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad L580 FHD | i5-8350U 8GB 480GB SSD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad L580 FHD | i5-8350U 8GB 960GB SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad L580 FHD | i5-8350U 16GB 256GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad L580 FHD | i5-8350U 16GB 960GB SSD | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad L580 FHD | i5-8350U 8GB 480GB SSD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad L580 FHD | i5-8350U 8GB 960GB SSD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad L580 FHD | i5-8350U 16GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad L580 FHD | i5-8350U 16GB 480GB SSD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad L580 FHD | i5-8350U 16GB 960GB SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy HP EliteBook 850 G5 FHD | i5-8350U 8GB 256GB SSD NVMe | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy HP EliteBook 850 G5 FHD | i7-8650U 8GB 256GB SSD NVMe | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy HP EliteBook 850 G6 FHD | i5-8365U 8GB 256GB SSD NVMe | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy HP EliteBook 850 G6 FHD | i7-8665U 8GB 256GB SSD NVMe | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Precision 3551 FHD | i7-10850H 16GB 512GB SSD M.2 | Windows 11</title>
+    <price>1699.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E756 FHD | i5-6200U 8GB 240GB SSD | Windows 10</title>
+    <price>555.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook S936 FHD | i5-6200U 8GB 120GB M.2 | Windows 10/11</title>
+    <price>349.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP Folio 1040 G3 | i5-6200U 8GB 256GB SSD | Windows 11</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E734 | i5 16GB 240GB SSD | Windows 10</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP EliteBook Folio 1040 G1 i5-4300U 4GB 120GB SSD Windows 10</title>
+    <price>375.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7760 FHD | i7-11850H 32GB 512GB SSD | RTX A3000 | Windows 11</title>
+    <price>5099.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7440 HD | i5-4300U 16GB 120GB SSD | Windows 10</title>
+    <price>444.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu Lifebook E751 | i5-2410M 16GB 240GB SSD | Windows 10</title>
+    <price>399.00</price>
+  </offer>
+  <offer>
+    <title>Fujitsu Lifebook S782 | i5-3320M 8GB 120GB SSD | Windows 10</title>
+    <price>325.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Acer Chromebook R752 11,6 " Intel Celeron 4 GB / 32 GB czarny</title>
+    <price>233.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad X13 1 gen. | i5-10310U 16GB 256GB NVMe | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad X13 1 gen. | i5-10310U 16GB 256GB NVMe | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 5530 FHD | i7-8850H 16GB 480GB SSD | Quadro P1000 | Win 11</title>
+    <price>1999.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo ThinkPad T580 FHD | i5-8250U 8GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP Folio 1040 G3 | i7-6600U 8GB 256GB SSD | Windows 11</title>
+    <price>575.00</price>
+  </offer>
+  <offer>
+    <title>Laptop HP Folio 1040 G3 | i7-6600U 8GB 256GB SSD | Windows 11</title>
+    <price>499.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 8GB 256GB SSD | Windows 11</title>
+    <price>799.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 8GB 480GB SSD | Windows 11</title>
+    <price>849.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 8GB 960GB SSD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 16GB 256GB SSD | Windows 11</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 16GB 480GB SSD | Windows 11</title>
+    <price>949.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 16GB 960GB SSD | Windows 11</title>
+    <price>1049.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 32GB 256GB SSD | Windows 11</title>
+    <price>1099.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 32GB 480GB SSD | Windows 11</title>
+    <price>1149.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 32GB 960GB SSD | Windows 11</title>
+    <price>1249.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 8GB 256GB SSD | Windows 11</title>
+    <price>675.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 8GB 480GB SSD | Windows 11</title>
+    <price>725.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 8GB 960GB SSD | Windows 11</title>
+    <price>825.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 16GB 256GB SSD | Windows 11</title>
+    <price>775.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 16GB 480GB SSD | Windows 11</title>
+    <price>825.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 16GB 960GB SSD | Windows 11</title>
+    <price>925.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 32GB 256GB SSD | Windows 11</title>
+    <price>975.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 32GB 480GB SSD | Windows 11</title>
+    <price>1025.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Dell Latitude 5490 FHD | i5-8350U 32GB 960GB SSD | Windows 11</title>
+    <price>1125.00</price>
+  </offer>
+  <offer>
+    <title>Zestaw Komputer do Biura i5 16GB Nowy 480 SSD Monitor 23' FHD Windows 11</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Dynabook Satellite Pro L50-G-11H FHD | i5-10210U 16GB 256GB | Windows 11</title>
+    <price>999.00</price>
+  </offer>
+  <offer>
+    <title>Lenovo ThinkPad X1 Yoga 4th Gen. | i5-8365U 16GB 256GB NVMe | Windows 11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Dotykowy Fujitsu Lifebook U757 FHD | i5-7200U 16GB 256GB SSD | Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Monitor LED Dell P2425HE 23,8' 1920x1080 IPS USB-C STACJA DOKUJĄCA HDMI DP</title>
+    <price>599.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7290 HD | i5-8250U 8GB 256GB M.2 | Windows 11</title>
+    <price>575.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude 7290 HD | i5-8250U 16GB 256GB SSD M.2 | Windows 11</title>
+    <price>675.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7470 FHD | i7-6600U 8GB 256GB SSD M.2 | Windows 11</title>
+    <price>649.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Dell Latitude E7470 FHD | i7-6600U 8GB 256GB SSD M.2 | Windows 11</title>
+    <price>549.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U747 FHD i5-6200U 8GB 120GB M.2 Windows 10</title>
+    <price>449.00</price>
+  </offer>
+  <offer>
+    <title>Laptop Fujitsu U747 FHD i5-6200U 16GB 480GB M.2 Windows 10</title>
+    <price>625.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7510 FHD | i7-6820HQ 16GB 240SSD + 500HDD | Radeon | Win11</title>
+    <price>1299.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7510 FHD | i7-6820HQ 16GB 240SSD + 500HDD | Radeon | Win11</title>
+    <price>1199.00</price>
+  </offer>
+  <offer>
+    <title>Dell Precision 7530 FHD | i5-8400H 16GB 256GB NVMe | Windows 11</title>
+    <price>1899.00</price>
+  </offer>
+  <offer>
+    <title>Monitor Philips 271P4Q 27' FHD HDMI GŁOŚNIKI 1920x1080</title>
+    <price>299.00</price>
+  </offer>
+  <offer>
+    <title>Zmiana Zwiększenie RAM 4GB na 8GB DDR3 Komputer</title>
+    <price>66.00</price>
+  </offer>
+  <offer>
+    <title>Zmiana Zwiększenie RAM 8GB na 16GB DDR3 Komputer</title>
+    <price>132.00</price>
+  </offer>
+  <offer>
+    <title>Zmiana Zwiększenie RAM 4GB na 6GB DDR3 Komputer</title>
+    <price>33.00</price>
+  </offer>
+  <offer>
+    <title>Upgrade Zmiana Zwiększenie RAM 4GB-8GB DDR3 Laptop</title>
+    <price>65.00</price>
+  </offer>
+  <offer>
+    <title>Upgrade Zmiana RAM 8GB-16GB DDR3 Laptop</title>
+    <price>154.00</price>
+  </offer>
+  <offer>
+    <title>Upgrade Zmiana RAM 4GB-16GB DDR3 Laptop</title>
+    <price>225.50</price>
+  </offer>
+  <offer>
+    <title>Kabel przewód zasilający Komputer PC LCD IT</title>
+    <price>7.70</price>
+  </offer>
+  <offer>
+    <title>Kabel Przewód 2x zasilający + DVI Komputer Monitor</title>
+    <price>27.50</price>
+  </offer>
+  <offer>
+    <title>Kabel zasilający koniczynka przewód IT Laptop</title>
+    <price>7.70</price>
+  </offer>
+  <offer>
+    <title>Kabel przewód radiowy radiówka zasilający</title>
+    <price>7.70</price>
+  </offer>
+  <offer>
+    <title>Przewód Adapter LPT 611900 HP 8200 8300 SFF</title>
+    <price>16.50</price>
+  </offer>
+  <offer>
+    <title>Upgrade Zmiana RAM 16GB-32GB DDR3 Laptop</title>
+    <price>330.00</price>
+  </offer>
+  <offer>
+    <title>Upgrade Zmiana Zwiększenie RAM 2GB-4GB DDR3 Laptop</title>
+    <price>44.00</price>
+  </offer>
+  <offer>
+    <title>Naklejki na klawiaturę | Cała klawiatura 12x12 mm</title>
+    <price>9.99</price>
+  </offer>
+  <offer>
+    <title>CYRYLICA przezroczyste naklejki na klawiaturę11x13</title>
+    <price>16.00</price>
+  </offer>
+  <offer>
+    <title>CYRYLICA + QWERTY naklejki na klawiaturę 13x13</title>
+    <price>16.00</price>
+  </offer>
+  <offer>
+    <title>Odnawianie klawiatur 10 szt | Dell / HP / Lenovo</title>
+    <price>389.00</price>
+  </offer>
+  <offer>
+    <title>Kabel przewód HDMI-HDMI</title>
+    <price>14.99</price>
+  </offer>
+  <offer>
+    <title>Upgrade Zmiana Pamięci RAM 8GB - 16GB DDR4 Laptop</title>
+    <price>160.00</price>
+  </offer>
+  <offer>
+    <title>Zmiana Dysk 256GB SSD na 480GB SSD M.2</title>
+    <price>100.00</price>
+  </offer>
+  <offer>
+    <title>Upgrade Zmiana Pamięci RAM 8GB - 32GB DDR4 Laptop</title>
+    <price>480.00</price>
+  </offer>
+  <offer>
+    <title>Zmiana Klawiatury na QWERTY PL L440 T440 T431 3D</title>
+    <price>38.50</price>
+  </offer>
+  <offer>
+    <title>Stacja dokująca Lenovo 40A1 T440 L540 T540 Kluczyk</title>
+    <price>25.00</price>
+  </offer>
+  <offer>
+    <title>RAM AMD 4GB DDR3-PC3-12800 1600 MHz komputer</title>
+    <price>49.90</price>
+  </offer>
+  <offer>
+    <title>Laptop Lenovo T540p i5 8GB 240GB SSD WIN 7/10</title>
+    <price>899.00</price>
+  </offer>
+  <offer>
+    <title>PRIVACY FILTER FILTR PRYWATNOŚCI LENOVO 12,5"</title>
+    <price>25.00</price>
+  </offer>
+</offers>
