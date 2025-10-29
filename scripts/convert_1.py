@@ -1,5 +1,5 @@
 import os
-from convert_base import convert_file, INPUT_DIR, OUTPUT_DIR
+from convert import convert_file, INPUT_DIR, OUTPUT_DIR
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
