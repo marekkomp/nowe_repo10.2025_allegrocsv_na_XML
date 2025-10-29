@@ -7,8 +7,8 @@ def main():
     for name in os.listdir(INPUT_DIR):
         if name.lower().endswith((".xlsx", ".xlsm", ".xls")):
             src = os.path.join(INPUT_DIR, name)
-            dst = os.path.join(OUTPUT_DIR, "klientA.xml")
-            print(f"[KlientA] {src} -> {dst}")
+            dst = os.path.join(OUTPUT_DIR, "morele.xml")
+            print(f"[Morele] {src} -> {dst}")
             convert_file(src, dst)
             break
 
