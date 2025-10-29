@@ -294,20 +294,19 @@ def convert_file(in_path, out_path):
             ET.SubElement(imgs_el, "main", {"url": imgs[0]})
             for u in imgs[1:]:
                 ET.SubElement(imgs_el, "i", {"url": u})
-
-       # <attrs> – tylko wypełnione pola z mapy
-attrs_el = ET.SubElement(o, "attrs")
-for col, attr_name in ATTR_MAP.items():
-    if col in headers:
-        idx = headers.index(col)
-        if idx < len(row):
-            val = _as_str(row[idx])
-            if val:
-                # czyścimy tylko wybrane kolumny
-                if col in ("Producent", "Informacje o gwarancjach (opcjonalne)"):
-                    val = _clean_option_ids(val)
-                ET.SubElement(attrs_el, "a", {"name": attr_name}).text = val
-
+                
+               # <attrs> – tylko wypełnione pola z mapy
+        attrs_el = ET.SubElement(o, "attrs")
+        for col, attr_name in ATTR_MAP.items():
+            if col in headers:
+                idx = headers.index(col)
+                if idx < len(row):
+                    val = _as_str(row[idx])
+                    if val:
+                        # czyścimy tylko wybrane kolumny
+                        if col in ("Producent", "Informacje o gwarancjach (opcjonalne)"):
+                            val = _clean_option_ids(val)
+                        ET.SubElement(attrs_el, "a", {"name": attr_name}).text = val
 
         offers_count += 1
 
