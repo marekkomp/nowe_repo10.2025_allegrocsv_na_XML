@@ -65,8 +65,17 @@ def convert_file(in_path, out_path):
     root = ET.Element("offers")
 
     # dane od wiersza 5 (oba tryby działają tak samo)
-    for row in ws.iter_rows(min_row=5, values_only=True):
-        # row może być krótszy — zabezpieczenie
+rows = list(ws.iter_rows(min_row=5, values_only=True))
+
+# Jeśli wszystko puste, ponów z data_only=False (formuły)
+if not any(any(c for c in r if c) for r in rows):
+    print("[WARN] Arkusz zawiera tylko formuły – odczytuję z data_only=False")
+    wb.close()
+    wb = openpyxl.load_workbook(in_path, data_only=False)
+    ws = wb["Szablon"] if "Szablon" in wb.sheetnames else wb.worksheets[0]
+    rows = list(ws.iter_rows(min_row=5, values_only=True))
+
+for row in rows:        # row może być krótszy — zabezpieczenie
         title = ""
         price = ""
         if idx_title < len(row) and row[idx_title] is not None:
