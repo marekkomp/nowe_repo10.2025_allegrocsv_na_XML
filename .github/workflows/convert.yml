@@ -1,3 +1,4 @@
+# .github/workflows/convert.yml
 name: CSV → XML
 
 on:
@@ -34,11 +35,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install openpyxl
 
-      - name: Generate XML (all variants)
-        run: |
-          python scripts/convert_1.py
-          python scripts/convert_Morele.py
-          # tu dopisuj kolejne skrypty
+      # --- Każdy wariant niezależnie (nie blokuje całości gdy padnie) ---
+      - name: convert.py (full XML)
+        run: python scripts/convert.py
+        continue-on-error: true
+
+      - name: convert_1.py (wariant 1)
+        run: python scripts/convert_1.py
+        continue-on-error: true
+
+      - name: convert_Morele.py (bez desc_json, dostępność od 5 szt.)
+        run: python scripts/convert_Morele.py
+        continue-on-error: true
 
       - name: Show output (debug)
         run: |
