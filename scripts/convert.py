@@ -253,15 +253,16 @@ def convert_file(in_path, out_path):
         if not id_offer or not title:
             continue
 
+        # POPRAWNIE WCIĘTE:
         try:
-    q_num = int(float(str(qty).replace(",", ".").strip())) if str(qty).strip() != "" else 0
-except:
-    q_num = 0
+            q_num = int(float(str(qty).replace(",", ".").strip())) if str(qty).strip() != "" else 0
+        except:
+            q_num = 0
 
-available = (str(status).strip().lower() == "aktywna") and (q_num > 0)
-avail_val = "1" if available else "99"
-basket    = "1" if available else "0"
-stock     = str(q_num)  # ← teraz stock = prawdziwa liczba sztuk
+        available = (str(status).strip().lower() == "aktywna") and (q_num > 0)
+        avail_val = "1" if available else "99"
+        basket    = "1" if available else "0"
+        stock     = str(q_num)  # ← teraz stock = prawdziwa liczba sztuk
 
         # element <o ...>
         o = ET.SubElement(
