@@ -11,7 +11,7 @@ BRAND_LINKS = {
     "apple":  "https://kompre.pl/pl/c/Laptopy-Apple/367",
     "fujitsu":"https://kompre.pl/pl/c/Laptopy-Fujitsu/368",
 }
-FOOTER_MARK = "<!-- KOMPRE_FOOTER -->"  # znacznik, by nie dublować
+FOOTER_MARK = "<!---->"  # znacznik, by nie dublować
 
 def _collect_attrs(o_el):
     """Zwraca dict z <attrs><a name="...">wartość</a>."""
@@ -54,8 +54,9 @@ def _build_link_block(kategoria, producent):
     if not url:
         return ""
     # jeśli marketplace nie pozwala na linki, zmień na zwykły tekst
-    return (f'<p>Posiadamy też inne modele {producent} – sprawdź: '
-            f'<a href="{url}" rel="nofollow noopener" target="_blank">kompre.pl</a>.</p>')
+    return (f'<p>Posiadamy też inne modele – sprawdź: '
+        f'<a href="{url}" rel="nofollow noopener" target="_blank">laptopy {producent.lower()}</a>.</p>')
+
 
 def _build_footer_html(name, producent, gwarancja, kategoria):
     link_block = _build_link_block(kategoria, producent)
