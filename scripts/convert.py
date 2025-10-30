@@ -52,6 +52,7 @@ ATTR_MAP = {
 
     # Ekran
     "Przekątna ekranu (cale) [\"]": "Przekątna ekranu (cale) [\"]",
+    "Przekątna ekranu [\"]": "Przekątna ekranu [\"]",
     "Rozdzielczość natywna [px]": "Rozdzielczość natywna [px]",
     "Typ matrycy": "Typ matrycy",
     "Powłoka matrycy": "Powłoka matrycy",
