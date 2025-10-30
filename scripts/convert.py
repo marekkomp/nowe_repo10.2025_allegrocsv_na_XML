@@ -26,6 +26,7 @@ ATTR_MAP = {
     # CPU / RAM
     "Model procesora": "Model procesora",
     "Generacja procesora": "Generacja procesora",
+    "Seria procesora": "Seria procesora",
     "Taktowanie bazowe procesora [GHz]": "Taktowanie bazowe procesora [GHz]",
     "Taktowanie maksymalne procesora [GHz]": "Taktowanie maksymalne procesora [GHz]",
     "Liczba rdzeni procesora": "Liczba rdzeni procesora",
@@ -53,7 +54,9 @@ ATTR_MAP = {
     # Ekran
     "Przekątna ekranu (cale) [\"]": "Przekątna ekranu (cale) [\"]",
     "Przekątna ekranu [\"]": "Przekątna ekranu [\"]",
+    "Ekran dotykowy": "Ekran dotykowy",
     "Rozdzielczość natywna [px]": "Rozdzielczość natywna [px]",
+    "Rozdzielczość (px)": "Rozdzielczość (px)",
     "Typ matrycy": "Typ matrycy",
     "Powłoka matrycy": "Powłoka matrycy",
     "Proporcje obrazu": "Proporcje obrazu",
