@@ -260,9 +260,15 @@ def convert_file(in_path, out_path):
             q_num = 0
 
         available = (str(status).strip().lower() == "aktywna") and (q_num > 0)
-        avail_val = "1" if available else "99"
-        basket    = "1" if available else "0"
-        stock     = str(q_num)  # ← teraz stock = prawdziwa liczba sztuk
+
+        if available:
+            avail_val = "1"
+            basket = "1"
+            stock = str(q_num)
+        else:
+            avail_val = "99"
+            basket = "0"
+            stock = "0"  # ← zawsze 0 dla niedostępnych
 
         # element <o ...>
         o = ET.SubElement(
