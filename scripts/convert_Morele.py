@@ -67,7 +67,8 @@ def _build_footer_html(name, producent, gwarancja, kategoria):
         f'<hr><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
         f'autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes. '
         f'Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. '
-        f'Gwarancja {gw} zapewnia wsparcie door-to-door i bezpieczeństwo zakupu.</p>'
+        f'{gw if "gwarancja" in gw.lower() else "Gwarancja " + gw} zapewnia wsparcie door-to-door i bezpieczeństwo zakupu.</p>'
+
         f'{link_block}'
     )
     return footer
