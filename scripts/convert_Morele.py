@@ -1,6 +1,7 @@
 # scripts/convert_Morele.py
 import os
-from lxml import etree as ET  # << zmiana: lxml
+import re
+from lxml import etree as ET  # używamy lxml (obsługuje CDATA)
 from convert import convert_file, INPUT_DIR, OUTPUT_DIR  # główny konwerter
 
 # --------- USTAWIENIA ---------
@@ -101,13 +102,12 @@ def _append_footer_to_desc(o_el):
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
 
+
 def convert_file_morele(in_path, out_path):
-    # 1) pełny XML tymczasowo
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
     convert_file(in_path, temp_path)
 
-    # 2) modyfikacje dla Morele (lxml parser)
     parser = ET.XMLParser(remove_blank_text=True)
     tree = ET.parse(temp_path, parser)
     root = tree.getroot()
@@ -139,6 +139,17 @@ def convert_file_morele(in_path, out_path):
             parent = dj.getparent() if hasattr(dj, "getparent") else o
             parent.remove(dj)
 
+        # --- Zmieniamy gwarancję na prosty format ---
+        attrs_el = o.find("attrs")
+        if attrs_el is not None:
+            for a in attrs_el.findall("a"):
+                if (a.get("name") or "").strip().lower() == "informacje o gwarancjach":
+                    text = (a.text or "").strip()
+                    m = re.search(r"(\d+)", text)
+                    value = m.group(1) if m else ""
+                    a.set("name", "Gwarancja")
+                    a.text = value
+
         # dopnij footer i zapisz <desc> jako CDATA
         _append_footer_to_desc(o)
 
@@ -151,6 +162,7 @@ def convert_file_morele(in_path, out_path):
 
     print(f"[Morele OK] Zapisano: {out_path}")
 
+
 def main():
     for name in os.listdir(INPUT_DIR):
         if name.lower().endswith((".xlsm", ".xlsx", ".xls")):
@@ -159,6 +171,7 @@ def main():
             print(f"[Morele] {src} -> {dst}")
             convert_file_morele(src, dst)
             break
+
 
 if __name__ == "__main__":
     main()
