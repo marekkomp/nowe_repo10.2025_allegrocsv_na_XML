@@ -54,8 +54,8 @@ def _build_link_block(kategoria, producent):
     if not url:
         return ""
     # jeśli marketplace nie pozwala na linki, zmień na zwykły tekst
-    return (f'<p>Posiadamy też inne modele – sprawdź: '
-        f'<a href="{url}" rel="nofollow noopener" target="_blank">laptopy {producent.lower()}</a>.</p>')
+    return (f'<p>Posiadamy też inne modele - sprawdź '
+        f'<a href="{url}" rel="nofollow noopener" target="_blank">polecane laptopy {producent.lower()}</a>.</p>')
 
 
 def _build_footer_html(name, producent, gwarancja, kategoria):
