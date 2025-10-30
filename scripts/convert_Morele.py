@@ -1,6 +1,6 @@
 # scripts/convert_Morele.py
 import os
-import xml.etree.ElementTree as ET
+from lxml import etree as ET  # << zmiana: lxml
 from convert import convert_file, INPUT_DIR, OUTPUT_DIR  # główny konwerter
 
 # --------- USTAWIENIA ---------
@@ -11,30 +11,25 @@ BRAND_LINKS = {
     "apple":  "https://kompre.pl/pl/c/Laptopy-Apple/367",
     "fujitsu":"https://kompre.pl/pl/c/Laptopy-Fujitsu/368",
 }
-FOOTER_MARK = "<!---->"  # znacznik, by nie dublować
+FOOTER_MARK = "<!---->"  # znacznik, by nie dublować (umieszczany jako komentarz w HTML/CDATA)
 
 def _collect_attrs(o_el):
-    """Zwraca dict z <attrs><a name="...">wartość</a>."""
     out = {}
     attrs_el = o_el.find("attrs")
     if attrs_el is None:
         return out
     for a in attrs_el.findall("a"):
-        name = a.get("name") or ""
+        name = (a.get("name") or "").strip()
         val = (a.text or "").strip()
         if name:
-            out[name.strip()] = val
+            out[name] = val
     return out
 
-def _brand(o_el, attrs):
-    # priorytet: <a name="Producent">, fallback pusty
+def _brand(attrs):
     return (attrs.get("Producent") or "").strip()
 
 def _warranty(attrs):
-    # priorytet: Informacje o gwarancjach > Gwarancja > puste
-    gw = (attrs.get("Informacje o gwarancjach")
-          or attrs.get("Gwarancja")
-          or "").strip()
+    gw = (attrs.get("Informacje o gwarancjach") or attrs.get("Gwarancja") or "").strip()
     return gw
 
 def _category(o_el):
@@ -53,46 +48,58 @@ def _build_link_block(kategoria, producent):
     url = BRAND_LINKS.get(producent.lower())
     if not url:
         return ""
-    # jeśli marketplace nie pozwala na linki, zmień na zwykły tekst
-    return (f'<p>Posiadamy też inne modele - sprawdź '
-        f'<a href="{url}" rel="nofollow noopener" target="_blank">polecane laptopy {producent.lower()}</a>.</p>')
-
+    return (f'<p>Posiadamy też inne modele – sprawdź: '
+            f'<a href="{url}" rel="nofollow noopener" target="_blank">laptopy {producent.lower()}</a>.</p>')
 
 def _build_footer_html(name, producent, gwarancja, kategoria):
     link_block = _build_link_block(kategoria, producent)
-    gw = gwarancja or "12 miesięcy"
-    # zwięzły, E-E-A-T + marker
-    footer = (
+    gw = (gwarancja or "12 miesięcy").strip()
+    gwarancja_txt = gw if "gwarancja" in gw.lower() else f"Gwarancja {gw}"
+    return (
         f'{FOOTER_MARK}'
-        f'<hr><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
+        f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
         f'autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes. '
         f'Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. '
-        f'{gw if "gwarancja" in gw.lower() else "Gwarancja " + gw} zapewnia wsparcie door-to-door i bezpieczeństwo zakupu.</p>'
-
+        f'{gwarancja_txt} zapewnia wsparcie door-to-door i bezpieczeństwo zakupu.</p>'
         f'{link_block}'
     )
-    return footer
+
+def _inner_html(el: ET.Element) -> str:
+    parts = []
+    if el.text:
+        parts.append(el.text)
+    for c in el:
+        parts.append(ET.tostring(c, encoding="unicode"))
+    return "".join(parts)
+
+def _set_desc_cdata(desc_el: ET.Element, html_string: str):
+    desc_el.clear()
+    # zapisujemy zawartość jako CDATA, by Morele widziało prawdziwy HTML
+    desc_el.text = ET.CDATA(html_string)
+
+def _already_has_footer(html: str) -> bool:
+    # marker lub charakterystyczne frazy
+    return (FOOTER_MARK in html) or ("Kompre.pl" in html and "door-to-door" in html)
 
 def _append_footer_to_desc(o_el):
     desc_el = o_el.find("desc")
     if desc_el is None:
-        return  # brak opisu – nic nie robimy
-    current = desc_el.text or ""
-    if FOOTER_MARK in current:
-        return  # już dodane
+        return
+
+    current_html = _inner_html(desc_el)
+    if _already_has_footer(current_html):
+        return
 
     attrs = _collect_attrs(o_el)
-    producent = _brand(o_el, attrs)
+    name = _name(o_el)
+    producent = _brand(attrs)
     gwarancja = _warranty(attrs)
     kategoria = _category(o_el)
-    name = _name(o_el)
 
     footer_html = _build_footer_html(name, producent, gwarancja, kategoria)
-
-    # dopinamy na końcu aktualnego HTML-a w <desc>
-    # (bez &nbsp;, tylko zwykłe spacje/newline)
-    joiner = "\n" if current and not current.endswith("\n") else ""
-    desc_el.text = f"{current}{joiner}{footer_html}"
+    joiner = "\n" if current_html and not current_html.endswith("\n") else ""
+    new_html = f"{current_html}{joiner}{footer_html}".strip()
+    _set_desc_cdata(desc_el, new_html)
 
 def convert_file_morele(in_path, out_path):
     # 1) pełny XML tymczasowo
@@ -100,8 +107,9 @@ def convert_file_morele(in_path, out_path):
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
     convert_file(in_path, temp_path)
 
-    # 2) modyfikacje dla Morele
-    tree = ET.parse(temp_path)
+    # 2) modyfikacje dla Morele (lxml parser)
+    parser = ET.XMLParser(remove_blank_text=True)
+    tree = ET.parse(temp_path, parser)
     root = tree.getroot()
 
     for o in root.findall("o"):
@@ -119,7 +127,7 @@ def convert_file_morele(in_path, out_path):
             o.set("stock", "0")
             o.set("basket", "0")
 
-        # dodaj "poleasingowe" do kategorii Laptopy i Komputery
+        # dopisz "poleasingowe" do kategorii Laptopy i Komputery
         cat_el = o.find("cat")
         if cat_el is not None and cat_el.text:
             cat_text = cat_el.text.strip()
@@ -128,19 +136,13 @@ def convert_file_morele(in_path, out_path):
 
         # usuń desc_json
         for dj in o.findall("desc_json"):
-            o.remove(dj)
+            parent = dj.getparent() if hasattr(dj, "getparent") else o
+            parent.remove(dj)
 
-        # >>> dopnij nasz footer na końcu opisu
+        # dopnij footer i zapisz <desc> jako CDATA
         _append_footer_to_desc(o)
 
-    # 3) zapis i sprzątanie
-    try:
-        ET.indent(root, space="  ")
-    except AttributeError:
-        # Python <3.9: brak indent – pomijamy
-        pass
-
-    tree.write(out_path, encoding="utf-8", xml_declaration=True)
+    tree.write(out_path, encoding="utf-8", xml_declaration=True, pretty_print=True)
 
     try:
         os.remove(temp_path)
