@@ -100,7 +100,7 @@ def _build_footer_html(name, kategoria, attrs):
     return (
         f'{FOOTER_MARK}'
         f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
-        f'autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes. '
+        f'autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> '
         f'{link_block}'
     )
 
