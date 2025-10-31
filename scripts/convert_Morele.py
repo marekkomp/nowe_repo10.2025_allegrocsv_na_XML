@@ -52,10 +52,16 @@ def _build_link_block(kategoria, producent):
         return ""
     if LINKS_AS_PLAIN_TEXT:
         # link jako zwykły tekst
-        return f"<p>Posiadamy też inne modele {producent} – sprawdź: {url}</p>"
+        return (
+            f"<p>Posiadamy też inne modele {producent} – sprawdź: {url}. "
+            f"Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. "
+            f"Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>"
+        )
     else:
-        return (f'<p>Posiadamy też inne modele – sprawdź: '
-                f'<a href="{url}" rel="nofollow noopener" target="_blank">laptopy {producent.lower()}</a>.</p>')
+        return (
+            f'<p>Posiadamy też inne modele – sprawdź: '
+            f'<a href="{url}" rel="nofollow noopener" target="_blank">laptopy {producent.lower()}</a>.</p>'
+        )
 
 def _build_footer_html(name, producent, gwarancja, kategoria):
     link_block = _build_link_block(kategoria, producent)
@@ -65,8 +71,6 @@ def _build_footer_html(name, producent, gwarancja, kategoria):
         f'{FOOTER_MARK}'
         f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
         f'autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes. '
-        f'Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. '
-        Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>'
         f'{link_block}'
     )
 
