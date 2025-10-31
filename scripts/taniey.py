@@ -88,19 +88,26 @@ def _build_link_block(kategoria, attrs):
     if not url:
         return ""  # brak dopasowania przekątnej → nic nie dodajemy
 
+    # Zaokrąglona przekątna do 1 miejsca po przecinku, np. 14.0 → 14
+    if size_in:
+        size_txt = f"{size_in:.1f}".rstrip("0").rstrip(".")
+    else:
+        size_txt = ""
+
     # Tekstowy (nieklikalny) link + krótka formułka jakościowa
     return (
-        f"<p>Posiadamy też inne laptopy w tej klasie rozmiaru – sprawdź: {url}. "
-        f"Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. "
-        f"Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>"
+        f"<p>Sprawdź też inne modele laptopów z rozmiarem ekranu {size_txt}″: {url}. "
+        f"Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. "
+        f"Kupując sprzęt poleasingowy, zyskujesz jakość klasy biznes w znacznie niższej cenie oraz pewność gwarancji door-to-door.</p>"
     )
+
 
 def _build_footer_html(name, kategoria, attrs):
     link_block = _build_link_block(kategoria, attrs)
     return (
         f'{FOOTER_MARK}'
         f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
-        f'autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> '
+        f'autoryzowanego sprzedawcy laptopów, komputerów i monitorów klasy biznes.</p> '
         f'{link_block}'
     )
 
