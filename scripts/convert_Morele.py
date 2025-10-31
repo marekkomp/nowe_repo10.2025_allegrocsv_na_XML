@@ -13,6 +13,7 @@ BRAND_LINKS = {
     "fujitsu":"https://kompre.pl/pl/c/Laptopy-Fujitsu/368",
 }
 FOOTER_MARK = "<!---->"  # znacznik, by nie dublować (umieszczany jako komentarz w HTML/CDATA)
+LINKS_AS_PLAIN_TEXT = True  # linki w stopce jako zwykły tekst (Morele ukrywa <a>)
 
 def _collect_attrs(o_el):
     out = {}
@@ -49,8 +50,12 @@ def _build_link_block(kategoria, producent):
     url = BRAND_LINKS.get(producent.lower())
     if not url:
         return ""
-    return (f'<p>Posiadamy też inne modele – sprawdź: '
-            f'<a href="{url}" rel="nofollow noopener" target="_blank">laptopy {producent.lower()}</a>.</p>')
+    if LINKS_AS_PLAIN_TEXT:
+        # goły URL (bez <a>)
+        return f"<p>Posiadamy też inne modele – sprawdź: {url}</p>"
+    else:
+        return (f'<p>Posiadamy też inne modele – sprawdź: '
+                f'<a href="{url}" rel="nofollow noopener" target="_blank">laptopy {producent.lower()}</a>.</p>')
 
 def _build_footer_html(name, producent, gwarancja, kategoria):
     link_block = _build_link_block(kategoria, producent)
@@ -102,7 +107,6 @@ def _append_footer_to_desc(o_el):
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
 
-
 def convert_file_morele(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
@@ -127,12 +131,11 @@ def convert_file_morele(in_path, out_path):
             o.set("stock", "0")
             o.set("basket", "0")
 
-        # dopisz "poleasingowe" do kategorii Laptopy i Komputery
+        # dopisz "poleasingowe" do kategorii Laptopy/Komputery/Monitory komputerowe
         cat_el = o.find("cat")
         if cat_el is not None and cat_el.text:
             cat_text = cat_el.text.strip()
             norm = cat_text.lower()
-
             if "poleasingowe" not in norm:
                 if norm == "laptopy":
                     cat_el.text = "Laptopy poleasingowe"
@@ -140,7 +143,6 @@ def convert_file_morele(in_path, out_path):
                     cat_el.text = "Komputery poleasingowe"
                 elif norm == "monitory komputerowe":
                     cat_el.text = "Monitory poleasingowe"
-
 
         # usuń desc_json
         for dj in o.findall("desc_json"):
@@ -170,7 +172,6 @@ def convert_file_morele(in_path, out_path):
 
     print(f"[Morele OK] Zapisano: {out_path}")
 
-
 def main():
     for name in os.listdir(INPUT_DIR):
         if name.lower().endswith((".xlsm", ".xlsx", ".xls")):
@@ -179,7 +180,6 @@ def main():
             print(f"[Morele] {src} -> {dst}")
             convert_file_morele(src, dst)
             break
-
 
 if __name__ == "__main__":
     main()
