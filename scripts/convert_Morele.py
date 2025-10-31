@@ -12,7 +12,8 @@ BRAND_LINKS = {
     "apple":  "https://kompre.pl/pl/c/Laptopy-Apple/367",
     "fujitsu":"https://kompre.pl/pl/c/Laptopy-Fujitsu/368",
 }
-FOOTER_MARK = "<!---->"  # znacznik, by nie dublować (umieszczany jako komentarz w HTML/CDATA)
+FOOTER_MARK = "<!---->"  # znacznik, by nie dublować
+LINKS_AS_PLAIN_TEXT = True  # linki w stopce jako zwykły tekst (bez <a>)
 
 def _collect_attrs(o_el):
     out = {}
@@ -49,8 +50,12 @@ def _build_link_block(kategoria, producent):
     url = BRAND_LINKS.get(producent.lower())
     if not url:
         return ""
-    return (f'<p>Posiadamy też inne modele – sprawdź: '
-            f'<a href="{url}" rel="nofollow noopener" target="_blank">laptopy {producent.lower()}</a>.</p>')
+    if LINKS_AS_PLAIN_TEXT:
+        # link jako zwykły tekst
+        return f"<p>Posiadamy też inne modele {producent} – sprawdź: {url}</p>"
+    else:
+        return (f'<p>Posiadamy też inne modele – sprawdź: '
+                f'<a href="{url}" rel="nofollow noopener" target="_blank">laptopy {producent.lower()}</a>.</p>')
 
 def _build_footer_html(name, producent, gwarancja, kategoria):
     link_block = _build_link_block(kategoria, producent)
@@ -61,7 +66,7 @@ def _build_footer_html(name, producent, gwarancja, kategoria):
         f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
         f'autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes. '
         f'Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. '
-        f'{gwarancja_txt} zapewnia wsparcie door-to-door i bezpieczeństwo zakupu.</p>'
+        Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>'
         f'{link_block}'
     )
 
@@ -75,11 +80,9 @@ def _inner_html(el: ET.Element) -> str:
 
 def _set_desc_cdata(desc_el: ET.Element, html_string: str):
     desc_el.clear()
-    # zapisujemy zawartość jako CDATA, by Morele widziało prawdziwy HTML
-    desc_el.text = ET.CDATA(html_string)
+    desc_el.text = ET.CDATA(html_string)  # HTML w CDATA
 
 def _already_has_footer(html: str) -> bool:
-    # marker lub charakterystyczne frazy
     return (FOOTER_MARK in html) or ("Kompre.pl" in html and "door-to-door" in html)
 
 def _append_footer_to_desc(o_el):
@@ -101,7 +104,6 @@ def _append_footer_to_desc(o_el):
     joiner = "\n" if current_html and not current_html.endswith("\n") else ""
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
-
 
 def convert_file_morele(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -127,12 +129,11 @@ def convert_file_morele(in_path, out_path):
             o.set("stock", "0")
             o.set("basket", "0")
 
-        # dopisz "poleasingowe" do kategorii Laptopy i Komputery
+        # dopisz "poleasingowe" do kategorii Laptopy / Komputery / Monitory komputerowe
         cat_el = o.find("cat")
         if cat_el is not None and cat_el.text:
             cat_text = cat_el.text.strip()
             norm = cat_text.lower()
-
             if "poleasingowe" not in norm:
                 if norm == "laptopy":
                     cat_el.text = "Laptopy poleasingowe"
@@ -140,7 +141,6 @@ def convert_file_morele(in_path, out_path):
                     cat_el.text = "Komputery poleasingowe"
                 elif norm == "monitory komputerowe":
                     cat_el.text = "Monitory poleasingowe"
-
 
         # usuń desc_json
         for dj in o.findall("desc_json"):
@@ -170,7 +170,6 @@ def convert_file_morele(in_path, out_path):
 
     print(f"[Morele OK] Zapisano: {out_path}")
 
-
 def main():
     for name in os.listdir(INPUT_DIR):
         if name.lower().endswith((".xlsm", ".xlsx", ".xls")):
@@ -179,7 +178,6 @@ def main():
             print(f"[Morele] {src} -> {dst}")
             convert_file_morele(src, dst)
             break
-
 
 if __name__ == "__main__":
     main()
