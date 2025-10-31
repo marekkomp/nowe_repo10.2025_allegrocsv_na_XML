@@ -137,7 +137,7 @@ def _append_footer_to_desc(o_el):
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
 
-def convert_file_morele(in_path, out_path):
+def convert_file_taniey(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
     convert_file(in_path, temp_path)
@@ -200,15 +200,15 @@ def convert_file_morele(in_path, out_path):
     except FileNotFoundError:
         pass
 
-    print(f"[Morele OK] Zapisano: {out_path}")
+    print(f"[taniey OK] Zapisano: {out_path}")
 
 def main():
     for name in os.listdir(INPUT_DIR):
         if name.lower().endswith((".xlsm", ".xlsx", ".xls")):
             src = os.path.join(INPUT_DIR, name)
-            dst = os.path.join(OUTPUT_DIR, "morele.xml")
-            print(f"[Morele] {src} -> {dst}")
-            convert_file_morele(src, dst)
+            dst = os.path.join(OUTPUT_DIR, "taniey.xml")
+            print(f"[taniey] {src} -> {dst}")
+            convert_file_taniey(src, dst)
             break
 
 if __name__ == "__main__":
