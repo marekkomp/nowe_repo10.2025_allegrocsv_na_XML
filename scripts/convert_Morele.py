@@ -131,8 +131,16 @@ def convert_file_morele(in_path, out_path):
         cat_el = o.find("cat")
         if cat_el is not None and cat_el.text:
             cat_text = cat_el.text.strip()
-            if cat_text.lower() in ("laptopy", "komputery"):
-                cat_el.text = f"{cat_text} poleasingowe"
+            norm = cat_text.lower()
+
+            if "poleasingowe" not in norm:
+                if norm == "laptopy":
+                    cat_el.text = "Laptopy poleasingowe"
+                elif norm == "komputery":
+                    cat_el.text = "Komputery poleasingowe"
+                elif norm == "monitory komputerowe":
+                    cat_el.text = "Monitory poleasingowe"
+
 
         # usuń desc_json
         for dj in o.findall("desc_json"):
