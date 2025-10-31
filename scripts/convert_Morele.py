@@ -45,18 +45,30 @@ def _name(o_el):
 def _build_link_block(kategoria, producent):
     if not kategoria or not producent:
         return ""
-    if "laptop" not in kategoria.lower():
-        return ""
-    url = BRAND_LINKS.get(producent.lower())
+
+    kat = kategoria.lower()
+    brand = producent.lower()
+
+    # --- Wybór linku w zależności od kategorii ---
+    if "laptop" in kat:
+        url = BRAND_LINKS.get(brand)
+    elif "komputer" in kat:
+        url = "https://kompre.pl/pl/c/Komputery-Stacjonarne/345"
+    elif "monitor" in kat:
+        url = "https://kompre.pl/monitory"
+    else:
+        return ""  # nie dopasowano kategorii, nic nie dodawaj
+
     if not url:
         return ""
-    if LINKS_AS_PLAIN_TEXT:
-        # link jako zwykły tekst
-        return (
-            f"<p>Posiadamy też inne modele {producent} – sprawdź: {url}. "
-            f"Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. "
-            f"Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>"
-        )
+
+    # --- Generacja treści stopki ---
+    return (
+        f"<p>Posiadamy też inne modele {producent} – sprawdź: {url}. "
+        f"Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. "
+        f"Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>"
+    )
+
     else:
         return (
             f'<p>Posiadamy też inne modele – sprawdź: '
