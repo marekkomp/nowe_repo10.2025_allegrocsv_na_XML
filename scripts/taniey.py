@@ -1,6 +1,7 @@
 # scripts/convert_taniey.py
 import os
 import re
+import json
 from lxml import etree as ET  # używamy lxml (obsługuje CDATA)
 from convert import convert_file, INPUT_DIR, OUTPUT_DIR  # główny konwerter
 
@@ -112,6 +113,7 @@ def _already_has_footer(html: str) -> bool:
     return (FOOTER_MARK in html) or ("Kompre.pl" in html and "door-to-door" in html)
 
 def _append_footer_to_desc(o_el):
+    """Dopisuje stopkę do <desc> (HTML) i zapisuje w CDATA."""
     desc_el = o_el.find("desc")
     if desc_el is None:
         return
@@ -128,6 +130,50 @@ def _append_footer_to_desc(o_el):
     joiner = "\n" if current_html and not current_html.endswith("\n") else ""
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
+
+def _append_footer_to_desc_json(o_el):
+    """Dopisuje stopkę także do <desc_json> jako dodatkowy blok TEXT."""
+    dj = o_el.find("desc_json")
+    if dj is None or not (dj.text or "").strip():
+        return
+
+    raw = dj.text.strip()
+    if FOOTER_MARK in raw:
+        return  # już dopięte (po markerze)
+
+    try:
+        data = json.loads(raw)
+    except Exception:
+        return  # nieprawidłowy JSON — nie dotykamy
+
+    # Przygotuj HTML stopki
+    attrs = _collect_attrs(o_el)
+    name = _name(o_el)
+    kategoria = _category(o_el)
+    footer_html = _build_footer_html(name, kategoria, attrs)
+
+    def _append_text_block(sections_list):
+        if not sections_list:
+            sections_list.append({"items": [{"type": "TEXT", "content": footer_html}]})
+            return
+        # dopnij jako nowy blok, żeby nie mieszać z istniejącą treścią
+        sections_list.append({"items": [{"type": "TEXT", "content": footer_html}]})
+
+    if isinstance(data, dict):
+        sections = data.get("sections")
+        if isinstance(sections, list):
+            _append_text_block(sections)
+        else:
+            data["sections"] = [{"items": [{"type": "TEXT", "content": footer_html}]}]
+    elif isinstance(data, list):
+        # rzadziej spotykane: JSON to lista sekcji
+        _append_text_block(data)
+    else:
+        # nieobsługiwany kształt — nie modyfikujemy
+        return
+
+    # Zapisz z powrotem (bez ASCII-escape, z zachowaniem PL znaków)
+    dj.text = json.dumps(data, ensure_ascii=False)
 
 # --------- GŁÓWNA LOGIKA ---------
 def convert_file_taniey(in_path, out_path):
@@ -167,10 +213,7 @@ def convert_file_taniey(in_path, out_path):
                 elif norm == "monitory komputerowe":
                     cat_el.text = "Monitory poleasingowe"
 
-        # usuń desc_json
-        for dj in o.findall("desc_json"):
-            parent = dj.getparent() if hasattr(dj, "getparent") else o
-            parent.remove(dj)
+        # UWAGA: NIE USUWAMY już desc_json — zostaje w XML
 
         attrs_el = o.find("attrs")
         if attrs_el is not None:
@@ -195,7 +238,10 @@ def convert_file_taniey(in_path, out_path):
                     a.set("name", "Gwarancja")
                     a.text = value
 
+        # Dopnij stopkę do HTML
         _append_footer_to_desc(o)
+        # Dopnij stopkę również do JSON-a
+        _append_footer_to_desc_json(o)
 
     tree.write(out_path, encoding="utf-8", xml_declaration=True, pretty_print=True)
     try:
