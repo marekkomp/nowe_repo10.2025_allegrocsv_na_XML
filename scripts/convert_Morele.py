@@ -109,18 +109,21 @@ def _append_footer_to_desc(o_el):
     _set_desc_cdata(desc_el, new_html)
 
 # --- Sanizacja i CDATA dla istniejącego HTML (opakowanie) ---
-_SCRIPT_IFRAME_RE = re.compile(r"(?is)<script.*?</script>|<iframe.*?</iframe>")
+# Usuwamy <script>, <iframe> oraz (NA PROŚBĘ) wszystkie <img>
+_SCRIPT_IFRAME_IMG_RE = re.compile(
+    r"(?is)<script.*?</script>|<iframe.*?</iframe>|<img\b[^>]*>"
+)
 
 def _sanitize_basic(html_str: str) -> str:
-    return _SCRIPT_IFRAME_RE.sub("", html_str or "")
+    return _SCRIPT_IFRAME_IMG_RE.sub("", html_str or "")
 
 def _has_html_tags(s: str) -> bool:
     return bool(re.search(r"<[a-zA-Z][^>]*>", s or ""))
 
 def _force_desc_cdata(o_el: ET.Element):
-    """Zawsze opakuj opis w prawdziwe HTML w CDATA:
-       1) od-escape '&lt;h2&gt;' -> '<h2>'
-       2) usuń <script>/<iframe>
+    """Zawsze opakuj opis w realny HTML w CDATA, bez obrazków:
+       1) unescape '&lt;h2&gt;' -> '<h2>'
+       2) usuń <script>/<iframe>/<img>
        3) jeśli brak tagów po od-escape – owiń w <p>...</p>
     """
     desc_el = o_el.find("desc")
@@ -245,7 +248,7 @@ def convert_file_morele(in_path, out_path):
                     a.set("name", "Gwarancja")
                     a.text = value
 
-        # --- OPIS: najpierw zawsze zamień na realny HTML w CDATA, potem ewentualnie dopnij stopkę
+        # --- OPIS: HTML w CDATA, bez obrazków
         _force_desc_cdata(o)
         _append_footer_to_desc(o)
 
