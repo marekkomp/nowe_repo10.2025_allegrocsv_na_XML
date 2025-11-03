@@ -12,8 +12,8 @@ BRAND_LINKS = {
     "apple":  "https://kompre.pl/pl/c/Laptopy-Apple/367",
     "fujitsu":"https://kompre.pl/pl/c/Laptopy-Fujitsu/368",
 }
-FOOTER_MARK = "<!---->"  # znacznik, by nie dublować
-LINKS_AS_PLAIN_TEXT = True  # linki w stopce jako zwykły tekst (bez <a>)
+FOOTER_MARK = "<!---->"
+LINKS_AS_PLAIN_TEXT = True
 
 # --------- POMOCNICZE ---------
 def _collect_attrs(o_el):
@@ -85,7 +85,7 @@ def _inner_html(el: ET.Element) -> str:
 
 def _set_desc_cdata(desc_el: ET.Element, html_string: str):
     desc_el.clear()
-    desc_el.text = ET.CDATA(html_string)  # HTML w CDATA
+    desc_el.text = ET.CDATA(html_string)
 
 def _already_has_footer(html: str) -> bool:
     return (FOOTER_MARK in html) or ("Kompre.pl" in html and "door-to-door" in html)
@@ -107,12 +107,8 @@ def _append_footer_to_desc(o_el):
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
 
-# --- Pojemność z formatowaniem '1 TB' lub 'NNN GB' ---
+# --- Formatowanie pojemności ---
 def _format_capacity_unit(val: str) -> str:
-    """
-    Zwraca '1 TB' jeśli liczba == 1, w innym wypadku 'NNN GB'.
-    Przyjmuje np. '240', '240 GB', '1', '1 tb' – wyciąga pierwszą liczbę.
-    """
     if not val:
         return ""
     m = re.search(r"(\d+(?:[.,]\d+)?)", val)
@@ -150,7 +146,7 @@ def convert_file_morele(in_path, out_path):
             o.set("stock", "0")
             o.set("basket", "0")
 
-        # dopisz "poleasingowe" do kategorii Laptopy / Komputery / Monitory komputerowe
+        # dopisz "poleasingowe" do kategorii
         cat_el = o.find("cat")
         if cat_el is not None and cat_el.text:
             cat_text = cat_el.text.strip()
@@ -171,7 +167,6 @@ def convert_file_morele(in_path, out_path):
         # --- ATRYBUTY: transformacje dla Morele ---
         attrs_el = o.find("attrs")
         if attrs_el is not None:
-            # zbuduj słownik atrybutów
             attrs = {}
             for a in attrs_el.findall("a"):
                 name = (a.get("name") or "").strip()
@@ -179,14 +174,24 @@ def convert_file_morele(in_path, out_path):
                 if name:
                     attrs[name] = val
 
-            # 1) Stan: "Używany" -> "Poleasingowy"
+            # 1) Stan: Używany -> Poleasingowy
             for a in attrs_el.findall("a"):
                 if (a.get("name") or "").strip() == "Stan":
                     val = (a.text or "").strip()
                     if re.search(r"\bużywany\b", val, flags=re.IGNORECASE):
                         a.text = "Poleasingowy"
 
-            # 4) Ekran dotykowy: tylko "Nie" lub "z ekranem dotykowym"
+            # 2) Zmiany nazw atrybutów RAM / ekran / rozdzielczość
+            for a in attrs_el.findall("a"):
+                n = (a.get("name") or "").strip()
+                if n == 'Wielkość pamięci RAM':
+                    a.set("name", "Pamięć RAM (zainstalowana)")
+                elif n == 'Przekątna ekranu [\"]':
+                    a.set("name", "Przekątna ekranu")
+                elif n == 'Rozdzielczość (px)':
+                    a.set("name", "Rozdzielczość")
+
+            # 3) Ekran dotykowy: tylko "Nie" lub "z ekranem dotykowym"
             for a in attrs_el.findall("a"):
                 if (a.get("name") or "").strip() == "Ekran dotykowy":
                     v = (a.text or "").strip().lower()
@@ -194,22 +199,18 @@ def convert_file_morele(in_path, out_path):
                         a.text = "z ekranem dotykowym"
                     elif v == "nie":
                         a.text = "Nie"
-                    # inne wartości pozostają bez zmian
 
-            # 2–3) Dyski: dodaj "Dysk SSD"/"Dysk HDD" na podstawie typu i pojemności
+            # 4) Dyski SSD/HDD z pojemnością
             typ = (attrs.get("Typ dysku twardego") or "").lower()
             cap_raw = attrs.get("Pojemność dysku [GB]") or ""
             cap_fmt = _format_capacity_unit(cap_raw)
-
             if cap_fmt:
-                # SSD
                 if "ssd" in typ and not any((x.get("name") or "") == "Dysk SSD" for x in attrs_el.findall("a")):
                     ET.SubElement(attrs_el, "a", {"name": "Dysk SSD"}).text = cap_fmt
-                # HDD
                 if "hdd" in typ and not any((x.get("name") or "") == "Dysk HDD" for x in attrs_el.findall("a")):
                     ET.SubElement(attrs_el, "a", {"name": "Dysk HDD"}).text = cap_fmt
 
-            # uprość "Informacje o gwarancjach" -> "Gwarancja": liczba miesięcy
+            # 5) Informacje o gwarancjach -> Gwarancja (liczba)
             for a in attrs_el.findall("a"):
                 if (a.get("name") or "").strip().lower() == "informacje o gwarancjach":
                     text = (a.text or "").strip()
@@ -218,11 +219,9 @@ def convert_file_morele(in_path, out_path):
                     a.set("name", "Gwarancja")
                     a.text = value
 
-        # dopnij footer i zapisz <desc> jako CDATA
         _append_footer_to_desc(o)
 
     tree.write(out_path, encoding="utf-8", xml_declaration=True, pretty_print=True)
-
     try:
         os.remove(temp_path)
     except FileNotFoundError:
