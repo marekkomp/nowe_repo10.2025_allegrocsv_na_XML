@@ -15,6 +15,7 @@ BRAND_LINKS = {
 FOOTER_MARK = "<!---->"  # znacznik, by nie dublować
 LINKS_AS_PLAIN_TEXT = True  # linki w stopce jako zwykły tekst (bez <a>)
 
+# --------- POMOCNICZE ---------
 def _collect_attrs(o_el):
     out = {}
     attrs_el = o_el.find("attrs")
@@ -45,11 +46,8 @@ def _name(o_el):
 def _build_link_block(kategoria, producent):
     if not kategoria or not producent:
         return ""
-
     kat = kategoria.lower()
     brand = producent.lower()
-
-    # --- Wybór linku w zależności od kategorii ---
     if "laptop" in kat:
         url = BRAND_LINKS.get(brand)
     elif "komputer" in kat:
@@ -57,23 +55,14 @@ def _build_link_block(kategoria, producent):
     elif "monitor" in kat:
         url = "https://kompre.pl/monitory"
     else:
-        return ""  # nie dopasowano kategorii, nic nie dodawaj
-
+        return ""
     if not url:
         return ""
-
-    # --- Generacja treści stopki ---
     return (
         f"<p>Posiadamy też inne modele {producent} – sprawdź: {url}. "
         f"Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. "
         f"Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>"
     )
-
-    else:
-        return (
-            f'<p>Posiadamy też inne modele – sprawdź: '
-            f'<a href="{url}" rel="nofollow noopener" target="_blank">laptopy {producent.lower()}</a>.</p>'
-        )
 
 def _build_footer_html(name, producent, gwarancja, kategoria):
     link_block = _build_link_block(kategoria, producent)
@@ -105,22 +94,39 @@ def _append_footer_to_desc(o_el):
     desc_el = o_el.find("desc")
     if desc_el is None:
         return
-
     current_html = _inner_html(desc_el)
     if _already_has_footer(current_html):
         return
-
     attrs = _collect_attrs(o_el)
     name = _name(o_el)
     producent = _brand(attrs)
     gwarancja = _warranty(attrs)
     kategoria = _category(o_el)
-
     footer_html = _build_footer_html(name, producent, gwarancja, kategoria)
     joiner = "\n" if current_html and not current_html.endswith("\n") else ""
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
 
+# --- Pojemność z formatowaniem '1 TB' lub 'NNN GB' ---
+def _format_capacity_unit(val: str) -> str:
+    """
+    Zwraca '1 TB' jeśli liczba == 1, w innym wypadku 'NNN GB'.
+    Przyjmuje np. '240', '240 GB', '1', '1 tb' – wyciąga pierwszą liczbę.
+    """
+    if not val:
+        return ""
+    m = re.search(r"(\d+(?:[.,]\d+)?)", val)
+    if not m:
+        return ""
+    num = m.group(1).replace(",", ".")
+    try:
+        f = float(num)
+    except:
+        return ""
+    i = int(round(f))
+    return "1 TB" if i == 1 else f"{i} GB"
+
+# --------- GŁÓWNA LOGIKA KONWERSJI ---------
 def convert_file_morele(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
@@ -139,7 +145,6 @@ def convert_file_morele(in_path, out_path):
                 stock_num = int(float(o.get("stock", "0")))
             except:
                 stock_num = 0
-
         if o.get("avail") == "1" and stock_num < 5:
             o.set("avail", "99")
             o.set("stock", "0")
@@ -163,9 +168,48 @@ def convert_file_morele(in_path, out_path):
             parent = dj.getparent() if hasattr(dj, "getparent") else o
             parent.remove(dj)
 
-        # --- Zmieniamy gwarancję na prosty format ---
+        # --- ATRYBUTY: transformacje dla Morele ---
         attrs_el = o.find("attrs")
         if attrs_el is not None:
+            # zbuduj słownik atrybutów
+            attrs = {}
+            for a in attrs_el.findall("a"):
+                name = (a.get("name") or "").strip()
+                val = (a.text or "").strip()
+                if name:
+                    attrs[name] = val
+
+            # 1) Stan: "Używany" -> "Poleasingowy"
+            for a in attrs_el.findall("a"):
+                if (a.get("name") or "").strip() == "Stan":
+                    val = (a.text or "").strip()
+                    if re.search(r"\bużywany\b", val, flags=re.IGNORECASE):
+                        a.text = "Poleasingowy"
+
+            # 4) Ekran dotykowy: tylko "Nie" lub "z ekranem dotykowym"
+            for a in attrs_el.findall("a"):
+                if (a.get("name") or "").strip() == "Ekran dotykowy":
+                    v = (a.text or "").strip().lower()
+                    if v == "tak":
+                        a.text = "z ekranem dotykowym"
+                    elif v == "nie":
+                        a.text = "Nie"
+                    # inne wartości pozostają bez zmian
+
+            # 2–3) Dyski: dodaj "Dysk SSD"/"Dysk HDD" na podstawie typu i pojemności
+            typ = (attrs.get("Typ dysku twardego") or "").lower()
+            cap_raw = attrs.get("Pojemność dysku [GB]") or ""
+            cap_fmt = _format_capacity_unit(cap_raw)
+
+            if cap_fmt:
+                # SSD
+                if "ssd" in typ and not any((x.get("name") or "") == "Dysk SSD" for x in attrs_el.findall("a")):
+                    ET.SubElement(attrs_el, "a", {"name": "Dysk SSD"}).text = cap_fmt
+                # HDD
+                if "hdd" in typ and not any((x.get("name") or "") == "Dysk HDD" for x in attrs_el.findall("a")):
+                    ET.SubElement(attrs_el, "a", {"name": "Dysk HDD"}).text = cap_fmt
+
+            # uprość "Informacje o gwarancjach" -> "Gwarancja": liczba miesięcy
             for a in attrs_el.findall("a"):
                 if (a.get("name") or "").strip().lower() == "informacje o gwarancjach":
                     text = (a.text or "").strip()
