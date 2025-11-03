@@ -109,7 +109,6 @@ def _append_footer_to_desc(o_el):
     _set_desc_cdata(desc_el, new_html)
 
 # --- Sanizacja i CDATA dla istniejącego HTML (opakowanie) ---
-# Usuwamy <script>, <iframe> oraz (NA PROŚBĘ) wszystkie <img>
 _SCRIPT_IFRAME_IMG_RE = re.compile(
     r"(?is)<script.*?</script>|<iframe.*?</iframe>|<img\b[^>]*>"
 )
@@ -121,11 +120,7 @@ def _has_html_tags(s: str) -> bool:
     return bool(re.search(r"<[a-zA-Z][^>]*>", s or ""))
 
 def _force_desc_cdata(o_el: ET.Element):
-    """Zawsze opakuj opis w realny HTML w CDATA, bez obrazków:
-       1) unescape '&lt;h2&gt;' -> '<h2>'
-       2) usuń <script>/<iframe>/<img>
-       3) jeśli brak tagów po od-escape – owiń w <p>...</p>
-    """
+    """Opis w realnym HTML (CDATA), bez <img>."""
     desc_el = o_el.find("desc")
     if desc_el is None:
         return
@@ -150,6 +145,22 @@ def _format_capacity_unit(val: str) -> str:
         return ""
     i = int(round(f))
     return "1 TB" if i == 1 else f"{i} GB"
+
+# --- Normalizacja cali w 'Przekątna ekranu' ---
+def _normalize_inches(value: str) -> str:
+    """Zwraca N[.N]\". Jeśli brak liczby, dokleja \". Usuwa 'cali' itp."""
+    if not value:
+        return value
+    m = re.search(r"(\d+(?:[.,]\d+)?)", value)
+    if not m:
+        # brak liczby – jeśli nie ma cudzysłowu, doklej
+        v = value.strip()
+        return v if v.endswith('"') else (v + '"')
+    num = m.group(1).replace(",", ".")
+    # obetnij zbędne zera po przecinku
+    if "." in num:
+        num = num.rstrip("0").rstrip(".")
+    return f'{num}"'
 
 # --------- GŁÓWNA LOGIKA KONWERSJI ---------
 def convert_file_morele(in_path, out_path):
@@ -196,6 +207,7 @@ def convert_file_morele(in_path, out_path):
         # --- ATRYBUTY: transformacje dla Morele ---
         attrs_el = o.find("attrs")
         if attrs_el is not None:
+            # słownik atrybutów
             attrs = {}
             for a in attrs_el.findall("a"):
                 name = (a.get("name") or "").strip()
@@ -215,10 +227,17 @@ def convert_file_morele(in_path, out_path):
                 n = (a.get("name") or "").strip()
                 if n == 'Wielkość pamięci RAM':
                     a.set("name", "Pamięć RAM (zainstalowana)")
-                elif n == 'Przekątna ekranu [\"]':
+                elif n == 'Przekątna ekranu ["]':
                     a.set("name", "Przekątna ekranu")
                 elif n == 'Rozdzielczość (px)':
                     a.set("name", "Rozdzielczość")
+
+            # 2a) Przekątna ekranu – doklej "
+            for a in attrs_el.findall("a"):
+                if (a.get("name") or "").strip() == "Przekątna ekranu":
+                    v = (a.text or "").strip()
+                    if v:
+                        a.text = _normalize_inches(v)
 
             # 3) Ekran dotykowy: tylko "Nie" lub "z ekranem dotykowym"
             for a in attrs_el.findall("a"):
@@ -238,6 +257,13 @@ def convert_file_morele(in_path, out_path):
                     ET.SubElement(attrs_el, "a", {"name": "Dysk SSD"}).text = cap_fmt
                 if "hdd" in typ and not any((x.get("name") or "") == "Dysk HDD" for x in attrs_el.findall("a")):
                     ET.SubElement(attrs_el, "a", {"name": "Dysk HDD"}).text = cap_fmt
+
+            # 4a) Grafika zintegrowana -> dopisz pamięć karty jako "Współdzielona z RAM"
+            rodzaj = (attrs.get("Rodzaj karty graficznej") or "").strip().lower()
+            if "zintegrowana" in rodzaj:
+                has_mem = any((x.get("name") or "").strip() == "Pamięć karty graficznej" for x in attrs_el.findall("a"))
+                if not has_mem:
+                    ET.SubElement(attrs_el, "a", {"name": "Pamięć karty graficznej"}).text = "Współdzielona z RAM"
 
             # 5) Informacje o gwarancjach -> Gwarancja (liczba)
             for a in attrs_el.findall("a"):
