@@ -109,6 +109,7 @@ def _append_footer_to_desc(o_el):
     _set_desc_cdata(desc_el, new_html)
 
 # --- Sanizacja i CDATA dla istniejącego HTML (opakowanie) ---
+# Wycinamy <script>, <iframe>, <img> (Morele niech ma opis bez obrazków)
 _SCRIPT_IFRAME_IMG_RE = re.compile(
     r"(?is)<script.*?</script>|<iframe.*?</iframe>|<img\b[^>]*>"
 )
@@ -119,14 +120,30 @@ def _sanitize_basic(html_str: str) -> str:
 def _has_html_tags(s: str) -> bool:
     return bool(re.search(r"<[a-zA-Z][^>]*>", s or ""))
 
+# --- Edycje copy w opisie (reguły) ---
+def _apply_copy_edits(s: str) -> str:
+    rules = [
+        (re.compile(r'(?i)Świetna jakość w korzystnej cenie'), 'Świetna jakość'),
+        (re.compile(r'(?i)Nawiąż kontakt z kim tylko chcesz'), 'Nawiąż znajomość z kim tylko chcesz'),
+        (re.compile(r'(?i)\bw\s+gratisie\b'), ''),     # usuń "w Gratisie"
+        (re.compile(r'(?i)\bgratis!?\b'), ''),        # usuń "Gratis" / "GRATIS!"
+        (re.compile(r'(?i)Nie tylko cena,\s*'), ''),  # usuń "Nie tylko cena,"
+    ]
+    out = s
+    for rx, repl in rules:
+        out = rx.sub(repl, out)
+    out = re.sub(r'\s{2,}', ' ', out)
+    return out.strip()
+
 def _force_desc_cdata(o_el: ET.Element):
-    """Opis w realnym HTML (CDATA), bez <img>."""
+    """Opis w realnym HTML (CDATA), bez <img>, z poprawkami copy."""
     desc_el = o_el.find("desc")
     if desc_el is None:
         return
     raw = _inner_html(desc_el).strip()
     unescaped = _html.unescape(raw).strip()
     cleaned = _sanitize_basic(unescaped)
+    cleaned = _apply_copy_edits(cleaned)
     if not _has_html_tags(cleaned) and cleaned:
         cleaned = f"<p>{cleaned}</p>"
     _set_desc_cdata(desc_el, cleaned)
@@ -148,16 +165,14 @@ def _format_capacity_unit(val: str) -> str:
 
 # --- Normalizacja cali w 'Przekątna ekranu' ---
 def _normalize_inches(value: str) -> str:
-    """Zwraca N[.N]\". Jeśli brak liczby, dokleja \". Usuwa 'cali' itp."""
+    """Zwraca N[.N]\" (np. 14\", 12.5\"). Usuwa 'cali' itp., dokleja jeśli brak."""
     if not value:
         return value
     m = re.search(r"(\d+(?:[.,]\d+)?)", value)
     if not m:
-        # brak liczby – jeśli nie ma cudzysłowu, doklej
         v = value.strip()
         return v if v.endswith('"') else (v + '"')
     num = m.group(1).replace(",", ".")
-    # obetnij zbędne zera po przecinku
     if "." in num:
         num = num.rstrip("0").rstrip(".")
     return f'{num}"'
@@ -199,7 +214,7 @@ def convert_file_morele(in_path, out_path):
                 elif norm == "monitory komputerowe":
                     cat_el.text = "Monitory poleasingowe"
 
-        # usuń desc_json
+        # usuń desc_json (Morele korzysta z HTML)
         for dj in o.findall("desc_json"):
             parent = dj.getparent() if hasattr(dj, "getparent") else o
             parent.remove(dj)
@@ -232,7 +247,7 @@ def convert_file_morele(in_path, out_path):
                 elif n == 'Rozdzielczość (px)':
                     a.set("name", "Rozdzielczość")
 
-            # 2a) Przekątna ekranu – doklej "
+            # 2a) Przekątna ekranu – wymuś format N[.N]"
             for a in attrs_el.findall("a"):
                 if (a.get("name") or "").strip() == "Przekątna ekranu":
                     v = (a.text or "").strip()
@@ -274,7 +289,7 @@ def convert_file_morele(in_path, out_path):
                     a.set("name", "Gwarancja")
                     a.text = value
 
-        # --- OPIS: HTML w CDATA, bez obrazków
+        # --- OPIS: HTML w CDATA (bez IMG) + poprawki copy + stopka
         _force_desc_cdata(o)
         _append_footer_to_desc(o)
 
