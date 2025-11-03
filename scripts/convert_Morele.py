@@ -128,6 +128,7 @@ def _apply_copy_edits(s: str) -> str:
         (re.compile(r'(?i)\bw\s+gratisie\b'), ''),     # usuń "w Gratisie"
         (re.compile(r'(?i)\bgratis!?\b'), ''),        # usuń "Gratis" / "GRATIS!"
         (re.compile(r'(?i)Nie tylko cena,\s*'), ''),  # usuń "Nie tylko cena,"
+        (re.compile(r'(?i)Kup teraz'), ''),   # usuń "Kup teraz"
     ]
     out = s
     for rx, repl in rules:
