@@ -123,11 +123,12 @@ def _has_html_tags(s: str) -> bool:
 # --- Edycje copy w opisie (reguły) ---
 def _apply_copy_edits(s: str) -> str:
     rules = [
-        (re.compile(r'(?i)Świetna jakość w korzystnej cenie'), 'Świetna jakość'),
         (re.compile(r'(?i)Nawiąż kontakt z kim tylko chcesz'), 'Nawiąż znajomość z kim tylko chcesz'),
+        (re.compile(r'(?i)Świetny stosunek jakości do ceny'), 'Świetna jakość'),
         (re.compile(r'(?i)\bw\s+gratisie\b'), ''),     # usuń "w Gratisie"
         (re.compile(r'(?i)\bgratis!?\b'), ''),        # usuń "Gratis" / "GRATIS!"
         (re.compile(r'(?i)Nie tylko cena,\s*'), ''),  # usuń "Nie tylko cena,"
+        (re.compile(r'(?i)\bcenie\b'), 'ofercie'),    # zamień "cenie" na "ofercie"
         (re.compile(r'(?i)Kup teraz'), ''),   # usuń "Kup teraz"
     ]
     out = s
