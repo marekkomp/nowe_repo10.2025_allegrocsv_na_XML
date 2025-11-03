@@ -1,4 +1,4 @@
-
+# scripts/convert_taniey.py
 import os
 import re
 from lxml import etree as ET  # używamy lxml (obsługuje CDATA)
@@ -37,13 +37,10 @@ def _name(o_el):
     return (name_el.text or "").strip() if name_el is not None else ""
 
 def _screen_inch(attrs):
-    """Wyciąga wartość cali z atrybutu 'Przekątna ekranu …' (obsługa przecinka/kropki)."""
-    # znajdź pierwszy atrybut zaczynający się od 'Przekątna ekranu'
     key = next((k for k in attrs.keys() if k.lower().startswith("przekątna ekranu")), None)
     if not key:
         return None
     txt = (attrs.get(key) or "").strip()
-    # wyciągnij liczbę (np. 15.6, 15,6, 14, 13.3")
     m = re.search(r"(\d+(?:[.,]\d+)?)", txt)
     if not m:
         return None
@@ -53,31 +50,22 @@ def _screen_inch(attrs):
         return None
 
 def _laptop_size_url(size_in):
-    """Mapowanie przekątnej na URL kategorii laptopów."""
     if size_in is None:
         return None
     s = size_in
-
-    # ≤ 12.5
     if s <= 12.5:
         return "https://kompre.pl/pl/c/Laptopy-12-cali/349"
-    # ~13.3 (tolerancja)
     if 13.0 <= s <= 13.4:
         return "https://kompre.pl/pl/c/Laptopy-13-cali/394"
-    # 14–14.1
     if 14.0 <= s <= 14.15:
         return "https://kompre.pl/pl/c/Laptopy-14-cali/350"
-    # ~15.6
     if 15.5 <= s <= 15.7:
         return "https://kompre.pl/pl/c/Laptopy-15-cali/351"
-    # 17–17.3
     if 16.9 <= s <= 17.35:
         return "https://kompre.pl/pl/c/Laptopy-17-cali/352"
-
     return None
 
 def _build_link_block(kategoria, attrs):
-    """Końcówka opisu: tylko dla laptopów, link wg przekątnej ekranu."""
     if not kategoria:
         return ""
     if "laptop" not in kategoria.lower():
@@ -86,21 +74,18 @@ def _build_link_block(kategoria, attrs):
     size_in = _screen_inch(attrs)
     url = _laptop_size_url(size_in)
     if not url:
-        return ""  # brak dopasowania przekątnej → nic nie dodajemy
+        return ""
 
-    # Zaokrąglona przekątna do 1 miejsca po przecinku, np. 14.0 → 14
     if size_in:
         size_txt = f"{size_in:.1f}".rstrip("0").rstrip(".")
     else:
         size_txt = ""
 
-    # Tekstowy (nieklikalny) link + krótka formułka jakościowa
     return (
         f"<p>Sprawdź też inne modele laptopów z rozmiarem ekranu {size_txt}″: {url}. "
         f"Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. "
         f"Kupując sprzęt poleasingowy, zyskujesz jakość klasy biznes w znacznie niższej cenie oraz pewność gwarancji door-to-door.</p>"
     )
-
 
 def _build_footer_html(name, kategoria, attrs):
     link_block = _build_link_block(kategoria, attrs)
@@ -121,7 +106,7 @@ def _inner_html(el: ET.Element) -> str:
 
 def _set_desc_cdata(desc_el: ET.Element, html_string: str):
     desc_el.clear()
-    desc_el.text = ET.CDATA(html_string)  # HTML w CDATA
+    desc_el.text = ET.CDATA(html_string)
 
 def _already_has_footer(html: str) -> bool:
     return (FOOTER_MARK in html) or ("Kompre.pl" in html and "door-to-door" in html)
@@ -144,6 +129,7 @@ def _append_footer_to_desc(o_el):
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
 
+# --------- GŁÓWNA LOGIKA ---------
 def convert_file_taniey(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
@@ -168,7 +154,7 @@ def convert_file_taniey(in_path, out_path):
             o.set("stock", "0")
             o.set("basket", "0")
 
-        # dopisz "poleasingowe" do kategorii Laptopy / Komputery / Monitory komputerowe
+        # dopisz "poleasingowe" do kategorii
         cat_el = o.find("cat")
         if cat_el is not None and cat_el.text:
             cat_text = cat_el.text.strip()
@@ -186,9 +172,21 @@ def convert_file_taniey(in_path, out_path):
             parent = dj.getparent() if hasattr(dj, "getparent") else o
             parent.remove(dj)
 
-        # normalizacja gwarancji (zostawiamy jak było — nie używamy w stopce)
         attrs_el = o.find("attrs")
         if attrs_el is not None:
+            attrs = _collect_attrs(o)
+
+            # Dodaj <a name="Marka"> jeśli brak, z wartością z Producent
+            producent = attrs.get("Producent", "").strip()
+            if producent and not any((a.get("name") or "").strip() == "Marka" for a in attrs_el.findall("a")):
+                ET.SubElement(attrs_el, "a", {"name": "Marka"}).text = producent
+
+            # Zamiana Przekątna ekranu ["] -> Przekątna ekranu (")
+            for a in attrs_el.findall("a"):
+                if (a.get("name") or "").strip() == 'Przekątna ekranu ["]':
+                    a.set("name", 'Przekątna ekranu (")')
+
+            # Gwarancja (jak wcześniej)
             for a in attrs_el.findall("a"):
                 if (a.get("name") or "").strip().lower() == "informacje o gwarancjach":
                     text = (a.text or "").strip()
@@ -197,11 +195,9 @@ def convert_file_taniey(in_path, out_path):
                     a.set("name", "Gwarancja")
                     a.text = value
 
-        # dopnij footer i zapisz <desc> jako CDATA
         _append_footer_to_desc(o)
 
     tree.write(out_path, encoding="utf-8", xml_declaration=True, pretty_print=True)
-
     try:
         os.remove(temp_path)
     except FileNotFoundError:
