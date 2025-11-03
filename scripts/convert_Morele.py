@@ -1,6 +1,7 @@
 # scripts/convert_Morele.py
 import os
 import re
+import html as _html
 from lxml import etree as ET  # używamy lxml (obsługuje CDATA)
 from convert import convert_file, INPUT_DIR, OUTPUT_DIR  # główny konwerter
 
@@ -106,6 +107,31 @@ def _append_footer_to_desc(o_el):
     joiner = "\n" if current_html and not current_html.endswith("\n") else ""
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
+
+# --- Sanizacja i CDATA dla istniejącego HTML (opakowanie) ---
+_SCRIPT_IFRAME_RE = re.compile(r"(?is)<script.*?</script>|<iframe.*?</iframe>")
+
+def _sanitize_basic(html_str: str) -> str:
+    return _SCRIPT_IFRAME_RE.sub("", html_str or "")
+
+def _has_html_tags(s: str) -> bool:
+    return bool(re.search(r"<[a-zA-Z][^>]*>", s or ""))
+
+def _force_desc_cdata(o_el: ET.Element):
+    """Zawsze opakuj opis w prawdziwe HTML w CDATA:
+       1) od-escape '&lt;h2&gt;' -> '<h2>'
+       2) usuń <script>/<iframe>
+       3) jeśli brak tagów po od-escape – owiń w <p>...</p>
+    """
+    desc_el = o_el.find("desc")
+    if desc_el is None:
+        return
+    raw = _inner_html(desc_el).strip()
+    unescaped = _html.unescape(raw).strip()
+    cleaned = _sanitize_basic(unescaped)
+    if not _has_html_tags(cleaned) and cleaned:
+        cleaned = f"<p>{cleaned}</p>"
+    _set_desc_cdata(desc_el, cleaned)
 
 # --- Formatowanie pojemności ---
 def _format_capacity_unit(val: str) -> str:
@@ -219,6 +245,8 @@ def convert_file_morele(in_path, out_path):
                     a.set("name", "Gwarancja")
                     a.text = value
 
+        # --- OPIS: najpierw zawsze zamień na realny HTML w CDATA, potem ewentualnie dopnij stopkę
+        _force_desc_cdata(o)
         _append_footer_to_desc(o)
 
     tree.write(out_path, encoding="utf-8", xml_declaration=True, pretty_print=True)
