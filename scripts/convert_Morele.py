@@ -129,6 +129,7 @@ def _apply_copy_edits(s: str) -> str:
         (re.compile(r'(?i)\bgratis!?\b'), ''),        # usuń "Gratis" / "GRATIS!"
         (re.compile(r'(?i)Nie tylko cena,\s*'), ''),  # usuń "Nie tylko cena,"
         (re.compile(r'(?i)\bcenie\b'), 'ofercie'),    # zamień "cenie" na "ofercie"
+        (re.compile(r'(?i)\bcena\b'), 'ofercie'),    # zamień "cena" na "kwota"
         (re.compile(r'(?i)Kup teraz'), ''),   # usuń "Kup teraz"
     ]
     out = s
