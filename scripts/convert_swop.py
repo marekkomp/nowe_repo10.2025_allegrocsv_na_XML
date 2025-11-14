@@ -176,7 +176,7 @@ def _append_footer_to_desc_json(o_el):
     dj.text = json.dumps(data, ensure_ascii=False)
 
 # --------- GŁÓWNA LOGIKA ---------
-def convert_file_convert_swop(in_path, out_path):
+def convert_file_swop(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
     convert_file(in_path, temp_path)
@@ -249,15 +249,15 @@ def convert_file_convert_swop(in_path, out_path):
     except FileNotFoundError:
         pass
 
-    print(f"[taniey OK] Zapisano: {out_path}")
+    print(f"[swop OK] Zapisano: {out_path}")
 
 def main():
     for name in os.listdir(INPUT_DIR):
         if name.lower().endswith((".xlsm", ".xlsx", ".xls")):
             src = os.path.join(INPUT_DIR, name)
-            dst = os.path.join(OUTPUT_DIR, "taniey.xml")
-            print(f"[taniey] {src} -> {dst}")
-            convert_file_taniey(src, dst)
+            dst = os.path.join(OUTPUT_DIR, "swop.xml")
+            print(f"[swop] {src} -> {dst}")
+            convert_file_swop(src, dst)
             break
 
 if __name__ == "__main__":
