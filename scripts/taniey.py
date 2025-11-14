@@ -85,7 +85,7 @@ def _build_link_block(kategoria, attrs):
     return (
         f"<p>Sprawdź też inne modele laptopów z rozmiarem ekranu {size_txt}″: {url}. "
         f"Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. "
-        f"Kupując sprzęt poleasingowy, zyskujesz jakość klasy biznes w znacznie niższej cenie oraz pewność gwarancji door-to-door.</p>"
+        f"Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.</p>"
     )
 
 def _build_footer_html(name, kategoria, attrs):
@@ -93,7 +93,7 @@ def _build_footer_html(name, kategoria, attrs):
     return (
         f'{FOOTER_MARK}'
         f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
-        f'autoryzowanego sprzedawcy laptopów, komputerów i monitorów klasy biznes.</p> '
+        f'największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych.</p> '
         f'{link_block}'
     )
 
