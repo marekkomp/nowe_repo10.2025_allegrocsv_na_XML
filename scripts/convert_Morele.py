@@ -91,12 +91,6 @@ def _set_desc_cdata(desc_el: ET.Element, html_string: str):
 def _already_has_footer(html: str) -> bool:
     return (FOOTER_MARK in html) or ("Kompre.pl" in html and "door-to-door" in html)
 
-# --- NOWE: wyjątek dla laptopów Toshiba (bez link-block i stopki)
-def _is_toshiba_laptop(producent: str, kategoria: str) -> bool:
-    p = (producent or "").strip().lower()
-    k = (kategoria or "").strip().lower()
-    return p.startswith("toshiba") and ("laptop" in k)
-
 def _append_footer_to_desc(o_el):
     desc_el = o_el.find("desc")
     if desc_el is None:
@@ -104,17 +98,11 @@ def _append_footer_to_desc(o_el):
     current_html = _inner_html(desc_el)
     if _already_has_footer(current_html):
         return
-
     attrs = _collect_attrs(o_el)
     name = _name(o_el)
     producent = _brand(attrs)
-    kategoria = _category(o_el)
-
-    # pomiń dodawanie wstawek dla laptopów Toshiba
-    if _is_toshiba_laptop(producent, kategoria):
-        return
-
     gwarancja = _warranty(attrs)
+    kategoria = _category(o_el)
     footer_html = _build_footer_html(name, producent, gwarancja, kategoria)
     joiner = "\n" if current_html and not current_html.endswith("\n") else ""
     new_html = f"{current_html}{joiner}{footer_html}".strip()
@@ -141,8 +129,8 @@ def _apply_copy_edits(s: str) -> str:
         (re.compile(r'(?i)\bgratis!?\b'), ''),        # usuń "Gratis" / "GRATIS!"
         (re.compile(r'(?i)Nie tylko cena,\s*'), ''),  # usuń "Nie tylko cena,"
         (re.compile(r'(?i)\bcenie\b'), 'ofercie'),    # zamień "cenie" na "ofercie"
-        (re.compile(r'(?i)\bcena\b'), 'ofercie'),     # (zgodnie z wcześniejszym zapisem)
-        (re.compile(r'(?i)Kup teraz'), ''),           # usuń "Kup teraz"
+        (re.compile(r'(?i)\bcena\b'), 'ofercie'),    # zamień "cena" na "kwota"
+        (re.compile(r'(?i)Kup teraz'), ''),   # usuń "Kup teraz"
     ]
     out = s
     for rx, repl in rules:
