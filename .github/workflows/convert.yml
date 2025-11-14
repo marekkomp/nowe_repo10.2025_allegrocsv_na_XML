@@ -45,6 +45,10 @@ jobs:
         run: python scripts/taniey.py
         continue-on-error: true
 
+      - name: swop.py (nowy wariant)
+        run: python scripts/swop.py
+        continue-on-error: true
+
       - name: convert_Morele.py (bez desc_json, dostępność od 5 szt.)
         run: python scripts/convert_Morele.py
         continue-on-error: true
