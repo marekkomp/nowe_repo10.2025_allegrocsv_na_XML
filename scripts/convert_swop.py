@@ -64,13 +64,13 @@ def _budget_url(price):
         return "https://kompre.pl/pl/c/Laptopy-do-3000-zl/399"
     if price <= 5000:
         return "https://kompre.pl/pl/c/Laptopy-do-5000-zl/500"
-    # powyżej”
+    # powyżej 5000 zł też linkujemy tę kategorię
     return "https://kompre.pl/pl/c/Laptopy-do-5000-zl/500"
 
 def _build_link_block(kategoria, attrs, price):
     """
-    po budżecie:
-    'Sprawdź też inne laptopy w Twoim budżecie: ...'
+    Link po budżecie:
+    'Sprawdź też inne niezawodne laptopy w Twoim budżecie: ...'
     """
     if not kategoria:
         return ""
@@ -111,14 +111,25 @@ def _set_desc_cdata(desc_el: ET.Element, html_string: str):
 def _already_has_footer(html: str) -> bool:
     return (FOOTER_MARK in html) or ("Kompre.pl" in html and "door-to-door" in html)
 
+def _replace_used_to_refurb(text: str) -> str:
+    """używany/używane -> Odnowiony/Odnowione w treści HTML."""
+    if not text:
+        return text
+    text = re.sub(r"(?i)\bużywany\b", "Odnowiony", text)
+    text = re.sub(r"(?i)\bużywane\b", "Odnowione", text)
+    return text
+
 def _append_footer_to_desc(o_el):
-    """Dopisuje stopkę do <desc> (HTML) i zapisuje w CDATA."""
+    """Dopisuje stopkę do <desc> (HTML) i zapisuje w CDATA, z podmianą używany -> odnowiony."""
     desc_el = o_el.find("desc")
     if desc_el is None:
         return
 
     current_html = _inner_html(desc_el)
+    current_html = _replace_used_to_refurb(current_html)
+
     if _already_has_footer(current_html):
+        _set_desc_cdata(desc_el, current_html)
         return
 
     attrs = _collect_attrs(o_el)
@@ -146,7 +157,6 @@ def _append_footer_to_desc_json(o_el):
     except Exception:
         return  # nieprawidłowy JSON — nie dotykamy
 
-    # Przygotuj HTML stopki
     attrs = _collect_attrs(o_el)
     name = _name(o_el)
     kategoria = _category(o_el)
@@ -197,18 +207,21 @@ def convert_file_swop(in_path, out_path):
             o.set("stock", "0")
             o.set("basket", "0")
 
-        # dopisz "poleasingowe" do kategorii
+        # --- KATEGORIA: poleasingowe -> odnowione + dopisywanie odnowione ---
         cat_el = o.find("cat")
         if cat_el is not None and cat_el.text:
-            cat_text = cat_el.text.strip()
-            norm = cat_text.lower()
-            if "poleasingowe" not in norm:
+            text = cat_el.text.strip()
+            # zamień każde 'poleasingowe' na 'odnowione'
+            text = re.sub(r"(?i)poleasingowe", "odnowione", text)
+            norm = text.lower()
+            if "odnowione" not in norm:
                 if norm == "laptopy":
-                    cat_el.text = "Laptopy poleasingowe"
+                    text = "Laptopy odnowione"
                 elif norm == "komputery":
-                    cat_el.text = "Komputery poleasingowe"
+                    text = "Komputery odnowione"
                 elif norm == "monitory komputerowe":
-                    cat_el.text = "Monitory poleasingowe"
+                    text = "Monitory odnowione"
+            cat_el.text = text
 
         # NIE usuwamy desc_json – zostaje w XML
         attrs_el = o.find("attrs")
@@ -220,6 +233,15 @@ def convert_file_swop(in_path, out_path):
             if producent and not any((a.get("name") or "").strip() == "Marka" for a in attrs_el.findall("a")):
                 ET.SubElement(attrs_el, "a", {"name": "Marka"}).text = producent
 
+            # Zamiana stanu: Używany/Używane -> Odnowiony/Odnowione
+            for a in attrs_el.findall("a"):
+                if (a.get("name") or "").strip().lower() == "stan":
+                    val = (a.text or "").strip()
+                    if re.search(r"(?i)\bużywany\b", val):
+                        a.text = "Odnowiony"
+                    elif re.search(r"(?i)\bużywane\b", val):
+                        a.text = "Odnowione"
+
             # Gwarancja (jak wcześniej)
             for a in attrs_el.findall("a"):
                 if (a.get("name") or "").strip().lower() == "informacje o gwarancjach":
@@ -229,7 +251,7 @@ def convert_file_swop(in_path, out_path):
                     a.set("name", "Gwarancja")
                     a.text = value
 
-        # Dopnij stopkę do HTML
+        # Dopnij stopkę do HTML (z podmianą używany -> odnowiony)
         _append_footer_to_desc(o)
         # Dopnij stopkę również do JSON-a
         _append_footer_to_desc_json(o)
