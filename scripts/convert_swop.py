@@ -176,7 +176,7 @@ def _append_footer_to_desc_json(o_el):
     dj.text = json.dumps(data, ensure_ascii=False)
 
 # --------- GŁÓWNA LOGIKA ---------
-def convert_file_taniey(in_path, out_path):
+def convert_file_convert_swop(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
     convert_file(in_path, temp_path)
