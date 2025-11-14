@@ -37,59 +37,58 @@ def _name(o_el):
     name_el = o_el.find("name")
     return (name_el.text or "").strip() if name_el is not None else ""
 
-def _screen_inch(attrs):
-    key = next((k for k in attrs.keys() if k.lower().startswith("przekątna ekranu")), None)
-    if not key:
-        return None
-    txt = (attrs.get(key) or "").strip()
-    m = re.search(r"(\d+(?:[.,]\d+)?)", txt)
-    if not m:
+def _get_price(o_el):
+    """Zwraca cenę jako float lub None."""
+    raw = (o_el.get("price") or "").strip()
+    if not raw:
         return None
     try:
-        return float(m.group(1).replace(",", "."))
+        p = float(raw.replace(",", "."))
+        return p
     except ValueError:
         return None
 
-def _laptop_size_url(size_in):
-    if size_in is None:
+def _budget_url(price):
+    """Zwraca URL kategorii budżetowej na podstawie ceny."""
+    if price is None:
         return None
-    s = size_in
-    if s <= 12.5:
-        return "https://kompre.pl/pl/c/Laptopy-12-cali/349"
-    if 13.0 <= s <= 13.4:
-        return "https://kompre.pl/pl/c/Laptopy-13-cali/394"
-    if 14.0 <= s <= 14.15:
-        return "https://kompre.pl/pl/c/Laptopy-14-cali/350"
-    if 15.5 <= s <= 15.7:
-        return "https://kompre.pl/pl/c/Laptopy-15-cali/351"
-    if 16.9 <= s <= 17.35:
-        return "https://kompre.pl/pl/c/Laptopy-17-cali/352"
-    return None
+    if price <= 500:
+        return "https://kompre.pl/pl/c/Laptopy-do-500-zl/390"
+    if price <= 1000:
+        return "https://kompre.pl/pl/c/Laptopy-do-1000-zl/389"
+    if price <= 1500:
+        return "https://kompre.pl/pl/c/Laptopy-do-1500-zl/391"
+    if price <= 2000:
+        return "https://kompre.pl/pl/c/Laptopy-do-2000-zl/392"
+    if price <= 3000:
+        return "https://kompre.pl/pl/c/Laptopy-do-3000-zl/399"
+    if price <= 5000:
+        return "https://kompre.pl/pl/c/Laptopy-do-5000-zl/500"
+    # powyżej”
+    return "https://kompre.pl/pl/c/Laptopy-do-5000-zl/500"
 
-def _build_link_block(kategoria, attrs):
+def _build_link_block(kategoria, attrs, price):
+    """
+    po budżecie:
+    'Sprawdź też inne laptopy w Twoim budżecie: ...'
+    """
     if not kategoria:
         return ""
     if "laptop" not in kategoria.lower():
         return ""
 
-    size_in = _screen_inch(attrs)
-    url = _laptop_size_url(size_in)
+    url = _budget_url(price)
     if not url:
         return ""
 
-    if size_in:
-        size_txt = f"{size_in:.1f}".rstrip("0").rstrip(".")
-    else:
-        size_txt = ""
-
     return (
-        f"<p>Sprawdź też inne modele laptopów z rozmiarem ekranu {size_txt}″: {url}. "
+        f"<p>Sprawdź też inne niezawodne laptopy w Twoim budżecie: {url}. "
         f"Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. "
         f"Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.</p>"
     )
 
-def _build_footer_html(name, kategoria, attrs):
-    link_block = _build_link_block(kategoria, attrs)
+def _build_footer_html(name, kategoria, attrs, price):
+    link_block = _build_link_block(kategoria, attrs, price)
     return (
         f'{FOOTER_MARK}'
         f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
@@ -125,8 +124,9 @@ def _append_footer_to_desc(o_el):
     attrs = _collect_attrs(o_el)
     name = _name(o_el)
     kategoria = _category(o_el)
+    price = _get_price(o_el)
 
-    footer_html = _build_footer_html(name, kategoria, attrs)
+    footer_html = _build_footer_html(name, kategoria, attrs, price)
     joiner = "\n" if current_html and not current_html.endswith("\n") else ""
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
@@ -150,13 +150,13 @@ def _append_footer_to_desc_json(o_el):
     attrs = _collect_attrs(o_el)
     name = _name(o_el)
     kategoria = _category(o_el)
-    footer_html = _build_footer_html(name, kategoria, attrs)
+    price = _get_price(o_el)
+    footer_html = _build_footer_html(name, kategoria, attrs, price)
 
     def _append_text_block(sections_list):
         if not sections_list:
             sections_list.append({"items": [{"type": "TEXT", "content": footer_html}]})
             return
-        # dopnij jako nowy blok, żeby nie mieszać z istniejącą treścią
         sections_list.append({"items": [{"type": "TEXT", "content": footer_html}]})
 
     if isinstance(data, dict):
@@ -166,13 +166,10 @@ def _append_footer_to_desc_json(o_el):
         else:
             data["sections"] = [{"items": [{"type": "TEXT", "content": footer_html}]}]
     elif isinstance(data, list):
-        # rzadziej spotykane: JSON to lista sekcji
         _append_text_block(data)
     else:
-        # nieobsługiwany kształt — nie modyfikujemy
         return
 
-    # Zapisz z powrotem (bez ASCII-escape, z zachowaniem PL znaków)
     dj.text = json.dumps(data, ensure_ascii=False)
 
 # --------- GŁÓWNA LOGIKA ---------
@@ -213,8 +210,7 @@ def convert_file_swop(in_path, out_path):
                 elif norm == "monitory komputerowe":
                     cat_el.text = "Monitory poleasingowe"
 
-        # UWAGA: NIE USUWAMY już desc_json — zostaje w XML
-
+        # NIE usuwamy desc_json – zostaje w XML
         attrs_el = o.find("attrs")
         if attrs_el is not None:
             attrs = _collect_attrs(o)
@@ -223,11 +219,6 @@ def convert_file_swop(in_path, out_path):
             producent = attrs.get("Producent", "").strip()
             if producent and not any((a.get("name") or "").strip() == "Marka" for a in attrs_el.findall("a")):
                 ET.SubElement(attrs_el, "a", {"name": "Marka"}).text = producent
-
-            # Zamiana Przekątna ekranu ["] -> Przekątna ekranu (")
-            for a in attrs_el.findall("a"):
-                if (a.get("name") or "").strip() == 'Przekątna ekranu ["]':
-                    a.set("name", 'Przekątna ekranu (")')
 
             # Gwarancja (jak wcześniej)
             for a in attrs_el.findall("a"):
