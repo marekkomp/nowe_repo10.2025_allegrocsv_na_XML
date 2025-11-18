@@ -53,6 +53,10 @@ jobs:
         run: python scripts/convert_Morele.py
         continue-on-error: true
 
+      - name: convert_empi.py (bez desc_json, dostępność od 5 szt.)
+        run: python scripts/convert_empi.py
+        continue-on-error: true
+
       - name: Show output (debug)
         run: |
           echo "== OUTPUT DIR ==" && ls -la output || true
