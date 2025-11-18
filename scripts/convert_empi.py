@@ -139,65 +139,51 @@ def _apply_copy_edits(s: str) -> str:
     return out.strip()
 
 def _normalize_html_structure(html_str: str) -> str:
-    """
-    Normalizuje strukturę HTML w opisie (zbliżone do TESTOWEGO):
-    - usuwa nagłówki z samymi podkreśleniami,
-    - zamienia wszystkie H1–H6 na H2,
-    - usuwa puste paragrafy,
-    - zacieśnia spacje/entery między tagami.
-    """
     if not html_str:
         return ""
 
     s = html_str
 
-    # 1) Usuń nagłówki-separatory typu <h1>_____</h1>
+    # 1) Usuń nagłówki-separatory typu ________
     s = re.sub(r'<h[1-6]>_+</h[1-6]>', '', s, flags=re.IGNORECASE)
 
-    # 2) Wszystkie H1–H6 → H2
+    # 2) Zamień wszystkie H1–H6 na H2
     s = re.sub(
         r'<h[1-6]>(.*?)</h[1-6]>',
         r'<h2>\1</h2>',
         s,
-        flags=re.IGNORECASE | re.DOTALL
+        flags=re.IGNORECASE | re.DOTALL,
     )
 
-    # 3) Usuń puste <p> (tylko spacje / &nbsp;)
+    # 3) Scal sąsiadujące listy <ul>...</ul><ul>...</ul> -> jedna lista
+    s = re.sub(r'</ul>\s*<ul>', '', s, flags=re.IGNORECASE)
+
+    # 4) Wywal puste paragrafy: tylko spacje / NBSP / <br>
     s = re.sub(
-        r'<p>\s*(?:&nbsp;|\s)*</p>',
+        r'<p>(?:\s|&nbsp;|<br\s*/?>)*</p>',
         '',
         s,
-        flags=re.IGNORECASE
+        flags=re.IGNORECASE,
     )
 
-    # 4) Zacieśnij spacje/entery między tagami
+    # 5) Zbij nadmiar białych znaków między tagami
     s = re.sub(r'>\s+<', '><', s)
 
     return s.strip()
 
+
 def _force_desc_cdata(o_el: ET.Element):
-    """
-    Czyści opis w <desc> i zapisuje go jako HTML w CDATA:
-    - unescape'uje encje HTML,
-    - usuwa <script>, <iframe>, <img>,
-    - stosuje poprawki copy (_apply_copy_edits),
-    - normalizuje nagłówki / puste paragrafy,
-    - gdy brak znaczników HTML, opakowuje tekst w <p>...</p>.
-    """
+    """Opis w realnym HTML (CDATA), bez <img>, z poprawkami copy + normalizacją struktury."""
     desc_el = o_el.find("desc")
     if desc_el is None:
         return
-
     raw = _inner_html(desc_el).strip()
     unescaped = _html.unescape(raw).strip()
-
     cleaned = _sanitize_basic(unescaped)
     cleaned = _apply_copy_edits(cleaned)
-    cleaned = _normalize_html_structure(cleaned)
-
+    cleaned = _normalize_html_structure(cleaned)   # <── KLUCZOWE
     if not _has_html_tags(cleaned) and cleaned:
         cleaned = f"<p>{cleaned}</p>"
-
     _set_desc_cdata(desc_el, cleaned)
 
 
