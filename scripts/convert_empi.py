@@ -434,7 +434,45 @@ def convert_file_empi(in_path, out_path):
                     value = m.group(1) if m else ""
                     a.set("name", "Gwarancja")
                     a.text = value
+                    
+from openpyxl import load_workbook
 
+def _inject_extra_attrs_from_excel(in_path, o_el, start_col_letter="AQ"):
+    """Dobiera dodatkowe kolumny z Excela od kolumny startowej."""
+    try:
+        wb = load_workbook(in_path, data_only=True, read_only=True)
+        ws = wb.active
+    except Exception:
+        return
+
+    # Pobierz nagłówki (wiersz 4) – w Excelu Twój header zaczyna się w 4 wierszu
+    headers = [cell.value for cell in ws[4]]
+    headers = [str(h).strip() if h else "" for h in headers]
+
+    # Znajdź indeks kolumny startowej
+    start_idx = None
+    for idx, cell in enumerate(ws[1], start=1):
+        if cell.column_letter == start_col_letter:
+            start_idx = idx - 1
+            break
+
+    if start_idx is None:
+        return
+
+    # Zbuduj słownik atrybutów z wyższego zakresu
+    extra_attrs = {headers[i]: cell.value for i, cell in enumerate(ws[o_el.attrib['row_num'] + 4][start_idx:])
+                   if headers[i] and cell.value}
+
+    # Dopisz do <attrs>
+    attrs_el = o_el.find("attrs")
+    if attrs_el is None:
+        attrs_el = ET.SubElement(o_el, "attrs")
+
+    for k, v in extra_attrs.items():
+        ET.SubElement(attrs_el, "a", {"name": k}).text = str(v)
+
+
+        
         # --- OPIS: HTML w CDATA (bez IMG) + poprawki copy + stopka
         _force_desc_cdata(o)
         _append_footer_to_desc(o)
