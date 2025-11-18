@@ -139,7 +139,13 @@ def _apply_copy_edits(s: str) -> str:
     return out.strip()
 
 def _force_desc_cdata(o_el: ET.Element):
-    """Opis w realnym HTML (CDATA), bez <img>, z poprawkami copy."""
+    """
+    Czyści opis w <desc> i zapisuje go jako HTML w CDATA:
+    - unescape'uje encje HTML,
+    - usuwa <script>, <iframe>, <img>,
+    - stosuje poprawki copy (_apply_copy_edits),
+    - gdy brak znaczników HTML, opakowuje tekst w <p>...</p>.
+    """
     desc_el = o_el.find("desc")
     if desc_el is None:
         return
