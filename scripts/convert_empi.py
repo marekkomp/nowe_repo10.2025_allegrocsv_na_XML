@@ -52,7 +52,7 @@ def _build_link_block(kategoria, producent):
     if "laptop" in kat:
         url = BRAND_LINKS.get(brand)
     elif "komputer" in kat:
-        url = "https://kompre.pl/pl/c/Komputery-Stacjonarne/345"
+        url = "https://kompre.pl/pl/c/Komputery-Stacjonarne/34"
     elif "monitor" in kat:
         url = "https://kompre.pl/monitory"
     else:
@@ -168,7 +168,7 @@ def _format_capacity_unit(val: str) -> str:
 
 # --- Normalizacja cali w 'Przekątna ekranu' ---
 def _normalize_inches(value: str) -> str:
-    """Zwraca N[.N]\" (np. 14\", 12.5\"). Usuwa 'cali' itp., dokleja jeśli brak."""
+    """Zwraca N[.N]\" (np. 14\", 12.\"). Usuwa 'cali' itp., dokleja jeśli brak."""
     if not value:
         return value
     m = re.search(r"(\d+(?:[.,]\d+)?)", value)
@@ -191,7 +191,7 @@ def convert_file_empi(in_path, out_path):
     root = tree.getroot()
 
     for o in root.findall("o"):
-        # dostępność: aktywna tylko gdy stock >= 5
+        # dostępność: aktywna tylko gdy stock >= 4
         try:
             stock_num = int(o.get("stock", "0"))
         except:
@@ -199,7 +199,7 @@ def convert_file_empi(in_path, out_path):
                 stock_num = int(float(o.get("stock", "0")))
             except:
                 stock_num = 0
-        if o.get("avail") == "1" and stock_num < 5:
+        if o.get("avail") == "1" and stock_num < 4:
             o.set("avail", "99")
             o.set("stock", "0")
             o.set("basket", "0")
