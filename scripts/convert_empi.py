@@ -2,6 +2,7 @@
 import os
 import re
 import html as _html
+import openpyxl
 from lxml import etree as ET  # używamy lxml (obsługuje CDATA)
 from convert import convert_file, INPUT_DIR, OUTPUT_DIR  # główny konwerter
 
@@ -16,7 +17,107 @@ BRAND_LINKS = {
 FOOTER_MARK = "<!---->"
 LINKS_AS_PLAIN_TEXT = True
 
-# --------- POMOCNICZE ---------
+# kolumny, których NIE dublujemy w <attrs> (bo już idą w XML jako cat/name/itd.)
+EXCLUDED_COLS = {
+    "ID oferty",
+    "Tytuł oferty",
+    "Cena PL",
+    "Link do oferty",
+    "Status oferty",
+    "Liczba sztuk",
+    "Kategoria główna",
+    "Podkategoria",
+    "Zdjęcia",
+    "Opis oferty",
+}
+
+# --------- POMOCNICZE – EXCEL -> atrybuty po ID ---------
+def _load_excel_rows_by_id(xlsx_path: str) -> dict:
+    """
+    Czyta Excela i zwraca:
+        { "ID oferty": {nagłówek: wartość, ...}, ... }
+
+    Arkusz: "Szablon" lub pierwszy.
+    Nagłówki: wiersz 4, dane: od wiersza 5.
+    Pomija EXCLUDED_COLS i puste wartości.
+    """
+    try:
+        wb = openpyxl.load_workbook(xlsx_path, data_only=True, read_only=True)
+    except Exception:
+        return {}
+
+    ws = wb["Szablon"] if "Szablon" in wb.sheetnames else wb.worksheets[0]
+
+    headers = []
+    for cell in ws[4]:
+        v = "" if cell.value is None else str(cell.value).strip()
+        headers.append(v)
+    while headers and headers[-1] == "":
+        headers.pop()
+
+    try:
+        idx_id = headers.index("ID oferty")
+    except ValueError:
+        wb.close()
+        return {}
+
+    by_id = {}
+    for row in ws.iter_rows(min_row=5, values_only=True):
+        if idx_id >= len(row):
+            continue
+        rid = row[idx_id]
+        if rid is None or str(rid).strip() == "":
+            continue
+        rid = str(rid).strip()
+
+        row_dict = {}
+        for i, h in enumerate(headers):
+            if not h or i >= len(row):
+                continue
+            if h in EXCLUDED_COLS:
+                continue
+            v = row[i]
+            if v is None:
+                continue
+            v_str = str(v).strip()
+            if not v_str:
+                continue
+            row_dict[h] = v_str
+
+        if row_dict:
+            by_id[rid] = row_dict
+
+    wb.close()
+    return by_id
+
+
+def _enrich_attrs_with_all_excel_cols(o_el: ET.Element, excel_rows_by_id: dict):
+    """
+    Dla danego <o> dopisuje wszystkie kolumny z Excela jako atrybuty <a>,
+    jeśli jeszcze nie istnieją w <attrs>.
+    """
+    oid = (o_el.get("id") or "").strip()
+    if not oid:
+        return
+
+    row = excel_rows_by_id.get(oid)
+    if not row:
+        return
+
+    attrs_el = o_el.find("attrs")
+    if attrs_el is None:
+        attrs_el = ET.SubElement(o_el, "attrs")
+
+    existing = {(a.get("name") or "").strip() for a in attrs_el.findall("a")}
+
+    for col_name, val in row.items():
+        if not col_name or not val:
+            continue
+        if col_name in existing:
+            continue
+        ET.SubElement(attrs_el, "a", {"name": col_name}).text = val
+
+# --------- POMOCNICZE – stopka / opis ---------
 def _collect_attrs(o_el):
     out = {}
     attrs_el = o_el.find("attrs")
@@ -68,7 +169,8 @@ def _build_link_block(kategoria, producent):
 def _build_footer_html(name, producent, gwarancja, kategoria):
     link_block = _build_link_block(kategoria, producent)
     gw = (gwarancja or "12 miesięcy").strip()
-    gwarancja_txt = gw if "gwarancja" in gw.lower() else f"Gwarancja {gw}"
+    # zostawiamy gw dla ewentualnej rozbudowy – na razie nie wstrzykujemy do tekstu
+    _ = gw
     return (
         f'{FOOTER_MARK}'
         f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
@@ -108,8 +210,7 @@ def _append_footer_to_desc(o_el):
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
 
-# --- Sanizacja i CDATA dla istniejącego HTML (opakowanie) ---
-# Wycinamy <script>, <iframe>, <img> (empi niech ma opis bez obrazków)
+# --- Sanizacja HTML opisu ---
 _SCRIPT_IFRAME_IMG_RE = re.compile(
     r"(?is)<script.*?</script>|<iframe.*?</iframe>|<img\b[^>]*>"
 )
@@ -128,9 +229,9 @@ def _apply_copy_edits(s: str) -> str:
         (re.compile(r'(?i)\bw\s+gratisie\b'), ''),     # usuń "w Gratisie"
         (re.compile(r'(?i)\bgratis!?\b'), ''),        # usuń "Gratis" / "GRATIS!"
         (re.compile(r'(?i)Nie tylko cena,\s*'), ''),  # usuń "Nie tylko cena,"
-        (re.compile(r'(?i)\bcenie\b'), 'ofercie'),    # zamień "cenie" na "ofercie"
-        (re.compile(r'(?i)\bcena\b'), 'ofercie'),    # zamień "cena" na "kwota"
-        (re.compile(r'(?i)Kup teraz'), ''),   # usuń "Kup teraz"
+        (re.compile(r'(?i)\bcenie\b'), 'ofercie'),
+        (re.compile(r'(?i)\bcena\b'), 'ofercie'),
+        (re.compile(r'(?i)Kup teraz'), ''),           # usuń "Kup teraz"
     ]
     out = s
     for rx, repl in rules:
@@ -158,7 +259,7 @@ def _normalize_html_structure(html_str: str) -> str:
     # 3) Scal sąsiadujące listy <ul>...</ul><ul>...</ul> -> jedna lista
     s = re.sub(r'</ul>\s*<ul>', '', s, flags=re.IGNORECASE)
 
-    # 4) Wywal puste paragrafy: tylko spacje / NBSP / <br>
+    # 4) Wywal puste paragrafy
     s = re.sub(
         r'<p>(?:\s|&nbsp;|<br\s*/?>)*</p>',
         '',
@@ -171,7 +272,6 @@ def _normalize_html_structure(html_str: str) -> str:
 
     return s.strip()
 
-
 def _force_desc_cdata(o_el: ET.Element):
     """Opis w realnym HTML (CDATA), bez <img>, z poprawkami copy + normalizacją struktury."""
     desc_el = o_el.find("desc")
@@ -181,11 +281,10 @@ def _force_desc_cdata(o_el: ET.Element):
     unescaped = _html.unescape(raw).strip()
     cleaned = _sanitize_basic(unescaped)
     cleaned = _apply_copy_edits(cleaned)
-    cleaned = _normalize_html_structure(cleaned)   # <── KLUCZOWE
+    cleaned = _normalize_html_structure(cleaned)
     if not _has_html_tags(cleaned) and cleaned:
         cleaned = f"<p>{cleaned}</p>"
     _set_desc_cdata(desc_el, cleaned)
-
 
 # --- Formatowanie pojemności ---
 def _format_capacity_unit(val: str) -> str:
@@ -197,14 +296,14 @@ def _format_capacity_unit(val: str) -> str:
     num = m.group(1).replace(",", ".")
     try:
         f = float(num)
-    except:
+    except Exception:
         return ""
     i = int(round(f))
     return "1 TB" if i == 1 else f"{i} GB"
 
 # --- Normalizacja cali w 'Przekątna ekranu' ---
 def _normalize_inches(value: str) -> str:
-    """Zwraca N[.N]\" (np. 14\", 12.\"). Usuwa 'cali' itp., dokleja jeśli brak."""
+    """Zwraca N[.N]\" (np. 14\", 12\"). Usuwa 'cali' itp., dokleja jeśli brak."""
     if not value:
         return value
     m = re.search(r"(\d+(?:[.,]\d+)?)", value)
@@ -220,20 +319,28 @@ def _normalize_inches(value: str) -> str:
 def convert_file_empi(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
+
+    # bazowy XML z convert.py (Morele / inne feedy dalej używają convert.py normalnie)
     convert_file(in_path, temp_path)
+
+    # pełne dane z Excela tylko dla empi
+    excel_rows_by_id = _load_excel_rows_by_id(in_path)
 
     parser = ET.XMLParser(remove_blank_text=True)
     tree = ET.parse(temp_path, parser)
     root = tree.getroot()
 
     for o in root.findall("o"):
+        # najpierw dołóż wszystkie kolumny z Excela jako atrybuty
+        _enrich_attrs_with_all_excel_cols(o, excel_rows_by_id)
+
         # dostępność: aktywna tylko gdy stock >= 4
         try:
             stock_num = int(o.get("stock", "0"))
-        except:
+        except Exception:
             try:
                 stock_num = int(float(o.get("stock", "0")))
-            except:
+            except Exception:
                 stock_num = 0
         if o.get("avail") == "1" and stock_num < 4:
             o.set("avail", "99")
