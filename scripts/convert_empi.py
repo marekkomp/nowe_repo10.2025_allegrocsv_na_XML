@@ -31,50 +31,80 @@ EXCLUDED_COLS = {
     "Opis oferty",
 }
 
-# --------- POMOCNICZE – EXCEL -> atrybuty po ID ---------
-def _load_excel_rows_by_id(xlsx_path: str) -> dict:
+# --------- POMOCNICZE – Excel: Podkategoria + kolumny od AQ ---------
+def _load_excel_maps(in_path: str):
     """
     Czyta Excela i zwraca:
-        { "ID oferty": {nagłówek: wartość, ...}, ... }
-
+      - extras_by_id: {ID oferty: {nagłówek: wartość, ...}} dla kolumn od AQ w prawo
+      - subcat_by_id: {ID oferty: Podkategoria}
     Arkusz: "Szablon" lub pierwszy.
     Nagłówki: wiersz 4, dane: od wiersza 5.
-    Pomija EXCLUDED_COLS i puste wartości.
     """
     try:
-        wb = openpyxl.load_workbook(xlsx_path, data_only=True, read_only=True)
+        wb = openpyxl.load_workbook(in_path, data_only=True, read_only=True)
     except Exception:
-        return {}
+        return {}, {}
 
     ws = wb["Szablon"] if "Szablon" in wb.sheetnames else wb.worksheets[0]
 
-    headers = []
-    for cell in ws[4]:
-        v = "" if cell.value is None else str(cell.value).strip()
-        headers.append(v)
-    while headers and headers[-1] == "":
-        headers.pop()
+    # nagłówki (wiersz 4)
+    headers = [str(c.value).strip() if c.value else "" for c in ws[4]]
 
+    # indeks kolumny ID oferty
     try:
-        idx_id = headers.index("ID oferty")
+        id_idx = headers.index("ID oferty")
     except ValueError:
         wb.close()
-        return {}
+        return {}, {}
 
-    by_id = {}
+    # indeks kolumny Podkategoria (może nie być)
+    try:
+        subcat_idx = headers.index("Podkategoria")
+    except ValueError:
+        subcat_idx = None
+
+    # znajdź indeks (0-based) pierwszej kolumny o literze "AQ"
+    start_idx = None
+    for cell in ws[4]:
+        if cell.column_letter == "AQ":
+            start_idx = cell.column - 1  # column jest 1-based
+            break
+
+    extras_by_id = {}
+    subcat_by_id = {}
+
+    if start_idx is None:
+        # nie znaleziono AQ – ale nadal możemy mieć Podkategorię
+        start_idx = len(headers) + 1  # żeby pętla po extras nic nie dodała
+
     for row in ws.iter_rows(min_row=5, values_only=True):
-        if idx_id >= len(row):
+        if id_idx >= len(row):
             continue
-        rid = row[idx_id]
-        if rid is None or str(rid).strip() == "":
+        raw_id = row[id_idx]
+        if raw_id is None:
             continue
-        rid = str(rid).strip()
 
-        row_dict = {}
-        for i, h in enumerate(headers):
-            if not h or i >= len(row):
+        rid = str(raw_id).strip()
+        if not rid:
+            continue
+
+        # Podkategoria (jeśli jest kolumna)
+        if subcat_idx is not None and subcat_idx < len(row):
+            sc = row[subcat_idx]
+            if sc is not None:
+                sc_str = str(sc).strip()
+                if sc_str:
+                    subcat_by_id[rid] = sc_str
+
+        # dodatkowe kolumny od AQ
+        extra = {}
+        for i in range(start_idx, len(headers)):
+            h = headers[i] if i < len(headers) else ""
+            if not h:
                 continue
             if h in EXCLUDED_COLS:
+                continue
+            if i >= len(row):
                 continue
             v = row[i]
             if v is None:
@@ -82,25 +112,25 @@ def _load_excel_rows_by_id(xlsx_path: str) -> dict:
             v_str = str(v).strip()
             if not v_str:
                 continue
-            row_dict[h] = v_str
+            extra[h] = v_str
 
-        if row_dict:
-            by_id[rid] = row_dict
+        if extra:
+            extras_by_id[rid] = extra
 
     wb.close()
-    return by_id
+    return extras_by_id, subcat_by_id
 
 
-def _enrich_attrs_with_all_excel_cols(o_el: ET.Element, excel_rows_by_id: dict):
+def _enrich_attrs_with_excel(o_el: ET.Element, extras_by_id: dict):
     """
-    Dla danego <o> dopisuje wszystkie kolumny z Excela jako atrybuty <a>,
+    Dla danego <o> dopisuje wszystkie kolumny z extras_by_id[ID oferty] jako atrybuty <a>,
     jeśli jeszcze nie istnieją w <attrs>.
     """
     oid = (o_el.get("id") or "").strip()
     if not oid:
         return
 
-    row = excel_rows_by_id.get(oid)
+    row = extras_by_id.get(oid)
     if not row:
         return
 
@@ -169,8 +199,7 @@ def _build_link_block(kategoria, producent):
 def _build_footer_html(name, producent, gwarancja, kategoria):
     link_block = _build_link_block(kategoria, producent)
     gw = (gwarancja or "12 miesięcy").strip()
-    # zostawiamy gw dla ewentualnej rozbudowy – na razie nie wstrzykujemy do tekstu
-    _ = gw
+    _ = gw  # na razie niewykorzystane w tekście
     return (
         f'{FOOTER_MARK}'
         f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
@@ -323,16 +352,27 @@ def convert_file_empi(in_path, out_path):
     # bazowy XML z convert.py (Morele / inne feedy dalej używają convert.py normalnie)
     convert_file(in_path, temp_path)
 
-    # pełne dane z Excela tylko dla empi
-    excel_rows_by_id = _load_excel_rows_by_id(in_path)
+    # Excel: dodatkowe kolumny od AQ + Podkategoria
+    extras_by_id, subcat_by_id = _load_excel_maps(in_path)
 
     parser = ET.XMLParser(remove_blank_text=True)
     tree = ET.parse(temp_path, parser)
     root = tree.getroot()
 
     for o in root.findall("o"):
-        # najpierw dołóż wszystkie kolumny z Excela jako atrybuty
-        _enrich_attrs_with_all_excel_cols(o, excel_rows_by_id)
+        oid = (o.get("id") or "").strip()
+
+        # najpierw dołóż dodatkowe atrybuty z Excela (od AQ)
+        _enrich_attrs_with_excel(o, extras_by_id)
+
+        # Podkategoria → <subcat>
+        if oid and oid in subcat_by_id:
+            sub_val = subcat_by_id[oid]
+            sub_el = o.find("subcat")
+            if sub_el is None:
+                ET.SubElement(o, "subcat").text = sub_val
+            else:
+                sub_el.text = sub_val
 
         # dostępność: aktywna tylko gdy stock >= 4
         try:
@@ -434,45 +474,7 @@ def convert_file_empi(in_path, out_path):
                     value = m.group(1) if m else ""
                     a.set("name", "Gwarancja")
                     a.text = value
-                    
-from openpyxl import load_workbook
 
-def _inject_extra_attrs_from_excel(in_path, o_el, start_col_letter="AQ"):
-    """Dobiera dodatkowe kolumny z Excela od kolumny startowej."""
-    try:
-        wb = load_workbook(in_path, data_only=True, read_only=True)
-        ws = wb.active
-    except Exception:
-        return
-
-    # Pobierz nagłówki (wiersz 4) – w Excelu Twój header zaczyna się w 4 wierszu
-    headers = [cell.value for cell in ws[4]]
-    headers = [str(h).strip() if h else "" for h in headers]
-
-    # Znajdź indeks kolumny startowej
-    start_idx = None
-    for idx, cell in enumerate(ws[1], start=1):
-        if cell.column_letter == start_col_letter:
-            start_idx = idx - 1
-            break
-
-    if start_idx is None:
-        return
-
-    # Zbuduj słownik atrybutów z wyższego zakresu
-    extra_attrs = {headers[i]: cell.value for i, cell in enumerate(ws[o_el.attrib['row_num'] + 4][start_idx:])
-                   if headers[i] and cell.value}
-
-    # Dopisz do <attrs>
-    attrs_el = o_el.find("attrs")
-    if attrs_el is None:
-        attrs_el = ET.SubElement(o_el, "attrs")
-
-    for k, v in extra_attrs.items():
-        ET.SubElement(attrs_el, "a", {"name": k}).text = str(v)
-
-
-        
         # --- OPIS: HTML w CDATA (bez IMG) + poprawki copy + stopka
         _force_desc_cdata(o)
         _append_footer_to_desc(o)
