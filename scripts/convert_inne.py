@@ -1,10 +1,47 @@
 # scripts/convert_inne.py
 import os
 import re
+import math
 import html as _html
 import openpyxl
 from lxml import etree as ET  # używamy lxml (obsługuje CDATA)
 from convert import convert_file, INPUT_DIR, OUTPUT_DIR  # główny konwerter
+
+# --------- USTAWIENIA CENOWE (NOWE) ---------
+MIN_PRICE_PLN = 100          # poniżej tej ceny: usuń ofertę z XML
+PRICE_UP_PCT = 6             # podnieś cenę o X%
+PRICE_ROUND_MODE = "ceil"    # "ceil" = w górę do pełnych zł (zawsze)
+
+def _price_to_float(price_str: str):
+    if price_str is None:
+        return None
+    s = str(price_str).strip()
+    if not s:
+        return None
+    try:
+        return float(s.replace(",", "."))
+    except Exception:
+        return None
+
+def _apply_price_rules(price_str: str) -> str:
+    """
+    Zwraca nową cenę jako string (pełne zł).
+    Zasady:
+      - +6%
+      - zaokrąglanie w górę do pełnych zł (ceil)
+    """
+    p = _price_to_float(price_str)
+    if p is None:
+        return price_str
+    p2 = p * (1.0 + PRICE_UP_PCT / 100.0)
+
+    if PRICE_ROUND_MODE == "ceil":
+        p2 = math.ceil(p2)
+    else:
+        # fallback: klasyczne zaokrąglenie do pełnych zł
+        p2 = int(round(p2))
+
+    return str(int(p2))
 
 # --------- USTAWIENIA ---------
 BRAND_LINKS = {
@@ -198,8 +235,7 @@ def _build_link_block(kategoria, producent):
 
 def _build_footer_html(name, producent, gwarancja, kategoria):
     link_block = _build_link_block(kategoria, producent)
-    gw = (gwarancja or "12 miesięcy").strip()
-    _ = gw  # na razie niewykorzystane w tekście
+    _ = (gwarancja or "12 miesięcy").strip()
     return (
         f'{FOOTER_MARK}'
         f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
@@ -230,19 +266,13 @@ def _append_footer_to_desc(o_el):
     if _already_has_footer(current_html):
         return
     attrs = _collect_attrs(o_el)
-    name = _name(o_el)
-    producent = _brand(attrs)
-    gwarancja = _warranty(attrs)
-    kategoria = _category(o_el)
-    footer_html = _build_footer_html(name, producent, gwarancja, kategoria)
+    footer_html = _build_footer_html(_name(o_el), _brand(attrs), _warranty(attrs), _category(o_el))
     joiner = "\n" if current_html and not current_html.endswith("\n") else ""
     new_html = f"{current_html}{joiner}{footer_html}".strip()
     _set_desc_cdata(desc_el, new_html)
 
 # --- Sanizacja HTML opisu ---
-_SCRIPT_IFRAME_IMG_RE = re.compile(
-    r"(?is)<script.*?</script>|<iframe.*?</iframe>|<img\b[^>]*>"
-)
+_SCRIPT_IFRAME_IMG_RE = re.compile(r"(?is)<script.*?</script>|<iframe.*?</iframe>|<img\b[^>]*>")
 
 def _sanitize_basic(html_str: str) -> str:
     return _SCRIPT_IFRAME_IMG_RE.sub("", html_str or "")
@@ -255,12 +285,12 @@ def _apply_copy_edits(s: str) -> str:
     rules = [
         (re.compile(r'(?i)Nawiąż kontakt z kim tylko chcesz'), 'Nawiąż znajomość z kim tylko chcesz'),
         (re.compile(r'(?i)Świetny stosunek jakości do ceny'), 'Świetna jakość'),
-        (re.compile(r'(?i)\bw\s+gratisie\b'), ''),     # usuń "w Gratisie"
-        (re.compile(r'(?i)\bgratis!?\b'), ''),        # usuń "Gratis" / "GRATIS!"
-        (re.compile(r'(?i)Nie tylko cena,\s*'), ''),  # usuń "Nie tylko cena,"
+        (re.compile(r'(?i)\bw\s+gratisie\b'), ''),
+        (re.compile(r'(?i)\bgratis!?\b'), ''),
+        (re.compile(r'(?i)Nie tylko cena,\s*'), ''),
         (re.compile(r'(?i)\bcenie\b'), 'ofercie'),
         (re.compile(r'(?i)\bcena\b'), 'ofercie'),
-        (re.compile(r'(?i)Kup teraz'), ''),           # usuń "Kup teraz"
+        (re.compile(r'(?i)Kup teraz'), ''),
     ]
     out = s
     for rx, repl in rules:
@@ -271,38 +301,15 @@ def _apply_copy_edits(s: str) -> str:
 def _normalize_html_structure(html_str: str) -> str:
     if not html_str:
         return ""
-
     s = html_str
-
-    # 1) Usuń nagłówki-separatory typu ________
     s = re.sub(r'<h[1-6]>_+</h[1-6]>', '', s, flags=re.IGNORECASE)
-
-    # 2) Zamień wszystkie H1–H6 na H2
-    s = re.sub(
-        r'<h[1-6]>(.*?)</h[1-6]>',
-        r'<h2>\1</h2>',
-        s,
-        flags=re.IGNORECASE | re.DOTALL,
-    )
-
-    # 3) Scal sąsiadujące listy <ul>...</ul><ul>...</ul> -> jedna lista
+    s = re.sub(r'<h[1-6]>(.*?)</h[1-6]>', r'<h2>\1</h2>', s, flags=re.IGNORECASE | re.DOTALL)
     s = re.sub(r'</ul>\s*<ul>', '', s, flags=re.IGNORECASE)
-
-    # 4) Wywal puste paragrafy
-    s = re.sub(
-        r'<p>(?:\s|&nbsp;|<br\s*/?>)*</p>',
-        '',
-        s,
-        flags=re.IGNORECASE,
-    )
-
-    # 5) Zbij nadmiar białych znaków między tagami
+    s = re.sub(r'<p>(?:\s|&nbsp;|<br\s*/?>)*</p>', '', s, flags=re.IGNORECASE)
     s = re.sub(r'>\s+<', '><', s)
-
     return s.strip()
 
 def _force_desc_cdata(o_el: ET.Element):
-    """Opis w realnym HTML (CDATA), bez <img>, z poprawkami copy + normalizacją struktury."""
     desc_el = o_el.find("desc")
     if desc_el is None:
         return
@@ -332,7 +339,6 @@ def _format_capacity_unit(val: str) -> str:
 
 # --- Normalizacja cali w 'Przekątna ekranu' ---
 def _normalize_inches(value: str) -> str:
-    """Zwraca N[.N]\" (np. 14\", 12\"). Usuwa 'cali' itp., dokleja jeśli brak."""
     if not value:
         return value
     m = re.search(r"(\d+(?:[.,]\d+)?)", value)
@@ -349,7 +355,7 @@ def convert_file_inne(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
 
-    # bazowy XML z convert.py (Morele / inne feedy dalej używają convert.py normalnie)
+    # bazowy XML z convert.py
     convert_file(in_path, temp_path)
 
     # Excel: dodatkowe kolumny od AQ + Podkategoria
@@ -359,10 +365,19 @@ def convert_file_inne(in_path, out_path):
     tree = ET.parse(temp_path, parser)
     root = tree.getroot()
 
-    for o in root.findall("o"):
+    # UWAGA: usuwamy elementy z root w trakcie iteracji => iteruj po liście (list(...))
+    for o in list(root.findall("o")):
+        # --------- CENA (NOWE): filtr +6% + zaokrąglenie ---------
+        price_val = _price_to_float(o.get("price"))
+        if price_val is None or price_val < MIN_PRICE_PLN:
+            root.remove(o)
+            continue
+
+        o.set("price", _apply_price_rules(o.get("price")))
+
         oid = (o.get("id") or "").strip()
 
-        # najpierw dołóż dodatkowe atrybuty z Excela (od AQ)
+        # dołóż dodatkowe atrybuty z Excela (od AQ)
         _enrich_attrs_with_excel(o, extras_by_id)
 
         # Podkategoria → <subcat>
@@ -390,8 +405,7 @@ def convert_file_inne(in_path, out_path):
         # dopisz "poleasingowe" do kategorii
         cat_el = o.find("cat")
         if cat_el is not None and cat_el.text:
-            cat_text = cat_el.text.strip()
-            norm = cat_text.lower()
+            norm = cat_el.text.strip().lower()
             if "poleasingowe" not in norm:
                 if norm == "laptopy":
                     cat_el.text = "Laptopy poleasingowe"
@@ -401,14 +415,13 @@ def convert_file_inne(in_path, out_path):
                     cat_el.text = "Monitory poleasingowe"
 
         # usuń desc_json (inne korzysta z HTML)
-        for dj in o.findall("desc_json"):
+        for dj in list(o.findall("desc_json")):
             parent = dj.getparent() if hasattr(dj, "getparent") else o
             parent.remove(dj)
 
-        # --- ATRYBUTY: transformacje dla inne ---
+        # --- ATRYBUTY: transformacje ---
         attrs_el = o.find("attrs")
         if attrs_el is not None:
-            # słownik atrybutów
             attrs = {}
             for a in attrs_el.findall("a"):
                 name = (a.get("name") or "").strip()
@@ -426,11 +439,11 @@ def convert_file_inne(in_path, out_path):
             # 2) Zmiany nazw atrybutów RAM / ekran / rozdzielczość
             for a in attrs_el.findall("a"):
                 n = (a.get("name") or "").strip()
-                if n == 'Wielkość pamięci RAM':
+                if n == "Wielkość pamięci RAM":
                     a.set("name", "Pamięć RAM (zainstalowana)")
                 elif n == 'Przekątna ekranu ["]':
                     a.set("name", "Przekątna ekranu")
-                elif n == 'Rozdzielczość (px)':
+                elif n == "Rozdzielczość (px)":
                     a.set("name", "Rozdzielczość")
 
             # 2a) Przekątna ekranu – wymuś format N[.N]"
@@ -471,15 +484,15 @@ def convert_file_inne(in_path, out_path):
                 if (a.get("name") or "").strip().lower() == "informacje o gwarancjach":
                     text = (a.text or "").strip()
                     m = re.search(r"(\d+)", text)
-                    value = m.group(1) if m else ""
                     a.set("name", "Gwarancja")
-                    a.text = value
+                    a.text = m.group(1) if m else ""
 
         # --- OPIS: HTML w CDATA (bez IMG) + poprawki copy + stopka
         _force_desc_cdata(o)
         _append_footer_to_desc(o)
 
     tree.write(out_path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+
     try:
         os.remove(temp_path)
     except FileNotFoundError:
