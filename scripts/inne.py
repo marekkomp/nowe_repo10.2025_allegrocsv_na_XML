@@ -1,4 +1,4 @@
-# scripts/convert_empi.py
+# scripts/convert_inne.py
 import os
 import re
 import html as _html
@@ -345,7 +345,7 @@ def _normalize_inches(value: str) -> str:
     return f'{num}"'
 
 # --------- GŁÓWNA LOGIKA KONWERSJI ---------
-def convert_file_empi(in_path, out_path):
+def convert_file_inne(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     temp_path = os.path.join(OUTPUT_DIR, "_temp_base.xml")
 
@@ -400,12 +400,12 @@ def convert_file_empi(in_path, out_path):
                 elif norm == "monitory komputerowe":
                     cat_el.text = "Monitory poleasingowe"
 
-        # usuń desc_json (empi korzysta z HTML)
+        # usuń desc_json (inne korzysta z HTML)
         for dj in o.findall("desc_json"):
             parent = dj.getparent() if hasattr(dj, "getparent") else o
             parent.remove(dj)
 
-        # --- ATRYBUTY: transformacje dla empi ---
+        # --- ATRYBUTY: transformacje dla inne ---
         attrs_el = o.find("attrs")
         if attrs_el is not None:
             # słownik atrybutów
@@ -485,15 +485,15 @@ def convert_file_empi(in_path, out_path):
     except FileNotFoundError:
         pass
 
-    print(f"[empi OK] Zapisano: {out_path}")
+    print(f"[inne OK] Zapisano: {out_path}")
 
 def main():
     for name in os.listdir(INPUT_DIR):
         if name.lower().endswith((".xlsm", ".xlsx", ".xls")):
             src = os.path.join(INPUT_DIR, name)
-            dst = os.path.join(OUTPUT_DIR, "empi.xml")
-            print(f"[empi] {src} -> {dst}")
-            convert_file_empi(src, dst)
+            dst = os.path.join(OUTPUT_DIR, "inne.xml")
+            print(f"[inne] {src} -> {dst}")
+            convert_file_inne(src, dst)
             break
 
 if __name__ == "__main__":
