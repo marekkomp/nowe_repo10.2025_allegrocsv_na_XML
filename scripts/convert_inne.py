@@ -7,7 +7,7 @@ import openpyxl
 from lxml import etree as ET  # używamy lxml (obsługuje CDATA)
 from convert import convert_file, INPUT_DIR, OUTPUT_DIR  # główny konwerter
 
-# --------- USTAWIENIA CENOWE (NOWE) ---------
+# --------- USTAWIENIA CENOWE ---------
 MIN_PRICE_PLN = 100          # poniżej tej ceny: usuń ofertę z XML
 PRICE_UP_PCT = 6             # podnieś cenę o X%
 PRICE_ROUND_MODE = "ceil"    # "ceil" = w górę do pełnych zł (zawsze)
@@ -18,8 +18,10 @@ def _price_to_float(price_str: str):
     s = str(price_str).strip()
     if not s:
         return None
+    # obsłuż "1 234,56" / "1234.56"
+    s = s.replace(" ", "").replace("\u00a0", "").replace(",", ".")
     try:
-        return float(s.replace(",", "."))
+        return float(s)
     except Exception:
         return None
 
@@ -27,18 +29,20 @@ def _apply_price_rules(price_str: str) -> str:
     """
     Zwraca nową cenę jako string (pełne zł).
     Zasady:
-      - +6%
-      - zaokrąglanie w górę do pełnych zł (ceil)
+      - +PRICE_UP_PCT%
+      - zaokrąglenie do pełnych zł
+        - ceil: zawsze w górę
+        - inaczej: klasyczne round()
     """
     p = _price_to_float(price_str)
     if p is None:
-        return price_str
+        return str(price_str).strip()
+
     p2 = p * (1.0 + PRICE_UP_PCT / 100.0)
 
     if PRICE_ROUND_MODE == "ceil":
         p2 = math.ceil(p2)
     else:
-        # fallback: klasyczne zaokrąglenie do pełnych zł
         p2 = int(round(p2))
 
     return str(int(p2))
@@ -54,7 +58,6 @@ BRAND_LINKS = {
 FOOTER_MARK = "<!---->"
 LINKS_AS_PLAIN_TEXT = True
 
-# kolumny, których NIE dublujemy w <attrs> (bo już idą w XML jako cat/name/itd.)
 EXCLUDED_COLS = {
     "ID oferty",
     "Tytuł oferty",
@@ -71,7 +74,7 @@ EXCLUDED_COLS = {
 # --------- POMOCNICZE – Excel: Podkategoria + kolumny od AQ ---------
 def _load_excel_maps(in_path: str):
     """
-    Czyta Excela i zwraca:
+    Zwraca:
       - extras_by_id: {ID oferty: {nagłówek: wartość, ...}} dla kolumn od AQ w prawo
       - subcat_by_id: {ID oferty: Podkategoria}
     Arkusz: "Szablon" lub pierwszy.
@@ -83,36 +86,30 @@ def _load_excel_maps(in_path: str):
         return {}, {}
 
     ws = wb["Szablon"] if "Szablon" in wb.sheetnames else wb.worksheets[0]
-
-    # nagłówki (wiersz 4)
     headers = [str(c.value).strip() if c.value else "" for c in ws[4]]
 
-    # indeks kolumny ID oferty
     try:
         id_idx = headers.index("ID oferty")
     except ValueError:
         wb.close()
         return {}, {}
 
-    # indeks kolumny Podkategoria (może nie być)
     try:
         subcat_idx = headers.index("Podkategoria")
     except ValueError:
         subcat_idx = None
 
-    # znajdź indeks (0-based) pierwszej kolumny o literze "AQ"
     start_idx = None
     for cell in ws[4]:
         if cell.column_letter == "AQ":
-            start_idx = cell.column - 1  # column jest 1-based
+            start_idx = cell.column - 1
             break
 
     extras_by_id = {}
     subcat_by_id = {}
 
     if start_idx is None:
-        # nie znaleziono AQ – ale nadal możemy mieć Podkategorię
-        start_idx = len(headers) + 1  # żeby pętla po extras nic nie dodała
+        start_idx = len(headers) + 1  # nic nie doda
 
     for row in ws.iter_rows(min_row=5, values_only=True):
         if id_idx >= len(row):
@@ -125,7 +122,6 @@ def _load_excel_maps(in_path: str):
         if not rid:
             continue
 
-        # Podkategoria (jeśli jest kolumna)
         if subcat_idx is not None and subcat_idx < len(row):
             sc = row[subcat_idx]
             if sc is not None:
@@ -133,7 +129,6 @@ def _load_excel_maps(in_path: str):
                 if sc_str:
                     subcat_by_id[rid] = sc_str
 
-        # dodatkowe kolumny od AQ
         extra = {}
         for i in range(start_idx, len(headers)):
             h = headers[i] if i < len(headers) else ""
@@ -157,12 +152,7 @@ def _load_excel_maps(in_path: str):
     wb.close()
     return extras_by_id, subcat_by_id
 
-
 def _enrich_attrs_with_excel(o_el: ET.Element, extras_by_id: dict):
-    """
-    Dla danego <o> dopisuje wszystkie kolumny z extras_by_id[ID oferty] jako atrybuty <a>,
-    jeśli jeszcze nie istnieją w <attrs>.
-    """
     oid = (o_el.get("id") or "").strip()
     if not oid:
         return
@@ -201,8 +191,7 @@ def _brand(attrs):
     return (attrs.get("Producent") or "").strip()
 
 def _warranty(attrs):
-    gw = (attrs.get("Informacje o gwarancjach") or attrs.get("Gwarancja") or "").strip()
-    return gw
+    return (attrs.get("Informacje o gwarancjach") or attrs.get("Gwarancja") or "").strip()
 
 def _category(o_el):
     cat_el = o_el.find("cat")
@@ -234,13 +223,13 @@ def _build_link_block(kategoria, producent):
     )
 
 def _build_footer_html(name, producent, gwarancja, kategoria):
-    link_block = _build_link_block(kategoria, producent)
     _ = (gwarancja or "12 miesięcy").strip()
+    link_block = _build_link_block(kategoria, producent)
     return (
-        f'{FOOTER_MARK}'
-        f'<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – '
-        f'autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> '
-        f'{link_block}'
+        f"{FOOTER_MARK}"
+        f"<hr/><p><strong>{name}</strong> pochodzi z oferty <strong>Kompre.pl</strong> – "
+        f"autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> "
+        f"{link_block}"
     )
 
 def _inner_html(el: ET.Element) -> str:
@@ -280,33 +269,32 @@ def _sanitize_basic(html_str: str) -> str:
 def _has_html_tags(s: str) -> bool:
     return bool(re.search(r"<[a-zA-Z][^>]*>", s or ""))
 
-# --- Edycje copy w opisie (reguły) ---
 def _apply_copy_edits(s: str) -> str:
     rules = [
-        (re.compile(r'(?i)Nawiąż kontakt z kim tylko chcesz'), 'Nawiąż znajomość z kim tylko chcesz'),
-        (re.compile(r'(?i)Świetny stosunek jakości do ceny'), 'Świetna jakość'),
-        (re.compile(r'(?i)\bw\s+gratisie\b'), ''),
-        (re.compile(r'(?i)\bgratis!?\b'), ''),
-        (re.compile(r'(?i)Nie tylko cena,\s*'), ''),
-        (re.compile(r'(?i)\bcenie\b'), 'ofercie'),
-        (re.compile(r'(?i)\bcena\b'), 'ofercie'),
-        (re.compile(r'(?i)Kup teraz'), ''),
+        (re.compile(r"(?i)Nawiąż kontakt z kim tylko chcesz"), "Nawiąż znajomość z kim tylko chcesz"),
+        (re.compile(r"(?i)Świetny stosunek jakości do ceny"), "Świetna jakość"),
+        (re.compile(r"(?i)\bw\s+gratisie\b"), ""),
+        (re.compile(r"(?i)\bgratis!?\b"), ""),
+        (re.compile(r"(?i)Nie tylko cena,\s*"), ""),
+        (re.compile(r"(?i)\bcenie\b"), "ofercie"),
+        (re.compile(r"(?i)\bcena\b"), "ofercie"),
+        (re.compile(r"(?i)Kup teraz"), ""),
     ]
-    out = s
+    out = s or ""
     for rx, repl in rules:
         out = rx.sub(repl, out)
-    out = re.sub(r'\s{2,}', ' ', out)
+    out = re.sub(r"\s{2,}", " ", out)
     return out.strip()
 
 def _normalize_html_structure(html_str: str) -> str:
     if not html_str:
         return ""
     s = html_str
-    s = re.sub(r'<h[1-6]>_+</h[1-6]>', '', s, flags=re.IGNORECASE)
-    s = re.sub(r'<h[1-6]>(.*?)</h[1-6]>', r'<h2>\1</h2>', s, flags=re.IGNORECASE | re.DOTALL)
-    s = re.sub(r'</ul>\s*<ul>', '', s, flags=re.IGNORECASE)
-    s = re.sub(r'<p>(?:\s|&nbsp;|<br\s*/?>)*</p>', '', s, flags=re.IGNORECASE)
-    s = re.sub(r'>\s+<', '><', s)
+    s = re.sub(r"<h[1-6]>_+</h[1-6]>", "", s, flags=re.IGNORECASE)
+    s = re.sub(r"<h[1-6]>(.*?)</h[1-6]>", r"<h2>\1</h2>", s, flags=re.IGNORECASE | re.DOTALL)
+    s = re.sub(r"</ul>\s*<ul>", "", s, flags=re.IGNORECASE)
+    s = re.sub(r"<p>(?:\s|&nbsp;|<br\s*/?>)*</p>", "", s, flags=re.IGNORECASE)
+    s = re.sub(r">\s+<", "><", s)
     return s.strip()
 
 def _force_desc_cdata(o_el: ET.Element):
@@ -350,6 +338,27 @@ def _normalize_inches(value: str) -> str:
         num = num.rstrip("0").rstrip(".")
     return f'{num}"'
 
+# --- SKU = o id ---
+def _ensure_sku_equals_id(o_el: ET.Element):
+    oid = (o_el.get("id") or "").strip()
+    if not oid:
+        return
+
+    attrs_el = o_el.find("attrs")
+    if attrs_el is None:
+        attrs_el = ET.SubElement(o_el, "attrs")
+
+    sku_el = None
+    for a in attrs_el.findall("a"):
+        if (a.get("name") or "").strip().lower() == "sku":
+            sku_el = a
+            break
+
+    if sku_el is None:
+        sku_el = ET.SubElement(attrs_el, "a", {"name": "SKU"})
+
+    sku_el.text = oid
+
 # --------- GŁÓWNA LOGIKA KONWERSJI ---------
 def convert_file_inne(in_path, out_path):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -365,14 +374,13 @@ def convert_file_inne(in_path, out_path):
     tree = ET.parse(temp_path, parser)
     root = tree.getroot()
 
-    # UWAGA: usuwamy elementy z root w trakcie iteracji => iteruj po liście (list(...))
+    # usuwamy elementy z root w trakcie iteracji -> iteruj po kopii listy
     for o in list(root.findall("o")):
-        # --------- CENA (NOWE): filtr +6% + zaokrąglenie ---------
+        # --------- CENA: filtr + podwyżka + zaokrąglenie ---------
         price_val = _price_to_float(o.get("price"))
         if price_val is None or price_val < MIN_PRICE_PLN:
             root.remove(o)
             continue
-
         o.set("price", _apply_price_rules(o.get("price")))
 
         oid = (o.get("id") or "").strip()
@@ -397,6 +405,7 @@ def convert_file_inne(in_path, out_path):
                 stock_num = int(float(o.get("stock", "0")))
             except Exception:
                 stock_num = 0
+
         if o.get("avail") == "1" and stock_num < 4:
             o.set("avail", "99")
             o.set("stock", "0")
@@ -472,7 +481,7 @@ def convert_file_inne(in_path, out_path):
                 if "hdd" in typ and not any((x.get("name") or "") == "Dysk HDD" for x in attrs_el.findall("a")):
                     ET.SubElement(attrs_el, "a", {"name": "Dysk HDD"}).text = cap_fmt
 
-            # 4a) Grafika zintegrowana -> dopisz pamięć karty jako "Współdzielona z RAM"
+            # 4a) Grafika zintegrowana -> Pamięć karty graficznej = "Współdzielona z RAM"
             rodzaj = (attrs.get("Rodzaj karty graficznej") or "").strip().lower()
             if "zintegrowana" in rodzaj:
                 has_mem = any((x.get("name") or "").strip() == "Pamięć karty graficznej" for x in attrs_el.findall("a"))
@@ -486,6 +495,9 @@ def convert_file_inne(in_path, out_path):
                     m = re.search(r"(\d+)", text)
                     a.set("name", "Gwarancja")
                     a.text = m.group(1) if m else ""
+
+        # SKU ma być takie samo jak <o id="...">
+        _ensure_sku_equals_id(o)
 
         # --- OPIS: HTML w CDATA (bez IMG) + poprawki copy + stopka
         _force_desc_cdata(o)
