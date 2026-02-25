@@ -1,16 +1,13 @@
 # scripts/convert_inne.py
 import os
 import re
-import math
 import html as _html
 import openpyxl
 from lxml import etree as ET  # używamy lxml (obsługuje CDATA)
 from convert import convert_file, INPUT_DIR, OUTPUT_DIR  # główny konwerter
 
 # --------- USTAWIENIA CENOWE ---------
-MIN_PRICE_PLN = 100          # poniżej tej ceny: usuń ofertę z XML
-PRICE_UP_PCT = 6             # podnieś cenę o X%
-PRICE_ROUND_MODE = "ceil"    # "ceil" = w górę do pełnych zł (zawsze)
+MIN_PRICE_PLN = 100  # poniżej tej ceny: usuń ofertę z XML
 
 def _price_to_float(price_str: str):
     if price_str is None:
@@ -24,28 +21,6 @@ def _price_to_float(price_str: str):
         return float(s)
     except Exception:
         return None
-
-def _apply_price_rules(price_str: str) -> str:
-    """
-    Zwraca nową cenę jako string (pełne zł).
-    Zasady:
-      - +PRICE_UP_PCT%
-      - zaokrąglenie do pełnych zł
-        - ceil: zawsze w górę
-        - inaczej: klasyczne round()
-    """
-    p = _price_to_float(price_str)
-    if p is None:
-        return str(price_str).strip()
-
-    p2 = p * (1.0 + PRICE_UP_PCT / 100.0)
-
-    if PRICE_ROUND_MODE == "ceil":
-        p2 = math.ceil(p2)
-    else:
-        p2 = int(round(p2))
-
-    return str(int(p2))
 
 # --------- USTAWIENIA ---------
 BRAND_LINKS = {
@@ -376,12 +351,12 @@ def convert_file_inne(in_path, out_path):
 
     # usuwamy elementy z root w trakcie iteracji -> iteruj po kopii listy
     for o in list(root.findall("o")):
-        # --------- CENA: filtr + podwyżka + zaokrąglenie ---------
+        # --------- CENA: tylko filtr (bez podnoszenia i bez zaokrąglania) ---------
         price_val = _price_to_float(o.get("price"))
         if price_val is None or price_val < MIN_PRICE_PLN:
             root.remove(o)
             continue
-        o.set("price", _apply_price_rules(o.get("price")))
+        # nie zmieniamy ceny – zostaje oryginalna z wejścia
 
         oid = (o.get("id") or "").strip()
 
