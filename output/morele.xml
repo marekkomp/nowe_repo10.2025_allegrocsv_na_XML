@@ -208,7 +208,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="11870044745" url="https://allegro.pl/oferta/11870044745" price="99.00" avail="1" stock="67" basket="1">
+  <o id="11870044745" url="https://allegro.pl/oferta/11870044745" price="99.00" avail="1" stock="66" basket="1">
     <cat>Pozostałe</cat>
     <name>UltraSzybka Karta pamięci microSD 128GB</name>
     <desc><![CDATA[<p></p>
@@ -3336,150 +3336,6 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="13757317338" url="https://allegro.pl/oferta/13757317338" price="700.00" avail="99" stock="0" basket="0">
-    <cat>Laptopy poleasingowe</cat>
-    <name>Dell 5490 FHD i5-7gen 8GB 256GB SSD M.2 Win11</name>
-    <desc><![CDATA[<h1>Laptop Dell Latitude 5490</h1> <h2>Stan przedmiotu</h2>
-<p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p>
-<p><b>✔️ Stan ekranu: </b>Bez wad</p>
-<p><b>✔️ Stan obudowy:</b> Normalne,delikatne ślady użytkowania</p> <p></p>
-<h2>Specyfikacja</h2>
-<ul><li>Laptop: Dell <b>Latitude 5490</b></li></ul>
-<ul><li>Procesor: <b>Intel Core i5 </b>2x <b>2.60 - 3.50 GHz</b></li></ul>
-<ul><li>Model procesora: i5 - 7300U, 3MB Cache, 7 gen.</li></ul>
-<ul><li>Pamięć RAM: <b>8GB DDR4</b></li></ul>
-<ul><li>Dysk: <b>256GB </b><b> SSD</b></li></ul>
-<ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul>
-<ul><li>Ekran: 14" <b>1920 x 1080</b></li></ul>
-<ul><li>Bateria: Oryginalna, czas pracy minimum 1,5h (używana)</li></ul>
-<ul><li>W zestawie: <b> Zasilacz z przewodem</b></li></ul> <h1>__________________</h1>
-<h2>Dodatkowe informacje</h2>
-<ul><li>Licencja: Windows 10 Professional OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b> Intel HD Graphics 620</b></li><li>Klawiatura: QWERTY PL</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 3x USB 3.0, USB 3.1 typ C (połączone z DisplayPort), HDMI, Audio, Lan, VGA</li></ul> <h1>__________________</h1>
-<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
-<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <h1>__________________</h1>
-<h2>K - jak Konkretne zdjęcia</h2>
-<ul><li>Chcemy być w 100% pewni, że sprzęt który otrzymasz spełni wszystkie Twoje wymagania, możemy udostępnić Ci zdjęcia i zarezerwować konkretną sztukę laptopa.</li></ul> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p>
-<!----><hr/><p><strong>Dell 5490 FHD i5-7gen 8GB 256GB SSD M.2 Win11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Dell – sprawdź: https://kompre.pl/pl/c/Laptopy-Dell/364. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11527c/e4dcf9d0470f8ab344bb33cec92f"/>
-      <i url="https://a.allegroimg.com/original/11c76f/c22da21242a8b0ee86b4604ce617"/>
-      <i url="https://a.allegroimg.com/original/11303b/5dababfa4c4994692e75ffe9c1a5"/>
-      <i url="https://a.allegroimg.com/original/114fe3/0840cbb548889531601636a7d6e9"/>
-      <i url="https://a.allegroimg.com/original/114a8a/0ac47bbe4b11b38043c71d70161c"/>
-      <i url="https://a.allegroimg.com/original/11ec44/17069324459ca4e0c9bc6ebcf6c8"/>
-      <i url="https://a.allegroimg.com/original/11ce5a/2b4d0669479e83b7a90628e63107"/>
-      <i url="https://a.allegroimg.com/original/11c4fc/6715b97f46a1a38bf9cc651c548d"/>
-      <i url="https://a.allegroimg.com/original/1149c6/ac0d61574177885f19fa90b9e0d8"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Dell</a>
-      <a name="Kod producenta">Latitude 5490</a>
-      <a name="Model">Latitude 5490</a>
-      <a name="Sygnatura/SKU Sprzedającego">5490999555440</a>
-      <a name="Seria procesora">Intel Core i5</a>
-      <a name="Taktowanie bazowe procesora [GHz]">2.6</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">3.6</a>
-      <a name="Liczba rdzeni procesora">2</a>
-      <a name="Pamięć podręczna procesora [MB]">6</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">8 GB</a>
-      <a name="Typ dysku twardego">SSD</a>
-      <a name="Pojemność dysku [GB]">256</a>
-      <a name="Interfejs dysku">M.2</a>
-      <a name="Chipset karty graficznej">Intel HD Graphics 620</a>
-      <a name="Pamięć karty graficznej">współdzielona</a>
-      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
-      <a name="Przekątna ekranu">14"</a>
-      <a name="Ekran dotykowy">Nie</a>
-      <a name="Rozdzielczość">1920 x 1080</a>
-      <a name="Typ matrycy">IPS</a>
-      <a name="Powłoka matrycy">matowa</a>
-      <a name="Złącza">HDMI|USB 3.0|USB 3.1 typ C|RJ-45|D-Sub (VGA)|minijack 3,5 mm (audio)</a>
-      <a name="Komunikacja">Wi-Fi|Bluetooth</a>
-      <a name="System operacyjny">Windows 10 Professional</a>
-      <a name="Układ klawiatury">US international (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Stan opakowania">zastępcze</a>
-      <a name="Dołączone oprogramowanie">Windows 10 Professional</a>
-      <a name="Gwarancja">12</a>
-      <a name="Dysk SSD">256 GB</a>
-    </attrs>
-  </o>
-  <o id="13757379902" url="https://allegro.pl/oferta/13757379902" price="599.00" avail="99" stock="0" basket="0">
-    <cat>Laptopy poleasingowe</cat>
-    <name>Laptop Dell 5490 HD i5-7gen 8GB 256SSD M.2 Win11</name>
-    <desc><![CDATA[<h1>Laptop Dell Latitude 5490</h1> <h2>Stan przedmiotu</h2>
-<p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p>
-<p><b>✔️ Stan ekranu: </b>Bez wad</p>
-<p><b>✔️ Stan obudowy:</b> Normalne,delikatne ślady użytkowania</p> <p></p>
-<h2>Specyfikacja</h2>
-<ul><li>Laptop: Dell <b>Latitude 5490</b></li></ul>
-<ul><li>Procesor: <b>Intel Core i5 </b>2x <b>2.60 - 3.50 GHz</b></li></ul>
-<ul><li>Model procesora: i5 - 7300U, 3MB Cache, 7 gen.</li></ul>
-<ul><li>Pamięć RAM: <b>8GB DDR4</b></li></ul>
-<ul><li>Dysk: <b>256GB </b><b> SSD</b></li></ul>
-<ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul>
-<ul><li>Ekran: 14" <b>1366 x 768</b></li></ul>
-<ul><li>Bateria: Oryginalna, czas pracy minimum 1,5h (używana)</li></ul>
-<ul><li>W zestawie: <b> Zasilacz z przewodem</b></li></ul> <h1>__________________</h1>
-<h2>Dodatkowe informacje</h2>
-<ul><li>Licencja: Windows 10 Professional OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b> Intel HD Graphics 620</b></li><li>Klawiatura: QWERTY PL</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 3x USB 3.0, USB 3.1 typ C (połączone z DisplayPort), HDMI, Audio, Lan, VGA</li></ul> <h1>__________________</h1>
-<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
-<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <h1>__________________</h1>
-<h2>K - jak Konkretne zdjęcia</h2>
-<ul><li>Chcemy być w 100% pewni, że sprzęt który otrzymasz spełni wszystkie Twoje wymagania, możemy udostępnić Ci zdjęcia i zarezerwować konkretną sztukę laptopa.</li></ul> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p>
-<!----><hr/><p><strong>Laptop Dell 5490 HD i5-7gen 8GB 256SSD M.2 Win11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Dell – sprawdź: https://kompre.pl/pl/c/Laptopy-Dell/364. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11527c/e4dcf9d0470f8ab344bb33cec92f"/>
-      <i url="https://a.allegroimg.com/original/113716/6238aa8e46ec83dba8ed9ebe8400"/>
-      <i url="https://a.allegroimg.com/original/111048/6d361d024d979a5dfa705eb2b7e4"/>
-      <i url="https://a.allegroimg.com/original/11318e/d374d151406088fb718e7c3d2797"/>
-      <i url="https://a.allegroimg.com/original/11535e/cf0a64c7414dbc5640b4f49cac2c"/>
-      <i url="https://a.allegroimg.com/original/114aa9/7070f0da40fd8d7dca4a10d3a760"/>
-      <i url="https://a.allegroimg.com/original/1127dc/26d93bdc45258fca1c4cd6e389cd"/>
-      <i url="https://a.allegroimg.com/original/11b542/d7e6848b4d0cb14922b7964224b9"/>
-      <i url="https://a.allegroimg.com/original/114dc4/2ac7b9654b1c8debd56502c8bc91"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Dell</a>
-      <a name="Kod producenta">Latitude 5490</a>
-      <a name="Model">Latitude 5490</a>
-      <a name="Sygnatura/SKU Sprzedającego">5490999554454</a>
-      <a name="Seria procesora">Intel Core i5</a>
-      <a name="Taktowanie bazowe procesora [GHz]">2.6</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">3.6</a>
-      <a name="Liczba rdzeni procesora">2</a>
-      <a name="Pamięć podręczna procesora [MB]">6</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">8 GB</a>
-      <a name="Typ dysku twardego">SSD</a>
-      <a name="Pojemność dysku [GB]">256</a>
-      <a name="Interfejs dysku">M.2</a>
-      <a name="Chipset karty graficznej">Intel HD Graphics 620</a>
-      <a name="Pamięć karty graficznej">współdzielona</a>
-      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
-      <a name="Przekątna ekranu">14"</a>
-      <a name="Ekran dotykowy">Nie</a>
-      <a name="Rozdzielczość">1366 x 768</a>
-      <a name="Typ matrycy">TN</a>
-      <a name="Powłoka matrycy">matowa</a>
-      <a name="Złącza">HDMI|USB 3.0|USB 3.1 typ C|RJ-45|D-Sub (VGA)|Thunderbolt|minijack 3,5 mm (audio)|inne</a>
-      <a name="Komunikacja">Wi-Fi|Bluetooth</a>
-      <a name="System operacyjny">Windows 10 Professional</a>
-      <a name="Układ klawiatury">US international (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Stan opakowania">zastępcze</a>
-      <a name="Dołączone oprogramowanie">Windows 10 Professional</a>
-      <a name="Gwarancja">12</a>
-      <a name="Dysk SSD">256 GB</a>
-    </attrs>
-  </o>
   <o id="13757393953" url="https://allegro.pl/oferta/13757393953" price="485.00" avail="99" stock="0" basket="0">
     <cat>Laptopy poleasingowe</cat>
     <name>Laptop Dell 5480 HD i5-6gen 8GB 256SSD M.2 Win11</name>
@@ -3631,7 +3487,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13860795541" url="https://allegro.pl/oferta/13860795541" price="99.00" avail="1" stock="37" basket="1">
+  <o id="13860795541" url="https://allegro.pl/oferta/13860795541" price="99.00" avail="1" stock="36" basket="1">
     <cat>Monitory poleasingowe</cat>
     <name>Monitor Samsung S24A450B 1920 x 1200 LED 24"</name>
     <desc><![CDATA[<p></p>
@@ -4146,7 +4002,7 @@
       <a name="Gwarancja">6</a>
     </attrs>
   </o>
-  <o id="13988718472" url="https://allegro.pl/oferta/13988718472" price="45.00" avail="1" stock="37" basket="1">
+  <o id="13988718472" url="https://allegro.pl/oferta/13988718472" price="45.00" avail="1" stock="36" basket="1">
     <cat>Części do laptopów</cat>
     <name>Bateria Lenovo T460 X260 T450 T450s X250 T440 X270</name>
     <desc><![CDATA[<h1>Oryginalna Bateria Wewnętrzna Lenovo ThinkPad</h1><h1>T460 X260 T450 T450s X250 T440 X270</h1> <h2>PRZY ZAKUPIE W ZESTAWIE Z LAPTOPEM BATERIA MONTOWANA BEZPOŚREDNIO DO NIEGO!</h2> <p></p>
@@ -4222,76 +4078,6 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="14260379546" url="https://allegro.pl/oferta/14260379546" price="699.00" avail="99" stock="0" basket="0">
-    <cat>Laptopy poleasingowe</cat>
-    <name>Laptop Dell 5490 HD i5-8350U 8GB 256SSD M.2 Win11</name>
-    <desc><![CDATA[<h1>Laptop Dell Latitude 5490</h1> <h2>Stan przedmiotu</h2>
-<p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p>
-<p><b>✔️ Stan ekranu: </b>Delikatne, ledwo widoczne otarcia, mikro poświatki</p>
-<p><b>✔️ Stan obudowy:</b> Normalne,delikatne ślady użytkowania</p> <p></p>
-<h2>Specyfikacja</h2>
-<ul><li>Laptop: Dell <b>Latitude 5490</b></li></ul>
-<ul><li>Procesor: <b>Intel Core i5 </b>4x <b>1.70 - 3.60 GHz</b></li></ul>
-<ul><li>Model procesora: i5 - 8350U, 6MB Cache, 8 gen.</li></ul>
-<ul><li>Pamięć RAM: <b>8GB DDR4</b></li></ul>
-<ul><li>Dysk: <b>256GB </b><b> SSD</b></li></ul>
-<ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul>
-<ul><li>Ekran: 14" <b>1366 x 768</b></li></ul>
-<ul><li>Bateria: Oryginalna, czas pracy minimum 1,5h (używana)</li></ul>
-<ul><li>W zestawie: <b> Zasilacz z przewodem</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 10 Professional OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b> Intel UHD Graphics 620</b></li><li>Klawiatura: QWERTY PL - odnowiona</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 3x USB 3.0, USB 3.1 typ C (połączone z DisplayPort), HDMI, Audio, Lan, VGA</li></ul> <h1>__________________</h1>
-<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
-<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <h1>__________________</h1>
-<h2>K - jak Konkretne zdjęcia</h2>
-<ul><li>Chcemy być w 100% pewni, że sprzęt który otrzymasz spełni wszystkie Twoje wymagania, możemy udostępnić Ci zdjęcia i zarezerwować konkretną sztukę laptopa.</li></ul> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p>
-<!----><hr/><p><strong>Laptop Dell 5490 HD i5-8350U 8GB 256SSD M.2 Win11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Dell – sprawdź: https://kompre.pl/pl/c/Laptopy-Dell/364. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11527c/e4dcf9d0470f8ab344bb33cec92f"/>
-      <i url="https://a.allegroimg.com/original/113716/6238aa8e46ec83dba8ed9ebe8400"/>
-      <i url="https://a.allegroimg.com/original/111048/6d361d024d979a5dfa705eb2b7e4"/>
-      <i url="https://a.allegroimg.com/original/11318e/d374d151406088fb718e7c3d2797"/>
-      <i url="https://a.allegroimg.com/original/11535e/cf0a64c7414dbc5640b4f49cac2c"/>
-      <i url="https://a.allegroimg.com/original/114aa9/7070f0da40fd8d7dca4a10d3a760"/>
-      <i url="https://a.allegroimg.com/original/1127dc/26d93bdc45258fca1c4cd6e389cd"/>
-      <i url="https://a.allegroimg.com/original/11b542/d7e6848b4d0cb14922b7964224b9"/>
-      <i url="https://a.allegroimg.com/original/114dc4/2ac7b9654b1c8debd56502c8bc91"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Dell</a>
-      <a name="Kod producenta">Latitude 5490</a>
-      <a name="Model">Latitude 5490</a>
-      <a name="Sygnatura/SKU Sprzedającego">905490549054</a>
-      <a name="Seria procesora">Intel Core i5</a>
-      <a name="Taktowanie bazowe procesora [GHz]">1.7</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">3.6</a>
-      <a name="Liczba rdzeni procesora">4</a>
-      <a name="Pamięć podręczna procesora [MB]">6</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">8 GB</a>
-      <a name="Typ dysku twardego">SSD</a>
-      <a name="Pojemność dysku [GB]">256</a>
-      <a name="Interfejs dysku">M.2|M.2 PCIe</a>
-      <a name="Chipset karty graficznej">Intel UHD Graphics 620</a>
-      <a name="Pamięć karty graficznej">współdzielona</a>
-      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
-      <a name="Przekątna ekranu">14"</a>
-      <a name="Ekran dotykowy">Nie</a>
-      <a name="Rozdzielczość">1366 x 768</a>
-      <a name="Typ matrycy">TN</a>
-      <a name="Powłoka matrycy">matowa</a>
-      <a name="Złącza">HDMI|USB 3.0|USB 3.1 typ C|RJ-45|D-Sub (VGA)|minijack 3,5 mm (audio)</a>
-      <a name="Komunikacja">Wi-Fi|Bluetooth</a>
-      <a name="System operacyjny">Windows 10 Professional</a>
-      <a name="Układ klawiatury">US international (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Stan opakowania">zastępcze</a>
-      <a name="Dołączone oprogramowanie">Windows 10 Professional</a>
-      <a name="Gwarancja">12</a>
-      <a name="Dysk SSD">256 GB</a>
-    </attrs>
-  </o>
   <o id="14260433097" url="https://allegro.pl/oferta/14260433097" price="799.00" avail="99" stock="0" basket="0">
     <cat>Laptopy poleasingowe</cat>
     <name>Laptop Dell 5490 FHD i5-8350U 8GB 256SSD M.2 Win11</name>
@@ -4348,68 +4134,6 @@
       <a name="Dołączone oprogramowanie">Windows 10 Professional</a>
       <a name="Gwarancja">12</a>
       <a name="Dysk SSD">256 GB</a>
-    </attrs>
-  </o>
-  <o id="14260446052" url="https://allegro.pl/oferta/14260446052" price="1039.00" avail="99" stock="0" basket="0">
-    <cat>Laptopy poleasingowe</cat>
-    <name>Laptop Dell 5490 FHD i5-8350U 16GB 480GB M.2 Win11</name>
-    <desc><![CDATA[<h1>Laptop Dell Latitude 5490</h1> <h2>Stan przedmiotu</h2>
-<p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p>
-<p><b>✔️ Stan ekranu: </b>Bez wad, nowa matryca!</p>
-<p><b>✔️ Stan obudowy:</b> Normalne,delikatne ślady użytkowania</p> <p></p>
-<h2>Specyfikacja</h2><ul><li>Laptop: Dell <b>Latitude 5490</b></li></ul><ul><li>Procesor: <b>Intel Core i5 </b>4x <b>1.70 - 3.60 GHz</b></li></ul><ul><li>Model procesora: i5 - 8350U, 6MB Cache, 8 gen.</li></ul><ul><li>Pamięć RAM: <b>16GB DDR4</b></li></ul><ul><li>Dysk: <b>480GB </b><b> SSD</b></li></ul><ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul><ul><li>Ekran: 14" <b>1920 x 1080</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 1,5h (używana)</li></ul><ul><li>W zestawie: <b> Zasilacz z przewodem</b></li></ul> <h1>__________________</h1>
-<h2>Dodatkowe informacje</h2>
-<ul><li>Licencja: Windows 10 Professional OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b> Intel UHD Graphics 620</b></li><li>Klawiatura: QWERTY PL</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 3x USB 3.0, USB 3.1 typ C (połączone z DisplayPort), HDMI, Audio, Lan, VGA</li></ul> <h1>__________________</h1>
-<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
-<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <h1>__________________</h1>
-<h2>K - jak Konkretne zdjęcia</h2>
-<ul><li>Chcemy być w 100% pewni, że sprzęt który otrzymasz spełni wszystkie Twoje wymagania, możemy udostępnić Ci zdjęcia i zarezerwować konkretną sztukę laptopa.</li></ul> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p>
-<!----><hr/><p><strong>Laptop Dell 5490 FHD i5-8350U 16GB 480GB M.2 Win11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Dell – sprawdź: https://kompre.pl/pl/c/Laptopy-Dell/364. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11527c/e4dcf9d0470f8ab344bb33cec92f"/>
-      <i url="https://a.allegroimg.com/original/113716/6238aa8e46ec83dba8ed9ebe8400"/>
-      <i url="https://a.allegroimg.com/original/111048/6d361d024d979a5dfa705eb2b7e4"/>
-      <i url="https://a.allegroimg.com/original/11318e/d374d151406088fb718e7c3d2797"/>
-      <i url="https://a.allegroimg.com/original/11535e/cf0a64c7414dbc5640b4f49cac2c"/>
-      <i url="https://a.allegroimg.com/original/114aa9/7070f0da40fd8d7dca4a10d3a760"/>
-      <i url="https://a.allegroimg.com/original/1127dc/26d93bdc45258fca1c4cd6e389cd"/>
-      <i url="https://a.allegroimg.com/original/11b542/d7e6848b4d0cb14922b7964224b9"/>
-      <i url="https://a.allegroimg.com/original/114dc4/2ac7b9654b1c8debd56502c8bc91"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Dell</a>
-      <a name="Kod producenta">Latitude 5490 16 480</a>
-      <a name="Model">Latitude 5490</a>
-      <a name="Seria procesora">Intel Core i5</a>
-      <a name="Taktowanie bazowe procesora [GHz]">1.7</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">3.6</a>
-      <a name="Liczba rdzeni procesora">4</a>
-      <a name="Pamięć podręczna procesora [MB]">6</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">16 GB</a>
-      <a name="Typ dysku twardego">SSD</a>
-      <a name="Pojemność dysku [GB]">480</a>
-      <a name="Interfejs dysku">M.2|M.2 PCIe</a>
-      <a name="Chipset karty graficznej">Intel UHD Graphics 620</a>
-      <a name="Pamięć karty graficznej">współdzielona</a>
-      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
-      <a name="Przekątna ekranu">14"</a>
-      <a name="Ekran dotykowy">Nie</a>
-      <a name="Rozdzielczość">1920 x 1080</a>
-      <a name="Typ matrycy">IPS</a>
-      <a name="Powłoka matrycy">matowa</a>
-      <a name="Złącza">HDMI|USB 3.0|USB 3.1 typ C|RJ-45|D-Sub (VGA)|minijack 3,5 mm (audio)</a>
-      <a name="Komunikacja">Wi-Fi|Bluetooth|LAN 10/100/1000 Mbps</a>
-      <a name="System operacyjny">Windows 10 Professional</a>
-      <a name="Układ klawiatury">US international (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Stan opakowania">zastępcze</a>
-      <a name="Dołączone oprogramowanie">Windows 10 Professional</a>
-      <a name="Gwarancja">12</a>
-      <a name="Dysk SSD">480 GB</a>
     </attrs>
   </o>
   <o id="14310189461" url="https://allegro.pl/oferta/14310189461" price="2209.00" avail="99" stock="0" basket="0">
@@ -5212,7 +4936,7 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="14603718774" url="https://allegro.pl/oferta/14603718774" price="49.00" avail="1" stock="10" basket="1">
+  <o id="14603718774" url="https://allegro.pl/oferta/14603718774" price="49.00" avail="1" stock="9" basket="1">
     <cat>Monitory poleasingowe</cat>
     <name>Tani Monitor Dell 5040 1920x1080 22' vesa 100x100 kl B</name>
     <desc><![CDATA[<p></p>
@@ -6183,7 +5907,7 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="14749906051" url="https://allegro.pl/oferta/14749906051" price="119.00" avail="1" stock="56" basket="1">
+  <o id="14749906051" url="https://allegro.pl/oferta/14749906051" price="119.00" avail="1" stock="55" basket="1">
     <cat>Monitory poleasingowe</cat>
     <name>Monitor Fujitsu B24W-7 LED IPS 24" FHD</name>
     <desc><![CDATA[<p></p>
@@ -7123,7 +6847,7 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="14871727331" url="https://allegro.pl/oferta/14871727331" price="25.00" avail="1" stock="944" basket="1">
+  <o id="14871727331" url="https://allegro.pl/oferta/14871727331" price="25.00" avail="1" stock="943" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Kabel / przewód DisplayPort - HDMI min. 1,5m</name>
     <desc><![CDATA[<h1>Kabel / przewód DisplayPort - HDMI min. 1,5m</h1> <p></p>
@@ -8702,7 +8426,7 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="15145816315" url="https://allegro.pl/oferta/15145816315" price="115.00" avail="1" stock="49" basket="1">
+  <o id="15145816315" url="https://allegro.pl/oferta/15145816315" price="115.00" avail="1" stock="48" basket="1">
     <cat>Monitory poleasingowe</cat>
     <name>Monitor Dell P2214 21,5" 1920 x 1080 LED IPS/PLS KL A</name>
     <desc><![CDATA[<p></p>
@@ -9277,7 +9001,7 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="15191359511" url="https://allegro.pl/oferta/15191359511" price="1019.00" avail="99" stock="0" basket="0">
+  <o id="15191359511" url="https://allegro.pl/oferta/15191359511" price="1019.00" avail="1" stock="47" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Dotykowy Laptop DELL Latitude | 15,6" | 4x 3.40GHz | 16GB 256GB SSD | Win11</name>
     <desc><![CDATA[<h1>Laptop Dell Latitude 5590</h1> <h2>Stan przedmiotu</h2>
@@ -10874,43 +10598,6 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="15487971857" url="https://allegro.pl/oferta/15487971857" price="555.00" avail="99" stock="0" basket="0">
-    <cat>Komputery stacjonarne</cat>
-    <name>APPLE IMAC A1418 2017 I5-7360U 1TB 28SSD macOS FHD IPS 1920X1080</name>
-    <desc><![CDATA[<h1>Komputer Apple A1418 </h1> <h2>Stan przedmiotu</h2><p>Sprzęt został przetestowany i przygotowany do pracy.</p><p><b>✔️ Stan obudowy:</b> KL A- posiada małe ryski otarcia</p><p><b>✔️ Ekran:</b> Klasa A-, małe ryski/poświatki</p> <p></p>
-<h2>Specyfikacja</h2><ul><li>Komputer: Apple <b>A1418</b></li></ul><ul><li>Obudowa: <b>All in one</b></li></ul><ul><li>Procesor: <b>Intel Core i5 </b>2x <b>3.20 - 3.60 GHz</b></li></ul><ul><li>Pamięć RAM: <b>8GB DDR4</b></li></ul><ul><li>Dysk: <b>28GB ssd+ </b><b>1TB HDD</b></li></ul><ul><li>Zainstalowany system: <b>MAC OS</b></li></ul><ul><li>W zestawie: <b>Brak okablowania</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Mac OS OEM</li><li>Karta graficzna: <b>INTEL IRIS PLUS 640</b></li><li>Typ napędu:</li><li>Komunikacja: LAN WiFi</li><li>Złącza wewnętrzne: -</li><li>Złącza z tyłu: 4x USB 3.0, 2x thunderbolt, czytnik kart pamięci, RJ45(lan)</li><li>Złącza z przodu: -</li><li><b>1920x1080 LED 21,5'</b></li></ul> <h1>__________________</h1>
-<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
-<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenieod razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <h1>__________________</h1>
-<h2>Zdjęcia:</h2> <p></p>
-<p></p> <p></p>
-<p></p>
-<!----><hr/><p><strong>APPLE IMAC A1418 2017 I5-7360U 1TB 28SSD macOS FHD IPS 1920X1080</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Apple – sprawdź: https://kompre.pl/pl/c/Komputery-Stacjonarne/345. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/116d50/a4ac9431471f8eef81398b98d331"/>
-      <i url="https://a.allegroimg.com/original/11fdf4/6eba5bdc4bad983de4958414ea67"/>
-      <i url="https://a.allegroimg.com/original/11347b/bd11f076408b90dac275f728e8a8"/>
-      <i url="https://a.allegroimg.com/original/1150fb/91fb82bd4eab8c8c17bf95fdc9a9"/>
-      <i url="https://a.allegroimg.com/original/11f8f1/b049dfc44bf5b0f5cf787291e1f5"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Apple</a>
-      <a name="Kod producenta">A1418</a>
-      <a name="Model">A1418</a>
-      <a name="Taktowanie bazowe procesora [GHz]">3.2</a>
-      <a name="Liczba rdzeni procesora">2</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">8 GB</a>
-      <a name="Typ dysku twardego">HDD + SSD</a>
-      <a name="Pojemność dysku [GB]">32</a>
-      <a name="System operacyjny">Mac OS</a>
-      <a name="Układ klawiatury">US international (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Dołączone oprogramowanie">Mac OS</a>
-      <a name="Gwarancja">6</a>
-      <a name="Dysk SSD">32 GB</a>
-      <a name="Dysk HDD">32 GB</a>
-    </attrs>
-  </o>
   <o id="15491828356" url="https://allegro.pl/oferta/15491828356" price="1439.00" avail="99" stock="0" basket="0">
     <cat>Laptopy poleasingowe</cat>
     <name>Dell Latitude 5500 FHD i5-8265U 16GB 480GB SSD Windows 11</name>
@@ -11043,45 +10730,6 @@
       <a name="Model">MA2720</a>
       <a name="Stan">Poleasingowy</a>
       <a name="Gwarancja">3</a>
-    </attrs>
-  </o>
-  <o id="15523883812" url="https://allegro.pl/oferta/15523883812" price="499.00" avail="99" stock="0" basket="0">
-    <cat>Komputery stacjonarne</cat>
-    <name>Komputer AiO iMac 21,5" i5-7360u 8GB 1TB 1920x1080</name>
-    <desc><![CDATA[<h1>Komputer Apple iMac 21,5" Slim Air 2017 </h1> <h2>Stan przedmiotu</h2><p>Sprzęt został przetestowany i przygotowany do pracy.</p><p><b>✔️ Stan obudowy:</b> Normalne ślady użytkowania</p><p><b>✔️ Ekran:</b> Posiada plamki ryski</p> <p></p>
-<h2>Specyfikacja</h2><ul><li>Komputer: Apple <b>iMac 21,5" Slim Air 2017</b></li></ul><ul><li>Obudowa: <b>All in one</b></li></ul><ul><li>Procesor: <b>Intel Core i5 </b>2x <b>3.60 GHz</b></li></ul><ul><li>Pamięć RAM: <b>8GB DDR4</b></li></ul><ul><li>Dysk: <b>32GB </b><b>SSD</b><b> + 1TB HDD</b></li></ul><ul><li>Zainstalowany system: <b>MacOS</b></li></ul><ul><li>W zestawie:</li></ul> <h1>__________________</h1>
-<h2>Dodatkowe informacje</h2>
-<ul><li>Licencja: Mac OS OEM</li><li>Karta graficzna: <b>Intel Iris Plus Graphics 640</b></li><li>Typ napędu: Brak</li><li>Komunikacja: LAN</li><li>Złącza wewnętrzne: -</li><li>Złącza z tyłu: 4xUSB 3.0 , 2x USB C , AUDIO </li><li>Złącza z przodu: </li></ul> <h1>__________________</h1>
-<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
-<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenieod razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <h1>__________________</h1>
-<h2>Zdjęcia:</h2> <p></p>
-<p></p> <p></p>
-<!----><hr/><p><strong>Komputer AiO iMac 21,5" i5-7360u 8GB 1TB 1920x1080</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Chiny/reszta – sprawdź: https://kompre.pl/pl/c/Komputery-Stacjonarne/345. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11d006/1856dbcb40238a4bcd7f68dc5e51"/>
-      <i url="https://a.allegroimg.com/original/11c0f8/a71b180a4016a45a3e28783f08dd"/>
-      <i url="https://a.allegroimg.com/original/119c92/672ec4234ff8b315dd2bb7b3b14a"/>
-      <i url="https://a.allegroimg.com/original/115a18/149a38a14bd387e50109d3a71337"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Chiny/reszta</a>
-      <a name="Kod producenta">iMac 21,5" Slim Air  2017</a>
-      <a name="Model">iMac 21,5" Slim Air 2017</a>
-      <a name="Taktowanie bazowe procesora [GHz]">3.6</a>
-      <a name="Liczba rdzeni procesora">2</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">8 GB</a>
-      <a name="Typ dysku twardego">HDD</a>
-      <a name="Pojemność dysku [GB]">1</a>
-      <a name="Prędkość obrotowa dysku HDD">7200</a>
-      <a name="Komunikacja">LAN 10/100/1000 Mbps</a>
-      <a name="System operacyjny">Mac OS</a>
-      <a name="Układ klawiatury">US international (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Stan opakowania">zastępcze</a>
-      <a name="Dołączone oprogramowanie">Mac OS</a>
-      <a name="Gwarancja">6</a>
-      <a name="Dysk HDD">1 TB</a>
     </attrs>
   </o>
   <o id="15557837437" url="https://allegro.pl/oferta/15557837437" price="349.00" avail="99" stock="0" basket="0">
@@ -12353,7 +12001,7 @@
       <a name="Dysk SSD">512 GB</a>
     </attrs>
   </o>
-  <o id="15844463078" url="https://allegro.pl/oferta/15844463078" price="799.00" avail="1" stock="9" basket="1">
+  <o id="15844463078" url="https://allegro.pl/oferta/15844463078" price="799.00" avail="1" stock="8" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Laptop HP EliteBook 830 G5 FHD i5-8350U 8GB 256GB SSD Windows 11</name>
     <desc><![CDATA[<h1>Laptop HP EliteBook 830 G5</h1> <h2>Stan przedmiotu</h2>
@@ -16429,7 +16077,7 @@
       <a name="Dysk SSD">256 GB</a>
     </attrs>
   </o>
-  <o id="17111209966" url="https://allegro.pl/oferta/17111209966" price="289.00" avail="1" stock="111" basket="1">
+  <o id="17111209966" url="https://allegro.pl/oferta/17111209966" price="289.00" avail="1" stock="109" basket="1">
     <cat>Komputery stacjonarne</cat>
     <name>Terminal HP T730 Thin Client 8GB DDR3 256GB SSD M.2 Windows 10 WIFI</name>
     <desc><![CDATA[<h2>Terminal w 100% sprawny technicznie</h2> <h2>_______________</h2> <p></p>
@@ -18080,7 +17728,7 @@
       <a name="Dysk SSD">480 GB</a>
     </attrs>
   </o>
-  <o id="17304381928" url="https://allegro.pl/oferta/17304381928" price="1149.00" avail="1" stock="28" basket="1">
+  <o id="17304381928" url="https://allegro.pl/oferta/17304381928" price="1149.00" avail="1" stock="26" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Dotykowy Panasonic ToughBook CF-31-5 | i5-5300U 16GB 240GB SSD | Windows 10</name>
     <desc><![CDATA[<h1>Panasonic ToughBook CF-31-5</h1><h1>+ MYSZ na USB !</h1> <h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Delikatne, ledwo widoczne otarcia typowe dla ekranów dotykowych</p><p><b>✔️ Stan obudowy:</b> Normalne ślady użytkowania</p><p>Brak rysika w zestawie!</p>
@@ -18954,7 +18602,7 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="17388309317" url="https://allegro.pl/oferta/17388309317" price="1099.00" avail="1" stock="129" basket="1">
+  <o id="17388309317" url="https://allegro.pl/oferta/17388309317" price="1099.00" avail="1" stock="128" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Toshiba Dynabook Tecra A50-J | i5-1135G7 8GB 256GB NVMe | Windows 11</name>
     <desc><![CDATA[<h1>Toshiba Dynabook Tecra A50-J</h1> <h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Delikatne mikro otarcia, praktycznie niewidoczne przy włączonym ekranie, nie mają wpływu na komfort pracy!</p><p><b>✔️ Stan obudowy:</b> Normalne, delikatne ślady użytkowania</p> <p></p>
@@ -22580,7 +22228,7 @@
       <a name="Dysk SSD">256 GB</a>
     </attrs>
   </o>
-  <o id="17618895854" url="https://allegro.pl/oferta/17618895854" price="949.00" avail="1" stock="198" basket="1">
+  <o id="17618895854" url="https://allegro.pl/oferta/17618895854" price="949.00" avail="1" stock="197" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>HP EliteBook 845 G8 FHD | AMD Ryzen 5 5650U 8GB 256GB M.2 | Windows 11</name>
     <desc><![CDATA[<h1>Laptop HP EliteBook 845 G8</h1> <h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Drobne ryski, otarcia, poświaty</p><p><b>✔️ Stan obudowy:</b> Normalne, małe ślady użytkowania</p> <p></p>
@@ -27428,7 +27076,7 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="17758940643" url="https://allegro.pl/oferta/17758940643" price="849.00" avail="1" stock="59" basket="1">
+  <o id="17758940643" url="https://allegro.pl/oferta/17758940643" price="849.00" avail="1" stock="58" basket="1">
     <cat>Monitory poleasingowe</cat>
     <name>Zakrzywiony Bezramkowy Monitor 34' Dell U3415W 3440x1440 UWQHD 21:9 głośnik</name>
     <desc><![CDATA[<ul><li><b>Stan ekranu: Brak wad, klasa A</b></li><li><b>Stan obudowy: Minimalne ślady użytkowania</b></li></ul> <p></p>
@@ -27947,7 +27595,7 @@
       <a name="Dysk SSD">256 GB</a>
     </attrs>
   </o>
-  <o id="17797310304" url="https://allegro.pl/oferta/17797310304" price="1599.00" avail="99" stock="0" basket="0">
+  <o id="17797310304" url="https://allegro.pl/oferta/17797310304" price="1449.00" avail="99" stock="0" basket="0">
     <cat>Komputery stacjonarne</cat>
     <name>Komputer DELL AiO OptiPlex 7460 i5-8500 8GB 256GB 24" 1920x1080 Windows 11</name>
     <desc><![CDATA[<h1>Komputer DELL AIO 7460</h1> <h2>Stan przedmiotu</h2><p>Sprzęt został przetestowany i przygotowany do pracy.</p><p><b>✔️</b> <b>Stan ekranu</b>: Posiada małe ryski otarcia.</p> <p></p>
@@ -29532,7 +29180,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="18031947566" url="https://allegro.pl/oferta/18031947566" price="275.00" avail="1" stock="61" basket="1">
+  <o id="18031947566" url="https://allegro.pl/oferta/18031947566" price="275.00" avail="1" stock="56" basket="1">
     <cat>Monitory poleasingowe</cat>
     <name>Monitor Bezramkowy EIZO FlexScan EV2457 24,1 IPS 1920x1200 Głośniki HDMI DP</name>
     <desc><![CDATA[<p></p>
@@ -33600,7 +33248,7 @@
       <a name="Dysk SSD">256 GB</a>
     </attrs>
   </o>
-  <o id="18059336027" url="https://allegro.pl/oferta/18059336027" price="649.00" avail="1" stock="9" basket="1">
+  <o id="18059336027" url="https://allegro.pl/oferta/18059336027" price="649.00" avail="1" stock="8" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Wydajny HP EliteBook 745 G5 | Ryzen 7 8GB 256GB SSD | Win11 + Torba GRATIS</name>
     <desc><![CDATA[<h1>HP EliteBook 745 G5 – mobilna elegancja z mocą Ryzen 7!</h1>
@@ -34205,7 +33853,7 @@
       <a name="Dysk SSD">960 GB</a>
     </attrs>
   </o>
-  <o id="18059488352" url="https://allegro.pl/oferta/18059488352" price="1199.00" avail="1" stock="18" basket="1">
+  <o id="18059488352" url="https://allegro.pl/oferta/18059488352" price="1199.00" avail="1" stock="17" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Wydajny HP EliteBook 745 G5 | Ryzen 7 32GB 256GB SSD | Windows 11</name>
     <desc><![CDATA[<h1>HP EliteBook 745 G5 – mobilna elegancja z mocą Ryzen 7!</h1>
@@ -37484,42 +37132,6 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="18112350845" url="https://allegro.pl/oferta/18112350845" price="499.00" avail="99" stock="0" basket="0">
-    <cat>Monitory poleasingowe</cat>
-    <name>Monitor LED iiyama XUB2492HSU-W5 24 " 1920 x 1080 IPS HDMI GŁOŚNIKI</name>
-    <desc><![CDATA[<h2>Monitor LED iiyama XUB2492HSU-W5 24 " 1920 x 1080 px TN</h2> <p>Stylowa konstrukcja od krawędzi do krawędzi sprawia, że ProLite XUB2492HSU idealnie nadaje się do konfiguracji z wieloma monitorami. Technologia panelu IPS zapewnia dokładne i spójne odwzorowanie kolorów przy szerokim kącie widzenia. Wysokie wartości kontrastu i jasności oznaczają, że monitor zapewni doskonałe osiągi podczas fotografowania i projektowania stron internetowych. Wyposażony w głośniki, 2-portowy koncentrator USB, gniazdo słuchawkowe, złącza HDMI i DisplayPort, funkcję redukcji niebieskiego światła w celu zmniejszenia zmęczenia oczu oraz ergonomiczną podstawę z regulacją wysokości 150 mm dla optymalnego komfortu użytkownika, sprawiają, że ten 24-calowy monitor jest doskonałym wyborem.</p>
-<p></p> <p><b>Specyfikacja:</b></p><ul><li><b>TCO Certified:</b> Tak</li><li><b>Model:</b> ProLite XUB2492HSU</li><li><b>Proporcje obrazu:</b> 16:9</li><li><b>Przekątna ekranu:</b> 23.8''</li><li><b>Typ matrycy:</b> TFT IPS</li><li><b>Powierzchnia matrycy:</b> Matowa</li><li><b>Ekran dotykowy:</b> Nie</li><li><b>Technologia podświetlania:</b> Diody LED</li><li><b>Obszar widzialny w pionie:</b> 296.5 mm</li><li><b>Obszar widzialny w poziomie:</b> 527 mm</li><li><b>Plamka matrycy:</b> 0.275 mm</li><li><b>Rozdzielczość:</b> 1920 x 1080 (FHD 1080)</li><li><b>Czas reakcji:</b> 4 ms</li><li><b>Jasność:</b> 250 cd/m²</li><li><b>Kontrast statyczny:</b> 1 000:1</li><li><b>Kontrast dynamiczny:</b> 80 000 000:1</li><li><b>Częstotliwość pozioma min.:</b> 30 kHz</li><li><b>Częstotliwość pozioma max.:</b> 86 kHz</li><li><b>Kąt widzenia poziomy:</b> 178 °</li><li><b>Kąt widzenia pionowy:</b> 178 °</li><li><b>Ilość kolorów:</b> 16,7 mln</li><li><b>Gniazda we/wy:</b></li><li>1 x 3,5 mm minijack</li><li>1 x 15-pin D-Sub</li><li>1 x HDMI</li><li>1 x DisplayPort</li><li>2 x USB 2.0</li><li><b>Bluetooth:</b> Nie</li><li><b>WiFi:</b> Nie</li><li><b>Wbudowane głośniki:</b> Tak</li><li><b>Wbudowany tuner TV:</b> Nie</li><li><b>Kamera internetowa:</b> Brak</li><li><b>Pivot:</b> Tak</li><li><b>Certyfikaty:</b></li><li>CE</li><li>EAC</li><li>Energy Star</li><li>ErP</li><li>PSE</li><li>REACH</li><li>RoHS</li><li>TCO</li><li>TUV</li><li>UKCA</li><li>VCCI</li><li>WEEE</li><li><b>Standard VESA:</b> 100 x 100</li><li><b>Pobór mocy:</b> 15 W</li><li><b>Klasa energetyczna:</b> D</li><li><b>Kolor:</b> Nie dotyczy</li><li><b>Wysokość z podstawą:</b> 343 mm</li><li><b>Szerokość:</b> 539.5 mm</li><li><b>Głębokość z podstawą:</b> 209.5 mm</li><li><b>Waga z podstawą:</b> 5.3 kg</li></ul><p>W ZESTAWIE kabel pradowy + kabel hdmi-hdmi + kabel display-display + kabel usb 2.0 drukarkowy</p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<!----><hr/><p><strong>Monitor LED iiyama XUB2492HSU-W5 24 " 1920 x 1080 IPS HDMI GŁOŚNIKI</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele iiyama. – sprawdź: https://kompre.pl/monitory. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11689c/a5390d974c9f8ac7520e362167ff"/>
-      <i url="https://a.allegroimg.com/original/113f09/e994a2904185a7b8b02d74bf906f"/>
-      <i url="https://a.allegroimg.com/original/1126f3/9185d8f74f0ea6eb301f74604a70"/>
-      <i url="https://a.allegroimg.com/original/11f28a/33b0e8964f16ae08f180cd2ad9a8"/>
-      <i url="https://a.allegroimg.com/original/118d47/96afeffb41d3b89313e401cf5a18"/>
-      <i url="https://a.allegroimg.com/original/11a636/4f8c1cce46bea44218dbd1bd1a6d"/>
-      <i url="https://a.allegroimg.com/original/25db7d/342c88bd4dff9ee12acb303d8d8d"/>
-      <i url="https://a.allegroimg.com/original/25984c/d11d84604ee4b60238a30cf0292a"/>
-      <i url="https://a.allegroimg.com/original/256374/e662a7964ee3b7cb72a2f5a93f7e"/>
-      <i url="https://a.allegroimg.com/original/2506ed/a8d10f304aeaaeafa9b445eaec57"/>
-      <i url="https://a.allegroimg.com/original/25b02c/39ff4f2343c0bc4b864037b82e63"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">iiyama.</a>
-      <a name="Kod producenta">XUB2492HSU-W5</a>
-      <a name="Model">XUB2492HSU-W5</a>
-      <a name="Przekątna ekranu (cale) [&quot;]">24</a>
-      <a name="Rozdzielczość natywna [px]">1920 x 1080</a>
-      <a name="Typ matrycy">TN</a>
-      <a name="Powłoka matrycy">matowa</a>
-      <a name="Proporcje obrazu">16:9</a>
-      <a name="Częstotliwość odświeżania [Hz]">60</a>
-      <a name="Złącza">HDMI</a>
-      <a name="Stan">Nowy</a>
-      <a name="Gwarancja">12</a>
-    </attrs>
-  </o>
   <o id="18117669227" url="https://allegro.pl/oferta/18117669227" price="1669.00" avail="1" stock="34" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Laptop Dell Latitude 5520 FHD i5 11 Generacja! 16GB 480SSD M.2 Windows 11</name>
@@ -40358,118 +39970,6 @@
       <a name="Dysk SSD">960 GB</a>
     </attrs>
   </o>
-  <o id="18132584599" url="https://allegro.pl/oferta/18132584599" price="1339.00" avail="99" stock="0" basket="0">
-    <cat>Laptopy poleasingowe</cat>
-    <name>Dotykowy Dell Latitude 7420 FHD | i5-1145G7 16GB 480GB SSD | Windows 11</name>
-    <desc><![CDATA[<h1>Dell Latitude 7420</h1> <h1>Dotykowy laptop biznesowy, który pracuje tak elastycznie jak Ty</h1><p>Szukasz niezawodnego, lekkiego i wszechstronnego sprzętu, który sprosta Twojemu tempu pracy? Dell Latitude 7420 z 14-calowym, dotykowym ekranem FHD to idealne połączenie notebooka i tabletu, stworzone z myślą o mobilnych profesjonalistach i nowoczesnych firmach.</p> <p></p> <h2>Stan przedmiotu</h2><ul><li><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.<p><b>✔️ Stan ekranu: </b>Delikatne ryski, drobne otarcia (typowe dla ekranów dotykowych)</p><p><b>✔️ Stan obudowy:</b> Normalne,małe ślady uzytkowania</p></li></ul> <p></p>
-<h2>Specyfikacja</h2><ul><li>Laptop: Dell <b>Latitude 7420</b></li></ul><ul><li>Procesor: <b>Intel Core i5-1145G7</b></li></ul><ul><li>Pamięć RAM: <b>16GB DDR4</b></li></ul><ul><li>Dysk: <b>480GB </b><b>SSD</b></li></ul><ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul><ul><li>Ekran: 14" <b>1920 x 1080</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li></ul><ul><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 11 Pro OEM</li><li>Ekran dotykowy: Tak</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b>Intel Iris Xe Graphics</b></li><li>Klawiatura: QWERTY PL, Podświetlana - naklejki</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: Thunderbolt 4 / USB-C x2, USB 3.2 Gen 1 x2, HDMI 2.0, jack 3,5 mm, czytnik kart microSD</li></ul>
-<p></p> <p></p>
-<p><b>Dlaczego warto wybrać Latitude 7420 ?</b></p><ul><li>Wydajność klasy biznes: <b>11. generacja Intel® Core™</b> zapewnia do 25 % szybsze przetwarzanie danych niż poprzednia.</li><li><b>Mobilność bez kompromisów</b>: ekspresowe ładowanie ExpressCharge™ do 80 % w godzinę i 4-komorowa bateria zoptymalizowana pod Windows 11.</li><li><b>Eko-design</b>: obudowa z materiałów pochodzących z recyklingu, certyfikaty EPEAT Gold i Energy Star.</li></ul> <h1>__________________</h1><h2>Gotowy do pracy po wyjęciu z pudełka</h2><p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p> <h1>Uwagi</h1><p><b>Przed zakupem bardzo prosimy o zapoznanie się ze specyfikacją oraz zdjęciami.</b></p>
-<!----><hr/><p><strong>Dotykowy Dell Latitude 7420 FHD | i5-1145G7 16GB 480GB SSD | Windows 11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11cb9f/0ced616b4ab0a5ecc1be30290509"/>
-      <i url="https://a.allegroimg.com/original/1191f9/caabff8740e695b413fce562735d"/>
-      <i url="https://a.allegroimg.com/original/11bc57/662349934352b7834dbdee00caaf"/>
-      <i url="https://a.allegroimg.com/original/11a8df/0d8bcacb499a88b3307842afa376"/>
-      <i url="https://a.allegroimg.com/original/1169b6/23048597436bb1c89a634776efdc"/>
-      <i url="https://a.allegroimg.com/original/11a00e/625d6aef49bc85cb37dcd3336a4d"/>
-      <i url="https://a.allegroimg.com/original/11a7c9/15ff0971405ebe919956f87a10f2"/>
-      <i url="https://a.allegroimg.com/original/11c944/d2a3e1d1453b9a64435653c3eace"/>
-      <i url="https://a.allegroimg.com/original/117c88/589f07234a34ad648b6a7c14751e"/>
-      <i url="https://a.allegroimg.com/original/11c708/d5616da24995aa09b427f401688a"/>
-      <i url="https://a.allegroimg.com/original/11dc12/f55e91d746569865eaffdd0b8d2a"/>
-      <i url="https://a.allegroimg.com/original/11fd5a/54f8938641ddbf2c12fbed91077c"/>
-      <i url="https://a.allegroimg.com/original/11d1b7/0ba0d3964076adfdbe4d396e061d"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Dell ..</a>
-      <a name="Kod producenta">Latitude 7420 2w1</a>
-      <a name="Model">Latitude 7420 2w1</a>
-      <a name="Seria procesora">Intel Core i5</a>
-      <a name="Taktowanie bazowe procesora [GHz]">2.6</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">4.4</a>
-      <a name="Liczba rdzeni procesora">4</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">16 GB</a>
-      <a name="Typ dysku twardego">SSD</a>
-      <a name="Pojemność dysku [GB]">480</a>
-      <a name="Interfejs dysku">M.2 PCIe</a>
-      <a name="Chipset karty graficznej">Intel Iris Xe Graphics</a>
-      <a name="Pamięć karty graficznej">współdzielona</a>
-      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
-      <a name="Przekątna ekranu">14"</a>
-      <a name="Ekran dotykowy">z ekranem dotykowym</a>
-      <a name="Rozdzielczość">1920 x 1080</a>
-      <a name="Powłoka matrycy">antyrefleksyjna</a>
-      <a name="Złącza">HDMI|USB 3.0|USB 3.2 typ C Gen 1|Thunderbolt|minijack 3,5 mm (audio)</a>
-      <a name="Komunikacja">Wi-Fi|Bluetooth</a>
-      <a name="System operacyjny">Windows 11 Professional</a>
-      <a name="Układ klawiatury">NORDIC (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Gwarancja">12</a>
-      <a name="Dysk SSD">480 GB</a>
-    </attrs>
-  </o>
-  <o id="18132593317" url="https://allegro.pl/oferta/18132593317" price="1519.00" avail="99" stock="0" basket="0">
-    <cat>Laptopy poleasingowe</cat>
-    <name>Dotykowy Dell Latitude 7420 FHD | i5-1145G7 16GB 960GB SSD | Windows 11</name>
-    <desc><![CDATA[<h1>Dell Latitude 7420</h1> <h1>Dotykowy laptop biznesowy, który pracuje tak elastycznie jak Ty</h1><p>Szukasz niezawodnego, lekkiego i wszechstronnego sprzętu, który sprosta Twojemu tempu pracy? Dell Latitude 7420 z 14-calowym, dotykowym ekranem FHD to idealne połączenie notebooka i tabletu, stworzone z myślą o mobilnych profesjonalistach i nowoczesnych firmach.</p> <p></p> <h2>Stan przedmiotu</h2><ul><li><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.<p><b>✔️ Stan ekranu: </b>Delikatne ryski, drobne otarcia (typowe dla ekranów dotykowych)</p><p><b>✔️ Stan obudowy:</b> Normalne,małe ślady uzytkowania</p></li></ul> <p></p>
-<h2>Specyfikacja</h2><ul><li>Laptop: Dell <b>Latitude 7420</b></li></ul><ul><li>Procesor: <b>Intel Core i5-1145G7</b></li></ul><ul><li>Pamięć RAM: <b>16GB DDR4</b></li></ul><ul><li>Dysk: <b>960GB </b><b>SSD</b></li></ul><ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul><ul><li>Ekran: 14" <b>1920 x 1080</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li></ul><ul><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 11 Pro OEM</li><li>Ekran dotykowy: Tak</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b>Intel Iris Xe Graphics</b></li><li>Klawiatura: QWERTY PL, Podświetlana - naklejki</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: Thunderbolt 4 / USB-C x2, USB 3.2 Gen 1 x2, HDMI 2.0, jack 3,5 mm, czytnik kart microSD</li></ul>
-<p></p> <p></p>
-<p><b>Dlaczego warto wybrać Latitude 7420 ?</b></p><ul><li>Wydajność klasy biznes: <b>11. generacja Intel® Core™</b> zapewnia do 25 % szybsze przetwarzanie danych niż poprzednia.</li><li><b>Mobilność bez kompromisów</b>: ekspresowe ładowanie ExpressCharge™ do 80 % w godzinę i 4-komorowa bateria zoptymalizowana pod Windows 11.</li><li><b>Eko-design</b>: obudowa z materiałów pochodzących z recyklingu, certyfikaty EPEAT Gold i Energy Star.</li></ul> <h1>__________________</h1><h2>Gotowy do pracy po wyjęciu z pudełka</h2><p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p> <h1>Uwagi</h1><p><b>Przed zakupem bardzo prosimy o zapoznanie się ze specyfikacją oraz zdjęciami.</b></p>
-<!----><hr/><p><strong>Dotykowy Dell Latitude 7420 FHD | i5-1145G7 16GB 960GB SSD | Windows 11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11cb9f/0ced616b4ab0a5ecc1be30290509"/>
-      <i url="https://a.allegroimg.com/original/1191f9/caabff8740e695b413fce562735d"/>
-      <i url="https://a.allegroimg.com/original/11bc57/662349934352b7834dbdee00caaf"/>
-      <i url="https://a.allegroimg.com/original/11a8df/0d8bcacb499a88b3307842afa376"/>
-      <i url="https://a.allegroimg.com/original/1169b6/23048597436bb1c89a634776efdc"/>
-      <i url="https://a.allegroimg.com/original/11a00e/625d6aef49bc85cb37dcd3336a4d"/>
-      <i url="https://a.allegroimg.com/original/11a7c9/15ff0971405ebe919956f87a10f2"/>
-      <i url="https://a.allegroimg.com/original/11c944/d2a3e1d1453b9a64435653c3eace"/>
-      <i url="https://a.allegroimg.com/original/117c88/589f07234a34ad648b6a7c14751e"/>
-      <i url="https://a.allegroimg.com/original/11c708/d5616da24995aa09b427f401688a"/>
-      <i url="https://a.allegroimg.com/original/11dc12/f55e91d746569865eaffdd0b8d2a"/>
-      <i url="https://a.allegroimg.com/original/11fd5a/54f8938641ddbf2c12fbed91077c"/>
-      <i url="https://a.allegroimg.com/original/11d1b7/0ba0d3964076adfdbe4d396e061d"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Dell ..</a>
-      <a name="Kod producenta">Latitude 7420 2w1</a>
-      <a name="Model">Latitude 7420 2w1</a>
-      <a name="Seria procesora">Intel Core i5</a>
-      <a name="Taktowanie bazowe procesora [GHz]">2.6</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">4.4</a>
-      <a name="Liczba rdzeni procesora">4</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">16 GB</a>
-      <a name="Typ dysku twardego">SSD</a>
-      <a name="Pojemność dysku [GB]">960</a>
-      <a name="Interfejs dysku">M.2 PCIe</a>
-      <a name="Chipset karty graficznej">Intel Iris Xe Graphics</a>
-      <a name="Pamięć karty graficznej">współdzielona</a>
-      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
-      <a name="Przekątna ekranu">14"</a>
-      <a name="Ekran dotykowy">z ekranem dotykowym</a>
-      <a name="Rozdzielczość">1920 x 1080</a>
-      <a name="Powłoka matrycy">antyrefleksyjna</a>
-      <a name="Złącza">HDMI|USB 3.0|USB 3.2 typ C Gen 1|Thunderbolt|minijack 3,5 mm (audio)</a>
-      <a name="Komunikacja">Wi-Fi|Bluetooth</a>
-      <a name="System operacyjny">Windows 11 Professional</a>
-      <a name="Układ klawiatury">NORDIC (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Gwarancja">12</a>
-      <a name="Dysk SSD">960 GB</a>
-    </attrs>
-  </o>
   <o id="18138800051" url="https://allegro.pl/oferta/18138800051" price="2799.00" avail="1" stock="49" basket="1">
     <cat>Komputery stacjonarne</cat>
     <name>Komputer AIO HP EliteOne 800 G8 24' FHD i7-11700 16GB 512 NVMe WIFI KAM W11</name>
@@ -40570,7 +40070,7 @@
       <a name="Dysk SSD">256 GB</a>
     </attrs>
   </o>
-  <o id="18141623660" url="https://allegro.pl/oferta/18141623660" price="85.00" avail="1" stock="233" basket="1">
+  <o id="18141623660" url="https://allegro.pl/oferta/18141623660" price="85.00" avail="1" stock="225" basket="1">
     <cat>Komputery stacjonarne</cat>
     <name>Mini PC Terminal HP T520 Thin Client 4GB 32GB WINDOWS</name>
     <desc><![CDATA[<h1>Komputer HP HP T520 Thin Client</h1> <h2>Stan przedmiotu</h2>
@@ -43671,120 +43171,6 @@
       <a name="Dysk SSD">256 GB</a>
     </attrs>
   </o>
-  <o id="18243576818" url="https://allegro.pl/oferta/18243576818" price="1299.00" avail="99" stock="0" basket="0">
-    <cat>Laptopy poleasingowe</cat>
-    <name>Laptop HP Probook 450 G7 FHD | i5-10210U 16GB 256GB SSD | Windows 11</name>
-    <desc><![CDATA[<h1>Laptop HP ProBook 450 G7</h1> <h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Drobne ryski, otarcia, poświatki</p><p><b>✔️ Stan obudowy:</b> Normalne, małe ślady użytkowania, możliwy skin</p> <p></p>
-<h2>Specyfikacja</h2><ul><li>Laptop: HP <b>ProBook 450 G7</b></li></ul><ul><li>Procesor: <b>Intel Core i5 </b>4x <b>1.60 - 4.20 GHz</b></li></ul><ul><li>Model procesora: i5-10210U, 6MB Cache, 10gen.</li></ul><ul><li>Pamięć RAM: <b>16GB DDR4</b></li></ul><ul><li>Dysk: <b>256GB SSD</b></li></ul><ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul><ul><li>Ekran: 15,6" <b>1920 x 1080</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li></ul><ul><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 11 Pro OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b>Intel UHD Graphics 620</b></li><li>Klawiatura: QWERTY PL, Numeryczna</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: USB 2.0 - 1 szt. USB 3.2 Gen. 1 - 2 szt. USB Typu-C (z DisplayPort) - 1 szt. HDMI - 1 szt. Czytnik kart pamięci SD - 1 szt. RJ-45 (LAN) - 1 szt. Wyjście słuchawkowe/wejście mikrofonowe - 1 szt. DC-in (wejście zasilania) - 1 szt.</li></ul> <h1>__________________</h1><h2>Gotowy do pracy po wyjęciu z pudełka</h2><p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p>
-<!----><hr/><p><strong>Laptop HP Probook 450 G7 FHD | i5-10210U 16GB 256GB SSD | Windows 11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/110733/f38a25b7467d84b1b90a028bdae6"/>
-      <i url="https://a.allegroimg.com/original/11e639/ed0fd73f465cb1d1520c30d76c1f"/>
-      <i url="https://a.allegroimg.com/original/11b715/3ac6e28a4be1b38938cc6fd2558b"/>
-      <i url="https://a.allegroimg.com/original/1195a3/4a5311aa4b52ac67673280684ef9"/>
-      <i url="https://a.allegroimg.com/original/11fa84/2685bcb44739b4752ab083d8a96b"/>
-      <i url="https://a.allegroimg.com/original/118ee0/7924e220495ebd600d7605f0a0a7"/>
-      <i url="https://a.allegroimg.com/original/111c00/477bb39a42e9a39f1a472a6d327c"/>
-      <i url="https://a.allegroimg.com/original/11a17d/b3c6e988491798627b25c6ac8f91"/>
-      <i url="https://a.allegroimg.com/original/111746/cd5255a64296844cfb4ea3aa02aa"/>
-      <i url="https://a.allegroimg.com/original/1184e8/503d39374c7da60aa153deeee48f"/>
-      <i url="https://a.allegroimg.com/original/11940f/b4bddd554e2d94ddb3d186957253"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">HP.</a>
-      <a name="Kod producenta">HP ProBook 450 G7</a>
-      <a name="Model">ProBook 450 G7</a>
-      <a name="Sygnatura/SKU Sprzedającego">450g7  A-</a>
-      <a name="Seria procesora">Intel Core i5</a>
-      <a name="Taktowanie bazowe procesora [GHz]">1.6</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">4.2</a>
-      <a name="Liczba rdzeni procesora">4</a>
-      <a name="Pamięć podręczna procesora [MB]">6</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">16 GB</a>
-      <a name="Typ dysku twardego">SSD</a>
-      <a name="Pojemność dysku [GB]">256</a>
-      <a name="Interfejs dysku">M.2|M.2 PCIe|SATA III</a>
-      <a name="Chipset karty graficznej">Intel UHD Graphics 620</a>
-      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
-      <a name="Przekątna ekranu">15.6"</a>
-      <a name="Ekran dotykowy">Nie</a>
-      <a name="Rozdzielczość">1920 x 1080</a>
-      <a name="Typ matrycy">IPS</a>
-      <a name="Powłoka matrycy">matowa</a>
-      <a name="Złącza">HDMI|USB 3.0|USB 3.1 typ C|RJ-45|minijack 3,5 mm (audio)</a>
-      <a name="Komunikacja">Wi-Fi|Bluetooth|LAN 10/100/1000 Mbps</a>
-      <a name="System operacyjny">Windows 11 Professional</a>
-      <a name="Układ klawiatury">PL (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Stan opakowania">zastępcze</a>
-      <a name="Dołączone oprogramowanie">Windows 11 Pro</a>
-      <a name="Gwarancja">12</a>
-      <a name="Dysk SSD">256 GB</a>
-      <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
-    </attrs>
-  </o>
-  <o id="18243604700" url="https://allegro.pl/oferta/18243604700" price="1449.00" avail="99" stock="0" basket="0">
-    <cat>Laptopy poleasingowe</cat>
-    <name>Laptop HP Probook 450 G7 FHD | i5-10210U 16GB 480GB SSD | Windows 11</name>
-    <desc><![CDATA[<h1>Laptop HP ProBook 450 G7</h1> <h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Drobne ryski, otarcia, poświatki</p><p><b>✔️ Stan obudowy:</b> Normalne, małe ślady użytkowania, możliwy skin</p> <p></p>
-<h2>Specyfikacja</h2><ul><li>Laptop: HP <b>ProBook 450 G7</b></li></ul><ul><li>Procesor: <b>Intel Core i5 </b>4x <b>1.60 - 4.20 GHz</b></li></ul><ul><li>Model procesora: i5-10210U, 6MB Cache, 10gen.</li></ul><ul><li>Pamięć RAM: <b>16GB DDR4</b></li></ul><ul><li>Dysk: <b>480GB SSD</b></li></ul><ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul><ul><li>Ekran: 15,6" <b>1920 x 1080</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li></ul><ul><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 11 Pro OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b>Intel UHD Graphics 620</b></li><li>Klawiatura: QWERTY PL, Numeryczna</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: USB 2.0 - 1 szt. USB 3.2 Gen. 1 - 2 szt. USB Typu-C (z DisplayPort) - 1 szt. HDMI - 1 szt. Czytnik kart pamięci SD - 1 szt. RJ-45 (LAN) - 1 szt. Wyjście słuchawkowe/wejście mikrofonowe - 1 szt. DC-in (wejście zasilania) - 1 szt.</li></ul> <h1>__________________</h1><h2>Gotowy do pracy po wyjęciu z pudełka</h2><p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p>
-<!----><hr/><p><strong>Laptop HP Probook 450 G7 FHD | i5-10210U 16GB 480GB SSD | Windows 11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/110733/f38a25b7467d84b1b90a028bdae6"/>
-      <i url="https://a.allegroimg.com/original/11e639/ed0fd73f465cb1d1520c30d76c1f"/>
-      <i url="https://a.allegroimg.com/original/11b715/3ac6e28a4be1b38938cc6fd2558b"/>
-      <i url="https://a.allegroimg.com/original/1195a3/4a5311aa4b52ac67673280684ef9"/>
-      <i url="https://a.allegroimg.com/original/11fa84/2685bcb44739b4752ab083d8a96b"/>
-      <i url="https://a.allegroimg.com/original/118ee0/7924e220495ebd600d7605f0a0a7"/>
-      <i url="https://a.allegroimg.com/original/111c00/477bb39a42e9a39f1a472a6d327c"/>
-      <i url="https://a.allegroimg.com/original/11a17d/b3c6e988491798627b25c6ac8f91"/>
-      <i url="https://a.allegroimg.com/original/111746/cd5255a64296844cfb4ea3aa02aa"/>
-      <i url="https://a.allegroimg.com/original/1184e8/503d39374c7da60aa153deeee48f"/>
-      <i url="https://a.allegroimg.com/original/11940f/b4bddd554e2d94ddb3d186957253"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">HP.</a>
-      <a name="Kod producenta">HP ProBook 450 G7</a>
-      <a name="Model">ProBook 450 G7</a>
-      <a name="Sygnatura/SKU Sprzedającego">450g7  A-</a>
-      <a name="Seria procesora">Intel Core i5</a>
-      <a name="Taktowanie bazowe procesora [GHz]">1.6</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">4.2</a>
-      <a name="Liczba rdzeni procesora">4</a>
-      <a name="Pamięć podręczna procesora [MB]">6</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">16 GB</a>
-      <a name="Typ dysku twardego">SSD</a>
-      <a name="Pojemność dysku [GB]">480</a>
-      <a name="Interfejs dysku">M.2|M.2 PCIe|SATA III</a>
-      <a name="Chipset karty graficznej">Intel UHD Graphics 620</a>
-      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
-      <a name="Przekątna ekranu">15.6"</a>
-      <a name="Ekran dotykowy">Nie</a>
-      <a name="Rozdzielczość">1920 x 1080</a>
-      <a name="Typ matrycy">IPS</a>
-      <a name="Powłoka matrycy">matowa</a>
-      <a name="Złącza">HDMI|USB 3.0|USB 3.1 typ C|RJ-45|minijack 3,5 mm (audio)</a>
-      <a name="Komunikacja">Wi-Fi|Bluetooth|LAN 10/100/1000 Mbps</a>
-      <a name="System operacyjny">Windows 11 Professional</a>
-      <a name="Układ klawiatury">PL (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Stan opakowania">zastępcze</a>
-      <a name="Dołączone oprogramowanie">Windows 11 Pro</a>
-      <a name="Gwarancja">12</a>
-      <a name="Dysk SSD">480 GB</a>
-      <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
-    </attrs>
-  </o>
   <o id="18243620612" url="https://allegro.pl/oferta/18243620612" price="1249.00" avail="1" stock="30" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>HP ProBook 440 G7 FHD | i5-10210U 16GB 480GB SSD | Windows 11 Aluminium</name>
@@ -44737,7 +44123,7 @@
       <a name="Dysk SSD">480 GB</a>
     </attrs>
   </o>
-  <o id="18254020916" url="https://allegro.pl/oferta/18254020916" price="269.00" avail="1" stock="27" basket="1">
+  <o id="18254020916" url="https://allegro.pl/oferta/18254020916" price="239.00" avail="1" stock="297" basket="1">
     <cat>Komputery stacjonarne</cat>
     <name>Terminal HP T630 Thin Client 8GB 128GB Micro Windows Standard 10</name>
     <desc><![CDATA[<h2>Terminal w 100% sprawny - bez podstawki</h2> <h2>_______________</h2> <p></p>
@@ -44778,7 +44164,7 @@
       <a name="Dysk SSD">128 GB</a>
     </attrs>
   </o>
-  <o id="18255891884" url="https://allegro.pl/oferta/18255891884" price="459.00" avail="1" stock="13" basket="1">
+  <o id="18255891884" url="https://allegro.pl/oferta/18255891884" price="459.00" avail="1" stock="12" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Dotykowy Laptop HP x360 11 G3 | 128GB M.2 Windows 11</name>
     <desc><![CDATA[<h2>Dotykowy Laptop HP x360 128GB M.2 Windows 11 - Laptop i Tablet w jednym!</h2> <p></p> <h2>Stan przedmiotu</h2>
@@ -47644,59 +47030,6 @@
       <a name="Stan">Poleasingowy</a>
       <a name="Dołączone oprogramowanie">Windows 11 Pro</a>
       <a name="Gwarancja">6</a>
-      <a name="Dysk SSD">256 GB</a>
-    </attrs>
-  </o>
-  <o id="18316045920" url="https://allegro.pl/oferta/18316045920" price="1499.00" avail="99" stock="0" basket="0">
-    <cat>Laptopy poleasingowe</cat>
-    <name>Dotykowy Lenovo ThinkPad P52 | 3840x2160 | i7-8750H 16GB 256GB SSD | Win11</name>
-    <desc><![CDATA[<h1>Laptop Lenovo ThinkPad P52</h1><p>1941LAP2</p> <h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Drobne ryski, otarcia - typowe dla ekranów dotykowych</p><p><b>✔️ Stan obudowy:</b> Normalne, małe ślady użytkowania</p> <p></p>
-<h2>Specyfikacja</h2><ul><li>Laptop: Lenovo <b>ThinkPad P52</b></li></ul><ul><li>Procesor: <b>Intel Core i7 </b>6x 2.20 - 4.10 GHz</li></ul><ul><li>Model procesora: i7-8750H</li></ul><ul><li>Pamięć RAM: <b>16GB DDR4</b></li></ul><ul><li>Dysk: <b>256GB M.2 </b><b>SSD</b></li></ul><ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul><ul><li>Ekran dotykowy: 15,6" <b>3840 x 2160</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li></ul><ul><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 10 Professional OEM</li><li>Ekran dotykowy: Tak</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b>Nvidia Quadro P1000 + Intel UHD 630</b></li><li>Klawiatura: QWERTY PL, Numeryczna - odnowiona</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 2x USB 3.1 Typ A, 2x USB 3.1 Typ C, Thunderbolt, HDMI, RJ-45, Kensington Lock, Smart Card</li></ul> <h1>__________________</h1>
-<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
-<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<!----><hr/><p><strong>Dotykowy Lenovo ThinkPad P52 | 3840x2160 | i7-8750H 16GB 256GB SSD | Win11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Lenovo – sprawdź: https://kompre.pl/pl/c/Laptopy-Lenovo/366. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11b111/4223483644ad9b2a48f4cf930708"/>
-      <i url="https://a.allegroimg.com/original/1186d1/534b69f1444194a37c142893b55b"/>
-      <i url="https://a.allegroimg.com/original/116128/1def904d4b9f8546a23c434ca7bb"/>
-      <i url="https://a.allegroimg.com/original/115769/937336424cb6b6735ad15ffb8f71"/>
-      <i url="https://a.allegroimg.com/original/115fef/07f0d1c9470c8a9664cf3501cad2"/>
-      <i url="https://a.allegroimg.com/original/118e56/abda1ff8437aabd8c76454642c46"/>
-      <i url="https://a.allegroimg.com/original/11d148/291898624999bacd604e8be75ff7"/>
-      <i url="https://a.allegroimg.com/original/11782b/fbb8e83f4813a4f87b64c9105b4e"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Lenovo</a>
-      <a name="Kod producenta">ThinkPad P52 - dotykowy</a>
-      <a name="Model">ThinkPad P52</a>
-      <a name="Sygnatura/SKU Sprzedającego">1941LAP2</a>
-      <a name="Seria procesora">Intel Core i7</a>
-      <a name="Taktowanie bazowe procesora [GHz]">2.2</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">4.1</a>
-      <a name="Liczba rdzeni procesora">6</a>
-      <a name="Pamięć podręczna procesora [MB]">9</a>
-      <a name="Typ pamięci RAM">DDR4</a>
-      <a name="Pamięć RAM (zainstalowana)">16 GB</a>
-      <a name="Typ dysku twardego">SSD</a>
-      <a name="Pojemność dysku [GB]">256</a>
-      <a name="Interfejs dysku">M.2 PCIe</a>
-      <a name="Chipset karty graficznej">NVIDIA Quadro P1000</a>
-      <a name="Rodzaj karty graficznej">Grafika dedykowana</a>
-      <a name="Przekątna ekranu">15.6"</a>
-      <a name="Ekran dotykowy">z ekranem dotykowym</a>
-      <a name="Rozdzielczość">3840 x 2160</a>
-      <a name="Powłoka matrycy">błyszcząca antyrefleksyjna</a>
-      <a name="Złącza">HDMI|USB 3.1 typ A|USB 3.1 typ C|RJ-45|Thunderbolt</a>
-      <a name="Komunikacja">Wi-Fi|Bluetooth|LAN 10/100/1000 Mbps</a>
-      <a name="System operacyjny">Windows 11 Professional</a>
-      <a name="Układ klawiatury">US international (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Stan opakowania">zastępcze</a>
-      <a name="Dołączone oprogramowanie">Windows 10 Professional</a>
-      <a name="Gwarancja">12</a>
       <a name="Dysk SSD">256 GB</a>
     </attrs>
   </o>
@@ -52343,11 +51676,11 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="18407489881" url="https://allegro.pl/oferta/18407489881" price="975.00" avail="1" stock="54" basket="1">
+  <o id="18407489881" url="https://allegro.pl/oferta/18407489881" price="975.00" avail="1" stock="52" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Lenovo ThinkPad T14 Gen 1 | Ryzen 5 4650U 16GB 256GB SSD | Windows 11</name>
     <desc><![CDATA[<h1>Laptop Lenovo ThinkPad T14 Gen 1</h1> <h2>Stan przedmiotu</h2><p>Sprzęt został przetestowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Drobne ryski, otarcia, poświatki</p><p><b>✔️ Stan obudowy:</b> Normalne ślady użytkowania, na klapie profesjonalnie wykonany skin</p> <p></p>
-<h2>Specyfikacja</h2><ul><li>Laptop: Lenovo <b>ThinkPad T14 Gen 1</b></li></ul><ul><li>Procesor: <b>AMD Ryzen 5 PRO 6x 2.1 - 4.0GHz</b></li></ul><ul><li>Model procesora: Ryzen 5 PRO 4650U, 8MB Cache.</li></ul><ul><li>Pamięć RAM: <b>16GB DDR4</b></li></ul><ul><li>Dysk: <b>256GB </b><b> SSD</b></li></ul><ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul><ul><li>Ekran: 14" <b>1920 x 1080</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li></ul><ul><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 11 Pro OEM</li><li>Ekran dotykowy:</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: AMD Radeon RX Vega 6</li><li>Klawiatura: <b>QWERTY PL - odnowiona!</b></li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 1 x HDMI 1.4b 2 x USB Typu C, 2 x USB 3.2 Gen 1 1 x RJ-45 1 x Audio 1 x MicroSD</li></ul> <h1>__________________</h1>
+<h2>Specyfikacja</h2><ul><li>Laptop: Lenovo <b>ThinkPad T14 Gen 1</b></li></ul><ul><li>Procesor: <b>AMD Ryzen 5 PRO 6x 2.1 - 4.0GHz</b></li></ul><ul><li>Model procesora: Ryzen 5 PRO 4650U, 8MB Cache.</li></ul><ul><li>Pamięć RAM: <b>16GB DDR4</b></li></ul><ul><li>Dysk: <b>256GB </b><b> SSD</b></li></ul><ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul><ul><li>Ekran: 14" <b>1920 x 1080</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li></ul><ul><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 11 Pro OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: AMD Radeon RX Vega 6</li><li>Klawiatura: <b>QWERTY PL - odnowiona!</b></li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 1 x HDMI 1.4b 2 x USB Typu C, 2 x USB 3.2 Gen 1 1 x RJ-45 1 x Audio 1 x MicroSD</li></ul> <h1>__________________</h1>
 <h2>Gotowy do pracy po wyjęciu z pudełka</h2>
 <p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenieod razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <p></p>
 <p></p> <p></p>
@@ -52762,7 +52095,7 @@
       <a name="Dysk SSD">960 GB</a>
     </attrs>
   </o>
-  <o id="18415770605" url="https://allegro.pl/oferta/18415770605" price="1249.00" avail="1" stock="50" basket="1">
+  <o id="18415770605" url="https://allegro.pl/oferta/18415770605" price="1249.00" avail="1" stock="49" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Lenovo ThinkPad L14 Gen 1| Wydajny Ryzen 5 16GB 256GB SSD NVME| Windows 11</name>
     <desc><![CDATA[<h1>Laptop Lenovo ThinkPad L14 Gen 1</h1> <p>💡 Ciekawostka: Ryzen 5 PRO 4650U w testach wielowątkowych często przewyższa popularnego Intel Core i7-10510U, oferując przy tym niższe zużycie energii. To procesor, który łączy wysoką wydajność z długim czasem pracy na baterii – dokładnie to, czego potrzebujesz w terenie.</p> <h2>Stan przedmiotu</h2><p>Sprzęt został przetestowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Bez wad</p><p><b>✔️ Stan obudowy:</b> Odnowiony - minimalne ślady.</p> <p></p>
@@ -55383,65 +54716,6 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="18425316545" url="https://allegro.pl/oferta/18425316545" price="675.00" avail="99" stock="0" basket="0">
-    <cat>Laptopy poleasingowe</cat>
-    <name>Laptop Dell Latitude E5550 FHD | i7-5600U 16GB 240GB SSD | Windows 11</name>
-    <desc><![CDATA[<h1>Laptop Dell Latitude E5550</h1><p>2071LAP2/0326</p> <p></p> <h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Drobne ryski, otarcia, poświaty</p><p><b>✔️ Stan obudowy:</b> Normalne, delikatne ślady użytkowania</p> <p></p>
-<h2>Specyfikacja</h2><ul><li>Laptop: Dell <b>Latitude E5550</b></li></ul><ul><li>Procesor: <b>Intel Core i7 </b>2x <b>2.60 - 3.20 GHz</b></li></ul><ul><li>Model procesora: i7 - 5600U, 3MB Cache, 5 gen.</li></ul><ul><li>Pamięć RAM: <b>16GB DDR3</b></li></ul><ul><li>Dysk: <b>240GB </b><b> SSD</b></li></ul><ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul><ul><li>Ekran: 15,6" <b>1920 x 1080</b></li></ul><ul><li>Bateria: Nowy zamiennik</li></ul><ul><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 8.1 PRO OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b>Intel HD 5500</b></li><li>Klawiatura: QWERTY PL, Numeryczna - odnowiona</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi</li><li>Złącza: 3x USB 3.0, HDMI, VGA, LAN, Audio, SC</li></ul> <h1>__________________</h1>
-<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
-<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <h1>__________________</h1><h2>Ostry i wyraźny</h2><p>Dzięki zastosowaniu matrycy nowej generacji w rozdzielczości FHD <b>wyświetlany obraz jest znakomitej jakości</b>. Najnowsze głośniki gwarantują bogaty dźwięk, a współpracujące ze sobą czułe mikrofony i ciche klawisze zapewniają komunikację na wysokim poziomie.</p> <p></p> <h1>__________________</h1><h2>Pracuj wydajniej</h2><p>Niezawodne <b>procesory Intel Core, zwiększają produktywność i efektywność</b>. Urządzenia włączają się w mgnieniu oka i są zawsze w pełni gotowe do pracy. Można szybko wykonywać wiele zadań równocześnie i bez problemów przełączać się między aplikacjami.</p> <p></p> <h1>__________________</h1>
-<h2>K - jak Konkretne zdjęcia</h2>
-<ul><li>Chcemy być w 100% pewni, że sprzęt który otrzymasz spełni wszystkie Twoje wymagania, możemy udostępnić Ci zdjęcia i zarezerwować konkretną sztukę laptopa.</li></ul> <p></p>
-<p></p> <p></p>
-<p></p> <p></p>
-<p></p>
-<!----><hr/><p><strong>Laptop Dell Latitude E5550 FHD | i7-5600U 16GB 240GB SSD | Windows 11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Dell – sprawdź: https://kompre.pl/pl/c/Laptopy-Dell/364. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/1178e5/986718fe40a8976e9b037b9cf696"/>
-      <i url="https://a.allegroimg.com/original/111656/0ccff0104dfba3b99f00fca77a12"/>
-      <i url="https://a.allegroimg.com/original/1117e5/71516a7a4e41ae3ba7d32d090342"/>
-      <i url="https://a.allegroimg.com/original/118693/8995c1c745d6844fe01bf11374a9"/>
-      <i url="https://a.allegroimg.com/original/118984/e9f372cb4c57af67aae16ed4e681"/>
-      <i url="https://a.allegroimg.com/original/11e7b4/b04339084240954cdec29c0fa7b6"/>
-      <i url="https://a.allegroimg.com/original/11558c/e12f2b3040f9a2a0c0f9360ccf7e"/>
-      <i url="https://a.allegroimg.com/original/11099e/fb772bee4b1fb796e6e6d8926e71"/>
-      <i url="https://a.allegroimg.com/original/11e53b/19aeb63a4edabe916db7739d7214"/>
-      <i url="https://a.allegroimg.com/original/11268e/8e1044de4a88a5b8bb2ad42e3c4d"/>
-      <i url="https://a.allegroimg.com/original/11cb5c/8d14c4314cb4b928f080dfe5cbdc"/>
-      <i url="https://a.allegroimg.com/original/11d475/e57e7a234b23af67159c2a1b3720"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Dell</a>
-      <a name="Kod producenta">laptop Latitude E5550</a>
-      <a name="Model">laptop Latitude E5550</a>
-      <a name="Sygnatura/SKU Sprzedającego">2071LAP2/0326</a>
-      <a name="Seria procesora">Intel Core i5</a>
-      <a name="Taktowanie bazowe procesora [GHz]">2.6</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">3.2</a>
-      <a name="Liczba rdzeni procesora">2</a>
-      <a name="Pamięć podręczna procesora [MB]">3</a>
-      <a name="Typ pamięci RAM">DDR3</a>
-      <a name="Pamięć RAM (zainstalowana)">16 GB</a>
-      <a name="Typ dysku twardego">SSD</a>
-      <a name="Pojemność dysku [GB]">240</a>
-      <a name="Interfejs dysku">SATA|SATA II|SATA III</a>
-      <a name="Pamięć karty graficznej">współdzielona</a>
-      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
-      <a name="Przekątna ekranu">15.6"</a>
-      <a name="Ekran dotykowy">Nie</a>
-      <a name="Rozdzielczość">1920 x 1080</a>
-      <a name="Powłoka matrycy">matowa</a>
-      <a name="Złącza">HDMI|USB 3.0|USB 3.0 typ A|RJ-45|D-Sub (VGA)|minijack 3,5 mm (audio)|złącze dokowania</a>
-      <a name="Komunikacja">Wi-Fi|LAN 10/100/1000 Mbps</a>
-      <a name="System operacyjny">Windows 10 Professional</a>
-      <a name="Układ klawiatury">US international (qwerty)</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Stan opakowania">zastępcze</a>
-      <a name="Dołączone oprogramowanie">Windows 8.1 PRO</a>
-      <a name="Gwarancja">12</a>
-      <a name="Dysk SSD">240 GB</a>
-    </attrs>
-  </o>
   <o id="18425660682" url="https://allegro.pl/oferta/18425660682" price="299.00" avail="1" stock="198" basket="1">
     <cat>Monitory poleasingowe</cat>
     <name>Monitor LED HP Z23n G2 23' Bezramkowy 1920x1080 px IPSHDMI VGA pivot</name>
@@ -56551,7 +55825,7 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="18444590780" url="https://allegro.pl/oferta/18444590780" price="1699.00" avail="1" stock="18" basket="1">
+  <o id="18444590780" url="https://allegro.pl/oferta/18444590780" price="1699.00" avail="1" stock="17" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>HP EliteBook 850 G6 FHD | i5-8365U 32GB 480GB SSD | Windows 11</name>
     <desc><![CDATA[<h1>Laptop HP EliteBook 850 G6</h1> <h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Drobne ryski, otarcia, poświatki</p><p><b>✔️ Stan obudowy:</b> Normalne, małe ślady użytkowania</p> <p></p>
@@ -72759,7 +72033,7 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="18638173630" url="https://allegro.pl/oferta/18638173630" price="99.00" avail="1" stock="98" basket="1">
+  <o id="18638173630" url="https://allegro.pl/oferta/18638173630" price="99.00" avail="1" stock="94" basket="1">
     <cat>Komputery stacjonarne</cat>
     <name>Terminal HP T620 Thin Client AMD 4x1.50GHz 4GB 32GB SSD Micro MiniPC</name>
     <desc><![CDATA[<h2>Terminal w 100% sprawny</h2> <h2>_______________</h2> <p></p>
@@ -72878,7 +72152,151 @@
       <a name="Dysk SSD">256 GB</a>
     </attrs>
   </o>
-  <o id="7283889062" url="https://allegro.pl/oferta/7283889062" price="7.70" avail="1" stock="9376" basket="1">
+  <o id="18640639860" url="https://allegro.pl/oferta/18640639860" price="1299.00" avail="99" stock="0" basket="0">
+    <cat>Laptopy poleasingowe</cat>
+    <name>HP EliteBook 835 G8 FHD | Ryzen 7 PRO 5850U 16GB 256GB M.2 | Windows 11</name>
+    <desc><![CDATA[<h1>HP EliteBook 835 G8</h1><p>2281LAP2/0626</p><h2>Biznesowa Moc w Eleganckiej Formie</h2><p><b>Szukasz niezawodnego laptopa do pracy, który sprosta nawet najbardziej wymagającym zadaniom?</b></p><p>HP EliteBook 835 G8 to idealne rozwiązanie dla profesjonalistów ceniących wydajność, mobilność i bezpieczeństwo. Ten elegancki ultrabook łączy nowoczesne technologie z solidnym wykonaniem, zapewniając komfort pracy w każdych warunkach.</p> <p></p> <h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Bez wad</p><p><b>✔️ Stan obudowy:</b> Normalne ślady użytkowania, drobne wgniecenia obudowy, klapy oraz ramki matrycy</p> <p></p>
+<h2>Specyfikacja</h2><ul><li>Laptop: HP <b>EliteBook 835 G8</b></li></ul><ul><li>Procesor: <b>AMD Ryzen 7 PRO 5850U</b></li></ul><ul><li>Pamięć RAM: <b>16GB DDR4</b></li></ul><ul><li>Dysk: <b>256GB </b><b>SSD</b></li></ul><ul><li>Zainstalowany system: <b>Windows 11 Pro</b></li></ul><ul><li>Ekran: 13,3" <b>1920 x 1080</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li></ul><ul><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 11 Pro OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna:<b> AMD Radeon RX Vega 8</b></li><li>Klawiatura: QWERTY PL, Podświetlana</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 2x USB-A 3.1, 2x USB-C (w tym 1x Thunderbolt 4), HDMI 2.0, jack 3,5 mm, czytnik kart SmartCard, gniazdo zasilania</li></ul>
+<p></p> <p></p>
+<p><b>Dlaczego warto wybrać HP EliteBook 835 G8?</b></p><ul><li><b>Bezpieczeństwo klasy biznesowej</b> – wbudowany czytnik linii papilarnych, moduł TPM, kamera z osłoną prywatności</li><li><b>Lekka i wytrzymała konstrukcja</b> – idealna do pracy w biurze i w podróży</li><li><b>Szeroka łączność</b> – USB-C, HDMI, Wi-Fi 6, Bluetooth 5.0 – gotowy do działania wszędzie tam, gdzie jesteś</li></ul><p><b>Idealny laptop dla:</b></p><ul><li>Przedsiębiorców i pracowników biurowych</li><li>Studentów i nauczycieli</li><li>Osób pracujących zdalnie</li><li>Każdego, kto ceni jakość, szybkość i niezawodność</li></ul> <h1>__________________</h1>
+<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
+<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p> <p></p>
+<p></p> <p></p>
+<p></p> <p></p>
+<p></p> <p></p>
+<p></p> <p></p>
+<p></p>
+<!----><hr/><p><strong>HP EliteBook 835 G8 FHD | Ryzen 7 PRO 5850U 16GB 256GB M.2 | Windows 11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele HP – sprawdź: https://kompre.pl/pl/c/Laptopy-HP/365. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
+    <imgs>
+      <main url="https://a.allegroimg.com/original/1190f5/248496b04c9b87982339f2a0c932"/>
+      <i url="https://a.allegroimg.com/original/118db0/d651ad714867be1606d17d3210b1"/>
+      <i url="https://a.allegroimg.com/original/11785e/888ab329432381f37e98a042882c"/>
+      <i url="https://a.allegroimg.com/original/11add8/d61c7dab4ae2a597ef11ff60a3b3"/>
+      <i url="https://a.allegroimg.com/original/119785/af53660140c29ca1d15afe2d8e58"/>
+      <i url="https://a.allegroimg.com/original/112d86/75267b7f4fe58e29e58a66c33d6a"/>
+      <i url="https://a.allegroimg.com/original/114d6a/d06e18dd45579cc20664efebd9bd"/>
+      <i url="https://a.allegroimg.com/original/11ed58/bd750c42482c996a50372810868a"/>
+      <i url="https://a.allegroimg.com/original/11c6b5/bc7fd5e34236816f7b52f38e6635"/>
+      <i url="https://a.allegroimg.com/original/118080/0884d16444878ca8fcf2f3f3f30e"/>
+      <i url="https://a.allegroimg.com/original/11c5f0/c908908b4b58a57c5dc233a44997"/>
+      <i url="https://a.allegroimg.com/original/11415d/fc4e0e7b41f4b8e42f1aa9c4be1f"/>
+      <i url="https://a.allegroimg.com/original/11e05b/0080f5554c099434bad9db1d8c9b"/>
+      <i url="https://a.allegroimg.com/original/1191a9/94d012a24fe2bea8704d43e911a0"/>
+    </imgs>
+    <attrs>
+      <a name="Producent">HP</a>
+      <a name="Kod producenta">EliteBook 835 G8</a>
+      <a name="Model">EliteBook 835 G8</a>
+      <a name="Sygnatura/SKU Sprzedającego">2281LAP2/0626</a>
+      <a name="Seria procesora">AMD Ryzen 7</a>
+      <a name="Taktowanie bazowe procesora [GHz]">1.9</a>
+      <a name="Taktowanie maksymalne procesora [GHz]">4.4</a>
+      <a name="Liczba rdzeni procesora">8</a>
+      <a name="Pamięć podręczna procesora [MB]">16</a>
+      <a name="Typ pamięci RAM">DDR4</a>
+      <a name="Pamięć RAM (zainstalowana)">16 GB</a>
+      <a name="Typ dysku twardego">SSD</a>
+      <a name="Pojemność dysku [GB]">256</a>
+      <a name="Interfejs dysku">M.2 PCIe</a>
+      <a name="Chipset karty graficznej">AMD Radeon RX Vega 8</a>
+      <a name="Pamięć karty graficznej">współdzielona</a>
+      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
+      <a name="Przekątna ekranu">13.3"</a>
+      <a name="Ekran dotykowy">Nie</a>
+      <a name="Rozdzielczość">1920 x 1080</a>
+      <a name="Typ matrycy">IPS</a>
+      <a name="Powłoka matrycy">matowa</a>
+      <a name="Złącza">HDMI|USB 3.1 typ A|USB 3.1 typ C|minijack 3,5 mm (audio)</a>
+      <a name="Komunikacja">Wi-Fi|Bluetooth</a>
+      <a name="System operacyjny">Windows 11 Professional</a>
+      <a name="Układ klawiatury">PL (qwerty)</a>
+      <a name="Stan">Poleasingowy</a>
+      <a name="Gwarancja">12</a>
+      <a name="Dysk SSD">256 GB</a>
+    </attrs>
+  </o>
+  <o id="18640725177" url="https://allegro.pl/oferta/18640725177" price="1599.00" avail="1" stock="50" basket="1">
+    <cat>Komputery stacjonarne</cat>
+    <name>Komputer AIO Dell OptiPlex 7470 I5-9500 8GB 240 NVME 24' WIN 11 WIFI KAM</name>
+    <desc><![CDATA[<h1>Komputer DELL AIO 7460</h1> <h2>Stan przedmiotu</h2><p>Sprzęt został przetestowany i przygotowany do pracy.</p><p><b>✔️</b> <b>Stan ekranu</b>: Brak wad kl A</p> <p></p>
+<h2>Specyfikacja</h2><ul><li>Komputer: <b>DELL Optiplex 7470</b></li></ul><ul><li>Obudowa: <b>All in one</b></li><li><b>Ekran 23,8' 1920x1080</b></li></ul><ul><li>Procesor: <b>Intel Core i5 9500 6</b>x <b>3.00 - 4.40 GHz </b>9MB Cache, 8gen.</li></ul><ul><li>Pamięć RAM: <b>16GB DDR4</b></li></ul><ul><li>Dysk: <b>240GB </b><b>SSD NVME</b></li></ul><ul><li>Zainstalowany system: <b> Windows 11 Pro</b></li></ul> <h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 10 pro</li><li>Karta graficzna: <b> Intel HD</b></li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: LAN, WIFI, Bluetooth</li><li>Kamera : TAK</li><li>Złącza: Porty 1 port USB 3.1 Type-C™ drugiej generacji (z boku) 1 port USB 3.1 Type-A pierwszej generacji z funkcją PowerShare (z boku) 2 porty USB 3.1 Type-A pierwszej generacji (z tyłu) 2 porty USB 3.1 Type-A drugiej generacji (z tyłu) 1 gniazdo czytnika kart</li></ul> <h1>__________________</h1>
+<h2>Zdjęcia:</h2> <p></p>
+<p></p> <p></p>
+<p></p>
+<!----><hr/><p><strong>Komputer AIO Dell OptiPlex 7470 I5-9500 8GB 240 NVME 24' WIN 11 WIFI KAM</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Dell. – sprawdź: https://kompre.pl/pl/c/Komputery-Stacjonarne/345. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
+    <imgs>
+      <main url="https://a.allegroimg.com/original/1147fd/214b857444938b483261a3cc5a35"/>
+      <i url="https://a.allegroimg.com/original/11e971/2a975287466a803340f7ced9cc72"/>
+      <i url="https://a.allegroimg.com/original/11904b/8bfa918b448faa37a449659e6ceb"/>
+      <i url="https://a.allegroimg.com/original/118cac/c345ddf24c9ba12678738bfa6be7"/>
+      <i url="https://a.allegroimg.com/original/11e42f/fa6cd92a46e89a8a9917afa4a46b"/>
+      <i url="https://a.allegroimg.com/original/114078/c4b5be7341dda94bc02f42aeab1f"/>
+      <i url="https://a.allegroimg.com/original/117123/c95f7cb24d59885cb77f0aca2d64"/>
+    </imgs>
+    <attrs>
+      <a name="Producent">Dell.</a>
+      <a name="Kod producenta">Optiplex 7470 AiO</a>
+      <a name="Model">Optiplex 7470 AiO</a>
+      <a name="Model procesora">i5-9500</a>
+      <a name="Generacja procesora">9</a>
+      <a name="Taktowanie bazowe procesora [GHz]">3</a>
+      <a name="Taktowanie maksymalne procesora [GHz]">4.4</a>
+      <a name="Liczba rdzeni procesora">6</a>
+      <a name="Liczba wątków procesora">6</a>
+      <a name="Pamięć podręczna procesora [MB]">9</a>
+      <a name="Typ pamięci RAM">DDR4</a>
+      <a name="Pamięć RAM (zainstalowana)">8 GB</a>
+      <a name="Maksymalna pojemność pamięci RAM [GB]">32</a>
+      <a name="Typ dysku twardego">SSD</a>
+      <a name="Pojemność dysku [GB]">256</a>
+      <a name="Producent karty graficznej">Intel</a>
+      <a name="Chipset karty graficznej">Intel UHD Graphics 630</a>
+      <a name="Pamięć karty graficznej">współdzielona</a>
+      <a name="Złącza karty graficznej">DisplayPort|HDMI</a>
+      <a name="Rodzaj karty graficznej">zintegrowana</a>
+      <a name="Komunikacja">Wi-Fi|Bluetooth|LAN 10/100/1000 Mbps</a>
+      <a name="System operacyjny">Windows 11 Professional</a>
+      <a name="Stan">Poleasingowy</a>
+      <a name="Dołączone oprogramowanie">Windows 11 PRO</a>
+      <a name="Gwarancja">12</a>
+      <a name="Dysk SSD">256 GB</a>
+    </attrs>
+  </o>
+  <o id="18640949944" url="https://allegro.pl/oferta/18640949944" price="149.00" avail="1" stock="370" basket="1">
+    <cat>Komputery stacjonarne</cat>
+    <name>Terminal HP T630 Thin Client 4GB 32GB Micro Windows Standard 10</name>
+    <desc><![CDATA[<h2>Terminal w 100% sprawny - bez podstawki</h2> <h2>_______________</h2> <p></p>
+<h2>Specyfikacja</h2><ul><li><b>Terminal </b>HP T630 Thin Client</li></ul><ul><li>Procesor AMD GX-420GI (4x 2.00 GHz)</li></ul><ul><li>Zegar 4x<b>2.0 GHz (</b>Max 4x2.20GHz)</li></ul><ul><li>Pamięć RAM <b>4GB DDR4 - </b>istnieje możliwość rozbudowy</li></ul><ul><li>Dysk <b>32GB SSD M. 2 - </b>istnieje możliwość rozbudowy</li></ul><ul><li>System/Licencja <b>Windows 10 LTSC</b></li></ul><ul><li>Grafika AMD RADEON R7E</li></ul><ul><li>W zestawie: Zasilacz z przewodem,<b> brak podstawki</b></li></ul><h2>_______________</h2><h2>Porty :</h2><ul><li>2x USB 2.0, 2x DisplayPort, 2x PS/2, COM, RJ45, Audio</li></ul> <h2>_______________</h2> <h2>Niewielkie wymiary, wielkie możliwości</h2><p>Niezwykle kompaktowy HP Tiny jest o 10x mniejszy od tradycyjnego komputera stacjonarnego o formacie tower. Ten maleńki komputer mieści się praktycznie wszędzie i może działać w ustawieniu pionowym bądź poziomym, na ścianie, za monitorem czy nawet pod biurkiem. Oferuje on niezawodną wydajność na poziomie profesjonalnym i nie zajmuje cennego miejsca na biurku.</p><p>Procesory o wysokiej wydajności.</p><p>Wybierz dostosowaną do potrzeb kombinację dwurdzeniowego procesora AMD Ryzen i profesjonalnej karty graficznej AMD HD.</p>
+<p></p> <h2>_______________</h2> <ul> <li><b>Kondycja techniczna - </b>Sprzęt sprawny.</li> <li><b></b> W środku obudowa jest czysta.</li> <li><b>Realne zdjęcia - </b>Fotografie poniżej przedstawiają jeden z oferowanych przez nas komputerów</li> </ul> <h2>_______________</h2> <p></p>
+<p></p>
+<!----><hr/><p><strong>Terminal HP T630 Thin Client 4GB 32GB Micro Windows Standard 10</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele HP. – sprawdź: https://kompre.pl/pl/c/Komputery-Stacjonarne/345. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
+    <imgs>
+      <main url="https://a.allegroimg.com/original/11e470/0691bcfc4eb284824256df2d4fe4"/>
+      <i url="https://a.allegroimg.com/original/119f25/db73ab1941498f53da94ca348f40"/>
+      <i url="https://a.allegroimg.com/original/11c9c4/88bec1244c498e60b6826b97a980"/>
+      <i url="https://a.allegroimg.com/original/11b16b/bf11552044f1b2c91895642b53ac"/>
+    </imgs>
+    <attrs>
+      <a name="Producent">HP.</a>
+      <a name="Kod producenta">HP T630 AMD GX-420GI</a>
+      <a name="Model">HP T630 AMD GX-420GI</a>
+      <a name="Model procesora">AMD GX-420GI</a>
+      <a name="Taktowanie bazowe procesora [GHz]">2</a>
+      <a name="Taktowanie maksymalne procesora [GHz]">2</a>
+      <a name="Liczba rdzeni procesora">4</a>
+      <a name="Typ pamięci RAM">DDR4</a>
+      <a name="Pamięć RAM (zainstalowana)">4 GB</a>
+      <a name="Typ dysku twardego">SSD</a>
+      <a name="Pojemność dysku [GB]">32</a>
+      <a name="Komunikacja">LAN 10/100/1000 Mbps</a>
+      <a name="System operacyjny">Windows 10 Enterprise</a>
+      <a name="Stan">Poleasingowy</a>
+      <a name="Stan opakowania">zastępcze</a>
+      <a name="Gwarancja">6</a>
+      <a name="Dysk SSD">32 GB</a>
+    </attrs>
+  </o>
+  <o id="7283889062" url="https://allegro.pl/oferta/7283889062" price="7.70" avail="1" stock="9374" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Kabel przewód zasilający Komputer PC LCD IT</name>
     <desc><![CDATA[<p></p>
@@ -72927,7 +72345,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="7283937308" url="https://allegro.pl/oferta/7283937308" price="7.70" avail="1" stock="9558" basket="1">
+  <o id="7283937308" url="https://allegro.pl/oferta/7283937308" price="7.70" avail="1" stock="9557" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Kabel zasilający koniczynka przewód IT Laptop</name>
     <desc><![CDATA[<p></p>
@@ -73002,7 +72420,7 @@
       <a name="Stan">Nowy</a>
     </attrs>
   </o>
-  <o id="8356023542" url="https://allegro.pl/oferta/8356023542" price="16.00" avail="1" stock="5313" basket="1">
+  <o id="8356023542" url="https://allegro.pl/oferta/8356023542" price="16.00" avail="1" stock="5310" basket="1">
     <cat>Części do laptopów</cat>
     <name>CYRYLICA przezroczyste naklejki na klawiaturę11x13</name>
     <desc><![CDATA[<p><b>CYRYLICA przezroczyste naklejki na klawiaturę 11x13 mm</b></p><ul><li>Naklejka na klawiaturę wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Łatwe w nakładaniu</li><li>Rozmiar naklejki to 11 na 13 mm</li><li>Kilka kolorów do wyboru</li></ul><p><b>Numer koloru należy podać w wiadomości dla sprzedającego*</b></p><p>*W przypadku braku podania koloru wysyłamy kolor biały</p>
@@ -75517,7 +74935,7 @@
       <a name="Gwarancja">3</a>
     </attrs>
   </o>
-  <o id="13280688472" url="https://allegro.pl/oferta/13280688472" price="15.00" avail="1" stock="5" basket="1">
+  <o id="13280688472" url="https://allegro.pl/oferta/13280688472" price="15.00" avail="99" stock="0" basket="0">
     <cat>Części do laptopów</cat>
     <name>Zasilacz Toshiba 15V 2A 30W</name>
     <desc><![CDATA[<h1>Zasilacz Toshiba 15V 2A 30W</h1> <p></p>
@@ -76767,7 +76185,7 @@
       <a name="Gwarancja">6</a>
     </attrs>
   </o>
-  <o id="13810403455" url="https://allegro.pl/oferta/13810403455" price="20.00" avail="1" stock="14" basket="1">
+  <o id="13810403455" url="https://allegro.pl/oferta/13810403455" price="20.00" avail="1" stock="13" basket="1">
     <cat>Części do laptopów</cat>
     <name>Konektor Adapter Dysku HP Folio 9470M</name>
     <desc><![CDATA[<h1>Konektor Adapter Dysku HP Folio 9470M</h1> <p><b>Marka: </b>HP</p><p><b>Stan:</b> Nowy zamiennik</p><p><b>Kompatybilne z:</b> HP EliteBook Folio 9470M</p> <ul><li>Fotografie poniżej przedstawiają <b>przykładowy egzemplarz</b> przedmiotu, <b>mają charakter poglądowy.</b></li></ul> <p></p>
@@ -76787,7 +76205,7 @@
       <a name="Gwarancja">3</a>
     </attrs>
   </o>
-  <o id="13816187818" url="https://allegro.pl/oferta/13816187818" price="9.99" avail="1" stock="7" basket="1">
+  <o id="13816187818" url="https://allegro.pl/oferta/13816187818" price="9.99" avail="1" stock="6" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Wtyczka Adapter do zasilacza Apple MagSafe I / II</name>
     <desc><![CDATA[<p></p>
@@ -77304,7 +76722,7 @@
       <a name="Gwarancja">6</a>
     </attrs>
   </o>
-  <o id="14213204500" url="https://allegro.pl/oferta/14213204500" price="30.00" avail="1" stock="11" basket="1">
+  <o id="14213204500" url="https://allegro.pl/oferta/14213204500" price="30.00" avail="1" stock="10" basket="1">
     <cat>Części do laptopów</cat>
     <name>Nowa Zaślepka / Dolna Pokrywa do HP Folio 9470M</name>
     <desc><![CDATA[<h2>Nowa Zaślepka / Dolna Pokrywa do HP Folio 9470M</h2> <p></p>
@@ -77707,7 +77125,7 @@
       <a name="Gwarancja">6</a>
     </attrs>
   </o>
-  <o id="14793496178" url="https://allegro.pl/oferta/14793496178" price="189.00" avail="1" stock="34" basket="1">
+  <o id="14793496178" url="https://allegro.pl/oferta/14793496178" price="189.00" avail="1" stock="33" basket="1">
     <cat>Części do laptopów</cat>
     <name>Nowy Palmrest Lenovo ThinkPad T480</name>
     <desc><![CDATA[<h1>Nowy Palmrest Lenovo ThinkPad T480</h1> <p></p>
@@ -78076,32 +77494,6 @@
       <a name="Producent">HP</a>
       <a name="Kod producenta">EliteBook 730 735 830 (G5 G6)</a>
       <a name="Sygnatura/SKU Sprzedającego">14925305918</a>
-      <a name="Stan">Nowy</a>
-      <a name="Gwarancja">6</a>
-    </attrs>
-  </o>
-  <o id="14929422753" url="https://allegro.pl/oferta/14929422753" price="125.00" avail="99" stock="0" basket="0">
-    <cat>Części do laptopów</cat>
-    <name>Bateria do Dell Latitude E5270 E5470 E5570 Precision M3510 | 6MT4T</name>
-    <desc><![CDATA[<h1>Bateria do Dell Latitude E5270 E5470 E5570 Precision M3510 | 6MT4T</h1> <p></p>
-<p><b>Kod modelu baterii: </b>6MT4T</p><p><b>Napięcie:</b> 7.6V</p><p><b>Pojemność</b>: 62Wh 8000mAh</p><p><b>Typ ogniwa</b>: Litowo-jonowe</p><p><b>Stan:</b> Fabrycznie nowy zamiennik</p><p><b>Kompatybilne z:</b> Dell Latitude E5270 E5470 E5570 Precision M3510</p> <ul><li>Fotografie poniżej przedstawiają przykładowy egzemplarz sprzedawanego przedmiotu.</li></ul> <p></p>
-<p></p> <h1>Uwagi</h1><p><b>Przed zakupem bardzo prosimy o zapoznanie się ze specyfikacją oraz zdjęciami.</b></p>
-<!----><hr/><p><strong>Bateria do Dell Latitude E5270 E5470 E5570 Precision M3510 | 6MT4T</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Dell – sprawdź: https://kompre.pl/pl/c/Laptopy-Dell/364. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11655f/c8c7c2924ca08dec9504386eff48"/>
-      <i url="https://a.allegroimg.com/original/11c3ef/ff84953d419587b518a8d19f254c"/>
-      <i url="https://a.allegroimg.com/original/111b2e/3530668846959142065ea39bb3e5"/>
-      <i url="https://a.allegroimg.com/original/110cb2/56d6010c4969804faf29c8187a50"/>
-      <i url="https://a.allegroimg.com/original/11b146/6d8d787b4bd08a57b737afeeb8ba"/>
-      <i url="https://a.allegroimg.com/original/1144c6/580d161d4648952eceb08aa63ef3"/>
-      <i url="https://a.allegroimg.com/original/119734/30311f354fcc9e9ba635745a08c6"/>
-      <i url="https://a.allegroimg.com/original/11f03f/d619ce884c0eab9be3632b0ceba2"/>
-      <i url="https://a.allegroimg.com/original/11fd33/20ed54ba4635832b549cb57e6aea"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Dell</a>
-      <a name="Kod producenta">6MT4T - nowy zamiennik</a>
-      <a name="Sygnatura/SKU Sprzedającego">14929422753</a>
       <a name="Stan">Nowy</a>
       <a name="Gwarancja">6</a>
     </attrs>
@@ -78758,7 +78150,7 @@
       <a name="Gwarancja">1</a>
     </attrs>
   </o>
-  <o id="15433029563" url="https://allegro.pl/oferta/15433029563" price="129.00" avail="1" stock="7" basket="1">
+  <o id="15433029563" url="https://allegro.pl/oferta/15433029563" price="129.00" avail="1" stock="6" basket="1">
     <cat>Części do laptopów</cat>
     <name>Nowa Dolna Pokrywa do Dell Latitude 5500</name>
     <desc><![CDATA[<h1>Nowa Dolna Pokrywa do Dell Latitude 5500</h1> <p></p>
@@ -80360,7 +79752,7 @@
       <a name="Gwarancja">3</a>
     </attrs>
   </o>
-  <o id="16624389549" url="https://allegro.pl/oferta/16624389549" price="313.00" avail="1" stock="37" basket="1">
+  <o id="16624389549" url="https://allegro.pl/oferta/16624389549" price="313.00" avail="1" stock="36" basket="1">
     <cat>Części do laptopów</cat>
     <name>Matryca 13,3" | Dotyk | FHD IPS | Lenovo ThinkPad X390 X395 L13</name>
     <desc><![CDATA[<h1>Matryca 13,3" | Dotyk | FHD IPS Lenovo ThinkPad X390 X395 L13</h1> <p></p>
@@ -81054,7 +80446,7 @@
       <a name="Gwarancja">6</a>
     </attrs>
   </o>
-  <o id="17095856047" url="https://allegro.pl/oferta/17095856047" price="19.90" avail="1" stock="183" basket="1">
+  <o id="17095856047" url="https://allegro.pl/oferta/17095856047" price="19.90" avail="1" stock="180" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Linka zabezpieczająca do laptopa | Kluczyk | NOWA | 1.8m</name>
     <desc><![CDATA[<h1>Linka zabezpieczająca do laptopa | Kluczyk | NOWA | 1.8m</h1> <p></p>
@@ -83620,28 +83012,6 @@
       <a name="Gwarancja">6</a>
     </attrs>
   </o>
-  <o id="18093610575" url="https://allegro.pl/oferta/18093610575" price="85.00" avail="99" stock="0" basket="0">
-    <cat>Części do laptopów</cat>
-    <name>Nowa Bateria Dell Inspiron 15 17 Vostro 3558 M5Y1K</name>
-    <desc><![CDATA[<h1>Nowa Bateria M5Y1K</h1><h2>Dell Inspiron 15 5551 5552 5555 5558 5559 3558 3567 17 5755 5758 5759</h2><h2>Vostro 3558 3568</h2> <p></p>
-<h2>Specyfikacja</h2><ul><li><b>Kondycja:</b> Nowy zamiennik</li></ul><ul><li><b>Model:</b> M5Y1K</li></ul><ul><li><b>Pojemność:</b> 33Wh 2200mAh</li></ul><ul><li><b>Napięcie:</b> 14.8V</li></ul><ul><li><b>Przeznaczenie: </b>Dell Inspiron 15 5551 5552 5555 5558 5559 3558 3567 17 5755 5758 5759 Vostro 3558 3568</li></ul> <ul><li>Fotografie poniżej przedstawiają przykładowy egzemplarz sprzedawanego przedmiotu.</li></ul> <p></p>
-<p></p> <p></p>
-<p></p> <h1>Uwagi</h1><p><b>Przed zakupem bardzo prosimy o zapoznanie się ze specyfikacją oraz zdjęciami.</b></p>
-<!----><hr/><p><strong>Nowa Bateria Dell Inspiron 15 17 Vostro 3558 M5Y1K</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Dell – sprawdź: https://kompre.pl/pl/c/Laptopy-Dell/364. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11334a/c6c7c57e475a9ba50438f3e75a58"/>
-      <i url="https://a.allegroimg.com/original/11d560/8df70fee41bc9f906ef04558ace5"/>
-      <i url="https://a.allegroimg.com/original/119d4d/8ef3e7b94edba1b1c1b00a1586f6"/>
-      <i url="https://a.allegroimg.com/original/11ce04/4971e71d49abadda7f71cf88534e"/>
-      <i url="https://a.allegroimg.com/original/11cfe9/148d12354d988bb40d4224f066ae"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Dell</a>
-      <a name="Kod producenta">DE02</a>
-      <a name="Stan">Nowy</a>
-      <a name="Gwarancja">6</a>
-    </attrs>
-  </o>
   <o id="18094006913" url="https://allegro.pl/oferta/18094006913" price="99.00" avail="1" stock="27" basket="1">
     <cat>Części do laptopów</cat>
     <name>Klawiatura do Lenovo ThinkPad T440 T440p T440s T450 T450s L440 T460</name>
@@ -84595,27 +83965,6 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="18428450501" url="https://allegro.pl/oferta/18428450501" price="10.00" avail="99" stock="0" basket="0">
-    <cat>Podzespoły komputerowe</cat>
-    <name>Intel Xeon E3-1220v2 3,10GHz SR0PH s1155</name>
-    <desc><![CDATA[<h2>Cechy produktu:</h2> <ul> <li>Model procesora: E3-1220 v2</li> <li>Liczba rdzeni procesora: 4</li> <li>Taktowanie bazowe procesora: 3,10</li> <li>Taktowanie maksymalne procesora: 3,50</li> <li>Pamięć podręczna: 8,00</li> <li>Proces technologiczny: 22</li> <li>Współczynnik TDP: 69</li> <li>Architektura: 64-bit</li> </ul> <h2>O produkcie:</h2> <p>to wydajne urządzenie, stworzone z myślą o profesjonalnych zastosowaniach. Wysokie taktowanie bazowe procesora i pamięć podręczna pozwalają na szybkie przetwarzanie danych, a architektura 64-bit umożliwia obsługę najnowszych aplikacji. Współczynnik TDP na poziomie 69 gwarantuje niskie zużycie energii, co przekłada się na niższe koszty użytkowania. to solidny i wydajny wybór dla osób, które potrzebują niezawodnego sprzętu do pracy.</p>
-<!----><hr/><p><strong>Intel Xeon E3-1220v2 3,10GHz SR0PH s1155</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele Intel. – sprawdź: https://kompre.pl/pl/c/Komputery-Stacjonarne/345. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/0330bd/eda6345e4ffb945cbd0ebfe0f173"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Intel.</a>
-      <a name="Kod producenta">SR0PH</a>
-      <a name="Sygnatura/SKU Sprzedającego">17146300308</a>
-      <a name="Model procesora">E3-1220 v2</a>
-      <a name="Taktowanie bazowe procesora [GHz]">3.1</a>
-      <a name="Taktowanie maksymalne procesora [GHz]">3.5</a>
-      <a name="Liczba rdzeni procesora">4</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Stan opakowania">zastępcze</a>
-      <a name="Gwarancja">12</a>
-    </attrs>
-  </o>
   <o id="18428459078" url="https://allegro.pl/oferta/18428459078" price="89.00" avail="99" stock="0" basket="0">
     <cat>Serwery i akcesoria</cat>
     <name>INTEL XEON E5-1630 v3 3.7GHz LGA2011-3 SR20L</name>
@@ -84702,7 +84051,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="18444284121" url="https://allegro.pl/oferta/18444284121" price="199.00" avail="1" stock="27" basket="1">
+  <o id="18444284121" url="https://allegro.pl/oferta/18444284121" price="199.00" avail="1" stock="26" basket="1">
     <cat>Części do laptopów</cat>
     <name>Bateria do Dell Precision 7510 7520 7710 7720 | MFKVP</name>
     <desc><![CDATA[<h1>Bateria do Dell Precision 7510 7520 7710 7720 | MFKVP</h1> <p></p>
@@ -84923,7 +84272,7 @@
       <a name="Gwarancja">6</a>
     </attrs>
   </o>
-  <o id="18537989593" url="https://allegro.pl/oferta/18537989593" price="299.00" avail="1" stock="35" basket="1">
+  <o id="18537989593" url="https://allegro.pl/oferta/18537989593" price="299.00" avail="1" stock="31" basket="1">
     <cat>Części do laptopów</cat>
     <name>Klapa matrycy do HP EliteBook 840 845 G7 G8</name>
     <desc><![CDATA[<h1>Klapa matrycy do HP EliteBook 840 845 G7 G8</h1> <p></p>
@@ -85087,7 +84436,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="18540728229" url="https://allegro.pl/oferta/18540728229" price="149.00" avail="1" stock="30" basket="1">
+  <o id="18540728229" url="https://allegro.pl/oferta/18540728229" price="149.00" avail="1" stock="29" basket="1">
     <cat>Części do laptopów</cat>
     <name>Dolna Pokrywa do Dell Latitude 5580 | 0KK73C</name>
     <desc><![CDATA[<h1>Dolna Pokrywa do Dell Latitude 5580 | 0KK73C</h1> <p></p>
@@ -88270,7 +87619,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115533042" url="https://allegro.pl/oferta/13115533042" price="20.00" avail="1" stock="9937" basket="1">
+  <o id="13115533042" url="https://allegro.pl/oferta/13115533042" price="20.00" avail="1" stock="9935" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Dell E7470 | Skin naklejka na palmrest/touchpad</name>
     <desc><![CDATA[<p><b>Dell E7470 | Skin na palmrest i touchpad</b></p><ul><li>Skin na palmrest i touchpad laptopa wycięty z folii samoprzylepnej</li><li>Docinana jest na wymiar, posiada wycięcia</li><li>Odporna na wodę i środki chemiczne</li><li>Łatwa w nakładaniu</li></ul>
@@ -88288,7 +87637,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115533303" url="https://allegro.pl/oferta/13115533303" price="20.00" avail="1" stock="9865" basket="1">
+  <o id="13115533303" url="https://allegro.pl/oferta/13115533303" price="20.00" avail="1" stock="9864" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Lenovo T460| Skin naklejka na klapę laptopa</name>
     <desc><![CDATA[<p><b>Lenovo T460 | Skin</b></p><ul><li>Naklejka na klapę laptopa wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Docinana jest na wymiar laptopa, posiada wycięcia pod logo</li><li>Odporna na wodę i środki chemiczne</li><li>Łatwa w nakładaniu</li></ul>
@@ -88395,7 +87744,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115533679" url="https://allegro.pl/oferta/13115533679" price="20.00" avail="1" stock="9923" basket="1">
+  <o id="13115533679" url="https://allegro.pl/oferta/13115533679" price="20.00" avail="1" stock="9922" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>HP 820 G3 Skin naklejka na klapę laptopa</name>
     <desc><![CDATA[<p><b>HP 820 G3 | Skin naklejka na klapę laptopa</b></p><ul><li>Naklejka na klapę laptopa wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Docinana jest na wymiar laptopa, posiada wycięcia pod logo</li><li>Odporna na wodę i środki chemiczne</li><li>Łatwa w nakładaniu</li></ul>
@@ -88641,7 +87990,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115534336" url="https://allegro.pl/oferta/13115534336" price="20.00" avail="1" stock="9938" basket="1">
+  <o id="13115534336" url="https://allegro.pl/oferta/13115534336" price="20.00" avail="1" stock="9937" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Dell e7250 | Skin naklejka na palmrest/touchpad</name>
     <desc><![CDATA[<p><b>Dell e7250 | Skin na palmrest i touchpad</b></p><ul><li>Skin na palmrest i touchpad laptopa wycięty z folii samoprzylepnej</li><li>Docinana jest na wymiar, posiada wycięcia</li><li>Odporna na wodę i środki chemiczne</li><li>Łatwa w nakładaniu</li></ul>
@@ -89435,7 +88784,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115536547" url="https://allegro.pl/oferta/13115536547" price="20.00" avail="1" stock="9965" basket="1">
+  <o id="13115536547" url="https://allegro.pl/oferta/13115536547" price="20.00" avail="1" stock="9963" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Dell E7450 | Skin naklejka na palmrest/touchpad</name>
     <desc><![CDATA[<p><b>Dell E7450 | Skin na palmrest i touchpad</b></p><ul><li>Skin na palmrest i touchpad laptopa wycięty z folii samoprzylepnej</li><li>Docinana jest na wymiar, posiada wycięcia</li><li>Odporna na wodę i środki chemiczne</li><li>Łatwa w nakładaniu</li></ul>
@@ -90185,7 +89534,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115537824" url="https://allegro.pl/oferta/13115537824" price="20.00" avail="1" stock="9660" basket="1">
+  <o id="13115537824" url="https://allegro.pl/oferta/13115537824" price="20.00" avail="1" stock="9657" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Skin Skórka Naklejka laptop LENOVO Różne modele</name>
     <desc><![CDATA[<p>Przy zamówieniu w polu "informacje dla sprzedającego" należy podać <b>model laptopa z listy poniżej i numer koloru</b></p> <p>Dostępne modele:</p><p>Seria E:</p><ul><li>E570</li></ul><p>Seria L:</p><ul><li>L460</li><li>L580</li><li>L590</li></ul><p>Seria X:</p><ul><li>X130e</li><li>X131e</li><li>X140e</li><li>X201</li><li>X220</li><li>X230</li><li>X240</li><li>X250</li></ul><p>Seria T:</p><ul><li>T410</li><li>T420</li><li>T430</li><li>T430s</li><li>T440</li><li>T440s</li><li>T450</li><li>T460s</li><li>T470</li><li>T510</li><li>T520</li><li>T530</li><li>T540p</li><li>T560</li></ul><p>Seria W:</p><ul><li>W540</li></ul>
@@ -90213,7 +89562,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115537869" url="https://allegro.pl/oferta/13115537869" price="20.00" avail="1" stock="9235" basket="1">
+  <o id="13115537869" url="https://allegro.pl/oferta/13115537869" price="20.00" avail="1" stock="9233" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Skin Skórka Naklejka na klapę laptopa Większość modeli Dell HP Lenovo Apple</name>
     <desc><![CDATA[<p>Przy zamówieniu w polu "informacje dla sprzedającego" należy podać <b>model laptopa z listy poniżej i numer koloru</b></p> <h2>Kompatybilne modele</h2><p>Uwaga: wyszukaj swój model Ctrl+f:</p><p><b>HP</b></p><p>11 G3, 11 A G8 EE, 11e Gen.2, 15 G3, 15u G3, 17n, 250 G1, 250 G3, 250 G5, 250 G6, 430 G1, 430 G2, 430 G3, 430 G4, 430 G5, 440 G3, 440 G6, 440 G9, 445 G7, 450 G0, 450 G1, 450 G2, 450 G3, 450 G4, 450 G5, 450 G6, 470 G1, 470 G2, 470 G3, 470 G4, 470 G5, 470 G7, 500e 81MC, 640 G1, 640 G2, 640 G4, 640 G5, 645 G4, 650 G1, 650 G4, 650 G5, 735 G5, 735 G6, 745 G5, 820 G3, 830 G5, 840 G1, 840 G2, 840 G3, 840 G5, 840 G6, 845 G7, 850 G1, 850 G2, 850 G3, 850 G4, 850 G5, 850 G6, 850 G7, 1030 G1, 1706, 2170p, 2510P, 2530P, 2540P, 2560P, 2570P, 2740p, 3100, 3100 2-in-1, 3340, 3380, 3400, 3410, 3420, 3450, 3550, 4330s, 4410t, 4520s, 4530s, 4540s, 4730s, 5289, 5290, 530, 5300, 5310, 5410, 5410s, 5420, 5500, 5520, 5580, 5590, 630, 6360b, 640 G1, 6450b, 6460b, 650 G1, 6550b, 6560b, 6910p, 6930p, 7300, 7390, 7400, 7480, 7490, 7510, 7710, 7720, 8440p, 8470p, 8530p, 8540p, 8560p, 8560w, 8570p, 8570w, 8740w, 9470m, EliteBook 735 G6, Folio 1040 G2, Folio 1040 G3, HP Mini 110, MT20, MT42, N6400, NC6320, Pavilion 15-n222s, Pavilion 987, Pavilion dm4, Pavilion g6, ProBook 650 G2, ProBook x360 11 G3, Pro x2 612 G1, Spectre XT Pro 13-b000, x360 11 G1 EE, x360 11 G2, x360 11 G3 EE, x360 1030 G4, ZBook 13 G3, ZBook 14U G5, ZBook 15, ZBook 15 G3, ZBook 15 G6, ZBook 17 G2</p><p><b>Dell</b></p><p>3168 NGW, 3490, 3510, 3560, 3570, 3750, 5280, 5411, 5414 P46G, 5490, 5510, 6230, 6430u, 6520, 7247, 7280, 7400, 7400 2-in-1, 7480, D520, D530, D630, E4300, E4310, E5250, E5270, E5400, E5410, E5420, E5430, E5440, E5450, E5470, E5480, E5500, E5510, E5520, E5530, E5540, E5550, E5570, E5580, E6220, E6330, E6400, E6410, E6420, E6430, E6430 ATG, E6430s, E6440, E6500, E6510, E6530, E6540, E7240, E7250, E7270, E7440, E7450, E7470, E7480, Inspiron 3157, Inspiron 5721, Inspiron 7247, Inspiron N5510, Inspiron N7110, L421x, M4600, M4700, M4800, M6600, M6700, M6800, P10F, PP39L, Precision M65, Precision M6300, Precision 5510, Precision 5530, Precision 7540, Precision 7760, Studio 1555, T04E, Venue 7140 Tablet, Vostro 3300, Vostro 3340, Vostro 3350, Vostro 3360, Vostro 3500, Vostro 3550, Vostro 3700, XPS 13, XPS 13 9350, XPS 13 9365, XPS 15 Z, XPS L501x, ZS P30G, XT3, Dell Chromebook 11 3180, Dell Chromebook 11 P22T</p><p><b>Lenovo</b></p><p>11e Gen2, 11e Gen.3, 14e, 100e Chromebook Gen2, 300e Chromebook Gen2, 300E Dotyk, 320, 500e, B50-70, B570e, B590, B70-80, Carbon X1 Gen 5, Chromebook IdeaPad 3 CB, E14 Gen 2, E15, E15 G2, E51-80, E130, E330, E449, E540, E544, E550, E556, E560, E570, E590, Edge 13, G50, G70, G5080, G710, IdeaPad 3 15IIL05, IdeaPad Miix 510, IdeaPad Miix 700, L13 Gen.2, L14 Gen.1, L15 Gen.1, L15 Gen.2, L380 Yoga, L420, L430, L440, L450, L460, L470, L480, L512, L520, L530, L540, L560, L570, L580, L590, Legion 5 15IMH05H, N23 Yoga, P1, P50, P50s, P51, P51s, R500, SL500, SL510, T14 Gen 2, T14s Gen 2, T400, T410, T410s, T420, T420s, T430, T430s, T430u, T431s, T440, T440p, T440s, T450, T450s, T460, T460p, T460s, T470, T470s, T480, T480s, T490, T490s, T495, T495s, T500, T510, T520, T540p, T550, T560, T570, T580, ThinkBook 15-IIL, ThinkPad X13 Gen 2, ThinkPad X13 Gen 4, V330-15IKB, W530, W540, W550s, X1 Carbon, X1 Carbon Gen 3, X1 Carbon Gen 4, X1 Carbon Gen 6, X1 Carbon Gen 7, X1 Yoga, X1 Yoga Gen 2, X1 Yoga Gen 5, X100e, X121e, X130e, X131e, X200s, X201, X220, X230, X240, X250, X260, X270, X380 Yoga, X390, X390 Yoga, Y500, Yoga 11e Gen5, Yoga 12, Yoga 14, Yoga 260, Yoga 370, Yoga 460, Yoga N23, Yoga S1, Yoga X13 Gen 1, Z50</p><p><b>Fujitsu</b></p><p>A512, A532, A544, A573, A574, A761, E459, E559, E751, E752, E756, E780, E8110, E8310, E8410, H700, H710, H720, H730, H760, H910, H920, P702, P728, P771, P772, S710, S751, S760, S762, S781, S904, S935, T904, T936, T937, U727, U729, U747, U758, U904, U9210, V5535, Z118D</p><p><b>Acer</b></p><p>Acer 15, Acer 5744, Acer 5760, Acer 6293, Acer 7730, Acer Aspire 5750, Acer Aspire 7750, Acer Aspire E15, Acer C204M, Acer C738T, Acer Chromebook CB315, Acer Chromebook R752 N18Q6, Acer MS2376, Acer MS2394, Acer N16Q10, Acer Nitro, Acer P256, Acer P453, Acer P455, Acer P645, Acer R13, Acer TravelMate 5742, Acer TravelMate P253, Acer VA70</p><p><b>Asus</b></p><p>Asus C100P, Asus C201P, Asus C202S Notebook, Asus C213N, Asus C214M, Asus D540N, Asus K52J, Asus R704A, Asus X75A, Asus X200CA, C302C</p><p><b>Apple</b></p><p>A1278, A1286, A1466, A1706, A1707, A1708</p><p><b>Toshiba / Dynabook</b></p><p>Dynabook X30L, L100, L300, L450D, L850, P2050, R30-A-176, S850, Tecra A9, Tecra A50, Tecra A50-C, Tecra A50-EC-11H, Tecra Dynabook A50-J-13V, Tecra M7, Tecra M10, Tecra S10, Tecra Z40, Tecra Z50, Tecra Z50-C, Toshiba A300, Toshiba C50, Toshiba C50-D, Toshiba C70, Toshiba C70-D, Toshiba C660, Toshiba C850, U400, Z30</p><p><b>Pozostałe modele</b></p><p>Alienware P18G, LG 140530, LG U56, Microsoft 1868, Miix 520 Tablet, NC6400, Novatech N250WU, Novatech P8, Novatech W950TU, P66F, Samsung 303S, Samsung 503C, Samsung 550C, Sony Vaio SVE151, Sony Vaio SVP132, Stone NT309, Stone NT310, Surface Pro 4, Surface Pro 5, T901</p>
@@ -91016,7 +90365,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115538832" url="https://allegro.pl/oferta/13115538832" price="20.00" avail="1" stock="9967" basket="1">
+  <o id="13115538832" url="https://allegro.pl/oferta/13115538832" price="20.00" avail="1" stock="9966" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Dell E5530 | Skin naklejka na klapę laptopa</name>
     <desc><![CDATA[<p><b>Dell E5530 | Skin</b></p><ul><li>Naklejka na klapę laptopa wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Docinana jest na wymiar laptopa, posiada wycięcia pod logo</li><li>Odporna na wodę i środki chemiczne</li><li>Łatwa w nakładaniu</li></ul>
@@ -91377,7 +90726,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115539484" url="https://allegro.pl/oferta/13115539484" price="20.00" avail="1" stock="9813" basket="1">
+  <o id="13115539484" url="https://allegro.pl/oferta/13115539484" price="20.00" avail="1" stock="9812" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Lenovo T450 | Skin naklejka na klapę laptopa</name>
     <desc><![CDATA[<p><b>Lenovo T450 | Skin</b></p><ul><li>Naklejka na klapę laptopa wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Docinana jest na wymiar laptopa, posiada wycięcia pod logo</li><li>Odporna na wodę i środki chemiczne</li><li>Łatwa w nakładaniu</li></ul>
@@ -91654,7 +91003,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115621439" url="https://allegro.pl/oferta/13115621439" price="7.00" avail="1" stock="8358" basket="1">
+  <o id="13115621439" url="https://allegro.pl/oferta/13115621439" price="7.00" avail="1" stock="8348" basket="1">
     <cat>Części do laptopów</cat>
     <name>Naklejki na klawiaturę Lenovo X240 X250 X260</name>
     <desc><![CDATA[<p><b>Naklejki na klawiaturę</b></p><ul><li>Naklejka na klawiaturę wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Bardzo wysoka odporność na ścieranie i odklejanie</li><li>Łatwe w nakładaniu</li><li>Dedykowane do klawiatur modeli: X230S X240 X240S X250 X260 i podobnych</li><li>Wymiary: wysokość 13mm, szerokość 14mm</li></ul>
@@ -91734,7 +91083,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115621683" url="https://allegro.pl/oferta/13115621683" price="7.00" avail="1" stock="9672" basket="1">
+  <o id="13115621683" url="https://allegro.pl/oferta/13115621683" price="7.00" avail="1" stock="9669" basket="1">
     <cat>Części do laptopów</cat>
     <name>Niemieckie naklejki na klawiaturę | zestaw 13x13mm</name>
     <desc><![CDATA[<p><b>Niemieckie naklejki na klawiaturę | Średni zestaw 13x13 mm</b></p><ul><li>Naklejka na klawiaturę wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Łatwe w nakładaniu</li><li>Rozmiar naklejki to 13 na 13 mm, rozmiar mniejszych to 13 na 6 mm</li><li>Niemiecki układ klawiatury</li></ul>
@@ -91750,7 +91099,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115621714" url="https://allegro.pl/oferta/13115621714" price="16.00" avail="1" stock="4761" basket="1">
+  <o id="13115621714" url="https://allegro.pl/oferta/13115621714" price="16.00" avail="1" stock="4759" basket="1">
     <cat>Części do laptopów</cat>
     <name>CYRYLICA + QWERTY naklejki na klawiaturę 13x13</name>
     <desc><![CDATA[<p><b>CYRYLICA + QWERTY naklejki na klawiaturę 13x13 mm</b></p><ul><li>Naklejka na klawiaturę wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Łatwe w nakładaniu</li><li>Rozmiar naklejki to 13 na 13 mm</li><li>Kilka kolorów do wyboru</li></ul><p><b>Numer koloru należy podać w wiadomości dla sprzedającego*</b></p><p>*W przypadku braku podania koloru, wysyłamy kolor biały</p>
@@ -91776,7 +91125,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13115621750" url="https://allegro.pl/oferta/13115621750" price="16.00" avail="1" stock="5915" basket="1">
+  <o id="13115621750" url="https://allegro.pl/oferta/13115621750" price="16.00" avail="1" stock="5913" basket="1">
     <cat>Części do laptopów</cat>
     <name>CYRYLICA przezroczyste naklejki na klawiaturę11x13</name>
     <desc><![CDATA[<p><b>CYRYLICA przezroczyste naklejki na klawiaturę 11x13 mm</b></p><ul><li>Naklejka na klawiaturę wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Łatwe w nakładaniu</li><li>Rozmiar naklejki to 11 na 13 mm</li><li>Kilka kolorów do wyboru</li></ul><p><b>Numer koloru należy podać w wiadomości dla sprzedającego*</b></p><p>*W przypadku braku podania koloru wysyłamy kolor biały</p>
@@ -92074,7 +91423,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13564746529" url="https://allegro.pl/oferta/13564746529" price="16.00" avail="1" stock="5812" basket="1">
+  <o id="13564746529" url="https://allegro.pl/oferta/13564746529" price="16.00" avail="1" stock="5808" basket="1">
     <cat>Części do laptopów</cat>
     <name>CYRYLICA naklejki ukraińskie na klawiaturę</name>
     <desc><![CDATA[<p><b>CYRYLICA UKRAIŃSKA przezroczyste naklejki na klawiaturę 11x13 mm</b></p><ul><li>Naklejka na klawiaturę wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Łatwe w nakładaniu</li><li>Rozmiar naklejki to 11 na 13 mm</li><li>Kilka kolorów do wyboru</li></ul><p><b>Numer koloru należy podać w wiadomości dla sprzedającego*</b></p><p>*W przypadku braku podania koloru wysyłamy kolor biały</p> <p><b>1. Białe</b></p> <p><b>2. Żółte</b></p>
@@ -92098,7 +91447,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="13564763067" url="https://allegro.pl/oferta/13564763067" price="16.00" avail="1" stock="3070" basket="1">
+  <o id="13564763067" url="https://allegro.pl/oferta/13564763067" price="16.00" avail="1" stock="3069" basket="1">
     <cat>Części do laptopów</cat>
     <name>CYRYLICA Ukraińska QWERTY naklejki na klawiaturę</name>
     <desc><![CDATA[<p><b>CYRYLICA UKRAIŃSKA + QWERTY naklejki na klawiaturę 13x13 mm</b></p><ul><li>Naklejka na klawiaturę wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Łatwe w nakładaniu</li><li>Rozmiar naklejki to 13 na 13 mm</li><li>Kilka kolorów do wyboru</li></ul><p><b>Numer koloru należy podać w wiadomości dla sprzedającego*</b></p><p>*W przypadku braku podania koloru, wysyłamy kolor biały</p> <p><b>1. Białe</b></p>
@@ -92244,7 +91593,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="14206888440" url="https://allegro.pl/oferta/14206888440" price="7.00" avail="1" stock="8275" basket="1">
+  <o id="14206888440" url="https://allegro.pl/oferta/14206888440" price="7.00" avail="1" stock="8273" basket="1">
     <cat>Części do laptopów</cat>
     <name>Czeskie naklejki na klawiaturę Mały zestaw 13x13mm</name>
     <desc><![CDATA[<p><b>Naklejki na klawiaturę | Mały zestaw 13x13 mm</b></p><ul><li>Naklejka na klawiaturę wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Łatwe w nakładaniu</li><li>Rozmiar naklejki to 13 na 13 mm, rozmiar mniejszych to 13 na 6 mm</li></ul>
@@ -92308,7 +91657,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="14206938631" url="https://allegro.pl/oferta/14206938631" price="9.99" avail="1" stock="8672" basket="1">
+  <o id="14206938631" url="https://allegro.pl/oferta/14206938631" price="9.99" avail="1" stock="8671" basket="1">
     <cat>Części do laptopów</cat>
     <name>Czeskie naklejki na klawiaturę | Cały zestaw 14x14</name>
     <desc><![CDATA[<p><b>Naklejki na klawiaturę | Cała klawiatura 14x14 mm</b></p><ul><li>Naklejka na klawiaturę wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Łatwe w nakładaniu</li><li>Rozmiar naklejki to 14 na 14 mm, rozmiar mniejszych to 14 na 7 mm</li></ul>
@@ -92536,7 +91885,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="16771079366" url="https://allegro.pl/oferta/16771079366" price="20.00" avail="1" stock="9823" basket="1">
+  <o id="16771079366" url="https://allegro.pl/oferta/16771079366" price="20.00" avail="1" stock="9821" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Lenovo ThinkPad T14 gen. 1 T14s gen. 1 | Skin naklejka na klapę laptopa</name>
     <desc><![CDATA[<p><b>Lenovo ThinkPad T14 gen.1 T14s gen. 1 | Skin</b></p><ul><li>Naklejka na klapę laptopa wykonana jest z wysokiej jakości folii samoprzylepnej.</li><li>Docinana jest na wymiar laptopa, posiada wycięcia pod logo</li><li>Odporna na wodę i środki chemiczne</li><li>Łatwa w nakładaniu</li></ul>
@@ -92592,7 +91941,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="17099521552" url="https://allegro.pl/oferta/17099521552" price="20.00" avail="1" stock="9874" basket="1">
+  <o id="17099521552" url="https://allegro.pl/oferta/17099521552" price="20.00" avail="1" stock="9873" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Dell Latitude e6430 | Skin naklejka na cały palmrest</name>
     <desc><![CDATA[<p><b>Lenovo E6430 | Skin na cały palmrest i touchpad</b></p><ul><li>Skin na palmrest i touchpad laptopa wycięty z folii samoprzylepnej</li><li>Docinana jest na wymiar, posiada wycięcia</li><li>Odporna na wodę i środki chemiczne</li><li>Łatwa w nakładaniu</li></ul>
@@ -93686,7 +93035,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="7919596114" url="https://allegro.pl/oferta/7919596114" price="7.70" avail="1" stock="8260" basket="1">
+  <o id="7919596114" url="https://allegro.pl/oferta/7919596114" price="7.70" avail="1" stock="8258" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Kabel przewód zasilający Komputer PC LCD</name>
     <desc><![CDATA[<p></p>
@@ -93972,7 +93321,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="16810233386" url="https://allegro.pl/oferta/16810233386" price="30.00" avail="1" stock="15" basket="1">
+  <o id="16810233386" url="https://allegro.pl/oferta/16810233386" price="30.00" avail="1" stock="14" basket="1">
     <cat>Tuning wizualny</cat>
     <name>FOLIA Srebrna 152cm Okleina Szczotka Samoprzylepna</name>
     <desc><![CDATA[<h2>UWAGA!</h2><ul><li>W przypadku chęci otrzymania folii <b>w jednym całym arkuszu</b>, jako formę należy wybrać opcję "D.P.D 40zł" (NIE Allegro D.P.D!), folia pakowana jest w jednym kawałku niezależnie od zamówionej ilości.</li></ul><p><b>W przypadku wybrania innego sposobu folia zostanie wysłana w kilku kawałkach.</b></p><ul><li><b>Przy zakupie 1 sztuki</b>, otrzymamy kawałek o wymiarach 50 cm x 152 cm.</li><li><b>Przy zakupie 2 sztuk</b>, dla "D.P.D 40zł" otrzymamy jeden kawałek o wymiarach 100 cm x 152 cm. Dla innych form dostaniemy dwa osobne kawałki, każdy 50 cm x 152 cm.</li><li><b>Przy zakupie 3 sztuk</b>, dla "D.P.D 40zł" będzie to jeden kawałek 150 cm x 152 cm, a dla innych form będą to trzy kawałki po 50 cm x 152 cm.</li><li><b>Przy zakupie 10 sztuk</b>, dla "D.P.D 40zł" otrzymamy kawałek 500 cm x 152 cm, a dla innych form 10 kawałków po 50 cm x 152 cm.</li><li><b>Przy zakupie 15 sztuk</b>, dla "D.P.D 40zł" kawałek będzie miał 750 cm x 152 cm, a dla innych form będzie to 15 kawałków po 50 cm x 152 cm.</li></ul><p>Maksymalna długość jednego kawałka dla "D.P.D 40zł" to 30 metrów.</p><p>Proszę pamiętać, że folie są cięte ręcznie, a dokładność cięcia może się różnić o +/- 2 cm.</p>
