@@ -3,10 +3,10 @@ name: CSV → XML
 on:
   push:
     paths:
-      - "input/**/*.{csv,xls,xlsx,xlsm}"
-      - "scripts/**/*.py"
+      - "input/**"
+      - "scripts/**"
       - ".github/workflows/convert.yml"
-      - "requirements.txt"            # <= dodane
+      - "requirements.txt"
   workflow_dispatch: {}
 
 jobs:
