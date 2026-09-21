@@ -6932,7 +6932,7 @@
       <a name="Gwarancja">3</a>
     </attrs>
   </o>
-  <o id="15191359511" url="https://allegro.pl/oferta/15191359511" price="1019.00" avail="1" stock="44" basket="1">
+  <o id="15191359511" url="https://allegro.pl/oferta/15191359511" price="1019.00" avail="99" stock="0" basket="0">
     <cat>Laptopy poleasingowe</cat>
     <name>Dotykowy Laptop DELL Latitude | 15,6" | 4x 3.40GHz | 16GB 256GB SSD | Win11</name>
     <desc><![CDATA[<h1>Laptop Dell Latitude 5590</h1> <h2>Stan przedmiotu</h2>
@@ -46755,7 +46755,7 @@
       <a name="Dysk SSD">256 GB</a>
     </attrs>
   </o>
-  <o id="18560303265" url="https://allegro.pl/oferta/18560303265" price="1399.00" avail="1" stock="17" basket="1">
+  <o id="18560303265" url="https://allegro.pl/oferta/18560303265" price="1399.00" avail="1" stock="16" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Laptop Lenovo ThinkPad E15 Gen 2 i5 11gen. 16GB 256SSD 15,6" FHD W11Pro</name>
     <desc><![CDATA[<h1>Laptop Lenovo ThinkPad E15 Gen 2</h1> <p></p>
@@ -48213,7 +48213,7 @@
       <a name="Pamięć karty graficznej">Współdzielona z RAM</a>
     </attrs>
   </o>
-  <o id="18563450156" url="https://allegro.pl/oferta/18563450156" price="599.00" avail="1" stock="5" basket="1">
+  <o id="18563450156" url="https://allegro.pl/oferta/18563450156" price="599.00" avail="99" stock="0" basket="0">
     <cat>Laptopy poleasingowe</cat>
     <name>Laptop Fujitsu Lifebook U729 FHD | i5-8250U 8GB 240GB SSD M.2 | Windows 11</name>
     <desc><![CDATA[<h1>Laptop Fujitsu Lifebook U729</h1> <h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Drobne ryski, otarcia, poświatki</p><p><b>✔️ Stan obudowy:</b> Normalne,małe ślady użytkowania</p> <p></p>
@@ -81732,7 +81732,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="14889916095" url="https://allegro.pl/oferta/14889916095" price="55.00" avail="1" stock="410" basket="1">
+  <o id="14889916095" url="https://allegro.pl/oferta/14889916095" price="55.00" avail="1" stock="409" basket="1">
     <cat>Zasilanie aparatów</cat>
     <name>Oryginalny Zasilacz Ładowarka do laptopa LENOVO 135W 20V 6.75A wtyk SlimTIP</name>
     <desc><![CDATA[<h1>Zasilacz Lenovo 20V 6.75A 135W</h1> <p></p>
@@ -83099,29 +83099,6 @@
       <a name="Sygnatura/SKU Sprzedającego">16018085135</a>
       <a name="Stan">Nowy</a>
       <a name="Gwarancja">12</a>
-    </attrs>
-  </o>
-  <o id="16019137483" url="https://allegro.pl/oferta/16019137483" price="45.00" avail="99" stock="0" basket="0">
-    <cat>Serwery i akcesoria</cat>
-    <name>Dysk Twardy HDD 450GB 2,5" SAS | Dysk serwerowy</name>
-    <desc><![CDATA[<h1>Dysk Twardy HDD 450GB 2,5" SAS | Dysk serwerowy</h1> <p></p>
-<p><b>Dyski twarde różnych producentów (m.in. Seagate), pochodzą z demontażu.</b></p><p><b>Stan: </b>Sprawne 100%</p><p><b>Rodzaj: </b>2,5" SAS HDD</p><p><b>Pojemność: </b>450GB</p> <p></p>
-<p></p> <p></p> <h1>Uwagi</h1><p><b>Przed zakupem bardzo prosimy o zapoznanie się ze specyfikacją oraz zdjęciami.</b></p>
-<!----><hr/><p><strong>Dysk Twardy HDD 450GB 2,5" SAS | Dysk serwerowy</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/1186bc/b0b1a5764a64a9a24a5669b8fff8"/>
-      <i url="https://a.allegroimg.com/original/11667f/40f845da453f858a8aeb80064912"/>
-      <i url="https://a.allegroimg.com/original/111a1b/a14a37ca42b0b74ed35fcbeaa12e"/>
-      <i url="https://a.allegroimg.com/original/1199d7/2b2ef26d4cb697cbf463ec910218"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Chiny/reszta</a>
-      <a name="Kod producenta">SAS_mix</a>
-      <a name="Sygnatura/SKU Sprzedającego">16019137483</a>
-      <a name="Pojemność dysku [GB]">450</a>
-      <a name="Format dysku">2,5"</a>
-      <a name="Stan">Poleasingowy</a>
-      <a name="Gwarancja">3</a>
     </attrs>
   </o>
   <o id="16025249064" url="https://allegro.pl/oferta/16025249064" price="75.00" avail="1" stock="9" basket="1">
@@ -85406,7 +85383,7 @@
       <a name="Gwarancja">6</a>
     </attrs>
   </o>
-  <o id="17409250950" url="https://allegro.pl/oferta/17409250950" price="119.00" avail="1" stock="6" basket="1">
+  <o id="17409250950" url="https://allegro.pl/oferta/17409250950" price="119.00" avail="1" stock="5" basket="1">
     <cat>Części do laptopów</cat>
     <name>Bateria do Dell Latitude 5400 5410 5500 5510 Precision 3540 3550 | 1V1XF</name>
     <desc><![CDATA[<h1>Bateria do Dell Latitude 5400 5410 5500 5510 Precision 3540 3550 | 1V1XF</h1> <p></p>
@@ -86034,7 +86011,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="17558934611" url="https://allegro.pl/oferta/17558934611" price="10.00" avail="1" stock="54" basket="1">
+  <o id="17558934611" url="https://allegro.pl/oferta/17558934611" price="10.00" avail="1" stock="51" basket="1">
     <cat>Podzespoły komputerowe</cat>
     <name>Procesor INTEL CORE 2 DUO E8400 3GHz SLB9J LGA775</name>
     <desc><![CDATA[<p></p>
@@ -87354,7 +87331,7 @@
       <a name="Gwarancja">6</a>
     </attrs>
   </o>
-  <o id="18302559525" url="https://allegro.pl/oferta/18302559525" price="249.00" avail="1" stock="27" basket="1">
+  <o id="18302559525" url="https://allegro.pl/oferta/18302559525" price="249.00" avail="1" stock="26" basket="1">
     <cat>Części do laptopów</cat>
     <name>Dolna Pokrywa Obudowa do HP EliteBook 840 845 G7 G8</name>
     <desc><![CDATA[<h1>Dolna Pokrywa do HP EliteBook 840 845 G7 G8</h1> <p></p>
@@ -88980,7 +88957,7 @@
       <a name="Gwarancja">12</a>
     </attrs>
   </o>
-  <o id="18737660357" url="https://allegro.pl/oferta/18737660357" price="145.00" avail="1" stock="5" basket="1">
+  <o id="18737660357" url="https://allegro.pl/oferta/18737660357" price="145.00" avail="99" stock="0" basket="0">
     <cat>Części do laptopów</cat>
     <name>Bateria do Asus Zenbook UX325 UX363 UX393 UX425 UX325EA UX325JA | C41N1904</name>
     <desc><![CDATA[<h2>Bateria do Asus Zenbook UX325 UX363 UX393 UX425 UX325EA UX325JA | C41N1904</h2> <p></p>
