@@ -69750,13 +69750,13 @@
   <o id="18640949944" url="https://allegro.pl/oferta/18640949944" price="149.00" avail="1" stock="318" basket="1">
     <cat>Komputery stacjonarne</cat>
     <name>Terminal HP T630 Thin Client 4GB 32GB Micro Windows Standard 10</name>
-    <desc_json>{"sections": [{"items": [{"type": "TEXT", "content": "&lt;h2&gt;Terminal w 100% sprawny - bez podstawki&lt;/h2&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11e470/0691bcfc4eb284824256df2d4fe4"}, {"type": "TEXT", "content": "&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Terminal &lt;/b&gt;HP T630 Thin Client&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Procesor AMD GX-420GI (4x 2.00 GHz)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Zegar 4x&lt;b&gt;2.0 GHz (&lt;/b&gt;Max 4x2.20GHz)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Pamięć RAM &lt;b&gt;4GB DDR4 -&amp;nbsp;&lt;/b&gt;istnieje możliwość&amp;nbsp;rozbudowy&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Dysk &lt;b&gt;32GB SSD M. 2 -&amp;nbsp;&lt;/b&gt;istnieje możliwość&amp;nbsp;rozbudowy&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;System/Licencja &lt;b&gt;Windows 10 LTSC&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Grafika AMD RADEON R7E&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;W zestawie: Zasilacz z przewodem,&lt;b&gt; brak podstawki&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;_______________&lt;/h2&gt;&lt;h2&gt;Porty :&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;2x USB 2.0, 2x DisplayPort, 2x PS/2, COM, RJ45, Audio&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;Niewielkie wymiary, wielkie możliwości&lt;/h2&gt;&lt;p&gt;Niezwykle kompaktowy HP Tiny jest o 10x mniejszy od tradycyjnego komputera stacjonarnego o formacie tower. Ten maleńki komputer mieści się praktycznie wszędzie i może działać w ustawieniu pionowym bądź poziomym, na ścianie, za monitorem czy nawet pod biurkiem. Oferuje on niezawodną wydajność na poziomie profesjonalnym i nie zajmuje cennego miejsca na biurku.&lt;/p&gt;&lt;p&gt;Procesory o wysokiej wydajności.&lt;/p&gt;&lt;p&gt;Wybierz dostosowaną do potrzeb kombinację dwurdzeniowego procesora AMD Ryzen i profesjonalnej karty graficznej AMD HD.&lt;/p&gt;"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11b16b/bf11552044f1b2c91895642b53ac"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;ul&gt; &lt;li&gt;&lt;b&gt;Kondycja techniczna -&amp;nbsp;&lt;/b&gt;Sprzęt sprawny.&lt;/li&gt; &lt;li&gt;&lt;b&gt;&lt;/b&gt; W środku obudowa jest czysta.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Realne zdjęcia - &lt;/b&gt;Fotografie poniżej przedstawiają jeden z oferowanych przez nas komputerów&lt;/li&gt; &lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11c9c4/88bec1244c498e60b6826b97a980"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/119f25/db73ab1941498f53da94ca348f40"}]}, {"items": [{"type": "TEXT", "content": "&lt;!----&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Terminal HP T630 Thin Client 4GB 32GB Micro Windows Standard 10&lt;/strong&gt; pochodzi z oferty &lt;strong&gt;Kompre.pl&lt;/strong&gt; – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.&lt;/p&gt; "}]}]}</desc_json>
-    <desc><![CDATA[<h2>Terminal w 100% sprawny - bez podstawki</h2>
+    <desc_json>{"sections": [{"items": [{"type": "TEXT", "content": "&lt;h2&gt;Terminal w 100% sprawny&lt;/h2&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11e470/0691bcfc4eb284824256df2d4fe4"}, {"type": "TEXT", "content": "&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Terminal &lt;/b&gt;HP T630 Thin Client&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Procesor AMD GX-420GI (4x 2.00 GHz)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Zegar 4x&lt;b&gt;2.0 GHz (&lt;/b&gt;Max 4x2.20GHz)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Pamięć RAM &lt;b&gt;4GB DDR4 -&amp;nbsp;&lt;/b&gt;istnieje możliwość&amp;nbsp;rozbudowy&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Dysk &lt;b&gt;32GB SSD M. 2 -&amp;nbsp;&lt;/b&gt;istnieje możliwość&amp;nbsp;rozbudowy&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;System/Licencja &lt;b&gt;Windows 10 LTSC&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Grafika AMD RADEON R7E&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;W zestawie: Zasilacz z przewodem,&lt;b&gt; Podstawka w zestawie&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;_______________&lt;/h2&gt;&lt;h2&gt;Porty :&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;2x USB 2.0, 2x DisplayPort, 2x PS/2, COM, RJ45, Audio&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;Niewielkie wymiary, wielkie możliwości&lt;/h2&gt;&lt;p&gt;Niezwykle kompaktowy HP Tiny jest o 10x mniejszy od tradycyjnego komputera stacjonarnego o formacie tower. Ten maleńki komputer mieści się praktycznie wszędzie i może działać w ustawieniu pionowym bądź poziomym, na ścianie, za monitorem czy nawet pod biurkiem. Oferuje on niezawodną wydajność na poziomie profesjonalnym i nie zajmuje cennego miejsca na biurku.&lt;/p&gt;&lt;p&gt;Procesory o wysokiej wydajności.&lt;/p&gt;&lt;p&gt;Wybierz dostosowaną do potrzeb kombinację dwurdzeniowego procesora AMD Ryzen i profesjonalnej karty graficznej AMD HD.&lt;/p&gt;"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11b16b/bf11552044f1b2c91895642b53ac"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;ul&gt; &lt;li&gt;&lt;b&gt;Kondycja techniczna -&amp;nbsp;&lt;/b&gt;Sprzęt sprawny.&lt;/li&gt; &lt;li&gt;&lt;b&gt;&lt;/b&gt; W środku obudowa jest czysta.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Realne zdjęcia - &lt;/b&gt;Fotografie poniżej przedstawiają jeden z oferowanych przez nas komputerów&lt;/li&gt; &lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11c9c4/88bec1244c498e60b6826b97a980"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/119f25/db73ab1941498f53da94ca348f40"}]}, {"items": [{"type": "TEXT", "content": "&lt;!----&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Terminal HP T630 Thin Client 4GB 32GB Micro Windows Standard 10&lt;/strong&gt; pochodzi z oferty &lt;strong&gt;Kompre.pl&lt;/strong&gt; – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.&lt;/p&gt; "}]}]}</desc_json>
+    <desc><![CDATA[<h2>Terminal w 100% sprawny</h2>
 
 <h2>_______________</h2>
 
 <p><img src="https://a.allegroimg.com/original/11e470/0691bcfc4eb284824256df2d4fe4" loading="lazy" alt=""></p>
-<h2>Specyfikacja</h2><ul><li><b>Terminal </b>HP T630 Thin Client</li></ul><ul><li>Procesor AMD GX-420GI (4x 2.00 GHz)</li></ul><ul><li>Zegar 4x<b>2.0 GHz (</b>Max 4x2.20GHz)</li></ul><ul><li>Pamięć RAM <b>4GB DDR4 -&nbsp;</b>istnieje możliwość&nbsp;rozbudowy</li></ul><ul><li>Dysk <b>32GB SSD M. 2 -&nbsp;</b>istnieje możliwość&nbsp;rozbudowy</li></ul><ul><li>System/Licencja <b>Windows 10 LTSC</b></li></ul><ul><li>Grafika AMD RADEON R7E</li></ul><ul><li>W zestawie: Zasilacz z przewodem,<b> brak podstawki</b></li></ul><h2>_______________</h2><h2>Porty :</h2><ul><li>2x USB 2.0, 2x DisplayPort, 2x PS/2, COM, RJ45, Audio</li></ul>
+<h2>Specyfikacja</h2><ul><li><b>Terminal </b>HP T630 Thin Client</li></ul><ul><li>Procesor AMD GX-420GI (4x 2.00 GHz)</li></ul><ul><li>Zegar 4x<b>2.0 GHz (</b>Max 4x2.20GHz)</li></ul><ul><li>Pamięć RAM <b>4GB DDR4 -&nbsp;</b>istnieje możliwość&nbsp;rozbudowy</li></ul><ul><li>Dysk <b>32GB SSD M. 2 -&nbsp;</b>istnieje możliwość&nbsp;rozbudowy</li></ul><ul><li>System/Licencja <b>Windows 10 LTSC</b></li></ul><ul><li>Grafika AMD RADEON R7E</li></ul><ul><li>W zestawie: Zasilacz z przewodem,<b> Podstawka w zestawie</b></li></ul><h2>_______________</h2><h2>Porty :</h2><ul><li>2x USB 2.0, 2x DisplayPort, 2x PS/2, COM, RJ45, Audio</li></ul>
 
 <h2>_______________</h2>
 
@@ -76083,7 +76083,7 @@
       <a name="Marka">Dell</a>
     </attrs>
   </o>
-  <o id="18676073402" url="https://allegro.pl/oferta/18676073402" price="999.00" avail="1" stock="38" basket="1">
+  <o id="18676073402" url="https://allegro.pl/oferta/18676073402" price="999.00" avail="1" stock="37" basket="1">
     <cat>Laptopy odnowione</cat>
     <name>Laptop Dell Latitude 5500 i5-8265U 16GB 256GB SSD 15,6" Windows 11</name>
     <desc_json>{"sections": [{"items": [{"type": "TEXT", "content": "&lt;h1&gt;Laptop Dell Latitude 5500&lt;/h1&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/1128ec/7e47da61431aae7be9c04b9f1a3b"}, {"type": "TEXT", "content": "&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Laptop:&amp;nbsp;Dell &lt;b&gt;Latitude 5500&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Procesor: &lt;b&gt;Intel Core i5 &lt;/b&gt;4x &lt;b&gt;1.60 - 3.90 GHz&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Model procesora: i5 - 8265U, 6MB Cache, 8 gen.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Pamięć RAM: &lt;b&gt;16GB DDR4&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Dysk: &lt;b&gt;256GB &lt;/b&gt;&lt;b&gt; SSD&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Zainstalowany system: &lt;b&gt;Windows 11 Pro&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Ekran: 15,6\" &lt;b&gt;1920 x 1080&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Bateria: Oryginalna, czas pracy minimum 1h (używana)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;W zestawie: &lt;b&gt;Zasilacz z przewodem&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h1&gt;__________________&lt;/h1&gt;&lt;h2&gt;Dodatkowe informacje&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Licencja: Windows 10 Professional OEM&lt;/li&gt;&lt;li&gt;Ekran dotykowy: Nie&lt;/li&gt;&lt;li&gt;Kamera: &lt;b&gt;Tak, wbudowana&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Karta graficzna: &lt;b&gt;Intel UHD 620&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Klawiatura: QWERTY PL , &lt;b&gt;Podświetlana&lt;/b&gt;, Numeryczna , Spolszczona naklejkami&lt;/li&gt;&lt;li&gt;Typ napędu: Beznapędowy&lt;/li&gt;&lt;li&gt;Komunikacja: WiFi, Bluetooth&lt;/li&gt;&lt;li&gt;Złącza: USB 3.2 Gen. 1 - 3 szt. USB Typu-C - 1 szt. HDMI - 1 szt. Czytnik kart pamięci microSD - 1 szt. RJ-45 (LAN) - 1 szt. Wyjście słuchawkowe/wejście mikrofonowe - 1 szt. Czytnik Smart Card - 1 szt. DC-in (wejście zasilania) - 1 szt.&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h1&gt;__________________&lt;/h1&gt;\n&lt;h2&gt;Stan przedmiotu&lt;/h2&gt;\n&lt;p&gt;&lt;b&gt;Sprzęt w bardzo dobrym stanie technicznym, w 100% sprawny. Produkty klasy A- zostały dokładnie przetestowane, skonfigurowane i przygotowane do dalszej pracy.&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;Sprzęt może posiadać normalne ślady użytkowania na ekranie i obudowie, takie jak drobne ryski, delikatne poświatki, przetarcia. Nie wpływa to na działanie laptopa. Każdy jest sprawdzany przed wysyłką i przygotowany tak, aby po otrzymaniu można było od razu rozpocząć pracę.&lt;/p&gt;\n&lt;h1&gt;__________________&lt;/h1&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;➡️ Do czego można wykorzystać laptopa Dell Latitude 5500?&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Do pracy biurowej:&lt;/b&gt; dokumenty, poczta, faktury, Excel, systemy sprzedażowe, CRM, ERP, obsługa zamówień.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Do pracy przy biurku: &lt;/b&gt;duży ekran 15,6\", wygodna klawiatura i praktyczne porty ułatwiają podłączenie monitora, myszki,&amp;nbsp;klawiatury, internetu po kablu lub stacji dokującej.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Do pracy zdalnej i hybrydowej:&lt;/b&gt; wideokonferencje, Teams, Zoom, Google Meet, praca na kilku kartach w przeglądarce i obsługa aplikacji firmowych online.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Do nauki i studiów&lt;/b&gt;: notatki, prezentacje, platformy edukacyjne, dokumenty, arkusze, podstawowa analiza danych i programowanie na poziomie edukacyjnym.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Do domu:&lt;/b&gt; internet, bankowość, zakupy online, multimedia, poczta, dokumenty i codzienne korzystanie z komputera.&lt;/li&gt;\n&lt;/ul&gt;"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11c27a/e494a54647ac88271b3966316926"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;➡️ Dell Latitude 5500 - biznesowy laptop 15,6\" do normalnej pracy&lt;/h2&gt;&lt;p&gt;Dell Latitude 5500 to laptop dla osób, które potrzebują wygodnego komputera do codziennej pracy, a nie cienkiej zabawki bez portów. &lt;b&gt;To sprzęt z serii biznesowej,&lt;/b&gt; projektowany z myślą o firmach, biurach, pracy z dokumentami i stabilnym działaniu przez wiele godzin.&lt;/p&gt;&lt;p&gt;Ekran 15,6\" daje więcej przestrzeni roboczej niż mniejsze laptopy 13–14\", dlatego Latitude 5500 dobrze sprawdza się przy fakturach, tabelach, zamówieniach, poczcie, systemach sprzedażowych i pracy na kilku oknach jednocześnie.&lt;/p&gt;&lt;p&gt;&lt;b&gt;To dobry wybór dla firmy, pracownika biurowego, ucznia, studenta,&lt;/b&gt; osoby pracującej zdalnie albo użytkownika domowego, który chce solidnego laptopa z normalnymi złączami i wygodnym ekranem.&lt;/p&gt;"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11c0e6/801900764dc1ae30e7697305d8e3"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;➡️ Darmowy Microsoft 365 Online&lt;/h2&gt;&lt;p&gt;Do pracy z dokumentami możesz korzystać z &lt;b&gt;darmowej wersji Microsoft 365 Online&lt;/b&gt; dostępnej przez przeglądarkę internetową.&lt;/p&gt;&lt;p&gt;Dzięki temu możesz używać online takich narzędzi jak:&lt;/p&gt;&lt;p&gt;✔ Word&lt;/p&gt;&lt;p&gt;✔ Excel&lt;/p&gt;&lt;p&gt;✔ PowerPoint&lt;/p&gt;&lt;p&gt;✔ OneDrive&lt;/p&gt;&lt;p&gt;✔ Teams&lt;/p&gt;&lt;p&gt;To dobre rozwiązanie, jeśli chcesz tworzyć i edytować dokumenty bez kupowania pełnej wersji pakietu Office. Wystarczy konto Microsoft i dostęp do internetu.&lt;/p&gt;"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11d621/d760b4c846f1abcefa965662e3fe"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;➡️ Seria Dell Latitude - sprzęt znany z firm i korporacji&lt;/h2&gt;&lt;p&gt;Dell Latitude to jedna z najbardziej rozpoznawalnych serii laptopów biznesowych. Te komputery trafiały głównie do firm, instytucji i flot pracowniczych, gdzie liczy się &lt;b&gt;stabilność, wygoda serwisowania i przewidywalna praca.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Latitude 5500 ma typowo praktyczny charakter:&lt;/p&gt;&lt;p&gt;✔ duży ekran 15,6\"&lt;/p&gt;&lt;p&gt;✔ wygodna konstrukcja do pracy biurowej&lt;/p&gt;&lt;p&gt;✔ biznesowa obudowa&lt;/p&gt;&lt;p&gt;✔ łatwy dostęp serwisowy&lt;/p&gt;&lt;p&gt;✔ możliwość rozbudowy w wielu konfiguracjach&lt;/p&gt;&lt;p&gt;✔ praktyczne porty bez konieczności ciągłego używania przejściówek&lt;/p&gt;&lt;p&gt;To laptop stworzony do pracy, a nie do wyglądania na półce.&lt;/p&gt;"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11ebe8/763482f944788d339bb0d8cd8d1b"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;➡️ Dlaczego warto wybrać laptop poleasingowy?&lt;/h2&gt;&lt;p&gt;✔ &lt;b&gt;Niższa cena&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Laptop poleasingowy pozwala kupić sprzęt klasy biznesowej w znacznie niższej cenie niż nowy komputer o podobnej jakości wykonania.&lt;/p&gt;&lt;p&gt;✔ &lt;b&gt;Lepsza jakość niż wiele tanich laptopów konsumenckich&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Serie biznesowe projektowane do pracy, a nie tylko do okazjonalnego używania. W praktyce oznacza to wygodniejszą klawiaturę, solidniejszą konstrukcję i lepszą funkcjonalność.&lt;/p&gt;&lt;p&gt;✔ &lt;b&gt;Sprzęt sprawdzony technicznie&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Każdy laptop jest testowany przed sprzedażą. Sprawdzamy działanie podzespołów, portów, ekranu, klawiatury, dysku, pamięci RAM i systemu.&lt;/p&gt;&lt;p&gt;✔ &lt;b&gt;Możliwość rozbudowy&lt;/b&gt;&lt;/p&gt;&lt;p&gt;W wielu przypadkach możemy przygotować konfigurację pod Twoje potrzeby, np. większy dysk SSD lub więcej pamięci RAM.&lt;/p&gt;&lt;p&gt;✔ &lt;b&gt;Mniej elektrośmieci&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Kupując sprzęt poleasingowy, dajesz komputerowi drugie życie i ograniczasz ilość elektroodpadów. To rozsądny wybór ekonomiczny i ekologiczny.&lt;/p&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h1&gt;__________________&lt;/h1&gt;\n&lt;h2&gt;Gotowy do pracy po wyjęciu z pudełka&lt;/h2&gt;\n&lt;p&gt;Każdy sprzęt przed wysłaniem jest &lt;b&gt;dokładnie sprawdzany &lt;/b&gt;pod względem technicznym i wizualnym oraz przechodzi &lt;b&gt;gruntowne testy&lt;/b&gt; wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w &lt;b&gt;100% sprawne&lt;/b&gt; i od razu &lt;b&gt;gotowe do pracy.&lt;/b&gt; Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które &lt;b&gt;gwarantują bezpieczeństwo&lt;/b&gt; podczas transportu.&lt;/p&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11f53b/c00e6ebc45b7894e4a2455277934"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11406f/4ce2eb69480ebef3e74a728331e0"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11e1f0/71f320544e28869c7ce8eacb5adf"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/1187c4/5e2f4c274303946a4328dde7178c"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11dbcb/f3dc80c243eaa5cb08987511d5a0"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/118361/44abc92a48bb988045920a35c626"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11234a/9de3a4204effa6564bc53ddbb8ad"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11612b/9f7b3f044989a36478cc6d36075d"}]}, {"items": [{"type": "TEXT", "content": "&lt;!----&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Laptop Dell Latitude 5500 i5-8265U 16GB 256GB SSD 15,6\" Windows 11&lt;/strong&gt; pochodzi z oferty &lt;strong&gt;Kompre.pl&lt;/strong&gt; – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.&lt;/p&gt; &lt;p&gt;Sprawdź też inne niezawodne laptopy w Twoim budżecie: https://kompre.pl/pl/c/Laptopy-do-1000-zl/389. Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.&lt;/p&gt;"}]}]}</desc_json>
@@ -102772,6 +102772,254 @@
       <a name="Marka">HP.</a>
     </attrs>
   </o>
+  <o id="18948519574" url="https://allegro.pl/oferta/18948519574" price="289.00" avail="1" stock="30" basket="1">
+    <cat>Laptopy odnowione</cat>
+    <name>Dotykowy Lenovo Chromebook 300e 2 gen. | N4020 4GB 32GB eMMC</name>
+    <desc_json>{"sections": [{"items": [{"type": "TEXT", "content": "&lt;h1&gt;Laptop Lenovo Chromebook 300e 2nd Gen&lt;/h1&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;Stan przedmiotu&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Sprzęt w bardzo dobrym stanie&lt;/b&gt; technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.&lt;/p&gt;&lt;p&gt;&lt;b&gt;✔️ Stan ekranu: &lt;/b&gt;Bez wad&lt;/p&gt;&lt;p&gt;&lt;b&gt;✔️ Stan obudowy:&lt;/b&gt; Normalne ślady użytkowania&lt;/p&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/115ff7/04bab4fb4e15aad3b400d5b2c50f"}, {"type": "TEXT", "content": "&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Laptop:&amp;nbsp;Lenovo &lt;b&gt;Chromebook 300e 2nd Gen&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Procesor: &lt;b&gt;N4020&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Pamięć RAM: &lt;b&gt;4GB DDR3&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Dysk: &lt;b&gt;32GB &lt;/b&gt;&lt;b&gt;&amp;nbsp;eMMC&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Zainstalowany system: &lt;b&gt;Chrome OS&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Ekran: 11,6\" &lt;b&gt;1366 x 768&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Bateria: Oryginalna, czas pracy minimum 4h (używana)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;W zestawie: &lt;b&gt; Zasilacz zamiennik z przewodem&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h1&gt;__________________&lt;/h1&gt;&lt;h2&gt;Dodatkowe informacje&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Licencja: Chrome OS&lt;/li&gt;&lt;li&gt;Ekran dotykowy: Tak&lt;/li&gt;&lt;li&gt;Kamera: &lt;b&gt;Tak, wbudowana&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Karta graficzna:&lt;b&gt;Intel Graphic 600&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Klawiatura: QWERTY PL&lt;/li&gt;&lt;li&gt;Typ napędu: Beznapędowy&lt;/li&gt;&lt;li&gt;Komunikacja: WiFi, Bluetooth&lt;/li&gt;&lt;li&gt;Złącza:&amp;nbsp; HDMI, USB-C 3.1 , USB 3.1, czytnik kart SD , Audio&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h1&gt;__________________&lt;/h1&gt;\n&lt;h2&gt;Gotowy do pracy po wyjęciu z pudełka&lt;/h2&gt;\n&lt;p&gt;Każdy sprzęt przed wysłaniem jest &lt;b&gt;dokładnie sprawdzany &lt;/b&gt;pod względem technicznym i wizualnym oraz przechodzi &lt;b&gt;gruntowne testy&lt;/b&gt; wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w &lt;b&gt;100% sprawne&lt;/b&gt; i od razu &lt;b&gt;gotowe do pracy.&lt;/b&gt; Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które &lt;b&gt;gwarantują bezpieczeństwo&lt;/b&gt; podczas transportu.&lt;/p&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/112caf/e2440c8d458b823fdaa4e0bc2453"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/1148a1/ba8a25534228b088a3a4b797dfe9"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/1143fa/2742e14e4412a3bb6a0c26acb4d5"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11bf16/f09f1dd94d4a8ca3faff16a8ae9f"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/110b4b/6093067d49cca7ad01964d150ae3"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/112535/2f8074d6455d9d56b22217882213"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/113159/892c6a2d4b86b6e37ed752657cf9"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11126f/d1f5962e4f8daff4bbbc94a9ce27"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11b47e/a86a50fe44578d913cdf7bfaaa6a"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/116a37/7899c2f041898e8ce0c1c987c942"}]}, {"items": [{"type": "TEXT", "content": "&lt;!----&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Dotykowy Lenovo Chromebook 300e 2 gen. | N4020 4GB 32GB eMMC&lt;/strong&gt; pochodzi z oferty &lt;strong&gt;Kompre.pl&lt;/strong&gt; – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.&lt;/p&gt; &lt;p&gt;Sprawdź też inne niezawodne laptopy w Twoim budżecie: https://kompre.pl/pl/c/Laptopy-do-500-zl/390. Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.&lt;/p&gt;"}]}]}</desc_json>
+    <desc><![CDATA[<h1>Laptop Lenovo Chromebook 300e 2nd Gen</h1>
+
+<h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Bez wad</p><p><b>✔️ Stan obudowy:</b> Normalne ślady użytkowania</p>
+
+<p><img src="https://a.allegroimg.com/original/115ff7/04bab4fb4e15aad3b400d5b2c50f" loading="lazy" alt=""></p>
+<h2>Specyfikacja</h2><ul><li>Laptop:&nbsp;Lenovo <b>Chromebook 300e 2nd Gen</b></li></ul><ul><li>Procesor: <b>N4020</b></li></ul><ul><li>Pamięć RAM: <b>4GB DDR3</b></li></ul><ul><li>Dysk: <b>32GB </b><b>&nbsp;eMMC</b></li></ul><ul><li>Zainstalowany system: <b>Chrome OS</b></li></ul><ul><li>Ekran: 11,6" <b>1366 x 768</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 4h (używana)</li></ul><ul><li>W zestawie: <b> Zasilacz zamiennik z przewodem</b></li></ul>
+
+<h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Chrome OS</li><li>Ekran dotykowy: Tak</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna:<b>Intel Graphic 600</b></li><li>Klawiatura: QWERTY PL</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza:&nbsp; HDMI, USB-C 3.1 , USB 3.1, czytnik kart SD , Audio</li></ul>
+
+<h1>__________________</h1>
+<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
+<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p>
+
+<p><img src="https://a.allegroimg.com/original/112caf/e2440c8d458b823fdaa4e0bc2453" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/1148a1/ba8a25534228b088a3a4b797dfe9" loading="lazy" alt=""></p>
+
+<p><img src="https://a.allegroimg.com/original/1143fa/2742e14e4412a3bb6a0c26acb4d5" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/11bf16/f09f1dd94d4a8ca3faff16a8ae9f" loading="lazy" alt=""></p>
+
+<p><img src="https://a.allegroimg.com/original/110b4b/6093067d49cca7ad01964d150ae3" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/112535/2f8074d6455d9d56b22217882213" loading="lazy" alt=""></p>
+
+<p><img src="https://a.allegroimg.com/original/113159/892c6a2d4b86b6e37ed752657cf9" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/11126f/d1f5962e4f8daff4bbbc94a9ce27" loading="lazy" alt=""></p>
+
+<p><img src="https://a.allegroimg.com/original/11b47e/a86a50fe44578d913cdf7bfaaa6a" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/116a37/7899c2f041898e8ce0c1c987c942" loading="lazy" alt=""></p>
+<!----><hr/><p><strong>Dotykowy Lenovo Chromebook 300e 2 gen. | N4020 4GB 32GB eMMC</strong> pochodzi z oferty <strong>Kompre.pl</strong> – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.</p> <p>Sprawdź też inne niezawodne laptopy w Twoim budżecie: https://kompre.pl/pl/c/Laptopy-do-500-zl/390. Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.</p>]]></desc>
+    <imgs>
+      <main url="https://a.allegroimg.com/original/115ff7/04bab4fb4e15aad3b400d5b2c50f"/>
+      <i url="https://a.allegroimg.com/original/1143fa/2742e14e4412a3bb6a0c26acb4d5"/>
+      <i url="https://a.allegroimg.com/original/11bf16/f09f1dd94d4a8ca3faff16a8ae9f"/>
+      <i url="https://a.allegroimg.com/original/110b4b/6093067d49cca7ad01964d150ae3"/>
+      <i url="https://a.allegroimg.com/original/112535/2f8074d6455d9d56b22217882213"/>
+      <i url="https://a.allegroimg.com/original/1148a1/ba8a25534228b088a3a4b797dfe9"/>
+      <i url="https://a.allegroimg.com/original/11b47e/a86a50fe44578d913cdf7bfaaa6a"/>
+      <i url="https://a.allegroimg.com/original/112caf/e2440c8d458b823fdaa4e0bc2453"/>
+      <i url="https://a.allegroimg.com/original/11126f/d1f5962e4f8daff4bbbc94a9ce27"/>
+      <i url="https://a.allegroimg.com/original/113159/892c6a2d4b86b6e37ed752657cf9"/>
+      <i url="https://a.allegroimg.com/original/116a37/7899c2f041898e8ce0c1c987c942"/>
+    </imgs>
+    <attrs>
+      <a name="Producent">Lenovo.</a>
+      <a name="Kod producenta">Lenovo 300e 2nd</a>
+      <a name="Model">Chromebook 300e 2nd gen</a>
+      <a name="Seria procesora">Intel Celeron</a>
+      <a name="Liczba rdzeni procesora">2</a>
+      <a name="Wielkość pamięci RAM">4 GB</a>
+      <a name="Typ dysku twardego">eMMC</a>
+      <a name="Pojemność dysku [GB]">32</a>
+      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
+      <a name="Przekątna ekranu [&quot;]">11.6</a>
+      <a name="Rozdzielczość (px)">1366 x 768</a>
+      <a name="System operacyjny">Windows 10 Home</a>
+      <a name="Układ klawiatury">PL (qwerty)</a>
+      <a name="Stan">Odnowiony</a>
+      <a name="Stan opakowania">zastępcze</a>
+      <a name="Dołączone oprogramowanie">Chrome OS</a>
+      <a name="Gwarancja">6</a>
+      <a name="Marka">Lenovo.</a>
+    </attrs>
+  </o>
+  <o id="18948543488" url="https://allegro.pl/oferta/18948543488" price="89.00" avail="1" stock="50" basket="1">
+    <cat>Komputery stacjonarne</cat>
+    <name>Baza Terminal HP T630 Thin Client 32GB Windows Standard 10</name>
+    <desc_json>{"sections": [{"items": [{"type": "TEXT", "content": "&lt;h2&gt;✅ MTerminal w 100% sprawny technicznie&lt;/h2&gt;&lt;h2&gt;✅ MBrak Haseł BIOS&lt;/h2&gt;&lt;h1&gt;✅ TERMINAL + ZASILACZ + PODSTAWKA&lt;/h1&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11e470/0691bcfc4eb284824256df2d4fe4"}, {"type": "TEXT", "content": "&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Terminal &lt;/b&gt;HP T630 Thin Client&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Procesor AMD GX-420GI (4x 2.00 GHz)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Zegar 4x&lt;b&gt;2.0 GHz (&lt;/b&gt;Max 4x2.20GHz)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Pamięć RAM&amp;nbsp;&lt;b&gt;Brak&lt;/b&gt;&lt;b&gt;&amp;nbsp;DDR4 -&amp;nbsp;&lt;/b&gt;&amp;nbsp;możliwość rozbudowy do &lt;b&gt;32GB&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Dysk &lt;b&gt;32GB SSD M. 2 -&amp;nbsp;&lt;/b&gt;istnieje możliwość&amp;nbsp;rozbudowy&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Licencja&amp;nbsp;&lt;b&gt;Windows 10 LTSC (BRAK ZAINSTALOWANEGO SYSTEMU)&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Grafika AMD RADEON R7E&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;W zestawie: Zasilacz z przewodem, podstawka&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;_______________&lt;/h2&gt;&lt;h2&gt;Porty :&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;2x USB 2.0, 2x DisplayPort, 2x PS/2, COM, RJ45, Audio&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;Niewielkie wymiary, wielkie możliwości&lt;/h2&gt;&lt;p&gt;Niezwykle kompaktowy HP Tiny jest o 10x mniejszy od tradycyjnego komputera stacjonarnego o formacie tower. Ten maleńki komputer mieści się praktycznie wszędzie i może działać w ustawieniu pionowym bądź poziomym, na ścianie, za monitorem czy nawet pod biurkiem. Oferuje on niezawodną wydajność na poziomie profesjonalnym i nie zajmuje cennego miejsca na biurku.&lt;/p&gt;&lt;p&gt;Procesory o wysokiej wydajności.&lt;/p&gt;&lt;p&gt;Wybierz dostosowaną do potrzeb kombinację dwurdzeniowego procesora AMD Ryzen i profesjonalnej karty graficznej AMD HD.&lt;/p&gt;"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11c9c4/88bec1244c498e60b6826b97a980"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;ul&gt; &lt;li&gt;&lt;b&gt;Kondycja techniczna -&amp;nbsp;&lt;/b&gt;Sprzęt sprawny.&lt;/li&gt; &lt;li&gt;&lt;b&gt;&lt;/b&gt; W środku obudowa jest czysta.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Realne zdjęcia - &lt;/b&gt;Fotografie poniżej przedstawiają jeden z oferowanych przez nas komputerów&lt;/li&gt; &lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;_______________&lt;/h2&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11c9c4/88bec1244c498e60b6826b97a980"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/119f25/db73ab1941498f53da94ca348f40"}]}, {"items": [{"type": "TEXT", "content": "&lt;!----&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Baza Terminal HP T630 Thin Client 32GB Windows Standard 10&lt;/strong&gt; pochodzi z oferty &lt;strong&gt;Kompre.pl&lt;/strong&gt; – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.&lt;/p&gt; "}]}]}</desc_json>
+    <desc><![CDATA[<h2>✅ MTerminal w 100% sprawny technicznie</h2><h2>✅ MBrak Haseł BIOS</h2><h1>✅ TERMINAL + ZASILACZ + PODSTAWKA</h1>
+
+<h2>_______________</h2>
+
+<p><img src="https://a.allegroimg.com/original/11e470/0691bcfc4eb284824256df2d4fe4" loading="lazy" alt=""></p>
+<h2>Specyfikacja</h2><ul><li><b>Terminal </b>HP T630 Thin Client</li></ul><ul><li>Procesor AMD GX-420GI (4x 2.00 GHz)</li></ul><ul><li>Zegar 4x<b>2.0 GHz (</b>Max 4x2.20GHz)</li></ul><ul><li>Pamięć RAM&nbsp;<b>Brak</b><b>&nbsp;DDR4 -&nbsp;</b>&nbsp;możliwość rozbudowy do <b>32GB</b></li></ul><ul><li>Dysk <b>32GB SSD M. 2 -&nbsp;</b>istnieje możliwość&nbsp;rozbudowy</li></ul><ul><li>Licencja&nbsp;<b>Windows 10 LTSC (BRAK ZAINSTALOWANEGO SYSTEMU)</b></li></ul><ul><li>Grafika AMD RADEON R7E</li></ul><ul><li>W zestawie: Zasilacz z przewodem, podstawka</li></ul><h2>_______________</h2><h2>Porty :</h2><ul><li>2x USB 2.0, 2x DisplayPort, 2x PS/2, COM, RJ45, Audio</li></ul>
+
+<h2>_______________</h2>
+
+<h2>Niewielkie wymiary, wielkie możliwości</h2><p>Niezwykle kompaktowy HP Tiny jest o 10x mniejszy od tradycyjnego komputera stacjonarnego o formacie tower. Ten maleńki komputer mieści się praktycznie wszędzie i może działać w ustawieniu pionowym bądź poziomym, na ścianie, za monitorem czy nawet pod biurkiem. Oferuje on niezawodną wydajność na poziomie profesjonalnym i nie zajmuje cennego miejsca na biurku.</p><p>Procesory o wysokiej wydajności.</p><p>Wybierz dostosowaną do potrzeb kombinację dwurdzeniowego procesora AMD Ryzen i profesjonalnej karty graficznej AMD HD.</p>
+<p><img src="https://a.allegroimg.com/original/11c9c4/88bec1244c498e60b6826b97a980" loading="lazy" alt=""></p>
+
+<h2>_______________</h2>
+
+<ul> <li><b>Kondycja techniczna -&nbsp;</b>Sprzęt sprawny.</li> <li><b></b> W środku obudowa jest czysta.</li> <li><b>Realne zdjęcia - </b>Fotografie poniżej przedstawiają jeden z oferowanych przez nas komputerów</li> </ul>
+
+<h2>_______________</h2>
+
+<p><img src="https://a.allegroimg.com/original/11c9c4/88bec1244c498e60b6826b97a980" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/119f25/db73ab1941498f53da94ca348f40" loading="lazy" alt=""></p>
+<!----><hr/><p><strong>Baza Terminal HP T630 Thin Client 32GB Windows Standard 10</strong> pochodzi z oferty <strong>Kompre.pl</strong> – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.</p>]]></desc>
+    <imgs>
+      <main url="https://a.allegroimg.com/original/11e470/0691bcfc4eb284824256df2d4fe4"/>
+      <i url="https://a.allegroimg.com/original/119f25/db73ab1941498f53da94ca348f40"/>
+      <i url="https://a.allegroimg.com/original/11c9c4/88bec1244c498e60b6826b97a980"/>
+    </imgs>
+    <attrs>
+      <a name="Producent">HP.</a>
+      <a name="Kod producenta">HP T630 AMD GX-420GI</a>
+      <a name="Model">HP T630 AMD GX-420GI</a>
+      <a name="Model procesora">AMD GX-420GI</a>
+      <a name="Taktowanie bazowe procesora [GHz]">2</a>
+      <a name="Taktowanie maksymalne procesora [GHz]">2</a>
+      <a name="Liczba rdzeni procesora">4</a>
+      <a name="Typ pamięci RAM">DDR4</a>
+      <a name="Wielkość pamięci RAM">brak</a>
+      <a name="Typ dysku twardego">SSD</a>
+      <a name="Pojemność dysku [GB]">32</a>
+      <a name="Komunikacja">LAN 10/100/1000 Mbps</a>
+      <a name="System operacyjny">Windows 10 Enterprise</a>
+      <a name="Stan">Odnowiony</a>
+      <a name="Stan opakowania">zastępcze</a>
+      <a name="Gwarancja">6</a>
+      <a name="Marka">HP.</a>
+    </attrs>
+  </o>
+  <o id="18948562989" url="https://allegro.pl/oferta/18948562989" price="269.00" avail="1" stock="30" basket="1">
+    <cat>Laptopy odnowione</cat>
+    <name>Dotykowy Lenovo Chromebook 300e 2 gen. | N4020 4GB 32GB eMMC</name>
+    <desc_json>{"sections": [{"items": [{"type": "TEXT", "content": "&lt;h1&gt;Laptop Lenovo Chromebook 300e 2nd Gen&lt;/h1&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;Stan przedmiotu&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Sprzęt w bardzo dobrym stanie&lt;/b&gt; technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.&lt;/p&gt;&lt;p&gt;&lt;b&gt;✔️ Stan ekranu: &lt;/b&gt;Normalne ślady użytkowania&lt;b&gt;,&lt;/b&gt; ryski,otarcia&lt;/p&gt;&lt;p&gt;&lt;b&gt;✔️ Stan obudowy:&lt;/b&gt; Normalne ślady użytkowania&lt;/p&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/115ff7/04bab4fb4e15aad3b400d5b2c50f"}, {"type": "TEXT", "content": "&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Laptop:&amp;nbsp;Lenovo &lt;b&gt;Chromebook 300e 2nd Gen&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Procesor: &lt;b&gt;N4020&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Pamięć RAM: &lt;b&gt;4GB DDR3&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Dysk: &lt;b&gt;32GB &lt;/b&gt;&lt;b&gt;&amp;nbsp;eMMC&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Zainstalowany system: &lt;b&gt;Chrome OS&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Ekran: 11,6\" &lt;b&gt;1366 x 768&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Bateria: Oryginalna, czas pracy minimum 4h (używana)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;W zestawie: &lt;b&gt; Zasilacz zamiennik z przewodem&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h1&gt;__________________&lt;/h1&gt;&lt;h2&gt;Dodatkowe informacje&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Licencja: Chrome OS&lt;/li&gt;&lt;li&gt;Ekran dotykowy: Tak&lt;/li&gt;&lt;li&gt;Kamera: &lt;b&gt;Tak, wbudowana&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Karta graficzna:&lt;b&gt;Intel Graphic 600&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Klawiatura: QWERTY PL&lt;/li&gt;&lt;li&gt;Typ napędu: Beznapędowy&lt;/li&gt;&lt;li&gt;Komunikacja: WiFi, Bluetooth&lt;/li&gt;&lt;li&gt;Złącza:&amp;nbsp; HDMI, USB-C 3.1 , USB 3.1, czytnik kart SD , Audio&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h1&gt;__________________&lt;/h1&gt;\n&lt;h2&gt;Gotowy do pracy po wyjęciu z pudełka&lt;/h2&gt;\n&lt;p&gt;Każdy sprzęt przed wysłaniem jest &lt;b&gt;dokładnie sprawdzany &lt;/b&gt;pod względem technicznym i wizualnym oraz przechodzi &lt;b&gt;gruntowne testy&lt;/b&gt; wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w &lt;b&gt;100% sprawne&lt;/b&gt; i od razu &lt;b&gt;gotowe do pracy.&lt;/b&gt; Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które &lt;b&gt;gwarantują bezpieczeństwo&lt;/b&gt; podczas transportu.&lt;/p&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11126f/d1f5962e4f8daff4bbbc94a9ce27"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/1148a1/ba8a25534228b088a3a4b797dfe9"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/1143fa/2742e14e4412a3bb6a0c26acb4d5"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11bf16/f09f1dd94d4a8ca3faff16a8ae9f"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11b47e/a86a50fe44578d913cdf7bfaaa6a"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/110b4b/6093067d49cca7ad01964d150ae3"}]}, {"items": [{"type": "TEXT", "content": "&lt;!----&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Dotykowy Lenovo Chromebook 300e 2 gen. | N4020 4GB 32GB eMMC&lt;/strong&gt; pochodzi z oferty &lt;strong&gt;Kompre.pl&lt;/strong&gt; – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.&lt;/p&gt; &lt;p&gt;Sprawdź też inne niezawodne laptopy w Twoim budżecie: https://kompre.pl/pl/c/Laptopy-do-500-zl/390. Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.&lt;/p&gt;"}]}]}</desc_json>
+    <desc><![CDATA[<h1>Laptop Lenovo Chromebook 300e 2nd Gen</h1>
+
+<h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Normalne ślady użytkowania<b>,</b> ryski,otarcia</p><p><b>✔️ Stan obudowy:</b> Normalne ślady użytkowania</p>
+
+<p><img src="https://a.allegroimg.com/original/115ff7/04bab4fb4e15aad3b400d5b2c50f" loading="lazy" alt=""></p>
+<h2>Specyfikacja</h2><ul><li>Laptop:&nbsp;Lenovo <b>Chromebook 300e 2nd Gen</b></li></ul><ul><li>Procesor: <b>N4020</b></li></ul><ul><li>Pamięć RAM: <b>4GB DDR3</b></li></ul><ul><li>Dysk: <b>32GB </b><b>&nbsp;eMMC</b></li></ul><ul><li>Zainstalowany system: <b>Chrome OS</b></li></ul><ul><li>Ekran: 11,6" <b>1366 x 768</b></li></ul><ul><li>Bateria: Oryginalna, czas pracy minimum 4h (używana)</li></ul><ul><li>W zestawie: <b> Zasilacz zamiennik z przewodem</b></li></ul>
+
+<h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Chrome OS</li><li>Ekran dotykowy: Tak</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna:<b>Intel Graphic 600</b></li><li>Klawiatura: QWERTY PL</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza:&nbsp; HDMI, USB-C 3.1 , USB 3.1, czytnik kart SD , Audio</li></ul>
+
+<h1>__________________</h1>
+<h2>Gotowy do pracy po wyjęciu z pudełka</h2>
+<p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p>
+
+<p><img src="https://a.allegroimg.com/original/11126f/d1f5962e4f8daff4bbbc94a9ce27" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/1148a1/ba8a25534228b088a3a4b797dfe9" loading="lazy" alt=""></p>
+
+<p><img src="https://a.allegroimg.com/original/1143fa/2742e14e4412a3bb6a0c26acb4d5" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/11bf16/f09f1dd94d4a8ca3faff16a8ae9f" loading="lazy" alt=""></p>
+
+<p><img src="https://a.allegroimg.com/original/11b47e/a86a50fe44578d913cdf7bfaaa6a" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/110b4b/6093067d49cca7ad01964d150ae3" loading="lazy" alt=""></p>
+<!----><hr/><p><strong>Dotykowy Lenovo Chromebook 300e 2 gen. | N4020 4GB 32GB eMMC</strong> pochodzi z oferty <strong>Kompre.pl</strong> – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.</p> <p>Sprawdź też inne niezawodne laptopy w Twoim budżecie: https://kompre.pl/pl/c/Laptopy-do-500-zl/390. Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.</p>]]></desc>
+    <imgs>
+      <main url="https://a.allegroimg.com/original/115ff7/04bab4fb4e15aad3b400d5b2c50f"/>
+      <i url="https://a.allegroimg.com/original/1143fa/2742e14e4412a3bb6a0c26acb4d5"/>
+      <i url="https://a.allegroimg.com/original/11bf16/f09f1dd94d4a8ca3faff16a8ae9f"/>
+      <i url="https://a.allegroimg.com/original/110b4b/6093067d49cca7ad01964d150ae3"/>
+      <i url="https://a.allegroimg.com/original/112535/2f8074d6455d9d56b22217882213"/>
+      <i url="https://a.allegroimg.com/original/1148a1/ba8a25534228b088a3a4b797dfe9"/>
+      <i url="https://a.allegroimg.com/original/11b47e/a86a50fe44578d913cdf7bfaaa6a"/>
+      <i url="https://a.allegroimg.com/original/112caf/e2440c8d458b823fdaa4e0bc2453"/>
+      <i url="https://a.allegroimg.com/original/11126f/d1f5962e4f8daff4bbbc94a9ce27"/>
+      <i url="https://a.allegroimg.com/original/113159/892c6a2d4b86b6e37ed752657cf9"/>
+      <i url="https://a.allegroimg.com/original/116a37/7899c2f041898e8ce0c1c987c942"/>
+    </imgs>
+    <attrs>
+      <a name="Producent">Lenovo.</a>
+      <a name="Kod producenta">Lenovo 300e 2nd</a>
+      <a name="Model">Chromebook 300e 2nd gen</a>
+      <a name="Seria procesora">Intel Celeron</a>
+      <a name="Liczba rdzeni procesora">2</a>
+      <a name="Wielkość pamięci RAM">4 GB</a>
+      <a name="Typ dysku twardego">eMMC</a>
+      <a name="Pojemność dysku [GB]">32</a>
+      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
+      <a name="Przekątna ekranu [&quot;]">11.6</a>
+      <a name="Rozdzielczość (px)">1366 x 768</a>
+      <a name="System operacyjny">Windows 10 Home</a>
+      <a name="Układ klawiatury">PL (qwerty)</a>
+      <a name="Stan">Odnowiony</a>
+      <a name="Stan opakowania">zastępcze</a>
+      <a name="Dołączone oprogramowanie">Chrome OS</a>
+      <a name="Gwarancja">6</a>
+      <a name="Marka">Lenovo.</a>
+    </attrs>
+  </o>
+  <o id="18948616154" url="https://allegro.pl/oferta/18948616154" price="299.00" avail="1" stock="20" basket="1">
+    <cat>Laptopy odnowione</cat>
+    <name>Dotykowy Laptop Asus CR1100 | 4GB 128GB EMMC | Windows 11</name>
+    <desc_json>{"sections": [{"items": [{"type": "TEXT", "content": "&lt;h2&gt;ASUS CR1100FK – Solidny laptop 2w1 do nauki, pracy i codziennego użytku&lt;/h2&gt;&lt;p&gt;ASUS CR1100 to kompaktowy i praktyczny laptop zaprojektowany przede wszystkim z myślą o nauce, pracy biurowej oraz codziennym korzystaniu z internetu. Niewielkie wymiary i stosunkowo lekka konstrukcja sprawiają, że urządzenie jest wygodne w transporcie i dobrze sprawdzi się zarówno w domu, jak i w szkole.&lt;/p&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11d04b/d6959e9e43a4b0d7cc6c73c04dd0"}]}, {"items": [{"type": "TEXT", "content": "&lt;h2&gt;Stan przedmiotu&lt;/h2&gt;&lt;p&gt;Laptop w&amp;nbsp;&lt;b&gt;bardzo dobrym stanie&lt;/b&gt; technicznym, przetestowany. Normalne ślady użytkowania, możliwy skin na klapie. Sprzęt jest od razu przygotowany do pracy i gotowy do wysyłki.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Najważniejsze cechy:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;kompaktowa i mobilna konstrukcja,&lt;/li&gt;&lt;li&gt;ekran idealny do nauki, przeglądania internetu i pracy z dokumentami,&lt;/li&gt;&lt;li&gt;wygodna klawiatura,&lt;/li&gt;&lt;li&gt;wytrzymała obudowa przeznaczona do codziennego użytkowania,&lt;/li&gt;&lt;li&gt;szybkie połączenie z internetem przez Wi-Fi,&lt;/li&gt;&lt;li&gt;zestaw praktycznych portów do podłączania urządzeń peryferyjnych,&lt;/li&gt;&lt;li&gt;kamera internetowa do nauki i spotkań online,&lt;/li&gt;&lt;li&gt;energooszczędna platforma zapewniająca długi czas pracy na baterii.&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11e32a/497b068045068be97149c4231040"}, {"type": "TEXT", "content": "&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Laptop: Asus CR1100FK&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Procesor: Intel Celeron N4500&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Taktowanie: 2&lt;b&gt;x do 1.10GHz&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Pamięć RAM:&amp;nbsp;&lt;b&gt;4GB&amp;nbsp;&lt;/b&gt;(System zoptymalizowany i działa płynnie)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Dysk: 32GB&amp;nbsp; EMMC&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;System:&amp;nbsp;&lt;b&gt;Chrome&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Dotykowy ekran&lt;/b&gt;: 11,6\" 1366x768&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Bateria: Oryginalna, w bardzo dobrej kondycji 4&lt;b&gt;h działania&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;W zestawie: &lt;b&gt;Zasilacz USB-C zamiennik z przewodem&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h1&gt;__________________&lt;/h1&gt;&lt;h2&gt;Dodatkowe informacje&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Licencja: Chrome&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Karta graficzna: &lt;b&gt;Intel UHD Graphics&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Klawiatura: QWERTY PL,Spolszczona naklejkami&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Napęd: Beznapędowy&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Kamera:&amp;nbsp;&lt;b&gt;Tak - na ekranie i obudowie&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Komunikacja:&amp;nbsp;&lt;b&gt;WiFi, Bluetooth&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Złącza:&lt;p&gt;USB 3.0&lt;/p&gt;&lt;p&gt;USB-C&lt;/p&gt;&lt;p&gt;HDMI&lt;/p&gt;&lt;p&gt;Minijack 3,5 mm (audio)&lt;/p&gt;&lt;p&gt;RJ-45&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;p&gt;Laptop &lt;b&gt;Asus CR1100FKA&lt;/b&gt;&amp;nbsp;– kompaktowe i funkcjonalne urządzenie stworzone z myślą o codziennej pracy, nauce oraz rozrywce. Dzięki konstrukcji 2w1 &lt;b&gt;ekran można obracać o 360°&lt;/b&gt;, co pozwala korzystać z urządzenia zarówno jak z klasycznego laptopa, jak i wygodnego tabletu.&lt;/p&gt;&lt;p&gt;Model świetnie sprawdzi się &lt;b&gt;dla ucznia, studenta, nauczyciela&lt;/b&gt; lub osoby szukającej mobilnego laptopa do internetu, filmów, dokumentów i wideorozmów.&lt;/p&gt;&lt;p&gt;Laptop posiada solidną obudowę odporną na codzienne użytkowanie oraz wygodną klawiaturę. Dotykowy ekran znacząco ułatwia obsługę systemu i aplikacji.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Dlaczego warto?&lt;/b&gt;&lt;/p&gt;&lt;p&gt;✅ Mobilny i lekki&lt;/p&gt;&lt;p&gt;✅ Dotykowy ekran&lt;/p&gt;&lt;p&gt;✅ Funkcja tabletu&lt;/p&gt;&lt;p&gt;✅ Solidna konstrukcja biznesowa&lt;/p&gt;&lt;p&gt;✅ Świetny do szkoły i pracy&lt;/p&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;h1&gt;__________________&lt;/h1&gt;&lt;h2&gt;Gotowy do pracy po wyjęciu z pudełka&lt;/h2&gt;&lt;p&gt;Każdy sprzęt przed wysłaniem jest&amp;nbsp;&lt;b&gt;dokładnie sprawdzany&amp;nbsp;&lt;/b&gt;pod względem technicznym i wizualnym oraz przechodzi&amp;nbsp;&lt;b&gt;gruntowne testy&lt;/b&gt;&amp;nbsp;wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w&amp;nbsp;&lt;b&gt;100% sprawne&lt;/b&gt;&amp;nbsp;i od razu&amp;nbsp;&lt;b&gt;gotowe do pracy.&lt;/b&gt;&amp;nbsp;Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które&amp;nbsp;&lt;b&gt;gwarantują bezpieczeństwo&lt;/b&gt;&amp;nbsp;podczas transportu.&lt;/p&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/1113bd/c0b9acbf41e0811a1c7eb72342d3"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11da5c/fca263a743b1bd4464ee96d8cdd2"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11aab9/4e812d1e45759c5e59f68e1dad5a"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11287c/c57094a84517a4b2a02659a56511"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11c1b4/e88e5e5e4889869644bb1ec24b19"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/110b0b/cf01c4b6445b824d2e9fc70dc55f"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11bf9f/26b3d254437f8e4d70c00df30eeb"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/114369/eb7ff73947efbbcdc54a7fbd9e1f"}]}, {"items": [{"type": "TEXT", "content": "&lt;!----&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Dotykowy Laptop Asus CR1100 | 4GB 128GB EMMC | Windows 11&lt;/strong&gt; pochodzi z oferty &lt;strong&gt;Kompre.pl&lt;/strong&gt; – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.&lt;/p&gt; &lt;p&gt;Sprawdź też inne niezawodne laptopy w Twoim budżecie: https://kompre.pl/pl/c/Laptopy-do-500-zl/390. Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.&lt;/p&gt;"}]}]}</desc_json>
+    <desc><![CDATA[<h2>ASUS CR1100FK – Solidny laptop 2w1 do nauki, pracy i codziennego użytku</h2><p>ASUS CR1100 to kompaktowy i praktyczny laptop zaprojektowany przede wszystkim z myślą o nauce, pracy biurowej oraz codziennym korzystaniu z internetu. Niewielkie wymiary i stosunkowo lekka konstrukcja sprawiają, że urządzenie jest wygodne w transporcie i dobrze sprawdzi się zarówno w domu, jak i w szkole.</p>
+
+<p><img src="https://a.allegroimg.com/original/11d04b/d6959e9e43a4b0d7cc6c73c04dd0" loading="lazy" alt=""></p>
+
+<h2>Stan przedmiotu</h2><p>Laptop w&nbsp;<b>bardzo dobrym stanie</b> technicznym, przetestowany. Normalne ślady użytkowania, możliwy skin na klapie. Sprzęt jest od razu przygotowany do pracy i gotowy do wysyłki.</p><p><b>Najważniejsze cechy:</b></p><ul><li>kompaktowa i mobilna konstrukcja,</li><li>ekran idealny do nauki, przeglądania internetu i pracy z dokumentami,</li><li>wygodna klawiatura,</li><li>wytrzymała obudowa przeznaczona do codziennego użytkowania,</li><li>szybkie połączenie z internetem przez Wi-Fi,</li><li>zestaw praktycznych portów do podłączania urządzeń peryferyjnych,</li><li>kamera internetowa do nauki i spotkań online,</li><li>energooszczędna platforma zapewniająca długi czas pracy na baterii.</li></ul>
+
+<p><img src="https://a.allegroimg.com/original/11e32a/497b068045068be97149c4231040" loading="lazy" alt=""></p>
+<h2>Specyfikacja</h2><ul><li>Laptop: Asus CR1100FK</li></ul><ul><li>Procesor: Intel Celeron N4500</li></ul><ul><li>Taktowanie: 2<b>x do 1.10GHz</b></li></ul><ul><li>Pamięć RAM:&nbsp;<b>4GB&nbsp;</b>(System zoptymalizowany i działa płynnie)</li></ul><ul><li>Dysk: 32GB&nbsp; EMMC</li></ul><ul><li>System:&nbsp;<b>Chrome</b></li></ul><ul><li><b>Dotykowy ekran</b>: 11,6" 1366x768</li></ul><ul><li>Bateria: Oryginalna, w bardzo dobrej kondycji 4<b>h działania</b></li></ul><ul><li>W zestawie: <b>Zasilacz USB-C zamiennik z przewodem</b></li></ul>
+
+<h1>__________________</h1><h2>Dodatkowe informacje</h2><ul><li>Licencja: Chrome</li></ul><ul><li>Karta graficzna: <b>Intel UHD Graphics</b></li></ul><ul><li>Klawiatura: QWERTY PL,Spolszczona naklejkami</li></ul><ul><li>Napęd: Beznapędowy</li></ul><ul><li>Kamera:&nbsp;<b>Tak - na ekranie i obudowie</b></li></ul><ul><li>Komunikacja:&nbsp;<b>WiFi, Bluetooth</b></li><li>Złącza:<p>USB 3.0</p><p>USB-C</p><p>HDMI</p><p>Minijack 3,5 mm (audio)</p><p>RJ-45</p></li></ul>
+
+<p>Laptop <b>Asus CR1100FKA</b>&nbsp;– kompaktowe i funkcjonalne urządzenie stworzone z myślą o codziennej pracy, nauce oraz rozrywce. Dzięki konstrukcji 2w1 <b>ekran można obracać o 360°</b>, co pozwala korzystać z urządzenia zarówno jak z klasycznego laptopa, jak i wygodnego tabletu.</p><p>Model świetnie sprawdzi się <b>dla ucznia, studenta, nauczyciela</b> lub osoby szukającej mobilnego laptopa do internetu, filmów, dokumentów i wideorozmów.</p><p>Laptop posiada solidną obudowę odporną na codzienne użytkowanie oraz wygodną klawiaturę. Dotykowy ekran znacząco ułatwia obsługę systemu i aplikacji.</p><p><b>Dlaczego warto?</b></p><p>✅ Mobilny i lekki</p><p>✅ Dotykowy ekran</p><p>✅ Funkcja tabletu</p><p>✅ Solidna konstrukcja biznesowa</p><p>✅ Świetny do szkoły i pracy</p>
+
+<h1>__________________</h1><h2>Gotowy do pracy po wyjęciu z pudełka</h2><p>Każdy sprzęt przed wysłaniem jest&nbsp;<b>dokładnie sprawdzany&nbsp;</b>pod względem technicznym i wizualnym oraz przechodzi&nbsp;<b>gruntowne testy</b>&nbsp;wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w&nbsp;<b>100% sprawne</b>&nbsp;i od razu&nbsp;<b>gotowe do pracy.</b>&nbsp;Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które&nbsp;<b>gwarantują bezpieczeństwo</b>&nbsp;podczas transportu.</p>
+
+<p><img src="https://a.allegroimg.com/original/1113bd/c0b9acbf41e0811a1c7eb72342d3" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/11da5c/fca263a743b1bd4464ee96d8cdd2" loading="lazy" alt=""></p>
+
+<p><img src="https://a.allegroimg.com/original/11aab9/4e812d1e45759c5e59f68e1dad5a" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/11287c/c57094a84517a4b2a02659a56511" loading="lazy" alt=""></p>
+
+<p><img src="https://a.allegroimg.com/original/11c1b4/e88e5e5e4889869644bb1ec24b19" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/110b0b/cf01c4b6445b824d2e9fc70dc55f" loading="lazy" alt=""></p>
+
+<p><img src="https://a.allegroimg.com/original/11bf9f/26b3d254437f8e4d70c00df30eeb" loading="lazy" alt=""></p>
+<p><img src="https://a.allegroimg.com/original/114369/eb7ff73947efbbcdc54a7fbd9e1f" loading="lazy" alt=""></p>
+<!----><hr/><p><strong>Dotykowy Laptop Asus CR1100 | 4GB 128GB EMMC | Windows 11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.</p> <p>Sprawdź też inne niezawodne laptopy w Twoim budżecie: https://kompre.pl/pl/c/Laptopy-do-500-zl/390. Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.</p>]]></desc>
+    <imgs>
+      <main url="https://a.allegroimg.com/original/11e32a/497b068045068be97149c4231040"/>
+      <i url="https://a.allegroimg.com/original/1113bd/c0b9acbf41e0811a1c7eb72342d3"/>
+      <i url="https://a.allegroimg.com/original/11da5c/fca263a743b1bd4464ee96d8cdd2"/>
+      <i url="https://a.allegroimg.com/original/11aab9/4e812d1e45759c5e59f68e1dad5a"/>
+      <i url="https://a.allegroimg.com/original/11bf9f/26b3d254437f8e4d70c00df30eeb"/>
+      <i url="https://a.allegroimg.com/original/11287c/c57094a84517a4b2a02659a56511"/>
+      <i url="https://a.allegroimg.com/original/11c1b4/e88e5e5e4889869644bb1ec24b19"/>
+      <i url="https://a.allegroimg.com/original/110b0b/cf01c4b6445b824d2e9fc70dc55f"/>
+      <i url="https://a.allegroimg.com/original/114369/eb7ff73947efbbcdc54a7fbd9e1f"/>
+      <i url="https://a.allegroimg.com/original/11e002/8f1959ee441b86163a1d5c25b366"/>
+      <i url="https://a.allegroimg.com/original/11d4ae/3eaef61a468d98e6d74787d4a589"/>
+      <i url="https://a.allegroimg.com/original/1166ac/974a271442bd849dbd28f8e49092"/>
+      <i url="https://a.allegroimg.com/original/11d04b/d6959e9e43a4b0d7cc6c73c04dd0"/>
+    </imgs>
+    <attrs>
+      <a name="Producent">ASUS</a>
+      <a name="Kod producenta">CR1100FK</a>
+      <a name="Model">Chromebook Flip CR 1100</a>
+      <a name="Seria procesora">Intel Celeron</a>
+      <a name="Taktowanie bazowe procesora [GHz]">1.1</a>
+      <a name="Taktowanie maksymalne procesora [GHz]">2.8</a>
+      <a name="Liczba rdzeni procesora">2</a>
+      <a name="Wielkość pamięci RAM">8 GB</a>
+      <a name="Typ dysku twardego">eMMC</a>
+      <a name="Pojemność dysku [GB]">32</a>
+      <a name="Rodzaj karty graficznej">Grafika zintegrowana</a>
+      <a name="Przekątna ekranu [&quot;]">11.6</a>
+      <a name="Ekran dotykowy">tak</a>
+      <a name="Rozdzielczość (px)">1366 x 768</a>
+      <a name="Powłoka matrycy">błyszcząca</a>
+      <a name="Złącza">USB 3.2 typ A Gen 1|USB 3.2 typ C Gen 1|minijack 3,5 mm (audio)</a>
+      <a name="Komunikacja">Wi-Fi|Bluetooth</a>
+      <a name="System operacyjny">Chrome OS</a>
+      <a name="Układ klawiatury">NORDIC (qwerty)</a>
+      <a name="Stan">Odnowiony</a>
+      <a name="Dołączone oprogramowanie">Chrome</a>
+      <a name="Gwarancja">6</a>
+      <a name="Marka">ASUS</a>
+    </attrs>
+  </o>
   <o id="7283889062" url="https://allegro.pl/oferta/7283889062" price="7.70" avail="1" stock="9351" basket="1">
     <cat>Akcesoria (Laptop, PC)</cat>
     <name>Kabel przewód zasilający Komputer PC LCD IT</name>
@@ -109303,41 +109551,6 @@
       <a name="Stan opakowania">zastępcze</a>
       <a name="Gwarancja">12</a>
       <a name="Marka">Chiny/reszta</a>
-    </attrs>
-  </o>
-  <o id="14889856060" url="https://allegro.pl/oferta/14889856060" price="129.00" avail="99" stock="0" basket="0">
-    <cat>Części do laptopów</cat>
-    <name>Nowy Zasilacz Dell 90W USB-C</name>
-    <desc_json>{"sections": [{"items": [{"type": "TEXT", "content": "&lt;h1&gt;Nowy Zasilacz Dell 90W USB-C&lt;/h1&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11a570/7a4bcb04483f859af76741eda5c4"}, {"type": "TEXT", "content": "&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt; Nowy&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Model:&lt;/b&gt; LA90PM170&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;USB typ C&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Brak przewodu zasilającego w zestawie!&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/110728/611fe7e04f6e891f34b4b42743e3"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11c0cb/4a61b2204d0b9028b4c8496e5a65"}]}, {"items": [{"type": "IMAGE", "url": "https://a.allegroimg.com/original/11dd37/965d49284dbaa1109dfbf68c58cc"}, {"type": "IMAGE", "url": "https://a.allegroimg.com/original/11eb9c/c306714e4bb3b69af47bd273e17a"}]}, {"items": [{"type": "TEXT", "content": "&lt;p&gt;4046895001360&lt;/p&gt;"}]}, {"items": [{"type": "TEXT", "content": "&lt;!----&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Nowy Zasilacz Dell 90W USB-C&lt;/strong&gt; pochodzi z oferty &lt;strong&gt;Kompre.pl&lt;/strong&gt; – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.&lt;/p&gt; &lt;p&gt;Sprawdź też inne niezawodne laptopy w Twoim budżecie: https://kompre.pl/pl/c/Laptopy-do-500-zl/390. Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.&lt;/p&gt;"}]}]}</desc_json>
-    <desc><![CDATA[<h1>Nowy Zasilacz Dell 90W USB-C</h1>
-
-<p><img src="https://a.allegroimg.com/original/11a570/7a4bcb04483f859af76741eda5c4" loading="lazy" alt=""></p>
-<h2>Specyfikacja</h2><ul><li><b>Kondycja:</b> Nowy</li></ul><ul><li><b>Model:</b> LA90PM170</li></ul><ul><li>USB typ C</li></ul><ul><li><b>Brak przewodu zasilającego w zestawie!</b></li></ul>
-
-<p><b>Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:</b></p>
-
-<p><img src="https://a.allegroimg.com/original/110728/611fe7e04f6e891f34b4b42743e3" loading="lazy" alt=""></p>
-<p><img src="https://a.allegroimg.com/original/11c0cb/4a61b2204d0b9028b4c8496e5a65" loading="lazy" alt=""></p>
-
-<p><img src="https://a.allegroimg.com/original/11dd37/965d49284dbaa1109dfbf68c58cc" loading="lazy" alt=""></p>
-<p><img src="https://a.allegroimg.com/original/11eb9c/c306714e4bb3b69af47bd273e17a" loading="lazy" alt=""></p>
-
-<p>4046895001360</p>
-<!----><hr/><p><strong>Nowy Zasilacz Dell 90W USB-C</strong> pochodzi z oferty <strong>Kompre.pl</strong> – największego i autoryzowanego sprzedawcy biznesowych sprzętów outletowych, laptopów, komputerów PC i monitorów.</p> <p>Sprawdź też inne niezawodne laptopy w Twoim budżecie: https://kompre.pl/pl/c/Laptopy-do-500-zl/390. Każdy komputer jest dokładnie sprawdzany, czyszczony i konfigurowany, aby zapewnić niezawodność w codziennym użytkowaniu. Kupując sprzęt, zyskujesz jakość klasy biznes oraz pewność gwarancji door-to-door.</p>]]></desc>
-    <imgs>
-      <main url="https://a.allegroimg.com/original/11a570/7a4bcb04483f859af76741eda5c4"/>
-      <i url="https://a.allegroimg.com/original/11eb9c/c306714e4bb3b69af47bd273e17a"/>
-      <i url="https://a.allegroimg.com/original/110728/611fe7e04f6e891f34b4b42743e3"/>
-      <i url="https://a.allegroimg.com/original/11c0cb/4a61b2204d0b9028b4c8496e5a65"/>
-      <i url="https://a.allegroimg.com/original/11dd37/965d49284dbaa1109dfbf68c58cc"/>
-    </imgs>
-    <attrs>
-      <a name="Producent">Dell</a>
-      <a name="Kod producenta">JVRCD</a>
-      <a name="Sygnatura/SKU Sprzedającego">14889856060</a>
-      <a name="Stan">Nowy</a>
-      <a name="Gwarancja">12</a>
-      <a name="Marka">Dell</a>
     </attrs>
   </o>
   <o id="14889916095" url="https://allegro.pl/oferta/14889916095" price="55.00" avail="1" stock="407" basket="1">
