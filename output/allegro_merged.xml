@@ -130271,7 +130271,7 @@
   <o id="18726377487" url="https://allegro.pl/oferta/18726377487" price="289.00" avail="1" stock="4" basket="1">
     <cat>Części do laptopów</cat>
     <name>Dolna Pokrywa do HP ProBook 470 G7 | L83725-001</name>
-    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Dolna Pokrywa do HP ProBook 470 G7 | L83725-001&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11e7b2/5c87a8e8420b9bcee044bc776177"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt; Nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kod producenta:&lt;/b&gt; L83725-001&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; HP ProBook 470 G7, HP 17-BY, 17-CA, 17-CS, 17-CR&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11d77a/f84b8959498a8cbb3488c2034977"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11fec9/4743d31147a1a82d6cf66fb9b42c"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11bd45/7c2b048044ed822a15f21a1fda10"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11f7a9/1b8f0a204d4791689541e67d23b2"}]}]}</desc_json>
+    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Dolna Pokrywa do HP ProBook 470 G7 | L83725-001&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11e7b2/5c87a8e8420b9bcee044bc776177"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt; Nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kod producenta:&lt;/b&gt; L83725-001&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; HP ProBook 470 G7, HP 17-BY, 17-CA, 17-CS, 17-CR&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11d77a/f84b8959498a8cbb3488c2034977"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11fec9/4743d31147a1a82d6cf66fb9b42c"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11bd45/7c2b048044ed822a15f21a1fda10"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11f7a9/1b8f0a204d4791689541e67d23b2"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;MW10&lt;/p&gt;"}]}]}</desc_json>
     <desc>&lt;h1&gt;Dolna Pokrywa do HP ProBook 470 G7 | L83725-001&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11e7b2/5c87a8e8420b9bcee044bc776177" loading="lazy" alt=""&gt;&lt;/p&gt;
@@ -130283,7 +130283,9 @@
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11fec9/4743d31147a1a82d6cf66fb9b42c" loading="lazy" alt=""&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11bd45/7c2b048044ed822a15f21a1fda10" loading="lazy" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11f7a9/1b8f0a204d4791689541e67d23b2" loading="lazy" alt=""&gt;&lt;/p&gt;</desc>
+&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11f7a9/1b8f0a204d4791689541e67d23b2" loading="lazy" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;MW10&lt;/p&gt;</desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/11e7b2/5c87a8e8420b9bcee044bc776177" />
       <i url="https://a.allegroimg.com/original/11f7a9/1b8f0a204d4791689541e67d23b2" />
@@ -130295,6 +130297,7 @@
     <attrs>
       <a name="Producent">Chiny/reszta</a>
       <a name="Kod producenta">L83725-001 6070B1714401</a>
+      <a name="Sygnatura/SKU Sprzedającego">18726377487 | MW10</a>
       <a name="Stan">Nowy</a>
       <a name="Informacje o gwarancjach">Gwarancja 12 miesięcy</a>
     </attrs>
@@ -130469,7 +130472,7 @@
   <o id="18743918962" url="https://allegro.pl/oferta/18743918962" price="40.00" avail="1" stock="3" basket="1">
     <cat>Części do laptopów</cat>
     <name>Dolna Obudowa Kadłubek do Dell Latitude E5440 | 0K170K</name>
-    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Dolna Obudowa Kadłubek do Dell Latitude E5440 | 0K170K&lt;/h1&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Marka: &lt;/b&gt;DELL&lt;/p&gt;&lt;p&gt;&lt;b&gt;Kod producenta: &lt;/b&gt;0K170K&lt;/p&gt;&lt;p&gt;&lt;b&gt;Stan: &lt;/b&gt;Fabrycznie nowe&lt;/p&gt;&lt;p&gt;&lt;b&gt;Kompatybilne z: &lt;/b&gt;Latitude E5440&lt;/p&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;ul&gt;&lt;li&gt;Fotografie poniżej przedstawiają &lt;b&gt;przykładowy egzemplarz&lt;/b&gt; sprzedawanego przedmiotu.&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/118384/49cb94ed4e668034e6adbaa82bac"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11fe97/b8b878a148c3914fdccf32f02818"}]},{"items":[{"type":"TEXT","content":"&lt;ul&gt;&lt;/ul&gt;&lt;h1&gt;Uwagi&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Przed zakupem bardzo prosimy o zapoznanie się ze specyfikacją oraz zdjęciami.&lt;/b&gt;&lt;/p&gt;"}]}]}</desc_json>
+    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Dolna Obudowa Kadłubek do Dell Latitude E5440 | 0K170K&lt;/h1&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Marka: &lt;/b&gt;DELL&lt;/p&gt;&lt;p&gt;&lt;b&gt;Kod producenta: &lt;/b&gt;0K170K&lt;/p&gt;&lt;p&gt;&lt;b&gt;Stan: &lt;/b&gt;Fabrycznie nowe&lt;/p&gt;&lt;p&gt;&lt;b&gt;Kompatybilne z: &lt;/b&gt;Latitude E5440&lt;/p&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;ul&gt;&lt;li&gt;Fotografie poniżej przedstawiają &lt;b&gt;przykładowy egzemplarz&lt;/b&gt; sprzedawanego przedmiotu.&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/118384/49cb94ed4e668034e6adbaa82bac"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11fe97/b8b878a148c3914fdccf32f02818"}]},{"items":[{"type":"TEXT","content":"&lt;ul&gt;&lt;/ul&gt;&lt;h1&gt;Uwagi&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Przed zakupem bardzo prosimy o zapoznanie się ze specyfikacją oraz zdjęciami.&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;MW9&lt;/p&gt;"}]}]}</desc_json>
     <desc>&lt;h1&gt;Dolna Obudowa Kadłubek do Dell Latitude E5440 | 0K170K&lt;/h1&gt;
 
 &lt;p&gt;&lt;b&gt;Marka: &lt;/b&gt;DELL&lt;/p&gt;&lt;p&gt;&lt;b&gt;Kod producenta: &lt;/b&gt;0K170K&lt;/p&gt;&lt;p&gt;&lt;b&gt;Stan: &lt;/b&gt;Fabrycznie nowe&lt;/p&gt;&lt;p&gt;&lt;b&gt;Kompatybilne z: &lt;/b&gt;Latitude E5440&lt;/p&gt;
@@ -130480,7 +130483,9 @@
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11fe97/b8b878a148c3914fdccf32f02818" loading="lazy" alt=""&gt;&lt;/p&gt;
 
-&lt;ul&gt;&lt;/ul&gt;&lt;h1&gt;Uwagi&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Przed zakupem bardzo prosimy o zapoznanie się ze specyfikacją oraz zdjęciami.&lt;/b&gt;&lt;/p&gt;</desc>
+&lt;ul&gt;&lt;/ul&gt;&lt;h1&gt;Uwagi&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Przed zakupem bardzo prosimy o zapoznanie się ze specyfikacją oraz zdjęciami.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;MW9&lt;/p&gt;</desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/117768/4d0d40ba479cb3483f9a91a91ede" />
       <i url="https://a.allegroimg.com/original/11fe97/b8b878a148c3914fdccf32f02818" />
@@ -130489,6 +130494,7 @@
     <attrs>
       <a name="Producent">Dell.</a>
       <a name="Kod producenta">K170K</a>
+      <a name="Sygnatura/SKU Sprzedającego">18743918962 | MW9</a>
       <a name="Stan">Nowy</a>
       <a name="Informacje o gwarancjach">Gwarancja 6 miesięcy</a>
     </attrs>
@@ -130496,7 +130502,7 @@
   <o id="18760450471" url="https://allegro.pl/oferta/18760450471" price="129.00" avail="1" stock="1" basket="1">
     <cat>Części do laptopów</cat>
     <name>Klapa Matrycy do HP ProBook 450 455 G7 | L77277-001</name>
-    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h2&gt;Klapa Matrycy do HP ProBook 450 455 G7 | L77277-001&lt;/h2&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11ee4c/4f0575b14ea7be4dfe4a6d94939f"},{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;DANE TECHNICZNE&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Stan: &lt;/b&gt;Fabrycznie nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Oznaczenie:&lt;/b&gt; L77277-001&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie&lt;/b&gt;: HP ProBook 450 455 G6 G7&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;ul&gt;&lt;li&gt;Fotografie poniżej przedstawiają&amp;nbsp;&lt;b&gt;przykładowy egzemplarz&amp;nbsp;&lt;/b&gt;oferowanego przedmiotu:&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11d3c2/21bdd95e42929faef8f18e627fc3"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11c5ad/03e07d7040ccbda7711a30ca8da0"}]}]}</desc_json>
+    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h2&gt;Klapa Matrycy do HP ProBook 450 455 G7 | L77277-001&lt;/h2&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11ee4c/4f0575b14ea7be4dfe4a6d94939f"},{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;DANE TECHNICZNE&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Stan: &lt;/b&gt;Fabrycznie nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Oznaczenie:&lt;/b&gt; L77277-001&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie&lt;/b&gt;: HP ProBook 450 455 G6 G7&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;ul&gt;&lt;li&gt;Fotografie poniżej przedstawiają&amp;nbsp;&lt;b&gt;przykładowy egzemplarz&amp;nbsp;&lt;/b&gt;oferowanego przedmiotu:&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11d3c2/21bdd95e42929faef8f18e627fc3"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11c5ad/03e07d7040ccbda7711a30ca8da0"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;MW13&lt;/p&gt;"}]}]}</desc_json>
     <desc>&lt;h2&gt;Klapa Matrycy do HP ProBook 450 455 G7 | L77277-001&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11ee4c/4f0575b14ea7be4dfe4a6d94939f" loading="lazy" alt=""&gt;&lt;/p&gt;
@@ -130505,7 +130511,9 @@
 &lt;ul&gt;&lt;li&gt;Fotografie poniżej przedstawiają&amp;nbsp;&lt;b&gt;przykładowy egzemplarz&amp;nbsp;&lt;/b&gt;oferowanego przedmiotu:&lt;/li&gt;&lt;/ul&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11d3c2/21bdd95e42929faef8f18e627fc3" loading="lazy" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11c5ad/03e07d7040ccbda7711a30ca8da0" loading="lazy" alt=""&gt;&lt;/p&gt;</desc>
+&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11c5ad/03e07d7040ccbda7711a30ca8da0" loading="lazy" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;MW13&lt;/p&gt;</desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/11ee4c/4f0575b14ea7be4dfe4a6d94939f" />
       <i url="https://a.allegroimg.com/original/11d3c2/21bdd95e42929faef8f18e627fc3" />
@@ -130515,6 +130523,7 @@
     <attrs>
       <a name="Producent">HP.</a>
       <a name="Kod producenta">L77277-001 - zamiennik</a>
+      <a name="Sygnatura/SKU Sprzedającego">18760450471 | MW13</a>
       <a name="Stan">Nowy</a>
       <a name="Informacje o gwarancjach">Gwarancja 12 miesięcy</a>
     </attrs>
@@ -130522,7 +130531,7 @@
   <o id="18815818335" url="https://allegro.pl/oferta/18815818335" price="129.00" avail="1" stock="2" basket="1">
     <cat>Części do laptopów</cat>
     <name>Ramka matrycy do Dell Precision 7750 7760 | TN1KV</name>
-    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Ramka matrycy TN1KV Dell Precision 7750 7760&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/116fc8/f337b0524ba89400d9351efe7c7c"},{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;DANE TECHNICZNE&lt;/b&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Stan: Fabrycznie nowy&lt;/b&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Oznaczenie: 0TN1KV&lt;/b&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Przeznaczenie: Dell Precision 7750 7760&lt;/b&gt;&lt;/li&gt;\n&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;Fotografie poniżej przedstawiają &lt;b&gt;przykładowy egzemplarz &lt;/b&gt;oferowanego przedmiotu:&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11dab4/499c19ee4e1eb9337f6e319be13b"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11f459/fabf20b341e899a820e70743f180"}]}]}</desc_json>
+    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Ramka matrycy TN1KV Dell Precision 7750 7760&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/116fc8/f337b0524ba89400d9351efe7c7c"},{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;DANE TECHNICZNE&lt;/b&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Stan: Fabrycznie nowy&lt;/b&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Oznaczenie: 0TN1KV&lt;/b&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;b&gt;Przeznaczenie: Dell Precision 7750 7760&lt;/b&gt;&lt;/li&gt;\n&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;Fotografie poniżej przedstawiają &lt;b&gt;przykładowy egzemplarz &lt;/b&gt;oferowanego przedmiotu:&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11dab4/499c19ee4e1eb9337f6e319be13b"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11f459/fabf20b341e899a820e70743f180"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;MW11&lt;/p&gt;"}]}]}</desc_json>
     <desc>&lt;h1&gt;Ramka matrycy TN1KV Dell Precision 7750 7760&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/116fc8/f337b0524ba89400d9351efe7c7c" loading="lazy" alt=""&gt;&lt;/p&gt;
@@ -130540,7 +130549,9 @@
 &lt;p&gt;Fotografie poniżej przedstawiają &lt;b&gt;przykładowy egzemplarz &lt;/b&gt;oferowanego przedmiotu:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11dab4/499c19ee4e1eb9337f6e319be13b" loading="lazy" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11f459/fabf20b341e899a820e70743f180" loading="lazy" alt=""&gt;&lt;/p&gt;</desc>
+&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11f459/fabf20b341e899a820e70743f180" loading="lazy" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;MW11&lt;/p&gt;</desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/116fc8/f337b0524ba89400d9351efe7c7c" />
       <i url="https://a.allegroimg.com/original/11f459/fabf20b341e899a820e70743f180" />
@@ -130550,6 +130561,7 @@
     <attrs>
       <a name="Producent">Dell.</a>
       <a name="Kod producenta">TN1KV</a>
+      <a name="Sygnatura/SKU Sprzedającego">18815818335 | MW11</a>
       <a name="Stan">Nowy</a>
       <a name="Informacje o gwarancjach">Gwarancja 12 miesięcy</a>
     </attrs>
@@ -130675,7 +130687,7 @@
   <o id="18855079406" url="https://allegro.pl/oferta/18855079406" price="299.00" avail="1" stock="10" basket="1">
     <cat>Części do laptopów</cat>
     <name>Nowy Palmrest + Klawiatura do HP Probook 440 445 G8 G9 640 G8 G9</name>
-    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Palmrest + Klawiatura do HP Probook 440 445 G8 G9 640 G8 G9&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11e369/e33a98564a16b522da819507eef5"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt;&amp;nbsp;Nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Oznaczenie: &lt;/b&gt;4BX8QTATPB0&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; Probook 440 445 G8 G9 640 G8 G9&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Klawiatura bez trackpointa - QWERTY PL&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Wersja z otworem na fingerprint&amp;nbsp;&lt;/b&gt;- brak czytnika / zaślepki w zestawie&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11943d/90b9b3f5406e8001718c965b79a2"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/113b29/e8eeaa94486aba3e825d1f4f5e37"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/116e77/bd72c84f4741833425b2db40c811"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11272d/f3b3b74c4c67a238270a42ecb187"}]}]}</desc_json>
+    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Palmrest + Klawiatura do HP Probook 440 445 G8 G9 640 G8 G9&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11e369/e33a98564a16b522da819507eef5"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt;&amp;nbsp;Nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Oznaczenie: &lt;/b&gt;4BX8QTATPB0&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; Probook 440 445 G8 G9 640 G8 G9&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Klawiatura bez trackpointa - QWERTY PL&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Wersja z otworem na fingerprint&amp;nbsp;&lt;/b&gt;- brak czytnika / zaślepki w zestawie&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11943d/90b9b3f5406e8001718c965b79a2"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/113b29/e8eeaa94486aba3e825d1f4f5e37"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/116e77/bd72c84f4741833425b2db40c811"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11272d/f3b3b74c4c67a238270a42ecb187"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;MW11&lt;/p&gt;"}]}]}</desc_json>
     <desc>&lt;h1&gt;Palmrest + Klawiatura do HP Probook 440 445 G8 G9 640 G8 G9&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11e369/e33a98564a16b522da819507eef5" loading="lazy" alt=""&gt;&lt;/p&gt;
@@ -130687,7 +130699,9 @@
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/113b29/e8eeaa94486aba3e825d1f4f5e37" loading="lazy" alt=""&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/116e77/bd72c84f4741833425b2db40c811" loading="lazy" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11272d/f3b3b74c4c67a238270a42ecb187" loading="lazy" alt=""&gt;&lt;/p&gt;</desc>
+&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11272d/f3b3b74c4c67a238270a42ecb187" loading="lazy" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;MW11&lt;/p&gt;</desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/11e369/e33a98564a16b522da819507eef5" />
       <i url="https://a.allegroimg.com/original/11943d/90b9b3f5406e8001718c965b79a2" />
@@ -130698,6 +130712,7 @@
     <attrs>
       <a name="Producent">HP.</a>
       <a name="Kod producenta">4BX8QTATPB0</a>
+      <a name="Sygnatura/SKU Sprzedającego">18855079406 | MW11</a>
       <a name="Stan">Nowy</a>
       <a name="Informacje o gwarancjach">Gwarancja 12 miesięcy</a>
     </attrs>
@@ -130705,7 +130720,7 @@
   <o id="18855195519" url="https://allegro.pl/oferta/18855195519" price="209.00" avail="1" stock="24" basket="1">
     <cat>Części do laptopów</cat>
     <name>Klapa matrycy do HP Probook 440 445 G8 G9 640 645 G8 G9</name>
-    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Klapa matrycy do HP Probook 440 445 G8 G9 640 645 G8 G9&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11f4d7/2a26d6d246a6a5762ddb766f8cde"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt;&amp;nbsp;Nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Oznaczenie: &lt;/b&gt;52X8QLCTPJ0&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; Probook 440 445 G8 G9 640 645 G8 G9&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11d297/4c2eb9ef47f48aaa31a7ff76c798"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11f954/5d7bcd684f2d9ba1c561a5c2f2b3"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/112d89/bc7b51e54ad886dcf5dd66b2b152"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11b989/f998e7ae472e86b23c1a76b85ac7"}]}]}</desc_json>
+    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Klapa matrycy do HP Probook 440 445 G8 G9 640 645 G8 G9&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11f4d7/2a26d6d246a6a5762ddb766f8cde"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt;&amp;nbsp;Nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Oznaczenie: &lt;/b&gt;52X8QLCTPJ0&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; Probook 440 445 G8 G9 640 645 G8 G9&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11d297/4c2eb9ef47f48aaa31a7ff76c798"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11f954/5d7bcd684f2d9ba1c561a5c2f2b3"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/112d89/bc7b51e54ad886dcf5dd66b2b152"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11b989/f998e7ae472e86b23c1a76b85ac7"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;MW14&lt;/p&gt;"}]}]}</desc_json>
     <desc>&lt;h1&gt;Klapa matrycy do HP Probook 440 445 G8 G9 640 645 G8 G9&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11f4d7/2a26d6d246a6a5762ddb766f8cde" loading="lazy" alt=""&gt;&lt;/p&gt;
@@ -130717,7 +130732,9 @@
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11f954/5d7bcd684f2d9ba1c561a5c2f2b3" loading="lazy" alt=""&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/112d89/bc7b51e54ad886dcf5dd66b2b152" loading="lazy" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11b989/f998e7ae472e86b23c1a76b85ac7" loading="lazy" alt=""&gt;&lt;/p&gt;</desc>
+&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11b989/f998e7ae472e86b23c1a76b85ac7" loading="lazy" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;MW14&lt;/p&gt;</desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/11f4d7/2a26d6d246a6a5762ddb766f8cde" />
       <i url="https://a.allegroimg.com/original/11d297/4c2eb9ef47f48aaa31a7ff76c798" />
@@ -130728,6 +130745,7 @@
     <attrs>
       <a name="Producent">HP.</a>
       <a name="Kod producenta">HP_640_G8_a</a>
+      <a name="Sygnatura/SKU Sprzedającego">18855195519 | MW14</a>
       <a name="Stan">Nowy</a>
       <a name="Informacje o gwarancjach">Gwarancja 12 miesięcy</a>
     </attrs>
@@ -130735,7 +130753,7 @@
   <o id="18855305732" url="https://allegro.pl/oferta/18855305732" price="189.00" avail="1" stock="30" basket="1">
     <cat>Części do laptopów</cat>
     <name>Klapa matrycy do HP Probook 440 445 G6</name>
-    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Klapa matrycy do HP Probook 440 445 G6&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/115ffa/8ac8b18a47ce85bc948f43199922"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt;&amp;nbsp;Nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; Probook 440 445 G6&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/119f48/b9e9862342e98811565b8c679c90"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/1156c8/a2dae0eb404ab373936c05b0fa08"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/111c5b/a845756c4be184baeea3df49c9d6"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/119c35/6af2dc8849a7b040fcc62b8e6ae3"}]}]}</desc_json>
+    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Klapa matrycy do HP Probook 440 445 G6&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/115ffa/8ac8b18a47ce85bc948f43199922"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt;&amp;nbsp;Nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; Probook 440 445 G6&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/119f48/b9e9862342e98811565b8c679c90"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/1156c8/a2dae0eb404ab373936c05b0fa08"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/111c5b/a845756c4be184baeea3df49c9d6"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/119c35/6af2dc8849a7b040fcc62b8e6ae3"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;MW13&lt;/p&gt;"}]}]}</desc_json>
     <desc>&lt;h1&gt;Klapa matrycy do HP Probook 440 445 G6&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/115ffa/8ac8b18a47ce85bc948f43199922" loading="lazy" alt=""&gt;&lt;/p&gt;
@@ -130747,7 +130765,9 @@
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/1156c8/a2dae0eb404ab373936c05b0fa08" loading="lazy" alt=""&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/111c5b/a845756c4be184baeea3df49c9d6" loading="lazy" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/119c35/6af2dc8849a7b040fcc62b8e6ae3" loading="lazy" alt=""&gt;&lt;/p&gt;</desc>
+&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/119c35/6af2dc8849a7b040fcc62b8e6ae3" loading="lazy" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;MW13&lt;/p&gt;</desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/115ffa/8ac8b18a47ce85bc948f43199922" />
       <i url="https://a.allegroimg.com/original/119f48/b9e9862342e98811565b8c679c90" />
@@ -130758,6 +130778,7 @@
     <attrs>
       <a name="Producent">HP.</a>
       <a name="Kod producenta">Klapa matrycy HP Probook 440 G6</a>
+      <a name="Sygnatura/SKU Sprzedającego">18855305732 | MW13</a>
       <a name="Stan">Nowy</a>
       <a name="Informacje o gwarancjach">Gwarancja 12 miesięcy</a>
     </attrs>
@@ -132924,7 +132945,7 @@
   <o id="19047022839" url="https://allegro.pl/oferta/19047022839" price="119.00" avail="1" stock="11" basket="1">
     <cat>Części do laptopów</cat>
     <name>Nowa Ramka Matrycy do Lenovo ThinkPad T14 gen.1</name>
-    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Nowa Ramka Matrycy do Lenovo ThinkPad T14 gen.1&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11e811/d38a593b4053966c54b678d1d53b"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt; Nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kod producenta: &lt;/b&gt;5B30S73489&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; Lenovo ThinkPad T14 gen.1&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11aea7/eb5a53b64837a850b477055dc2dd"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11a0fd/854f32764eaa880890dc493fb596"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/1138a0/36c6a30242f6ba5653923db42cd7"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/115bda/9f0f5b504a1eba2f9ad437658f8f"}]}]}</desc_json>
+    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Nowa Ramka Matrycy do Lenovo ThinkPad T14 gen.1&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11e811/d38a593b4053966c54b678d1d53b"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt; Nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kod producenta: &lt;/b&gt;5B30S73489&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; Lenovo ThinkPad T14 gen.1&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11aea7/eb5a53b64837a850b477055dc2dd"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11a0fd/854f32764eaa880890dc493fb596"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/1138a0/36c6a30242f6ba5653923db42cd7"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/115bda/9f0f5b504a1eba2f9ad437658f8f"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;MW13&lt;/p&gt;"}]}]}</desc_json>
     <desc>&lt;h1&gt;Nowa Ramka Matrycy do Lenovo ThinkPad T14 gen.1&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11e811/d38a593b4053966c54b678d1d53b" loading="lazy" alt=""&gt;&lt;/p&gt;
@@ -132936,7 +132957,9 @@
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11a0fd/854f32764eaa880890dc493fb596" loading="lazy" alt=""&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/1138a0/36c6a30242f6ba5653923db42cd7" loading="lazy" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/115bda/9f0f5b504a1eba2f9ad437658f8f" loading="lazy" alt=""&gt;&lt;/p&gt;</desc>
+&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/115bda/9f0f5b504a1eba2f9ad437658f8f" loading="lazy" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;MW13&lt;/p&gt;</desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/11e811/d38a593b4053966c54b678d1d53b" />
       <i url="https://a.allegroimg.com/original/111f5d/dfaaea1e40408f309ee94c4a1088" />
@@ -132948,6 +132971,7 @@
     <attrs>
       <a name="Producent">Lenovo</a>
       <a name="Kod producenta">5B30S73489</a>
+      <a name="Sygnatura/SKU Sprzedającego">19047022839 | MW13</a>
       <a name="Stan">Nowy</a>
       <a name="Informacje o gwarancjach">Gwarancja 6 miesięcy</a>
     </attrs>
@@ -132987,7 +133011,7 @@
   <o id="19065161958" url="https://allegro.pl/oferta/19065161958" price="169.00" avail="1" stock="55" basket="1">
     <cat>Części do laptopów</cat>
     <name>Nowa Dolna pokrywa do Lenovo ThinkPad T490 T14 Gen 1 | zamiennik</name>
-    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Nowa Dolna pokrywa do Lenovo ThinkPad T490 T14 Gen 1 | zamiennik&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/110574/988ca32a4d22985546aa91af072e"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt; Fabrycznie nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Model:&lt;/b&gt; ThinkPad T490&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; ThinkPad T490 T14 Gen 1&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/118244/0ffc9e734aa4bbd652afc69f6f5e"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/115cdf/79241c104df5902222c7eb14f707"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11b100/59548a184f6da813df3f21836271"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/1171a1/6af797a146caab54f144bb1b8839"}]}]}</desc_json>
+    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Nowa Dolna pokrywa do Lenovo ThinkPad T490 T14 Gen 1 | zamiennik&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/110574/988ca32a4d22985546aa91af072e"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt; Fabrycznie nowy zamiennik&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Model:&lt;/b&gt; ThinkPad T490&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; ThinkPad T490 T14 Gen 1&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/118244/0ffc9e734aa4bbd652afc69f6f5e"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/115cdf/79241c104df5902222c7eb14f707"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11b100/59548a184f6da813df3f21836271"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/1171a1/6af797a146caab54f144bb1b8839"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;MW10&lt;/p&gt;"}]}]}</desc_json>
     <desc>&lt;h1&gt;Nowa Dolna pokrywa do Lenovo ThinkPad T490 T14 Gen 1 | zamiennik&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/110574/988ca32a4d22985546aa91af072e" loading="lazy" alt=""&gt;&lt;/p&gt;
@@ -132999,7 +133023,9 @@
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/115cdf/79241c104df5902222c7eb14f707" loading="lazy" alt=""&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11b100/59548a184f6da813df3f21836271" loading="lazy" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/1171a1/6af797a146caab54f144bb1b8839" loading="lazy" alt=""&gt;&lt;/p&gt;</desc>
+&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/1171a1/6af797a146caab54f144bb1b8839" loading="lazy" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;MW10&lt;/p&gt;</desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/110574/988ca32a4d22985546aa91af072e" />
       <i url="https://a.allegroimg.com/original/1171a1/6af797a146caab54f144bb1b8839" />
@@ -133010,7 +133036,7 @@
     <attrs>
       <a name="Producent">Chiny/reszta</a>
       <a name="Kod producenta">dolna klapa Lenovo Thinkpad T490</a>
-      <a name="Sygnatura/SKU Sprzedającego">19065161958</a>
+      <a name="Sygnatura/SKU Sprzedającego">19065161958 | MW10</a>
       <a name="Stan">Nowy</a>
       <a name="Informacje o gwarancjach">Gwarancja 6 miesięcy</a>
     </attrs>
@@ -133018,7 +133044,7 @@
   <o id="19065204457" url="https://allegro.pl/oferta/19065204457" price="249.00" avail="1" stock="18" basket="1">
     <cat>Części do laptopów</cat>
     <name>Nowy Palmrest Lenovo ThinkPad T490 T495 T14 Gen 1</name>
-    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Nowy Palmrest Lenovo ThinkPad T490 T495 P43s T14 Gen 1&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11ff63/69d76d5c405fb8bb6eb1159d4e09"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt; Fabrycznie nowy&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Model:&lt;/b&gt; ThinkPad T490&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; ThinkPad T490 T495 P43s T14 Gen 1&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/116c55/fd9eefe04672af2feb988a58942a"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/112562/331da75c4f8b8642da12bc78fa2e"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/113ff2/52fb7e244f1686939d1786c24ec2"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11f4fc/3308ada444009c2724bb1eee1623"}]}]}</desc_json>
+    <desc_json>{"sections":[{"items":[{"type":"TEXT","content":"&lt;h1&gt;Nowy Palmrest Lenovo ThinkPad T490 T495 P43s T14 Gen 1&lt;/h1&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/11ff63/69d76d5c405fb8bb6eb1159d4e09"},{"type":"TEXT","content":"&lt;h2&gt;Specyfikacja&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kondycja:&lt;/b&gt; Fabrycznie nowy&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Model:&lt;/b&gt; ThinkPad T490&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Przeznaczenie:&lt;/b&gt; ThinkPad T490 T495 P43s T14 Gen 1&lt;/li&gt;&lt;/ul&gt;"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;&lt;b&gt;Zdjęcia poglądowe, przedstawiają przykładową sztukę produktu:&lt;/b&gt;&lt;/p&gt;"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/116c55/fd9eefe04672af2feb988a58942a"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/112562/331da75c4f8b8642da12bc78fa2e"}]},{"items":[{"type":"IMAGE","url":"https://a.allegroimg.com/original/113ff2/52fb7e244f1686939d1786c24ec2"},{"type":"IMAGE","url":"https://a.allegroimg.com/original/11f4fc/3308ada444009c2724bb1eee1623"}]},{"items":[{"type":"TEXT","content":"&lt;p&gt;MW12&lt;/p&gt;"}]}]}</desc_json>
     <desc>&lt;h1&gt;Nowy Palmrest Lenovo ThinkPad T490 T495 P43s T14 Gen 1&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11ff63/69d76d5c405fb8bb6eb1159d4e09" loading="lazy" alt=""&gt;&lt;/p&gt;
@@ -133030,7 +133056,9 @@
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/112562/331da75c4f8b8642da12bc78fa2e" loading="lazy" alt=""&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://a.allegroimg.com/original/113ff2/52fb7e244f1686939d1786c24ec2" loading="lazy" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11f4fc/3308ada444009c2724bb1eee1623" loading="lazy" alt=""&gt;&lt;/p&gt;</desc>
+&lt;p&gt;&lt;img src="https://a.allegroimg.com/original/11f4fc/3308ada444009c2724bb1eee1623" loading="lazy" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;MW12&lt;/p&gt;</desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/11ff63/69d76d5c405fb8bb6eb1159d4e09" />
       <i url="https://a.allegroimg.com/original/116c55/fd9eefe04672af2feb988a58942a" />
@@ -133041,6 +133069,7 @@
     <attrs>
       <a name="Producent">Lenovo.</a>
       <a name="Kod producenta">AP1AC000100</a>
+      <a name="Sygnatura/SKU Sprzedającego">19065204457 | MW12</a>
       <a name="Stan">Nowy</a>
       <a name="Informacje o gwarancjach">Gwarancja 6 miesięcy</a>
     </attrs>
