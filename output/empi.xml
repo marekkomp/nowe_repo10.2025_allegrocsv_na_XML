@@ -97661,7 +97661,7 @@
   <o id="19076737810" url="https://allegro.pl/oferta/19076737810" price="1219.00" avail="1" stock="20" basket="1">
     <cat>Laptopy poleasingowe</cat>
     <name>Laptop HP ZBook 15u G3 | i7-6820HQ 16GB 1TB SSD+HDD | Windows 11</name>
-    <desc><![CDATA[<h2>Laptop HP ZBook 15u G3</h2><h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Drobne ryski, otarcia, poświaty</p><p><b>✔️ Stan obudowy:</b> Normalne ślady użytkowania</p><h2>Specyfikacja</h2><ul><li>Laptop: HP <b>ZBook 15u G3</b></li><li>Procesor: <b>Intel Core i7 </b>4x <b>2.70 - 3.60 GHz</b></li><li>Model procesora: i7-6820HQ, 8MB Cache, 6gen.</li><li>Pamięć RAM: <b>16GB DDR4</b></li><li>Dysk: <b>512GB M.2 SSD + </b><b>500GB SATA HDD</b></li><li>Zainstalowany system: <b>Windows 11 Pro</b></li><li>Ekran: 15,6" <b>1920 x 1080</b></li><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 10 Professional OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b> Intel HD Graphics 520 + NVIDIA Quadro M1000M</b></li><li>Klawiatura: QWERTY PL, Numeryczna</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 1x DisplayPort, 1x USB Type-C, 2x USB 3.0, Mini jack, LAN, Smart Card</li></ul><h2>Gotowy do pracy po wyjęciu z pudełka</h2><p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p>
+    <desc><![CDATA[<h2>Laptop HP ZBook 15u G3</h2><h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Drobne ryski, otarcia, poświaty</p><p><b>✔️ Stan obudowy:</b> Normalne ślady użytkowania</p><h2>Specyfikacja</h2><ul><li>Laptop: HP <b>ZBook 15u G3</b></li><li>Procesor: <b>Intel Core i7 </b>4x <b>2.70 - 3.60 GHz</b></li><li>Model procesora: i7-6820HQ, 8MB Cache, 6gen.</li><li>Pamięć RAM: <b>16GB DDR4</b></li><li>Dysk: <b>512GB M.2 SSD + </b><b>500GB SATA HDD</b></li><li>Zainstalowany system: <b>Windows 11 Pro</b></li><li>Ekran: 15,6" <b>1920 x 1080</b></li><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 10 Professional OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b> Intel HD Graphics 520 + NVIDIA Quadro M1000M</b></li><li>Klawiatura: QWERTY PL, Numeryczna - spolszczona naklejkami</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 1x DisplayPort, 1x USB Type-C, 2x USB 3.0, Mini jack, LAN, Smart Card</li></ul><h2>Gotowy do pracy po wyjęciu z pudełka</h2><p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p>
 <!----><hr/><p><strong>Laptop HP ZBook 15u G3 | i7-6820HQ 16GB 1TB SSD+HDD | Windows 11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele HP – sprawdź: https://kompre.pl/pl/c/Laptopy-HP/365. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
     <imgs>
       <main url="https://a.allegroimg.com/original/11921e/838e9c784a03a7223903aa8b64c0"/>
@@ -97679,6 +97679,59 @@
       <a name="Kod producenta">lp ZBook 15u G3</a>
       <a name="Model">ZBook 15u G3</a>
       <a name="Sygnatura/SKU Sprzedającego">A-_15uG3</a>
+      <a name="Seria procesora">Intel Core i7</a>
+      <a name="Taktowanie bazowe procesora [GHz]">2.7</a>
+      <a name="Liczba rdzeni procesora">4</a>
+      <a name="Typ pamięci RAM">DDR4</a>
+      <a name="Pamięć RAM (zainstalowana)">16 GB</a>
+      <a name="Typ dysku twardego">SSD + HDD</a>
+      <a name="Pojemność dysku [GB]">1012</a>
+      <a name="Rodzaj karty graficznej">Grafika dedykowana</a>
+      <a name="Przekątna ekranu">15.6"</a>
+      <a name="Ekran dotykowy">Nie</a>
+      <a name="Rozdzielczość">1920 x 1080</a>
+      <a name="Powłoka matrycy">matowa</a>
+      <a name="System operacyjny">Windows 10 Professional</a>
+      <a name="Układ klawiatury">US international (qwerty)</a>
+      <a name="Stan">Poleasingowy</a>
+      <a name="Dołączone oprogramowanie">Windows 10 Professional</a>
+      <a name="Gwarancja">12</a>
+      <a name="Marka">HP</a>
+      <a name="Typ">standardowy</a>
+      <a name="Zawiera baterie">tak</a>
+      <a name="Cechy dodatkowe">Zasilacz z przewodem</a>
+      <a name="Wysokość produktu [cm]">0</a>
+      <a name="Głębokość produktu [cm]">0</a>
+      <a name="Waga produktu [kg]">5</a>
+      <a name="Typ napędu">brak</a>
+      <a name="Model procesora.1">Intel Core i7-6820HQ</a>
+      <a name="Sterowanie">klawiatura|touchpad</a>
+      <a name="Dysk SSD">1012 GB</a>
+      <a name="Dysk HDD">1012 GB</a>
+    </attrs>
+    <subcat>Laptopy (491)</subcat>
+  </o>
+  <o id="19076742081" url="https://allegro.pl/oferta/19076742081" price="1369.00" avail="1" stock="20" basket="1">
+    <cat>Laptopy poleasingowe</cat>
+    <name>Laptop HP ZBook 15u G3 | i7-6820HQ 16GB 1TB SSD+HDD | Windows 11</name>
+    <desc><![CDATA[<h2>Laptop HP ZBook 15u G3</h2><h2>Stan przedmiotu</h2><p><b>Sprzęt w bardzo dobrym stanie</b> technicznym. Został dokładnie przetestowany, skonfigurowany i przygotowany do pracy.</p><p><b>✔️ Stan ekranu: </b>Bez wad</p><p><b>✔️ Stan obudowy:</b> Normalne ślady użytkowania</p><h2>Specyfikacja</h2><ul><li>Laptop: HP <b>ZBook 15u G3</b></li><li>Procesor: <b>Intel Core i7 </b>4x <b>2.70 - 3.60 GHz</b></li><li>Model procesora: i7-6820HQ, 8MB Cache, 6gen.</li><li>Pamięć RAM: <b>16GB DDR4</b></li><li>Dysk: <b>512GB M.2 SSD + </b><b>500GB SATA HDD</b></li><li>Zainstalowany system: <b>Windows 11 Pro</b></li><li>Ekran: 15,6" <b>1920 x 1080</b></li><li>Bateria: Oryginalna, czas pracy minimum 1h (używana)</li><li>W zestawie: <b>Zasilacz z przewodem</b></li></ul><h2>Dodatkowe informacje</h2><ul><li>Licencja: Windows 10 Professional OEM</li><li>Ekran dotykowy: Nie</li><li>Kamera: <b>Tak, wbudowana</b></li><li>Karta graficzna: <b> Intel HD Graphics 520 + NVIDIA Quadro M1000M</b></li><li>Klawiatura: QWERTY PL, Numeryczna - spolszczona naklejkami</li><li>Typ napędu: Beznapędowy</li><li>Komunikacja: WiFi, Bluetooth</li><li>Złącza: 1x DisplayPort, 1x USB Type-C, 2x USB 3.0, Mini jack, LAN, Smart Card</li></ul><h2>Gotowy do pracy po wyjęciu z pudełka</h2><p>Każdy sprzęt przed wysłaniem jest <b>dokładnie sprawdzany </b>pod względem technicznym i wizualnym oraz przechodzi <b>gruntowne testy</b> wydajnościowe. Chcemy mieć pewność, że oddajemy w Twoje ręce urządzenie w <b>100% sprawne</b> i od razu <b>gotowe do pracy.</b> Sprzęty wysyłamy w specjalnych dedykowanych kartonach, które <b>gwarantują bezpieczeństwo</b> podczas transportu.</p>
+<!----><hr/><p><strong>Laptop HP ZBook 15u G3 | i7-6820HQ 16GB 1TB SSD+HDD | Windows 11</strong> pochodzi z oferty <strong>Kompre.pl</strong> – autoryzowanego sprzedawcy komputerów poleasingowych klasy biznes.</p> <p>Posiadamy też inne modele HP – sprawdź: https://kompre.pl/pl/c/Laptopy-HP/365. Każdy egzemplarz jest testowany, czyszczony i przygotowany do pracy z aktualnym systemem. Długa gwarancja door-to-door zapewnia wsparcie i bezpieczeństwo zakupu.</p>]]></desc>
+    <imgs>
+      <main url="https://a.allegroimg.com/original/11921e/838e9c784a03a7223903aa8b64c0"/>
+      <i url="https://a.allegroimg.com/original/11c748/500f39f940a99f0e18a39de0d224"/>
+      <i url="https://a.allegroimg.com/original/11c875/d821be5e4c37813b1a317c8d7df5"/>
+      <i url="https://a.allegroimg.com/original/11dee5/6ae120244e2db1efcd75da0839b8"/>
+      <i url="https://a.allegroimg.com/original/1166f4/5ed6d3124bc28909b197b8d1aff8"/>
+      <i url="https://a.allegroimg.com/original/11068d/88b82a714419a9274c4cd6e743f0"/>
+      <i url="https://a.allegroimg.com/original/111b65/b6897a59475b89a7c050c20e1b77"/>
+      <i url="https://a.allegroimg.com/original/116aa1/e9150f3745b8bda02591ec594db8"/>
+      <i url="https://a.allegroimg.com/original/117c37/188b3c5943f596478e806aeaf755"/>
+    </imgs>
+    <attrs>
+      <a name="Producent">HP</a>
+      <a name="Kod producenta">lp ZBook 15u G3</a>
+      <a name="Model">ZBook 15u G3</a>
+      <a name="Sygnatura/SKU Sprzedającego">A_15uG3</a>
       <a name="Seria procesora">Intel Core i7</a>
       <a name="Taktowanie bazowe procesora [GHz]">2.7</a>
       <a name="Liczba rdzeni procesora">4</a>
